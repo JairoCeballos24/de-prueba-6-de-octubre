@@ -1,0 +1,2477 @@
+@charset "UTF-8";
+@import url("https://fonts.cdnfonts.com/css/avenir");
+/* font-family: 'Avenir', sans-serif; */
+@import url(https://db.onlinewebfonts.com/c/b78d933f8aa6b9284c1d3efd3db0a9b9?family=Avenir-Black);
+/* font-family: "Avenir-Black"; */
+@import url(https://db.onlinewebfonts.com/c/158fa6012dff0f88241ad898c46c0118?family=AvenirNextW1G-Regular);
+/* font-family: "AvenirNextW1G-Regular"; */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* formato 360px - 640px */
+  /*final main*/
+}
+* main {
+  font-family: "Avenir", sans-serif;
+  font-size: 16px;
+  /*final header*/
+  /* RECORRIDO SEEKING FOR THE QUEEN CONCH */
+  /* FINAL RECORRIDO SEEKING FOR THE QUEEN CONCH */
+  /* conector zona 1 */
+  /* ZONA 1 CAYO RONCADOR */
+  /* ZONA 1 FINAL CAYO RONCADOR */
+  /* ZONA 1 CAYO QUITASUEÑO */
+  /* ZONA 1 FINAL CAYO QUITASUEÑO */
+  /* ZONA 1 CAYO SERRANA */
+  /* ZONA 1 FINAL CAYO SERRANA */
+  /* IMAGEN AMENIZADORA 1 */
+  /* FINAL IMAGEN AMENIZADORA 1 */
+  /* conector zona 2 */
+  /* ZONA 1 CAYO SERRANILLA */
+  /* ZONA 2 FINAL CAYO SERRANILLA */
+  /* ZONA 2 BAJO ALICIA */
+  /* ZONA 2 FINAL BAJO ALICIA */
+  /* ZONA 1 BAJO NUEVO */
+  /* ZONA 2 FINAL BAJO NUEVO */
+  /* IMAGEN AMENIZADORA 2 */
+  /* FINAL IMAGEN AMENIZADORA 2 */
+  /* conector zona 3 */
+  /* ZONA 3 CAYO BOLIVAAR */
+  /* ZONA 3 FINAL CAYO BOLIVAR */
+  /* ZONA 3 CAYO ALBUQUERQUE */
+  /* ZONA 3 FINAL CAYO ALBUQUERQUE */
+  /* IMAGEN AMENIZADORA 3 */
+  /* FINAL IMAGEN AMENIZADORA 3 */
+  /* conector zona 4 */
+  /* ZONA 4 ISLA PROVIDENCIA E ISLA SANTA CATALINA */
+  /* ZONA 4 FINAL ISLA PROVIDENCIA E ISLA SANTA CATALINA */
+  /* IMAGEN AMENIZADORA 4 */
+  /* FINAL IMAGEN AMENIZADORA 4 */
+  /* conector zona 5 */
+  /* ZONA 5 ISLA SAN ANDRES */
+  /* ZONA 5 FINAL ISLA SAN ANDRES */
+  /* footer */
+  /*final pie-de-pagina*/
+}
+* main header {
+  background-image: url(/imagenes/imgenes-seeking/header-seeking.jpg);
+  background-color: rgb(7, 38, 45);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /*final contenedor-elementos-header*/
+  /* final contenedor-introduccion-expedicion-seeking*/
+}
+* main header .contenedor-elementos-header {
+  height: auto;
+  width: 100%;
+  padding: 20px;
+  /*menu-de-navegacion*/
+}
+* main header .contenedor-elementos-header .menu-de-navegacion {
+  display: flex;
+  justify-content: space-between;
+  /*final navbar*/
+}
+* main header .contenedor-elementos-header .menu-de-navegacion .logo-sepia .logo-sepia-inicial {
+  height: 35px;
+}
+* main header .contenedor-elementos-header .menu-de-navegacion .navbar {
+  padding: 15px 10px 0px 0px;
+  box-sizing: border-box;
+}
+* main header .contenedor-elementos-header .menu-de-navegacion .navbar .offcanvas-header {
+  background-color: #07262D;
+}
+* main header .contenedor-elementos-header .menu-de-navegacion .navbar .offcanvas-body {
+  background-color: #07262D;
+}
+* main header .contenedor-elementos-header .menu-de-navegacion .navbar .offcanvas-body .activeazul {
+  color: #20A3D1;
+}
+* main header .contenedor-elementos-header .menu-de-navegacion .navbar .offcanvas-body .activeazul:hover {
+  color: #ffffff;
+}
+* main header .contenedor-elementos-header .menu-de-navegacion .navbar .offcanvas-body .btn {
+  color: #ffffff;
+  background-color: #20A3D1;
+}
+* main header .contenedor-elementos-header .menu-de-navegacion .navbar .offcanvas-body .btn:hover {
+  color: #07262D;
+}
+* main header .contenedor-elementos-header .menu-de-navegacion .navbar .offcanvas-body .btn:hover {
+  background-color: #20A3D1;
+}
+* main header .contenedor-introduccion-expedicion-seeking {
+  background-position: center;
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 170px;
+  text-align: center;
+}
+* main header .contenedor-introduccion-expedicion-seeking .icono-seeking {
+  height: 110px;
+  margin-top: 0px;
+  margin: 10px 0px;
+  animation: texto-para-arriba 1s ease;
+}
+* main header .contenedor-introduccion-expedicion-seeking h1 {
+  color: #20A3D1;
+  font-family: "Avenir-Black";
+  font-size: 200%;
+  padding: 0px 20px;
+  animation: texto-para-arriba 1s ease;
+}
+* main header .contenedor-introduccion-expedicion-seeking h1 p {
+  margin: 5px;
+}
+* main header .contenedor-introduccion-expedicion-seeking p {
+  color: #ffffff;
+  margin: 10px 0px;
+  padding: 0px 20px;
+  animation: texto-para-arriba 1s ease;
+}
+* main .recorrido-seeking {
+  background-color: #07262D;
+  height: 1360px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: 10px;
+  padding: 40px 25px;
+}
+* main .recorrido-seeking .video-recorrido-seeking {
+  /* final video */
+}
+* main .recorrido-seeking .video-recorrido-seeking video {
+  width: 100%;
+  height: 175px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+* main .recorrido-seeking .textos1 {
+  text-align: center;
+  color: #ffffff;
+  padding: 0px 0px;
+  animation: texto-para-arriba 1s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 20%;
+}
+* main .recorrido-seeking .textos2 {
+  text-align: center;
+  color: #ffffff;
+  padding: 0px;
+  animation: texto-para-arriba 2s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 50%;
+}
+* main .recorrido-seeking .textos2 h2 {
+  color: #20A3D1;
+  font-family: "Avenir-Black";
+  font-size: 25px;
+  padding-top: 20px;
+  padding-bottom: 0;
+  text-align: center;
+}
+* main .recorrido-seeking .textos2 ul li {
+  list-style: none;
+  padding: 5px;
+  padding-right: 50px;
+  animation: texto-para-arriba 2s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 30%;
+}
+* main .recorrido-seeking .imagen-mapa {
+  height: 320px;
+  width: auto;
+  background-image: url(/imagenes/imgenes-seeking/mapa-seeking.jpg);
+  border-radius: 15px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  animation: texto-para-arriba 2s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 50%;
+}
+* main .conector-zona1 {
+  background-color: #07262D;
+  background-image: url(/imagenes/imgenes-seeking/conector-zona1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 78px;
+  width: 100%;
+}
+* main .zona1-cayo-roncador {
+  background-color: #ffffff;
+  height: 1360px;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 5px;
+  padding: 20px 25px 35px 25px;
+  /* final video */
+}
+* main .zona1-cayo-roncador .icono-expediciones img {
+  height: 150px;
+  margin: 10px 0px;
+  animation: texto-para-arriba 2s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 40%;
+}
+* main .zona1-cayo-roncador .parrafo1 h2 {
+  color: #20A3D1;
+  padding-top: 10px;
+  font-size: 25px;
+  text-align: center;
+  font-family: "Avenir-Black";
+  animation: texto-para-arriba 2s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 40%;
+}
+* main .zona1-cayo-roncador .parrafo1 p {
+  text-align: center;
+  color: #07262D;
+  padding: 0px;
+  animation: texto-para-arriba 2s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 40%;
+}
+* main .zona1-cayo-roncador .video-roncador {
+  margin-bottom: 10px;
+}
+* main .zona1-cayo-roncador .video-roncador video {
+  width: 100%;
+  height: 175px;
+  border-radius: 15px;
+}
+* main .zona1-cayo-roncador .parrafo2 {
+  text-align: center;
+  color: #07262D;
+  padding: 0px;
+  animation: texto-para-arriba 1s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 10%;
+}
+* main .zona1-cayo-roncador #carouselExampleIndicators {
+  width: auto;
+  height: 170px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+* main .zona1-cayo-roncador .parrafo3 {
+  text-align: center;
+  color: #07262D;
+  padding: 0px;
+  animation: texto-para-arriba 2s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 40%;
+}
+* main .zona1-cayo-quitasueño {
+  background-color: #07262D;
+  height: 1100px;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 5px;
+  padding: 20px 25px 35px 25px;
+  /* final video */
+}
+* main .zona1-cayo-quitasueño .icono-expediciones img {
+  height: 150px;
+  margin: 10px 0px;
+  animation: texto-para-arriba 2s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 40%;
+}
+* main .zona1-cayo-quitasueño .parrafo1 h2 {
+  color: #20A3D1;
+  padding-top: 10px;
+  font-size: 25px;
+  text-align: center;
+  font-family: "Avenir-Black";
+  animation: texto-para-arriba 2s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 40%;
+}
+* main .zona1-cayo-quitasueño .parrafo1 p {
+  text-align: center;
+  color: #ffffff;
+  padding: 0px;
+  animation: texto-para-arriba 2s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 40%;
+}
+* main .zona1-cayo-quitasueño .video-roncador {
+  margin-bottom: 10px;
+}
+* main .zona1-cayo-quitasueño .video-roncador video {
+  width: 100%;
+  height: 175px;
+  border-radius: 15px;
+}
+* main .zona1-cayo-quitasueño .parrafo2 {
+  text-align: center;
+  color: #ffffff;
+  padding: 0px;
+  animation: texto-para-arriba 1s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 10%;
+}
+* main .zona1-cayo-quitasueño #carouselExampleIndicatorsqui {
+  width: auto;
+  height: 170px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+* main .zona1-cayo-quitasueño .parrafo3 {
+  text-align: center;
+  color: #ffffff;
+  padding: 0px;
+  padding-bottom: 50px;
+  animation: texto-para-arriba 2s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 40%;
+}
+* main .zona1-cayo-serrana {
+  background-color: #ffffff;
+  height: 1320px;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 5px;
+  padding: 20px 25px 35px 25px;
+  /* final video */
+}
+* main .zona1-cayo-serrana .icono-expediciones img {
+  height: 150px;
+  margin: 10px 0px;
+  animation: texto-para-arriba 2s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 40%;
+}
+* main .zona1-cayo-serrana .parrafo1 h2 {
+  color: #20A3D1;
+  padding-top: 10px;
+  font-size: 25px;
+  text-align: center;
+  font-family: "Avenir-Black";
+  animation: texto-para-arriba 2s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 40%;
+}
+* main .zona1-cayo-serrana .parrafo1 p {
+  text-align: center;
+  color: #07262D;
+  padding: 0px;
+  animation: texto-para-arriba 2s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 40%;
+}
+* main .zona1-cayo-serrana .video-roncador {
+  margin-bottom: 10px;
+}
+* main .zona1-cayo-serrana .video-roncador video {
+  width: 100%;
+  height: 175px;
+  border-radius: 15px;
+}
+* main .zona1-cayo-serrana .parrafo2 {
+  text-align: center;
+  color: #07262D;
+  padding: 0px;
+  animation: texto-para-arriba 1s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 10%;
+}
+* main .zona1-cayo-serrana #carouselExampleIndicatorsserrana {
+  width: auto;
+  height: 170px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+* main .zona1-cayo-serrana .parrafo3 {
+  text-align: center;
+  color: #07262D;
+  padding: 0px;
+  animation: texto-para-arriba 2s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 40%;
+}
+* main .imagen-seeking1 {
+  background-color: #07262D;
+  background-image: url(/imagenes/imgenes-seeking/seeking-imagen1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 560px;
+}
+* main .imagen-seeking1 .logo-sepia {
+  display: flex;
+  justify-content: center;
+  padding: 50px 20px 0px 20px;
+}
+* main .imagen-seeking1 .logo-sepia .logo-sepia-inicial {
+  height: 55px;
+  justify-content: center;
+}
+* main .imagen-seeking1 p {
+  text-align: center;
+  font-size: 18px;
+  color: #ffffff;
+  padding: 30px 20px 50px 20px;
+  animation: texto-para-arriba 4s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 60%;
+}
+* main .conector-zona2 {
+  background-color: #07262D;
+  background-image: url(/imagenes/imgenes-seeking/conector-zona2-version2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 78px;
+  width: 100%;
+}
+* main .zona2-cayo-serranilla {
+  background-color: #07262D;
+  height: 1140px;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 5px;
+  padding: 20px 25px 35px 25px;
+  /* final video */
+}
+* main .zona2-cayo-serranilla .icono-expediciones img {
+  height: 150px;
+  margin: 10px 0px;
+  animation: texto-para-arriba 2s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 40%;
+}
+* main .zona2-cayo-serranilla .parrafo1 h2 {
+  color: #20A3D1;
+  padding-top: 10px;
+  font-size: 25px;
+  text-align: center;
+  font-family: "Avenir-Black";
+  animation: texto-para-arriba 2s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 40%;
+}
+* main .zona2-cayo-serranilla .parrafo1 p {
+  text-align: center;
+  color: #ffffff;
+  padding: 0px;
+  animation: texto-para-arriba 2s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 40%;
+}
+* main .zona2-cayo-serranilla .video-roncador {
+  margin-bottom: 10px;
+}
+* main .zona2-cayo-serranilla .video-roncador video {
+  width: 100%;
+  height: 175px;
+  border-radius: 15px;
+}
+* main .zona2-cayo-serranilla .parrafo2 {
+  text-align: center;
+  color: #ffffff;
+  padding: 0px;
+  animation: texto-para-arriba 1s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 10%;
+}
+* main .zona2-cayo-serranilla #carouselExampleIndicatorsserranilla {
+  width: auto;
+  height: 170px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+* main .zona2-cayo-serranilla .parrafo3 {
+  text-align: center;
+  color: #ffffff;
+  padding: 0px;
+  animation: texto-para-arriba 2s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 40%;
+}
+* main .zona2-bajo-alicia {
+  background-color: #ffffff;
+  height: 1280px;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 5px;
+  padding: 20px 25px 35px 25px;
+  /* final video */
+}
+* main .zona2-bajo-alicia .icono-expediciones img {
+  height: 150px;
+  margin: 10px 0px;
+  animation: texto-para-arriba 2s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 40%;
+}
+* main .zona2-bajo-alicia .parrafo1 h2 {
+  color: #20A3D1;
+  padding-top: 10px;
+  font-size: 25px;
+  text-align: center;
+  font-family: "Avenir-Black";
+  animation: texto-para-arriba 2s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 40%;
+}
+* main .zona2-bajo-alicia .parrafo1 p {
+  text-align: center;
+  color: #07262D;
+  padding: 0px;
+  animation: texto-para-arriba 2s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 40%;
+}
+* main .zona2-bajo-alicia .video-roncador {
+  margin-bottom: 10px;
+}
+* main .zona2-bajo-alicia .video-roncador video {
+  width: 100%;
+  height: 175px;
+  border-radius: 15px;
+}
+* main .zona2-bajo-alicia .parrafo2 {
+  text-align: center;
+  color: #07262D;
+  padding: 0px;
+  animation: texto-para-arriba 1s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 10%;
+}
+* main .zona2-bajo-alicia #carouselExampleIndicatorsalicia {
+  width: auto;
+  height: 170px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+* main .zona2-bajo-alicia .parrafo3 {
+  text-align: center;
+  color: #07262D;
+  padding: 0px;
+  animation: texto-para-arriba 2s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 40%;
+}
+* main .zona2-bajo-nuevo {
+  background-color: #07262D;
+  height: 1250px;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 5px;
+  padding: 20px 25px 35px 25px;
+  /* final video */
+}
+* main .zona2-bajo-nuevo .icono-expediciones img {
+  height: 150px;
+  margin: 10px 0px;
+  animation: texto-para-arriba 2s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 40%;
+}
+* main .zona2-bajo-nuevo .parrafo1 h2 {
+  color: #20A3D1;
+  padding-top: 10px;
+  font-size: 25px;
+  text-align: center;
+  font-family: "Avenir-Black";
+  animation: texto-para-arriba 2s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 40%;
+}
+* main .zona2-bajo-nuevo .parrafo1 p {
+  text-align: center;
+  color: #ffffff;
+  padding: 0px;
+  animation: texto-para-arriba 2s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 40%;
+}
+* main .zona2-bajo-nuevo .video-roncador {
+  margin-bottom: 10px;
+}
+* main .zona2-bajo-nuevo .video-roncador video {
+  width: 100%;
+  height: 175px;
+  border-radius: 15px;
+}
+* main .zona2-bajo-nuevo .parrafo2 {
+  text-align: center;
+  color: #ffffff;
+  padding: 0px;
+  animation: texto-para-arriba 1s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 10%;
+}
+* main .zona2-bajo-nuevo #carouselExampleIndicatorsnuevo {
+  width: auto;
+  height: 170px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+* main .zona2-bajo-nuevo .parrafo3 {
+  text-align: center;
+  color: #ffffff;
+  padding: 0px;
+  padding-bottom: 40px;
+  animation: texto-para-arriba 2s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 40%;
+}
+* main .imagen-seeking2 {
+  background-color: #07262D;
+  background-image: url(/imagenes/imgenes-seeking/seeking-imagen2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 560px;
+}
+* main .imagen-seeking2 .logo-sepia {
+  display: flex;
+  justify-content: center;
+  padding: 50px 20px 0px 20px;
+}
+* main .imagen-seeking2 .logo-sepia .logo-sepia-inicial {
+  height: 55px;
+  justify-content: center;
+}
+* main .conector-zona3 {
+  background-color: #07262D;
+  background-image: url(/imagenes/imgenes-seeking/conector-zona3-version2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 78px;
+  width: 100%;
+}
+* main .zona3-cayo-bolivar {
+  background-color: #ffffff;
+  height: 1260px;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 5px;
+  padding: 20px 25px 35px 25px;
+  /* final video */
+}
+* main .zona3-cayo-bolivar .icono-expediciones img {
+  height: 150px;
+  margin: 10px 0px;
+  animation: texto-para-arriba 2s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 40%;
+}
+* main .zona3-cayo-bolivar .parrafo1 h2 {
+  color: #20A3D1;
+  padding-top: 10px;
+  font-size: 25px;
+  text-align: center;
+  font-family: "Avenir-Black";
+  animation: texto-para-arriba 2s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 40%;
+}
+* main .zona3-cayo-bolivar .parrafo1 p {
+  text-align: center;
+  color: #07262D;
+  padding: 0px;
+  animation: texto-para-arriba 2s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 40%;
+}
+* main .zona3-cayo-bolivar .video-roncador {
+  margin-bottom: 10px;
+}
+* main .zona3-cayo-bolivar .video-roncador video {
+  width: 100%;
+  height: 175px;
+  border-radius: 15px;
+}
+* main .zona3-cayo-bolivar .parrafo2 {
+  text-align: center;
+  color: #07262D;
+  padding: 0px;
+  animation: texto-para-arriba 1s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 10%;
+}
+* main .zona3-cayo-bolivar #carouselExampleIndicatorsbolivar {
+  width: auto;
+  height: 170px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+* main .zona3-cayo-bolivar .parrafo3 {
+  text-align: center;
+  color: #07262D;
+  padding: 0px;
+  padding-bottom: 40px;
+  animation: texto-para-arriba 2s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 40%;
+}
+* main .zona3-cayo-albuquerque {
+  background-color: #07262D;
+  height: 1240px;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 5px;
+  padding: 20px 25px 35px 25px;
+  /* final video */
+}
+* main .zona3-cayo-albuquerque .icono-expediciones img {
+  height: 150px;
+  margin: 10px 0px;
+  animation: texto-para-arriba 2s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 40%;
+}
+* main .zona3-cayo-albuquerque .parrafo1 h2 {
+  color: #20A3D1;
+  padding-top: 10px;
+  font-size: 25px;
+  text-align: center;
+  font-family: "Avenir-Black";
+  animation: texto-para-arriba 2s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 40%;
+}
+* main .zona3-cayo-albuquerque .parrafo1 p {
+  text-align: center;
+  color: #ffffff;
+  padding: 0px;
+  animation: texto-para-arriba 2s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 40%;
+}
+* main .zona3-cayo-albuquerque .video-roncador {
+  margin-bottom: 10px;
+}
+* main .zona3-cayo-albuquerque .video-roncador video {
+  width: 100%;
+  height: 175px;
+  border-radius: 15px;
+}
+* main .zona3-cayo-albuquerque .parrafo2 {
+  text-align: center;
+  color: #ffffff;
+  padding: 0px;
+  animation: texto-para-arriba 1s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 10%;
+}
+* main .zona3-cayo-albuquerque #carouselExampleIndicatorsalbuquerque {
+  width: auto;
+  height: 170px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+* main .zona3-cayo-albuquerque .parrafo3 {
+  text-align: center;
+  color: #ffffff;
+  padding: 0px;
+  padding-bottom: 40px;
+  animation: texto-para-arriba 2s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 40%;
+}
+* main .imagen-seeking3 {
+  background-color: #07262D;
+  background-image: url(/imagenes/imgenes-seeking/seeking-imagen3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 560px;
+}
+* main .imagen-seeking3 .logo-sepia {
+  display: flex;
+  justify-content: center;
+  padding: 50px 20px 0px 20px;
+}
+* main .imagen-seeking3 .logo-sepia .logo-sepia-inicial {
+  height: 55px;
+  justify-content: center;
+}
+* main .conector-zona4 {
+  background-color: #07262D;
+  background-image: url(/imagenes/imgenes-seeking/conector-zona4-version2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 78px;
+  width: 100%;
+}
+* main .zona4-isla-providencia-isla-santa-catalina {
+  background-color: #ffffff;
+  height: 1280px;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 5px;
+  padding: 20px 25px 35px 25px;
+  /* final video */
+}
+* main .zona4-isla-providencia-isla-santa-catalina .icono-expediciones img {
+  height: 150px;
+  margin: 10px 0px;
+  animation: texto-para-arriba 2s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 40%;
+}
+* main .zona4-isla-providencia-isla-santa-catalina .parrafo1 h2 {
+  color: #20A3D1;
+  padding-top: 10px;
+  font-size: 25px;
+  text-align: center;
+  font-family: "Avenir-Black";
+  animation: texto-para-arriba 2s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 40%;
+}
+* main .zona4-isla-providencia-isla-santa-catalina .parrafo1 p {
+  text-align: center;
+  color: #07262D;
+  padding: 0px;
+  animation: texto-para-arriba 2s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 40%;
+}
+* main .zona4-isla-providencia-isla-santa-catalina .video-roncador {
+  margin-bottom: 10px;
+}
+* main .zona4-isla-providencia-isla-santa-catalina .video-roncador video {
+  width: 100%;
+  height: 175px;
+  border-radius: 15px;
+}
+* main .zona4-isla-providencia-isla-santa-catalina .parrafo2 {
+  text-align: center;
+  color: #07262D;
+  padding: 0px;
+  animation: texto-para-arriba 1s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 10%;
+}
+* main .zona4-isla-providencia-isla-santa-catalina #carouselExampleIndicatorsprovidencia-isla-santa-catalina {
+  width: auto;
+  height: 170px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+* main .zona4-isla-providencia-isla-santa-catalina .parrafo3 {
+  text-align: center;
+  color: #07262D;
+  padding: 0px;
+  padding-bottom: 40px;
+  animation: texto-para-arriba 2s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 40%;
+}
+* main .imagen-seeking4 {
+  background-color: #07262D;
+  background-image: url(/imagenes/imgenes-seeking/seeking-imagen4.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 560px;
+}
+* main .imagen-seeking4 .logo-sepia {
+  display: flex;
+  justify-content: center;
+  padding: 50px 20px 0px 20px;
+}
+* main .imagen-seeking4 .logo-sepia .logo-sepia-inicial {
+  height: 55px;
+  justify-content: center;
+}
+* main .conector-zona5 {
+  background-color: #07262D;
+  background-image: url(/imagenes/imgenes-seeking/conector-zona5-version2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 78px;
+  width: 100%;
+}
+* main .zona5-isla-san-andres {
+  background-color: #07262D;
+  height: 1200px;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 5px;
+  padding: 20px 25px 35px 25px;
+  /* final video */
+}
+* main .zona5-isla-san-andres .icono-expediciones img {
+  height: 150px;
+  margin: 10px 0px;
+  animation: texto-para-arriba 2s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 40%;
+}
+* main .zona5-isla-san-andres .parrafo1 h2 {
+  color: #20A3D1;
+  padding-top: 10px;
+  font-size: 25px;
+  text-align: center;
+  font-family: "Avenir-Black";
+  animation: texto-para-arriba 2s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 40%;
+}
+* main .zona5-isla-san-andres .parrafo1 p {
+  text-align: center;
+  color: #ffffff;
+  padding: 0px;
+  animation: texto-para-arriba 2s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 40%;
+}
+* main .zona5-isla-san-andres .video-roncador {
+  margin-bottom: 10px;
+}
+* main .zona5-isla-san-andres .video-roncador video {
+  width: 100%;
+  height: 175px;
+  border-radius: 15px;
+}
+* main .zona5-isla-san-andres .parrafo2 {
+  text-align: center;
+  color: #ffffff;
+  padding: 0px;
+  animation: texto-para-arriba 1s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 10%;
+}
+* main .zona5-isla-san-andres #carouselExampleIndicators {
+  width: auto;
+  height: 170px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+* main .zona5-isla-san-andres .parrafo3 {
+  text-align: center;
+  color: #ffffff;
+  padding: 0px;
+  padding-top: 5px;
+  padding-bottom: 40px;
+  animation: texto-para-arriba 2s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 40%;
+}
+* main .pie-de-pagina {
+  background-image: url(/imagenes/imagenes-expediciones/fondo-footer-expediciones.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 600px;
+  width: 100%;
+  color: #ffffff;
+  display: grid;
+  grid-row-gap: 20px;
+  justify-content: center;
+  text-align: center;
+  padding-top: 50px;
+}
+* main .pie-de-pagina .logo-sepia-tercero {
+  margin: 25px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+}
+* main .pie-de-pagina .logo-sepia-tercero img {
+  height: 50px;
+  width: auto;
+}
+* main .pie-de-pagina .datos-sepia {
+  height: 40%;
+  width: 100%;
+}
+* main .pie-de-pagina .datos-sepia ul li {
+  list-style: none;
+  padding: 5px;
+  padding-right: 50px;
+}
+* main .pie-de-pagina .redes-sociales a {
+  height: 33%;
+  width: 100%;
+  color: #20A3D1;
+  padding: 0px 5px 0px 5px;
+  font-size: 30px;
+}
+* main .pie-de-pagina .redes-sociales a:hover {
+  color: #ffffff;
+}
+* main .pie-de-pagina h6 {
+  margin-top: 40px;
+  color: #ffffff;
+}
+
+/*final selector universal*/
+/* AQUI INICIAN LAS MEDIA QUERIES */
+@media only screen and (min-width: 1366px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*final main*/
+  }
+  * main {
+    font-size: 18px;
+    /*final header*/
+    /* RECORRIDO SEEKING FOR THE QUEEN CONCH */
+    /* FINAL RECORRIDO SEEKING FOR THE QUEEN CONCH */
+    /* conector drones */
+    /* ZONA 1 CAYO RONCADOR */
+    /* ZONA 1 FINAL CAYO RONCADOR */
+    /* ZONA 1 CAYO QUITASUEÑO */
+    /* ZONA 1 FINAL CAYO QUITASUEÑO */
+    /* ZONA 1 CAYO SERRANA */
+    /* ZONA 1 FINAL CAYO SERRANA */
+    /* IMAGEN AMENIZADORA 1 */
+    /* FINAL IMAGEN AMENIZADORA 1 */
+    /* conector zona 2 */
+    /* ZONA 1 CAYO SERRANILLA */
+    /* ZONA 2 FINAL CAYO SERRANILLA */
+    /* ZONA 2 BAJO ALICIA */
+    /* ZONA 2 FINAL BAJO ALICIA */
+    /* ZONA 2 BAJO NUEVO */
+    /* ZONA 2 FINAL BAJO NUEVO */
+    /* conector zona 3 */
+    /* ZONA 3 CAYO BOLIVAR */
+    /* ZONA 3 FINAL CAYO BOLIVAR */
+    /* ZONA 3 CAYO ALBUQUERQUE */
+    /* ZONA 3 CAYO ALBUQUERUQUE */
+    /* conector zona 4 */
+    /* ZONA 4 ISLA PROVIDENCIA E ISLA SANTA CATALINA */
+    /* ZONA 4 FINAL ISAL PROVIDENCIA E ISLA SANTA CATALINA */
+    /* conector zona 5 */
+    /* ZONA 5 ISLA DE SAN ANDRES */
+    /* ZONA 5 FINAL ISLA DE SAN ANDRES */
+    /* footer */
+    /*final pie-de-pagina*/
+  }
+  * main header {
+    height: 100vh;
+    /*final contenedor-elementos-header*/
+    /* final contenedor-introduccion-expedicion-seeking*/
+  }
+  * main header .contenedor-elementos-header {
+    padding: 20px;
+    /*menu-de-navegacion*/
+  }
+  * main header .contenedor-elementos-header .menu-de-navegacion .logo-sepia .logo-sepia-inicial {
+    height: 35px;
+  }
+  * main header .contenedor-introduccion-expedicion-seeking {
+    margin-bottom: 170px;
+  }
+  * main header .contenedor-introduccion-expedicion-seeking .icono-seeking {
+    height: 200px;
+    margin-bottom: 30px;
+  }
+  * main header .contenedor-introduccion-expedicion-seeking h1 {
+    font-size: 300%;
+    padding: 0px 300px;
+  }
+  * main header .contenedor-introduccion-expedicion-seeking p {
+    padding: 0px 340px;
+  }
+  * main .recorrido-seeking {
+    height: 1300px;
+    justify-content: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.8fr 0.3fr 0.8fr;
+    grid-column-gap: 10px;
+    padding: 40px 250px;
+    grid-template-areas: "video1 video1" "textos1 textos1" "textos2 imagen-mapa";
+    /* final video */
+  }
+  * main .recorrido-seeking .video-recorrido-seeking {
+    grid-area: video1;
+  }
+  * main .recorrido-seeking .video-recorrido-seeking video {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+  }
+  * main .recorrido-seeking .textos1 {
+    grid-area: textos1;
+  }
+  * main .recorrido-seeking .textos2 {
+    grid-area: textos2;
+    text-align: left;
+  }
+  * main .recorrido-seeking .textos2 h2 {
+    font-size: 35px;
+    text-align: left;
+  }
+  * main .recorrido-seeking .textos2 ul {
+    text-align: left;
+  }
+  * main .recorrido-seeking .imagen-mapa {
+    grid-area: imagen-mapa;
+    height: 450px;
+  }
+  * main .conector-zona1 {
+    height: 130px;
+  }
+  * main .zona1-cayo-roncador {
+    background-color: #ffffff;
+    height: 1380px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.3fr 0.2fr 0.7fr 0.6fr 0.4fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 5px;
+    padding: 40px 250px;
+    grid-template-areas: "icono-expediciones icono-expediciones" "parrafo1 parrafo1" "video-roncador video-roncador" "parrafo2 parrafo2" "carrusel parrafo3";
+    /* final video */
+  }
+  * main .zona1-cayo-roncador .icono-expediciones {
+    grid-area: icono-expediciones;
+  }
+  * main .zona1-cayo-roncador .icono-expediciones img {
+    height: 150px;
+  }
+  * main .zona1-cayo-roncador .parrafo1 {
+    grid-area: parrafo1;
+  }
+  * main .zona1-cayo-roncador .parrafo1 h2 {
+    color: #20A3D1;
+    padding-top: 10px;
+    font-size: 35px;
+    text-align: center;
+    font-family: "Avenir-Black";
+  }
+  * main .zona1-cayo-roncador .parrafo1 p {
+    text-align: center;
+    color: #07262D;
+    padding: 0px;
+  }
+  * main .zona1-cayo-roncador .video-roncador {
+    grid-area: video-roncador;
+  }
+  * main .zona1-cayo-roncador .video-roncador video {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+  }
+  * main .zona1-cayo-roncador .parrafo2 {
+    grid-area: parrafo2;
+    text-align: center;
+    color: #07262D;
+    padding: 0px;
+  }
+  * main .zona1-cayo-roncador #carouselExampleIndicators {
+    grid-area: carrusel;
+    width: 440px;
+    height: 240px;
+    border-radius: 15px;
+    margin-bottom: 0px;
+    overflow: hidden;
+  }
+  * main .zona1-cayo-roncador .parrafo3 {
+    grid-area: parrafo3;
+    text-align: right;
+    color: #07262D;
+    padding: 0px;
+  }
+  * main .zona1-cayo-quitasueño {
+    background-color: #07262D;
+    height: 1320px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.3fr 0.2fr 0.7fr 0.6fr 0.4fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 5px;
+    padding: 40px 250px;
+    grid-template-areas: "icono-expediciones icono-expediciones" "parrafo1 parrafo1" "video-roncador video-roncador" "parrafo2 parrafo2" "carrusel parrafo3";
+    /* final video */
+  }
+  * main .zona1-cayo-quitasueño .icono-expediciones {
+    grid-area: icono-expediciones;
+  }
+  * main .zona1-cayo-quitasueño .icono-expediciones img {
+    height: 150px;
+  }
+  * main .zona1-cayo-quitasueño .parrafo1 {
+    grid-area: parrafo1;
+  }
+  * main .zona1-cayo-quitasueño .parrafo1 h2 {
+    color: #20A3D1;
+    padding-top: 10px;
+    font-size: 35px;
+    text-align: center;
+    font-family: "Avenir-Black";
+  }
+  * main .zona1-cayo-quitasueño .parrafo1 p {
+    text-align: center;
+    color: #ffffff;
+    padding: 0px;
+  }
+  * main .zona1-cayo-quitasueño .video-roncador {
+    grid-area: video-roncador;
+  }
+  * main .zona1-cayo-quitasueño .video-roncador video {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+  }
+  * main .zona1-cayo-quitasueño .parrafo2 {
+    grid-area: parrafo2;
+    text-align: center;
+    color: #ffffff;
+    padding: 0px;
+  }
+  * main .zona1-cayo-quitasueño #carouselExampleIndicatorsqui {
+    grid-area: carrusel;
+    width: 440px;
+    height: 250px;
+    border-radius: 15px;
+    margin-bottom: 0px;
+    overflow: hidden;
+  }
+  * main .zona1-cayo-quitasueño .parrafo3 {
+    grid-area: parrafo3;
+    text-align: right;
+    color: #ffffff;
+    padding: 0px;
+  }
+  * main .zona1-cayo-serrana {
+    background-color: #ffffff;
+    height: 1350px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.3fr 0.2fr 0.7fr 0.6fr 0.4fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 5px;
+    padding: 40px 250px;
+    grid-template-areas: "icono-expediciones icono-expediciones" "parrafo1 parrafo1" "video-roncador video-roncador" "parrafo2 parrafo2" "carrusel parrafo3";
+    /* final video */
+  }
+  * main .zona1-cayo-serrana .icono-expediciones {
+    grid-area: icono-expediciones;
+  }
+  * main .zona1-cayo-serrana .icono-expediciones img {
+    height: 150px;
+  }
+  * main .zona1-cayo-serrana .parrafo1 {
+    grid-area: parrafo1;
+  }
+  * main .zona1-cayo-serrana .parrafo1 h2 {
+    color: #20A3D1;
+    padding-top: 10px;
+    font-size: 35px;
+    text-align: center;
+    font-family: "Avenir-Black";
+  }
+  * main .zona1-cayo-serrana .parrafo1 p {
+    text-align: center;
+    color: #07262D;
+    padding: 0px;
+  }
+  * main .zona1-cayo-serrana .video-roncador {
+    grid-area: video-roncador;
+  }
+  * main .zona1-cayo-serrana .video-roncador video {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+  }
+  * main .zona1-cayo-serrana .parrafo2 {
+    grid-area: parrafo2;
+    text-align: center;
+    color: #07262D;
+    padding: 0px;
+  }
+  * main .zona1-cayo-serrana #carouselExampleIndicatorsserrana {
+    grid-area: carrusel;
+    width: 440px;
+    height: 250px;
+    border-radius: 15px;
+    margin-bottom: 0px;
+    overflow: hidden;
+  }
+  * main .zona1-cayo-serrana .parrafo3 {
+    grid-area: parrafo3;
+    text-align: right;
+    color: #07262D;
+    padding: 0px;
+  }
+  * main .imagen-seeking1 {
+    background-color: #07262D;
+    background-image: url(/imagenes/imgenes-seeking/seeking-imagen1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 560px;
+  }
+  * main .imagen-seeking1 .logo-sepia {
+    display: flex;
+    justify-content: center;
+    padding: 60px 20px 0px 20px;
+  }
+  * main .imagen-seeking1 .logo-sepia .logo-sepia-inicial {
+    height: 75px;
+    justify-content: center;
+  }
+  * main .imagen-seeking1 p {
+    text-align: center;
+    font-size: 25px;
+    color: #ffffff;
+    padding: 20px 0px 50px 0px;
+    animation: texto-para-arriba 4s linear;
+    animation-timeline: view(0px);
+    animation-range: entry 0% cover 60%;
+  }
+  * main .conector-zona2 {
+    height: 130px;
+  }
+  * main .zona2-cayo-serranilla {
+    background-color: #07262D;
+    height: 1350px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.3fr 0.2fr 0.7fr 0.6fr 0.4fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 5px;
+    padding: 40px 250px;
+    grid-template-areas: "icono-expediciones icono-expediciones" "parrafo1 parrafo1" "video-roncador video-roncador" "parrafo2 parrafo2" "carrusel parrafo3";
+    /* final video */
+  }
+  * main .zona2-cayo-serranilla .icono-expediciones {
+    grid-area: icono-expediciones;
+  }
+  * main .zona2-cayo-serranilla .icono-expediciones img {
+    height: 150px;
+  }
+  * main .zona2-cayo-serranilla .parrafo1 {
+    grid-area: parrafo1;
+  }
+  * main .zona2-cayo-serranilla .parrafo1 h2 {
+    color: #20A3D1;
+    padding-top: 10px;
+    font-size: 35px;
+    text-align: center;
+    font-family: "Avenir-Black";
+  }
+  * main .zona2-cayo-serranilla .parrafo1 p {
+    text-align: center;
+    color: #ffffff;
+    padding: 0px;
+  }
+  * main .zona2-cayo-serranilla .video-roncador {
+    grid-area: video-roncador;
+  }
+  * main .zona2-cayo-serranilla .video-roncador video {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+  }
+  * main .zona2-cayo-serranilla .parrafo2 {
+    grid-area: parrafo2;
+    text-align: center;
+    color: #ffffff;
+    padding: 0px;
+  }
+  * main .zona2-cayo-serranilla #carouselExampleIndicatorsserranilla {
+    grid-area: carrusel;
+    width: 440px;
+    height: 250px;
+    border-radius: 15px;
+    margin-bottom: 0px;
+    overflow: hidden;
+  }
+  * main .zona2-cayo-serranilla .parrafo3 {
+    grid-area: parrafo3;
+    text-align: right;
+    color: #ffffff;
+    padding: 0px;
+  }
+  * main .zona2-bajo-alicia {
+    background-color: #ffffff;
+    height: 1350px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.3fr 0.2fr 0.7fr 0.6fr 0.4fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 5px;
+    padding: 40px 250px;
+    grid-template-areas: "icono-expediciones icono-expediciones" "parrafo1 parrafo1" "video-roncador video-roncador" "parrafo2 parrafo2" "carrusel parrafo3";
+    /* final video */
+  }
+  * main .zona2-bajo-alicia .icono-expediciones {
+    grid-area: icono-expediciones;
+  }
+  * main .zona2-bajo-alicia .icono-expediciones img {
+    height: 150px;
+  }
+  * main .zona2-bajo-alicia .parrafo1 {
+    grid-area: parrafo1;
+  }
+  * main .zona2-bajo-alicia .parrafo1 h2 {
+    color: #20A3D1;
+    padding-top: 10px;
+    font-size: 35px;
+    text-align: center;
+    font-family: "Avenir-Black";
+  }
+  * main .zona2-bajo-alicia .parrafo1 p {
+    text-align: center;
+    color: #07262D;
+    padding: 0px;
+  }
+  * main .zona2-bajo-alicia .video-roncador {
+    grid-area: video-roncador;
+  }
+  * main .zona2-bajo-alicia .video-roncador video {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+  }
+  * main .zona2-bajo-alicia .parrafo2 {
+    grid-area: parrafo2;
+    text-align: center;
+    color: #07262D;
+    padding: 0px;
+  }
+  * main .zona2-bajo-alicia #carouselExampleIndicatorsalicia {
+    grid-area: carrusel;
+    width: 440px;
+    height: 250px;
+    border-radius: 15px;
+    margin-bottom: 0px;
+    overflow: hidden;
+  }
+  * main .zona2-bajo-alicia .parrafo3 {
+    grid-area: parrafo3;
+    text-align: right;
+    color: #07262D;
+    padding: 0px;
+  }
+  * main .zona2-bajo-nuevo {
+    background-color: #07262D;
+    height: 1340px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.3fr 0.2fr 0.7fr 0.6fr 0.4fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 5px;
+    padding: 40px 250px;
+    grid-template-areas: "icono-expediciones icono-expediciones" "parrafo1 parrafo1" "video-roncador video-roncador" "parrafo2 parrafo2" "carrusel parrafo3";
+    /* final video */
+  }
+  * main .zona2-bajo-nuevo .icono-expediciones {
+    grid-area: icono-expediciones;
+  }
+  * main .zona2-bajo-nuevo .icono-expediciones img {
+    height: 150px;
+  }
+  * main .zona2-bajo-nuevo .parrafo1 {
+    grid-area: parrafo1;
+  }
+  * main .zona2-bajo-nuevo .parrafo1 h2 {
+    color: #20A3D1;
+    padding-top: 10px;
+    font-size: 35px;
+    text-align: center;
+    font-family: "Avenir-Black";
+  }
+  * main .zona2-bajo-nuevo .parrafo1 p {
+    text-align: center;
+    color: #ffffff;
+    padding: 0px;
+  }
+  * main .zona2-bajo-nuevo .video-roncador {
+    grid-area: video-roncador;
+  }
+  * main .zona2-bajo-nuevo .video-roncador video {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+  }
+  * main .zona2-bajo-nuevo .parrafo2 {
+    grid-area: parrafo2;
+    text-align: center;
+    color: #ffffff;
+    padding: 0px;
+  }
+  * main .zona2-bajo-nuevo #carouselExampleIndicatorsnuevo {
+    grid-area: carrusel;
+    width: 440px;
+    height: 250px;
+    border-radius: 15px;
+    margin-bottom: 0px;
+    overflow: hidden;
+  }
+  * main .zona2-bajo-nuevo .parrafo3 {
+    grid-area: parrafo3;
+    text-align: right;
+    color: #ffffff;
+    padding: 0px;
+  }
+  * main .conector-zona3 {
+    height: 130px;
+  }
+  * main .zona3-cayo-bolivar {
+    background-color: #ffffff;
+    height: 1350px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.3fr 0.2fr 0.7fr 0.6fr 0.4fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 5px;
+    padding: 40px 250px;
+    grid-template-areas: "icono-expediciones icono-expediciones" "parrafo1 parrafo1" "video-roncador video-roncador" "parrafo2 parrafo2" "carrusel parrafo3";
+    /* final video */
+  }
+  * main .zona3-cayo-bolivar .icono-expediciones {
+    grid-area: icono-expediciones;
+  }
+  * main .zona3-cayo-bolivar .icono-expediciones img {
+    height: 150px;
+  }
+  * main .zona3-cayo-bolivar .parrafo1 {
+    grid-area: parrafo1;
+  }
+  * main .zona3-cayo-bolivar .parrafo1 h2 {
+    color: #20A3D1;
+    padding-top: 10px;
+    font-size: 35px;
+    text-align: center;
+    font-family: "Avenir-Black";
+  }
+  * main .zona3-cayo-bolivar .parrafo1 p {
+    text-align: center;
+    color: #07262D;
+    padding: 0px;
+  }
+  * main .zona3-cayo-bolivar .video-roncador {
+    grid-area: video-roncador;
+  }
+  * main .zona3-cayo-bolivar .video-roncador video {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+  }
+  * main .zona3-cayo-bolivar .parrafo2 {
+    grid-area: parrafo2;
+    text-align: center;
+    color: #07262D;
+    padding: 0px;
+  }
+  * main .zona3-cayo-bolivar #carouselExampleIndicatorsbolivar {
+    grid-area: carrusel;
+    width: 440px;
+    height: 250px;
+    border-radius: 15px;
+    margin-bottom: 0px;
+    overflow: hidden;
+  }
+  * main .zona3-cayo-bolivar .parrafo3 {
+    grid-area: parrafo3;
+    text-align: right;
+    color: #07262D;
+    padding: 0px;
+  }
+  * main .zona3-cayo-albuquerque {
+    background-color: #07262D;
+    height: 1350px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.3fr 0.2fr 0.7fr 0.6fr 0.4fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 5px;
+    padding: 40px 250px;
+    grid-template-areas: "icono-expediciones icono-expediciones" "parrafo1 parrafo1" "video-roncador video-roncador" "parrafo2 parrafo2" "carrusel parrafo3";
+    /* final video */
+  }
+  * main .zona3-cayo-albuquerque .icono-expediciones {
+    grid-area: icono-expediciones;
+  }
+  * main .zona3-cayo-albuquerque .icono-expediciones img {
+    height: 150px;
+  }
+  * main .zona3-cayo-albuquerque .parrafo1 {
+    grid-area: parrafo1;
+  }
+  * main .zona3-cayo-albuquerque .parrafo1 h2 {
+    color: #20A3D1;
+    padding-top: 10px;
+    font-size: 35px;
+    text-align: center;
+    font-family: "Avenir-Black";
+  }
+  * main .zona3-cayo-albuquerque .parrafo1 p {
+    text-align: center;
+    color: #ffffff;
+    padding: 0px;
+  }
+  * main .zona3-cayo-albuquerque .video-roncador {
+    grid-area: video-roncador;
+  }
+  * main .zona3-cayo-albuquerque .video-roncador video {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+  }
+  * main .zona3-cayo-albuquerque .parrafo2 {
+    grid-area: parrafo2;
+    text-align: center;
+    color: #ffffff;
+    padding: 0px;
+  }
+  * main .zona3-cayo-albuquerque #carouselExampleIndicatorsalbuquerque {
+    grid-area: carrusel;
+    width: 440px;
+    height: 250px;
+    border-radius: 15px;
+    margin-bottom: 0px;
+    overflow: hidden;
+  }
+  * main .zona3-cayo-albuquerque .parrafo3 {
+    grid-area: parrafo3;
+    text-align: right;
+    color: #ffffff;
+    padding: 0px;
+  }
+  * main .conector-zona4 {
+    height: 130px;
+  }
+  * main .zona4-isla-providencia-isla-santa-catalina {
+    background-color: #ffffff;
+    height: 1350px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.3fr 0.2fr 0.7fr 0.6fr 0.4fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 5px;
+    padding: 40px 250px;
+    grid-template-areas: "icono-expediciones icono-expediciones" "parrafo1 parrafo1" "video-roncador video-roncador" "parrafo2 parrafo2" "carrusel parrafo3";
+    /* final video */
+  }
+  * main .zona4-isla-providencia-isla-santa-catalina .icono-expediciones {
+    grid-area: icono-expediciones;
+  }
+  * main .zona4-isla-providencia-isla-santa-catalina .icono-expediciones img {
+    height: 150px;
+  }
+  * main .zona4-isla-providencia-isla-santa-catalina .parrafo1 {
+    grid-area: parrafo1;
+  }
+  * main .zona4-isla-providencia-isla-santa-catalina .parrafo1 h2 {
+    color: #20A3D1;
+    padding-top: 10px;
+    font-size: 35px;
+    text-align: center;
+    font-family: "Avenir-Black";
+  }
+  * main .zona4-isla-providencia-isla-santa-catalina .parrafo1 p {
+    text-align: center;
+    color: #07262D;
+    padding: 0px;
+  }
+  * main .zona4-isla-providencia-isla-santa-catalina .video-roncador {
+    grid-area: video-roncador;
+  }
+  * main .zona4-isla-providencia-isla-santa-catalina .video-roncador video {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+  }
+  * main .zona4-isla-providencia-isla-santa-catalina .parrafo2 {
+    grid-area: parrafo2;
+    text-align: center;
+    color: #07262D;
+    padding: 0px;
+  }
+  * main .zona4-isla-providencia-isla-santa-catalina #carouselExampleIndicatorsprovidencia-isla-santa-catalina {
+    grid-area: carrusel;
+    width: 440px;
+    height: 250px;
+    border-radius: 15px;
+    margin-bottom: 0px;
+    overflow: hidden;
+  }
+  * main .zona4-isla-providencia-isla-santa-catalina .parrafo3 {
+    grid-area: parrafo3;
+    text-align: right;
+    color: #07262D;
+    padding: 0px;
+  }
+  * main .conector-zona5 {
+    height: 130px;
+  }
+  * main .zona5-isla-san-andres {
+    background-color: #07262D;
+    height: 1400px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.3fr 0.2fr 0.7fr 0.6fr 0.4fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 5px;
+    padding: 40px 250px;
+    grid-template-areas: "icono-expediciones icono-expediciones" "parrafo1 parrafo1" "video-roncador video-roncador" "parrafo2 parrafo2" "carrusel parrafo3";
+    /* final video */
+  }
+  * main .zona5-isla-san-andres .icono-expediciones {
+    grid-area: icono-expediciones;
+  }
+  * main .zona5-isla-san-andres .icono-expediciones img {
+    height: 150px;
+  }
+  * main .zona5-isla-san-andres .parrafo1 {
+    grid-area: parrafo1;
+  }
+  * main .zona5-isla-san-andres .parrafo1 h2 {
+    color: #20A3D1;
+    padding-top: 10px;
+    font-size: 35px;
+    text-align: center;
+    font-family: "Avenir-Black";
+  }
+  * main .zona5-isla-san-andres .parrafo1 p {
+    text-align: center;
+    color: #ffffff;
+    padding: 0px;
+  }
+  * main .zona5-isla-san-andres .video-roncador {
+    grid-area: video-roncador;
+  }
+  * main .zona5-isla-san-andres .video-roncador video {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+  }
+  * main .zona5-isla-san-andres .parrafo2 {
+    grid-area: parrafo2;
+    text-align: center;
+    color: #ffffff;
+    padding: 0px;
+  }
+  * main .zona5-isla-san-andres #carouselExampleIndicators {
+    grid-area: carrusel;
+    width: 440px;
+    height: 250px;
+    border-radius: 15px;
+    margin-bottom: 0px;
+    overflow: hidden;
+  }
+  * main .zona5-isla-san-andres .parrafo3 {
+    grid-area: parrafo3;
+    text-align: right;
+    color: #ffffff;
+    padding: 0px;
+  }
+  * main .pie-de-pagina {
+    height: 650px;
+    display: grid;
+    grid-row-gap: 10px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+  }
+  * main .pie-de-pagina .logo-sepia-tercero {
+    margin: 25px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+  }
+  * main .pie-de-pagina .logo-sepia-tercero img {
+    height: 80px;
+  }
+  * main .pie-de-pagina .datos-sepia {
+    height: 40%;
+  }
+  * main .pie-de-pagina .datos-sepia ul {
+    display: flex;
+  }
+  * main .pie-de-pagina .datos-sepia ul li {
+    padding: 30px 15px 0px 15px;
+  }
+  * main .pie-de-pagina .redes-sociales a {
+    padding: 0px 10px;
+    font-size: 40px;
+  }
+  * main .pie-de-pagina h6 {
+    margin-top: 180px;
+  }
+  /*final selector universal*/
+} /* final @media only screen and (min-width: 1366px)*/
+/* formato 1440px - 900px */
+@media only screen and (min-width: 1440px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*final main*/
+  }
+  * main {
+    font-size: 18px;
+    /*final header*/
+    /* RECORRIDO SEEKING FOR THE QUEEN CONCH */
+    /* FINAL RECORRIDO SEEKING FOR THE QUEEN CONCH */
+    /* ZONA 1 CAYO RONCADOR */
+    /* ZONA 1 FINAL CAYO RONCADOR */
+    /* ZONA 1 CAYO QUITASUEÑO */
+    /* ZONA 1 FINAL CAYO QUITASUEÑO */
+    /* ZONA 1 CAYO SERRANA */
+    /* ZONA 1 FINAL CAYO SERRANA */
+    /* IMAGEN AMENIZADORA 1 */
+    /* conector zona 2 */
+    /* ZONA 1 CAYO SERRANILLA */
+    /* ZONA 2 FINAL CAYO SERRANILLA */
+    /* ZONA 2 BAJO ALICIA */
+    /* ZONA 2 FINAL BAJO ALICIA */
+    /* ZONA 2 BAJO NUEVO */
+    /* ZONA 2 FINAL BAJO NUEVO */
+    /* IMAGEN AMENIZADORA 3 */
+    /* conector zona 3 */
+    /* ZONA 3 CAYO BOLIVAR */
+    /* ZONA 3 FINAL CAYO BOLIVAR */
+    /* ZONA 3 CAYO ALBUQUERQUE */
+    /* ZONA 3 CAYO ALBUQUERUQUE */
+    /* conector zona 4 */
+    /* ZONA 4 ISLA PROVIDENCIA E ISLA SANTA CATALINA */
+    /* ZONA 4 FINAL ISAL PROVIDENCIA E ISLA SANTA CATALINA */
+    /* ZONA 5 ISLA DE SAN ANDRES */
+    /* ZONA 5 FINAL ISLA DE SAN ANDRES */
+    /* footer */
+    /*final pie-de-pagina*/
+  }
+  * main header {
+    /* final contenedor-introduccion-expedicion-seeking*/
+  }
+  * main header .contenedor-introduccion-expedicion-seeking p {
+    padding: 0px 370px;
+  }
+  * main .recorrido-seeking {
+    height: 1300px;
+  }
+  * main .zona1-cayo-roncador {
+    height: 1400px;
+  }
+  * main .zona1-cayo-quitasueño {
+    height: 1360px;
+  }
+  * main .zona1-cayo-serrana {
+    height: 1360px;
+  }
+  * main .conector-zona2 {
+    height: 130px;
+  }
+  * main .zona2-cayo-serranilla {
+    height: 1380px;
+  }
+  * main .zona2-bajo-alicia {
+    height: 1370px;
+  }
+  * main .zona2-bajo-nuevo {
+    height: 1380px;
+  }
+  * main .imagen-seeking3 {
+    height: 610px;
+  }
+  * main .zona3-cayo-bolivar {
+    height: 1380px;
+  }
+  * main .zona3-cayo-albuquerque {
+    height: 1380px;
+  }
+  * main .imagen-seeking4 {
+    height: 590px;
+  }
+  * main .zona4-isla-providencia-isla-santa-catalina {
+    height: 1380px;
+  }
+  * main .zona5-isla-san-andres {
+    height: 1400px;
+  }
+  * main .pie-de-pagina h6 {
+    margin-top: 180px;
+    font-size: 18px;
+  }
+  /*final selector universal*/
+} /* final formato 1440px - 900px */
+/* formato 1674px - 807px */
+@media only screen and (min-width: 1674px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*final main*/
+  }
+  * main {
+    font-size: 16px;
+    /*final header*/
+    /* RECORRIDO SEEKING FOR THE QUEEN CONCH */
+    /* FINAL RECORRIDO SEEKING FOR THE QUEEN CONCH */
+    /* conector drones */
+    /* ZONA 1 CAYO RONCADOR */
+    /* ZONA 1 FINAL CAYO RONCADOR */
+    /* ZONA 1 CAYO QUITASUEÑO */
+    /* ZONA 1 FINAL CAYO QUITASUEÑO */
+    /* ZONA 1 CAYO SERRANA */
+    /* ZONA 1 FINAL CAYO SERRANA */
+    /* IMAGEN AMENIZADORA 1 */
+    /* FINAL IMAGEN AMENIZADORA 1 */
+    /* conector zona 2 */
+    /* ZONA 1 CAYO SERRANILLA */
+    /* ZONA 2 FINAL CAYO SERRANILLA */
+    /* ZONA 2 BAJO ALICIA */
+    /* ZONA 2 FINAL BAJO ALICIA */
+    /* ZONA 2 BAJO NUEVO */
+    /* ZONA 2 FINAL BAJO NUEVO */
+    /* IMAGEN AMENIZADORA 2 */
+    /* FINAL IMAGEN AMENIZADORA 2 */
+    /* conector zona 3 */
+    /* ZONA 3 CAYO BOLIVAR */
+    /* ZONA 3 FINAL CAYO BOLIVAR */
+    /* ZONA 3 CAYO ALBUQUERQUE */
+    /* ZONA 3 CAYO ALBUQUERUQUE */
+    /* IMAGEN AMENIZADORA 3 */
+    /* FINAL IMAGEN AMENIZADORA 3 */
+    /* conector zona 4 */
+    /* ZONA 4 ISLA PROVIDENCIA E ISLA SANTA CATALINA */
+    /* ZONA 4 FINAL ISAL PROVIDENCIA E ISLA SANTA CATALINA */
+    /* IMAGEN AMENIZADORA 4 */
+    /* FINAL IMAGEN AMENIZADORA 4 */
+    /* conector zona 5 */
+    /* ZONA 5 ISLA DE SAN ANDRES */
+    /* ZONA 5 FINAL ISLA DE SAN ANDRES */
+    /* footer */
+    /*final pie-de-pagina*/
+  }
+  * main header {
+    /* final contenedor-introduccion-expedicion-seeking*/
+  }
+  * main header .contenedor-introduccion-expedicion-seeking h1 {
+    padding: 0px 390px;
+  }
+  * main header .contenedor-introduccion-expedicion-seeking p {
+    padding: 0px 480px;
+  }
+  * main .recorrido-seeking {
+    height: 1300px;
+    padding: 40px 340px;
+  }
+  * main .conector-zona1 {
+    height: 160px;
+  }
+  * main .zona1-cayo-roncador {
+    height: 1380px;
+    padding: 40px 340px;
+    grid-column-gap: 70px;
+  }
+  * main .zona1-cayo-roncador #carouselExampleIndicators {
+    width: 100%;
+    height: 260px;
+  }
+  * main .zona1-cayo-quitasueño {
+    height: 1320px;
+    padding: 40px 340px;
+    grid-column-gap: 70px;
+  }
+  * main .zona1-cayo-quitasueño #carouselExampleIndicatorsqui {
+    width: 100%;
+    height: 260px;
+  }
+  * main .zona1-cayo-serrana {
+    height: 1350px;
+    padding: 40px 340px;
+    grid-column-gap: 70px;
+  }
+  * main .zona1-cayo-serrana #carouselExampleIndicatorsserrana {
+    width: 100%;
+    height: 260px;
+  }
+  * main .imagen-seeking1 {
+    height: 660px;
+  }
+  * main .conector-zona2 {
+    height: 160px;
+  }
+  * main .zona2-cayo-serranilla {
+    height: 1350px;
+    padding: 40px 340px;
+    grid-column-gap: 70px;
+  }
+  * main .zona2-cayo-serranilla #carouselExampleIndicatorsserranilla {
+    width: 100%;
+    height: 260px;
+  }
+  * main .zona2-bajo-alicia {
+    height: 1350px;
+    padding: 40px 340px;
+    grid-column-gap: 70px;
+  }
+  * main .zona2-bajo-alicia #carouselExampleIndicatorsalicia {
+    width: 100%;
+    height: 260px;
+  }
+  * main .zona2-bajo-nuevo {
+    height: 1380px;
+    padding: 40px 340px;
+    grid-column-gap: 70px;
+  }
+  * main .zona2-bajo-nuevo #carouselExampleIndicatorsnuevo {
+    width: 100%;
+    height: 260px;
+  }
+  * main .imagen-seeking2 {
+    height: 760px;
+  }
+  * main .conector-zona3 {
+    height: 160px;
+  }
+  * main .zona3-cayo-bolivar {
+    height: 1350px;
+    padding: 40px 340px;
+    grid-column-gap: 70px;
+  }
+  * main .zona3-cayo-bolivar #carouselExampleIndicatorsbolivar {
+    width: 100%;
+    height: 260px;
+  }
+  * main .zona3-cayo-albuquerque {
+    height: 1390px;
+    padding: 40px 340px;
+    grid-column-gap: 70px;
+  }
+  * main .zona3-cayo-albuquerque #carouselExampleIndicatorsalbuquerque {
+    width: 100%;
+    height: 260px;
+  }
+  * main .imagen-seeking3 {
+    height: 700px;
+  }
+  * main .conector-zona4 {
+    height: 160px;
+  }
+  * main .zona4-isla-providencia-isla-santa-catalina {
+    height: 1350px;
+    padding: 40px 340px;
+    grid-column-gap: 70px;
+  }
+  * main .zona4-isla-providencia-isla-santa-catalina #carouselExampleIndicatorsprovidencia-isla-santa-catalina {
+    width: 100%;
+    height: 260px;
+  }
+  * main .imagen-seeking4 {
+    height: 700px;
+  }
+  * main .conector-zona5 {
+    height: 160px;
+  }
+  * main .zona5-isla-san-andres {
+    height: 1390px;
+    padding: 40px 340px;
+    grid-column-gap: 70px;
+  }
+  * main .zona5-isla-san-andres #carouselExampleIndicators {
+    width: 100%;
+    height: 260px;
+  }
+  * main .pie-de-pagina h6 {
+    margin-top: 180px;
+  }
+  /*final selector universal*/
+} /* final formato 1674px - 807px */
+/* formato 1920px - 1080px */
+@media only screen and (min-width: 1920px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*final main*/
+  }
+  * main {
+    font-size: 22px;
+    /*final header*/
+    /* RECORRIDO SEEKING FOR THE QUEEN CONCH */
+    /* FINAL RECORRIDO SEEKING FOR THE QUEEN CONCH */
+    /* conector drones */
+    /* ZONA 1 CAYO RONCADOR */
+    /* ZONA 1 FINAL CAYO RONCADOR */
+    /* ZONA 1 CAYO QUITASUEÑO */
+    /* ZONA 1 FINAL CAYO QUITASUEÑO */
+    /* ZONA 1 CAYO SERRANA */
+    /* ZONA 1 FINAL CAYO SERRANA */
+    /* IMAGEN AMENIZADORA 1 */
+    /* FINAL IMAGEN AMENIZADORA 1 */
+    /* conector zona 2 */
+    /* ZONA 1 CAYO SERRANILLA */
+    /* ZONA 2 FINAL CAYO SERRANILLA */
+    /* ZONA 2 BAJO ALICIA */
+    /* ZONA 2 FINAL BAJO ALICIA */
+    /* ZONA 2 BAJO NUEVO */
+    /* ZONA 2 FINAL BAJO NUEVO */
+    /* IMAGEN AMENIZADORA 2 */
+    /* FINAL IMAGEN AMENIZADORA 2 */
+    /* conector zona 3 */
+    /* ZONA 3 CAYO BOLIVAR */
+    /* ZONA 3 FINAL CAYO BOLIVAR */
+    /* ZONA 3 CAYO ALBUQUERQUE */
+    /* ZONA 3 CAYO ALBUQUERUQUE */
+    /* IMAGEN AMENIZADORA 3 */
+    /* FINAL IMAGEN AMENIZADORA 3 */
+    /* conector zona 4 */
+    /* ZONA 4 ISLA PROVIDENCIA E ISLA SANTA CATALINA */
+    /* ZONA 4 FINAL ISAL PROVIDENCIA E ISLA SANTA CATALINA */
+    /* IMAGEN AMENIZADORA 4 */
+    /* FINAL IMAGEN AMENIZADORA 4 */
+    /* conector zona 5 */
+    /* ZONA 5 ISLA DE SAN ANDRES */
+    /* ZONA 5 FINAL ISLA DE SAN ANDRES */
+    /* footer */
+    /*final pie-de-pagina*/
+  }
+  * main header {
+    /* final contenedor-introduccion-expedicion-seeking*/
+  }
+  * main header .contenedor-introduccion-expedicion-seeking .icono-seeking {
+    height: 250px;
+  }
+  * main header .contenedor-introduccion-expedicion-seeking h1 {
+    padding: 0px 450px;
+  }
+  * main header .contenedor-introduccion-expedicion-seeking p {
+    padding: 0px 540px;
+  }
+  * main .recorrido-seeking {
+    height: 1500px;
+    padding: 40px 340px;
+  }
+  * main .conector-zona1 {
+    height: 170px;
+  }
+  * main .zona1-cayo-roncador {
+    height: 1760px;
+    padding: 40px 340px;
+    grid-column-gap: 50px;
+  }
+  * main .zona1-cayo-roncador .icono-expediciones img {
+    height: 220px;
+  }
+  * main .zona1-cayo-roncador .parrafo1 h2 {
+    font-size: 45px;
+  }
+  * main .zona1-cayo-roncador #carouselExampleIndicators {
+    width: 100%;
+    height: 330px;
+  }
+  * main .zona1-cayo-quitasueño {
+    height: 1720px;
+    grid-column-gap: 30px;
+    padding: 40px 340px;
+  }
+  * main .zona1-cayo-quitasueño .icono-expediciones img {
+    height: 220px;
+  }
+  * main .zona1-cayo-quitasueño .parrafo1 h2 {
+    font-size: 45px;
+  }
+  * main .zona1-cayo-quitasueño #carouselExampleIndicatorsqui {
+    width: 100%;
+    height: 330px;
+  }
+  * main .zona1-cayo-serrana {
+    height: 1720px;
+    grid-column-gap: 30px;
+    padding: 40px 340px;
+  }
+  * main .zona1-cayo-serrana .icono-expediciones img {
+    height: 220px;
+  }
+  * main .zona1-cayo-serrana .parrafo1 h2 {
+    font-size: 45px;
+  }
+  * main .zona1-cayo-serrana #carouselExampleIndicatorsserrana {
+    width: 100%;
+    height: 330px;
+  }
+  * main .imagen-seeking1 {
+    height: 760px;
+  }
+  * main .imagen-seeking1 .logo-sepia .logo-sepia-inicial {
+    height: 95px;
+  }
+  * main .conector-zona2 {
+    height: 170px;
+  }
+  * main .zona2-cayo-serranilla {
+    height: 1800px;
+    grid-column-gap: 40px;
+    padding: 40px 340px;
+  }
+  * main .zona2-cayo-serranilla .icono-expediciones img {
+    height: 220px;
+  }
+  * main .zona2-cayo-serranilla .parrafo1 h2 {
+    font-size: 45px;
+  }
+  * main .zona2-cayo-serranilla #carouselExampleIndicatorsserranilla {
+    width: 100%;
+    height: 320px;
+  }
+  * main .zona2-bajo-alicia {
+    height: 1720px;
+    grid-column-gap: 30px;
+    padding: 40px 340px;
+  }
+  * main .zona2-bajo-alicia .icono-expediciones img {
+    height: 220px;
+  }
+  * main .zona2-bajo-alicia .parrafo1 h2 {
+    font-size: 45px;
+  }
+  * main .zona2-bajo-alicia #carouselExampleIndicatorsalicia {
+    width: 100%;
+    height: 330px;
+  }
+  * main .zona2-bajo-nuevo {
+    height: 1740px;
+    grid-column-gap: 30px;
+    padding: 40px 340px;
+  }
+  * main .zona2-bajo-nuevo .icono-expediciones img {
+    height: 220px;
+  }
+  * main .zona2-bajo-nuevo .parrafo1 h2 {
+    font-size: 45px;
+  }
+  * main .zona2-bajo-nuevo #carouselExampleIndicatorsnuevo {
+    width: 100%;
+    height: 330px;
+  }
+  * main .imagen-seeking2 {
+    height: 860px;
+  }
+  * main .imagen-seeking2 .logo-sepia {
+    padding-top: 70px;
+  }
+  * main .imagen-seeking2 .logo-sepia .logo-sepia-inicial {
+    height: 75px;
+  }
+  * main .conector-zona3 {
+    height: 180px;
+  }
+  * main .zona3-cayo-bolivar {
+    height: 1750px;
+    grid-column-gap: 30px;
+    padding: 40px 340px;
+  }
+  * main .zona3-cayo-bolivar .icono-expediciones img {
+    height: 220px;
+  }
+  * main .zona3-cayo-bolivar .parrafo1 h2 {
+    font-size: 45px;
+  }
+  * main .zona3-cayo-bolivar #carouselExampleIndicatorsbolivar {
+    width: 100%;
+    height: 330px;
+  }
+  * main .zona3-cayo-albuquerque {
+    height: 1780px;
+    grid-column-gap: 30px;
+    padding: 40px 340px;
+  }
+  * main .zona3-cayo-albuquerque .icono-expediciones img {
+    height: 220px;
+  }
+  * main .zona3-cayo-albuquerque .parrafo1 h2 {
+    font-size: 45px;
+  }
+  * main .zona3-cayo-albuquerque #carouselExampleIndicatorsalbuquerque {
+    width: 100%;
+    height: 330px;
+  }
+  * main .imagen-seeking3 {
+    height: 860px;
+  }
+  * main .imagen-seeking3 .logo-sepia .logo-sepia-inicial {
+    height: 75px;
+  }
+  * main .conector-zona4 {
+    height: 180px;
+  }
+  * main .zona4-isla-providencia-isla-santa-catalina {
+    height: 1750px;
+    grid-column-gap: 30px;
+    padding: 40px 340px;
+  }
+  * main .zona4-isla-providencia-isla-santa-catalina .icono-expediciones img {
+    height: 220px;
+  }
+  * main .zona4-isla-providencia-isla-santa-catalina .parrafo1 h2 {
+    font-size: 45px;
+  }
+  * main .zona4-isla-providencia-isla-santa-catalina #carouselExampleIndicatorsprovidencia-isla-santa-catalina {
+    width: 100%;
+    height: 330px;
+  }
+  * main .imagen-seeking4 {
+    height: 860px;
+  }
+  * main .imagen-seeking4 .logo-sepia .logo-sepia-inicial {
+    height: 75px;
+  }
+  * main .conector-zona5 {
+    height: 180px;
+  }
+  * main .zona5-isla-san-andres {
+    height: 1750px;
+    grid-column-gap: 30px;
+    padding: 40px 340px;
+  }
+  * main .zona5-isla-san-andres .icono-expediciones img {
+    height: 220px;
+  }
+  * main .zona5-isla-san-andres .parrafo1 h2 {
+    font-size: 45px;
+  }
+  * main .zona5-isla-san-andres #carouselExampleIndicators {
+    width: 100%;
+    height: 330px;
+  }
+  * main .pie-de-pagina {
+    height: 850px;
+    padding-top: 100px;
+  }
+  * main .pie-de-pagina .redes-sociales a {
+    padding: 0px 10px;
+    font-size: 40px;
+  }
+  * main .pie-de-pagina h6 {
+    margin-top: 280px;
+    font-size: 22px;
+  }
+  /*final selector universal*/
+} /* final formato 1920px - 1080px */
+/* AQUI ESTAN LAS ANIMACIONES */
+@keyframes texto-para-arriba {
+  0% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/*# sourceMappingURL=seeking.css.map */

@@ -1,0 +1,1077 @@
+@import url("https://fonts.cdnfonts.com/css/avenir");
+/* font-family: 'Avenir', sans-serif; */
+@import url(https://db.onlinewebfonts.com/c/b78d933f8aa6b9284c1d3efd3db0a9b9?family=Avenir-Black);
+/* font-family: "Avenir-Black"; */
+@import url(https://db.onlinewebfonts.com/c/158fa6012dff0f88241ad898c46c0118?family=AvenirNextW1G-Regular);
+/* font-family: "AvenirNextW1G-Regular"; */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* formato 360px - 640px */
+  /*Final main*/
+}
+* main {
+  font-family: "Avenir", sans-serif;
+  font-size: 16px;
+  /*final header*/
+  /* SEEKING FOR THE QUEEN CONCH */
+  /* FINAL SEEKING FOR THE QUEEN CONCH */
+  /* EXPEDICION LAGUNA DE TOTA */
+  /* FINAL EXPEDICION LAGUNA DE TOTA */
+  /* basuras-providencia */
+  /* FINAL basuras-providencia */
+  /* basuras-san-andres-caracol-san-andres */
+  /* FINAL basuras-san-andres-caracol-san-andres */
+  /* pez-leon */
+  /* FINAL pez-leon */
+  /* footer */
+  /*final pie-de-pagina*/
+}
+* main header {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background: linear-gradient(rgb(7, 38, 45), rgba(7, 38, 45, 0), rgba(7, 38, 45, 0), rgba(7, 38, 45, 0), rgba(7, 38, 45, 0));
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  /* final video */
+  /*final contenedor-elementos-header*/
+  /* final contenedor-introduccion-servicios*/
+}
+* main header video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+* main header .contenedor-elementos-header {
+  height: auto;
+  width: 100%;
+  padding: 20px;
+  position: relative;
+  z-index: 10;
+  /*menu-de-navegacion*/
+}
+* main header .contenedor-elementos-header .menu-de-navegacion {
+  display: flex;
+  justify-content: space-between;
+  /*final navbar*/
+}
+* main header .contenedor-elementos-header .menu-de-navegacion .logo-sepia .logo-sepia-inicial {
+  height: 35px;
+}
+* main header .contenedor-elementos-header .menu-de-navegacion .navbar {
+  padding: 15px 10px 0px 0px;
+  box-sizing: border-box;
+}
+* main header .contenedor-elementos-header .menu-de-navegacion .navbar .offcanvas-header {
+  background-color: #07262D;
+}
+* main header .contenedor-elementos-header .menu-de-navegacion .navbar .offcanvas-body {
+  background-color: #07262D;
+}
+* main header .contenedor-elementos-header .menu-de-navegacion .navbar .offcanvas-body .activeazul {
+  color: #20A3D1;
+}
+* main header .contenedor-elementos-header .menu-de-navegacion .navbar .offcanvas-body .activeazul:hover {
+  color: #ffffff;
+}
+* main header .contenedor-elementos-header .menu-de-navegacion .navbar .offcanvas-body .btn {
+  color: #ffffff;
+  background-color: #20A3D1;
+}
+* main header .contenedor-elementos-header .menu-de-navegacion .navbar .offcanvas-body .btn:hover {
+  color: #07262D;
+}
+* main header .contenedor-elementos-header .menu-de-navegacion .navbar .offcanvas-body .btn:hover {
+  background-color: #20A3D1;
+}
+* main header .contenedor-introduccion-expediciones {
+  background-position: center;
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 170px;
+  text-align: center;
+  animation: texto-para-arriba 2s ease;
+}
+* main header .contenedor-introduccion-expediciones .icono-expediciones {
+  height: 180px;
+  margin: 10px 0px;
+  animation: texto-para-arriba 2s ease;
+}
+* main header .contenedor-introduccion-expediciones h1 {
+  color: #07262D;
+  font-family: "Avenir-Black";
+  font-size: 200%;
+  padding: 0px 20px;
+  animation: texto-para-arriba 2s ease;
+}
+* main header .contenedor-introduccion-expediciones h1 p {
+  margin: 5px;
+}
+* main header .contenedor-introduccion-expediciones p {
+  color: #ffffff;
+  margin: 10px 0px;
+  padding: 0px 20px;
+  animation: texto-para-arriba 2s ease;
+}
+* main .seeking {
+  background-color: #07262D;
+  height: 680px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: 10px;
+  padding: 35PX 25px;
+}
+* main .seeking .titulo h2 {
+  color: #20A3D1;
+  font-size: 21px;
+  text-align: center;
+  font-family: "Avenir-Black";
+  animation: texto-para-arriba 3s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 50%;
+}
+* main .seeking .imagen {
+  height: 180px;
+  width: 100%;
+  background-image: url(/imagenes/imagenes-expediciones/imagen-seeking.jpg);
+  border-radius: 15px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  list-style: none;
+  animation: texto-para-arriba 3s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 50%;
+  transition: all 2s;
+}
+* main .seeking .imagen a {
+  text-decoration: none;
+}
+* main .seeking .imagen a p {
+  color: rgba(255, 255, 255, 0);
+  font-family: "Avenir-Black";
+  text-align: center;
+  font-size: 200%;
+  padding-top: 240px;
+  text-decoration: none;
+  transition: all 2s;
+}
+* main .seeking .imagen:hover {
+  height: 180px;
+  width: 100%;
+  background-image: url(/imagenes/imagenes-expediciones/imagen-seeking-HOVER.jpg);
+  border-radius: 15px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  animation: texto-para-arriba 3s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 50%;
+}
+* main .seeking .imagen:hover p {
+  color: #ffffff;
+  font-family: "Avenir-Black";
+  text-align: center;
+  font-size: 200%;
+  padding-top: 240px;
+}
+* main .seeking p {
+  text-align: center;
+  color: #ffffff;
+  padding: 10px 0px;
+  animation: texto-para-arriba 3s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 50%;
+}
+* main .laguna-de-tota {
+  background-color: #07262D;
+  height: 520px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: 10px;
+  padding: 35px 25px;
+}
+* main .laguna-de-tota .titulo h2 {
+  color: #20A3D1;
+  font-size: 21px;
+  text-align: center;
+  font-family: "Avenir-Black";
+  animation: texto-para-arriba 3s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 50%;
+}
+* main .laguna-de-tota .imagen {
+  height: 180px;
+  width: 100%;
+  background-image: url(/imagenes/imagenes-expediciones/imagen-seeking.jpg);
+  border-radius: 15px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  list-style: none;
+  animation: texto-para-arriba 3s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 50%;
+  transition: all 2s;
+}
+* main .laguna-de-tota .imagen a {
+  text-decoration: none;
+}
+* main .laguna-de-tota .imagen a p {
+  color: rgba(255, 255, 255, 0);
+  font-family: "Avenir-Black";
+  text-align: center;
+  font-size: 200%;
+  padding-top: 240px;
+  text-decoration: none;
+  transition: all 2s;
+}
+* main .laguna-de-tota .imagen:hover {
+  height: 180px;
+  width: 100%;
+  background-image: url(/imagenes/imagenes-expediciones/imagen-seeking-HOVER.jpg);
+  border-radius: 15px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  animation: texto-para-arriba 3s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 50%;
+}
+* main .laguna-de-tota .imagen:hover p {
+  color: #ffffff;
+  font-family: "Avenir-Black";
+  text-align: center;
+  font-size: 200%;
+  padding-top: 240px;
+}
+* main .laguna-de-tota p {
+  text-align: center;
+  color: #ffffff;
+  padding: 10px 0px;
+  animation: texto-para-arriba 3s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 50%;
+}
+* main .basuras-providencia {
+  background-color: #07262D;
+  height: 720px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: 10px;
+  padding: 35px 25px;
+}
+* main .basuras-providencia .titulo h2 {
+  color: #20A3D1;
+  font-size: 21px;
+  text-align: center;
+  font-family: "Avenir-Black";
+  animation: texto-para-arriba 3s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 50%;
+}
+* main .basuras-providencia .imagen {
+  height: 180px;
+  width: 100%;
+  background-image: url(/imagenes/imagenes-expediciones/imagen-seeking.jpg);
+  border-radius: 15px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  list-style: none;
+  animation: texto-para-arriba 3s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 50%;
+  transition: all 2s;
+}
+* main .basuras-providencia .imagen a {
+  text-decoration: none;
+}
+* main .basuras-providencia .imagen a p {
+  color: rgba(255, 255, 255, 0);
+  font-family: "Avenir-Black";
+  text-align: center;
+  font-size: 200%;
+  padding-top: 240px;
+  text-decoration: none;
+  transition: all 2s;
+}
+* main .basuras-providencia .imagen:hover {
+  height: 180px;
+  width: 100%;
+  background-image: url(/imagenes/imagenes-expediciones/imagen-seeking-HOVER.jpg);
+  border-radius: 15px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  animation: texto-para-arriba 3s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 50%;
+}
+* main .basuras-providencia .imagen:hover p {
+  color: #ffffff;
+  font-family: "Avenir-Black";
+  text-align: center;
+  font-size: 200%;
+  padding-top: 240px;
+}
+* main .basuras-providencia p {
+  text-align: center;
+  color: #ffffff;
+  padding: 10px 0px;
+  animation: texto-para-arriba 3s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 50%;
+}
+* main .basuras-san-andres-caracol-san-andres {
+  background-color: #07262D;
+  height: 820px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: 10px;
+  padding: 35px 25px;
+}
+* main .basuras-san-andres-caracol-san-andres .titulo h2 {
+  color: #20A3D1;
+  font-size: 21px;
+  text-align: center;
+  font-family: "Avenir-Black";
+  animation: texto-para-arriba 3s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 50%;
+}
+* main .basuras-san-andres-caracol-san-andres .imagen {
+  height: 180px;
+  width: 100%;
+  background-image: url(/imagenes/imagenes-expediciones/imagen-seeking.jpg);
+  border-radius: 15px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  list-style: none;
+  animation: texto-para-arriba 3s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 50%;
+  transition: all 2s;
+}
+* main .basuras-san-andres-caracol-san-andres .imagen a {
+  text-decoration: none;
+}
+* main .basuras-san-andres-caracol-san-andres .imagen a p {
+  color: rgba(255, 255, 255, 0);
+  font-family: "Avenir-Black";
+  text-align: center;
+  font-size: 200%;
+  padding-top: 240px;
+  text-decoration: none;
+  transition: all 2s;
+}
+* main .basuras-san-andres-caracol-san-andres .imagen:hover {
+  height: 180px;
+  width: 100%;
+  background-image: url(/imagenes/imagenes-expediciones/imagen-seeking-HOVER.jpg);
+  border-radius: 15px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  animation: texto-para-arriba 3s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 50%;
+}
+* main .basuras-san-andres-caracol-san-andres .imagen:hover p {
+  color: #ffffff;
+  font-family: "Avenir-Black";
+  text-align: center;
+  font-size: 200%;
+  padding-top: 240px;
+}
+* main .basuras-san-andres-caracol-san-andres p {
+  text-align: center;
+  color: #ffffff;
+  padding: 10px 0px;
+  animation: texto-para-arriba 3s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 50%;
+}
+* main .pez-leon {
+  background-color: #07262D;
+  height: 610px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: 10px;
+  padding: 35px 25px;
+}
+* main .pez-leon .titulo h2 {
+  color: #20A3D1;
+  font-size: 21px;
+  text-align: center;
+  font-family: "Avenir-Black";
+  animation: texto-para-arriba 3s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 50%;
+}
+* main .pez-leon .imagen {
+  height: 180px;
+  width: 100%;
+  background-image: url(/imagenes/imagenes-expediciones/imagen-seeking.jpg);
+  border-radius: 15px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  list-style: none;
+  animation: texto-para-arriba 3s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 50%;
+  transition: all 2s;
+}
+* main .pez-leon .imagen a {
+  text-decoration: none;
+}
+* main .pez-leon .imagen a p {
+  color: rgba(255, 255, 255, 0);
+  font-family: "Avenir-Black";
+  text-align: center;
+  font-size: 200%;
+  padding-top: 240px;
+  text-decoration: none;
+  transition: all 2s;
+}
+* main .pez-leon .imagen:hover {
+  height: 180px;
+  width: 100%;
+  background-image: url(/imagenes/imagenes-expediciones/imagen-seeking-HOVER.jpg);
+  border-radius: 15px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  animation: texto-para-arriba 3s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 50%;
+}
+* main .pez-leon .imagen:hover p {
+  color: #ffffff;
+  font-family: "Avenir-Black";
+  text-align: center;
+  font-size: 200%;
+  padding-top: 240px;
+}
+* main .pez-leon p {
+  text-align: center;
+  color: #ffffff;
+  padding: 10px 0px;
+  animation: texto-para-arriba 3s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 50%;
+}
+* main .pie-de-pagina {
+  background-image: url(/imagenes/imagenes-expediciones/fondo-footer-expediciones.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 600px;
+  width: 100%;
+  color: #ffffff;
+  display: grid;
+  grid-row-gap: 20px;
+  justify-content: center;
+  text-align: center;
+  padding-top: 50px;
+}
+* main .pie-de-pagina .logo-sepia-tercero {
+  margin: 25px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+}
+* main .pie-de-pagina .logo-sepia-tercero img {
+  height: 50px;
+  width: auto;
+}
+* main .pie-de-pagina .datos-sepia {
+  height: 40%;
+  width: 100%;
+}
+* main .pie-de-pagina .datos-sepia ul li {
+  list-style: none;
+  padding: 5px;
+  padding-right: 50px;
+}
+* main .pie-de-pagina .redes-sociales a {
+  height: 33%;
+  width: 100%;
+  color: #20A3D1;
+  padding: 0px 5px 0px 5px;
+  font-size: 30px;
+}
+* main .pie-de-pagina .redes-sociales a:hover {
+  color: #ffffff;
+}
+* main .pie-de-pagina h6 {
+  margin-top: 40px;
+  color: #ffffff;
+}
+
+/* AQUI INICIAN LAS MEDIA QUERIES */
+@media only screen and (min-width: 1366px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*Final main*/
+  }
+  * main {
+    font-size: 18px;
+    /*final header*/
+    /* SEEKING FOR THE QUEEN CONCH */
+    /* FINAL SEEKING FOR THE QUEEN CONCH*/
+    /* laguna-de-tota */
+    /* FINAL laguna-de-tota*/
+    /* basuras-providencia */
+    /* FINAL basuras-providencia*/
+    /* basuras-san-andres-caracol-san-andres */
+    /* FINAL basuras-san-andres-caracol-san-andres*/
+    /* pez-leon */
+    /* FINAL pez-leon*/
+    /* footer */
+    /*final pie-de-pagina*/
+  }
+  * main header {
+    height: 100vh;
+    /*final contenedor-elementos-header*/
+    /* final contenedor-introduccion-servicios*/
+  }
+  * main header .contenedor-elementos-header {
+    padding: 20px;
+    /*menu-de-navegacion*/
+  }
+  * main header .contenedor-elementos-header .menu-de-navegacion .logo-sepia .logo-sepia-inicial {
+    height: 35px;
+  }
+  * main header .contenedor-introduccion-expediciones {
+    margin-bottom: 170px;
+    text-align: right;
+    padding-left: 590px;
+    padding-right: 230px;
+  }
+  * main header .contenedor-introduccion-expediciones .icono-expediciones {
+    height: 240px;
+    margin-bottom: 20px;
+    padding-right: 50px;
+    padding: 0px;
+  }
+  * main header .contenedor-introduccion-expediciones h1 {
+    font-size: 300%;
+  }
+  * main .seeking {
+    height: 530px;
+    padding: 80px 250px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.1fr 1fr;
+    grid-column-gap: 35px;
+    grid-row-gap: 20px;
+    grid-template-areas: "titulo titulo" " p imagen";
+  }
+  * main .seeking .titulo {
+    grid-area: titulo;
+  }
+  * main .seeking .titulo h2 {
+    font-size: 35px;
+    text-align: center;
+  }
+  * main .seeking p {
+    grid-area: p;
+    text-align: left;
+    padding: 0px;
+  }
+  * main .seeking .imagen {
+    grid-area: imagen;
+    height: 295px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+  }
+  * main .seeking .imagen:hover {
+    height: 295px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+  }
+  * main .laguna-de-tota {
+    height: 530px;
+    padding: 80px 250px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.1fr 1fr;
+    grid-column-gap: 35px;
+    grid-row-gap: 20px;
+    grid-template-areas: "titulo titulo" " p imagen";
+  }
+  * main .laguna-de-tota .titulo {
+    grid-area: titulo;
+  }
+  * main .laguna-de-tota .titulo h2 {
+    font-size: 35px;
+    text-align: center;
+  }
+  * main .laguna-de-tota p {
+    grid-area: p;
+    text-align: left;
+    padding: 0px;
+  }
+  * main .laguna-de-tota .imagen {
+    grid-area: imagen;
+    height: 295px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+  }
+  * main .laguna-de-tota .imagen:hover {
+    height: 295px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+  }
+  * main .basuras-providencia {
+    height: 530px;
+    padding: 80px 250px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.1fr 1fr;
+    grid-column-gap: 35px;
+    grid-row-gap: 20px;
+    grid-template-areas: "titulo titulo" " p imagen";
+  }
+  * main .basuras-providencia .titulo {
+    grid-area: titulo;
+  }
+  * main .basuras-providencia .titulo h2 {
+    font-size: 35px;
+    text-align: center;
+  }
+  * main .basuras-providencia p {
+    grid-area: p;
+    text-align: left;
+    padding: 0px;
+  }
+  * main .basuras-providencia .imagen {
+    grid-area: imagen;
+    height: 295px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+  }
+  * main .basuras-providencia .imagen:hover {
+    height: 295px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+  }
+  * main .basuras-san-andres-caracol-san-andres {
+    height: 620px;
+    padding: 80px 250px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.1fr 1fr;
+    grid-column-gap: 35px;
+    grid-row-gap: 20px;
+    grid-template-areas: "titulo titulo" " p imagen";
+  }
+  * main .basuras-san-andres-caracol-san-andres .titulo {
+    grid-area: titulo;
+  }
+  * main .basuras-san-andres-caracol-san-andres .titulo h2 {
+    font-size: 35px;
+    text-align: center;
+  }
+  * main .basuras-san-andres-caracol-san-andres p {
+    grid-area: p;
+    text-align: left;
+    padding: 0px;
+  }
+  * main .basuras-san-andres-caracol-san-andres .imagen {
+    grid-area: imagen;
+    height: 295px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+  }
+  * main .basuras-san-andres-caracol-san-andres .imagen:hover {
+    height: 295px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+  }
+  * main .pez-leon {
+    height: 590px;
+    padding: 80px 250px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.1fr 1fr;
+    grid-column-gap: 35px;
+    grid-row-gap: 20px;
+    grid-template-areas: "titulo titulo" " p imagen";
+  }
+  * main .pez-leon .titulo {
+    grid-area: titulo;
+  }
+  * main .pez-leon .titulo h2 {
+    font-size: 35px;
+    text-align: center;
+  }
+  * main .pez-leon p {
+    grid-area: p;
+    text-align: left;
+    padding: 0px;
+  }
+  * main .pez-leon .imagen {
+    grid-area: imagen;
+    height: 295px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+  }
+  * main .pez-leon .imagen:hover {
+    height: 295px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+  }
+  * main .pie-de-pagina {
+    height: 80vh;
+    display: grid;
+    grid-row-gap: 10px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+  }
+  * main .pie-de-pagina .logo-sepia-tercero {
+    margin: 25px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+  }
+  * main .pie-de-pagina .logo-sepia-tercero img {
+    height: 80px;
+  }
+  * main .pie-de-pagina .datos-sepia {
+    height: 40%;
+  }
+  * main .pie-de-pagina .datos-sepia ul {
+    display: flex;
+  }
+  * main .pie-de-pagina .datos-sepia ul li {
+    padding: 30px 15px 0px 15px;
+  }
+  * main .pie-de-pagina .redes-sociales a {
+    padding: 0px 10px;
+    font-size: 40px;
+  }
+  * main .pie-de-pagina h6 {
+    margin-top: 180px;
+    font-size: 18PX;
+  }
+} /* FINAL Formato 1366px -768px */
+/* formato 1440px 900px */
+@media only screen and (min-width: 1440px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*Final main*/
+  }
+  * main {
+    font-size: 18px;
+    /*final header*/
+    /* SEEKING FOR THE QUEEN CONCH */
+    /* FINAL SEEKING FOR THE QUEEN CONCH*/
+    /* footer */
+    /*final pie-de-pagina*/
+  }
+  * main header {
+    /* final contenedor-introduccion-servicios*/
+  }
+  * main header .contenedor-introduccion-expediciones {
+    padding-left: 610px;
+    padding-right: 230px;
+  }
+  * main header .contenedor-introduccion-expediciones .icono-expediciones {
+    height: 240px;
+    margin-bottom: 20px;
+    padding-right: 50px;
+  }
+  * main .seeking {
+    height: 530px;
+    padding: 80px 250px;
+  }
+  * main .pie-de-pagina {
+    height: 80vh;
+    display: grid;
+    grid-row-gap: 10px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding-top: 120px;
+  }
+  * main .pie-de-pagina .logo-sepia-tercero {
+    margin: 25px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+  }
+  * main .pie-de-pagina .logo-sepia-tercero img {
+    height: 80px;
+  }
+  * main .pie-de-pagina .datos-sepia {
+    height: 40%;
+  }
+  * main .pie-de-pagina .datos-sepia ul {
+    display: flex;
+  }
+  * main .pie-de-pagina .datos-sepia ul li {
+    padding: 30px 15px 0px 15px;
+  }
+  * main .pie-de-pagina .redes-sociales a {
+    padding: 0px 10px;
+    font-size: 40px;
+  }
+  * main .pie-de-pagina h6 {
+    margin-top: 200px;
+    font-size: 18PX;
+  }
+} /* FINAL Formato 1440px - 900px */
+/* formato 1674px - 807px */
+@media only screen and (min-width: 1674px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*Final main*/
+  }
+  * main {
+    font-size: 16px;
+    /*final header*/
+    /* SEEKING FOR THE QUEEN CONCH */
+    /* FINAL SEEKING FOR THE QUEEN CONCH*/
+    /* laguna-de-tota */
+    /* FINAL laguna-de-tota*/
+    /* basuras-providencia */
+    /* FINAL basuras-providencia*/
+    /* basuras-san-andres-caracol-san-andres */
+    /* FINAL basuras-san-andres-caracol-san-andres*/
+    /* pez-leon */
+    /* FINAL pez-leon*/
+    /* footer */
+    /*final pie-de-pagina*/
+  }
+  * main header {
+    height: 100vh;
+    /*final contenedor-elementos-header*/
+    /* final contenedor-introduccion-servicios*/
+  }
+  * main header .contenedor-elementos-header {
+    padding: 20px;
+    /*menu-de-navegacion*/
+  }
+  * main header .contenedor-elementos-header .menu-de-navegacion .logo-sepia .logo-sepia-inicial {
+    height: 35px;
+  }
+  * main header .contenedor-introduccion-expediciones {
+    padding-left: 860px;
+    padding-right: 300px;
+  }
+  * main .seeking {
+    height: 530px;
+    padding: 80px 350px;
+  }
+  * main .laguna-de-tota {
+    height: 530px;
+    padding: 80px 350px;
+  }
+  * main .basuras-providencia {
+    height: 530px;
+    padding: 80px 350px;
+  }
+  * main .basuras-san-andres-caracol-san-andres {
+    height: 530px;
+    padding: 80px 350px;
+  }
+  * main .pez-leon {
+    height: 530px;
+    padding: 80px 350px;
+  }
+  * main .pie-de-pagina h6 {
+    margin-top: 160px;
+  }
+} /* FINAL Formato 1674px -807px */
+/* formato 1920px - 1080px */
+@media only screen and (min-width: 1920px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*Final main*/
+  }
+  * main {
+    font-size: 22px;
+    /*final header*/
+    /* SEEKING FOR THE QUEEN CONCH */
+    /* FINAL SEEKING FOR THE QUEEN CONCH*/
+    /* laguna-de-tota */
+    /* FINAL laguna-de-tota */
+    /* basuras-providencia */
+    /* FINAL basuras-providencia */
+    /* basuras-san-andres-caracol-san-andres */
+    /* FINAL basuras-san-andres-caracol-san-andres */
+    /* pez-leon */
+    /* FINAL pez-leon */
+    /* footer */
+    /*final pie-de-pagina*/
+  }
+  * main header {
+    /* final contenedor-introduccion-servicios*/
+  }
+  * main header .contenedor-introduccion-expediciones {
+    padding-left: 950px;
+    padding-right: 300px;
+  }
+  * main .seeking {
+    height: 600px;
+    padding: 80px 350px;
+  }
+  * main .seeking .titulo h2 {
+    font-size: 45px;
+  }
+  * main .seeking .imagen {
+    grid-area: imagen;
+    height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+  }
+  * main .seeking .imagen:hover {
+    height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+  }
+  * main .laguna-de-tota {
+    height: 600px;
+    padding: 80px 350px;
+  }
+  * main .laguna-de-tota .titulo h2 {
+    font-size: 45px;
+  }
+  * main .laguna-de-tota .imagen {
+    grid-area: imagen;
+    height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+  }
+  * main .laguna-de-tota .imagen:hover {
+    height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+  }
+  * main .basuras-providencia {
+    height: 600px;
+    padding: 80px 350px;
+  }
+  * main .basuras-providencia .titulo h2 {
+    font-size: 45px;
+  }
+  * main .basuras-providencia .imagen {
+    grid-area: imagen;
+    height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+  }
+  * main .basuras-providencia .imagen:hover {
+    height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+  }
+  * main .basuras-san-andres-caracol-san-andres {
+    height: 600px;
+    padding: 80px 350px;
+  }
+  * main .basuras-san-andres-caracol-san-andres .titulo h2 {
+    font-size: 45px;
+  }
+  * main .basuras-san-andres-caracol-san-andres .imagen {
+    grid-area: imagen;
+    height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+  }
+  * main .basuras-san-andres-caracol-san-andres .imagen:hover {
+    height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+  }
+  * main .pez-leon {
+    height: 700px;
+    padding: 80px 350px;
+  }
+  * main .pez-leon .titulo h2 {
+    font-size: 45px;
+  }
+  * main .pez-leon .imagen {
+    grid-area: imagen;
+    height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+  }
+  * main .pez-leon .imagen:hover {
+    height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+  }
+  * main .pie-de-pagina h6 {
+    margin-top: 280px;
+    font-size: 22px;
+  }
+} /* FINAL Formato 1920px -1080px */
+/* AQUI ESTAN LAS ANIMACIONES */
+@keyframes texto-para-arriba {
+  0% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/*# sourceMappingURL=expediciones.css.map */

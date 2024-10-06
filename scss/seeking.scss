@@ -1,0 +1,2866 @@
+@import url("https://fonts.cdnfonts.com/css/avenir");
+/* font-family: 'Avenir', sans-serif; */
+@import url(https://db.onlinewebfonts.com/c/b78d933f8aa6b9284c1d3efd3db0a9b9?family=Avenir-Black);
+/* font-family: "Avenir-Black"; */
+@import url(https://db.onlinewebfonts.com/c/158fa6012dff0f88241ad898c46c0118?family=AvenirNextW1G-Regular);
+/* font-family: "AvenirNextW1G-Regular"; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    /* formato 360px - 640px */   
+    main{
+        font-family: 'Avenir', sans-serif;                                       
+        font-size: 16px;
+     
+            header{
+            background-image: url(/imagenes/imgenes-seeking/header-seeking.jpg);
+            background-color: rgb(7, 38, 45, );
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+     
+                .contenedor-elementos-header{
+                height: auto;
+                width: 100%;
+                padding: 20px;
+     
+                    .menu-de-navegacion{
+                    display: flex;
+                    justify-content: space-between;
+     
+                        .logo-sepia{
+                            .logo-sepia-inicial{
+                            height: 35px;
+                            }
+                        }
+                        .navbar{
+                        padding: 15px 10px 0px 0px;
+                        box-sizing: border-box;
+                        
+                            .offcanvas-header{
+                            background-color: #07262D;
+                            }
+                            .offcanvas-body{
+                            background-color: #07262D;
+     
+                                .activeazul{
+                                color: #20A3D1;
+                                &:hover{color: #ffffff;};
+                                }
+                                .btn{
+                                color: #ffffff;
+                                &:hover{color: #07262D;};
+                                background-color: #20A3D1;
+                                &:hover{background-color: #20A3D1;};
+                                }   
+                            }
+                        }/*final navbar*/
+                    }/*menu-de-navegacion*/
+                }/*final contenedor-elementos-header*/
+                
+                .contenedor-introduccion-expedicion-seeking{
+                background-position: center;
+                width: 100%;
+                display: grid;
+                justify-content: center;
+                align-content: center;
+                margin-bottom: 170px;
+                text-align: center;
+     
+                 .icono-seeking{
+                 height: 110px;
+                 margin-top: 0px;
+                 margin: 10px 0px;
+                animation: texto-para-arriba 1s ease;
+                }
+                h1{
+                color: #20A3D1;
+                font-family: "Avenir-Black";
+                font-size: 200%;
+                padding: 0px 20px;
+                animation: texto-para-arriba 1s ease;
+                    p{margin: 5px;}
+                
+                }
+     
+                p{
+                color: #ffffff;
+                margin: 10px 0px;
+                padding: 0px 20px;
+                animation: texto-para-arriba 1s ease;
+                 } 
+     
+                    
+                }/* final contenedor-introduccion-expedicion-seeking*/
+            }/*final header*/
+
+/* RECORRIDO SEEKING FOR THE QUEEN CONCH */
+        .recorrido-seeking{
+        background-color: #07262D;
+        height: 1360px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-column-gap: 10px;
+        padding: 40px 25px;
+          
+            .video-recorrido-seeking{
+                video{    
+            width: 100%;
+            height: 175px;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            }/* final video */
+            }    
+            .textos1{
+            text-align: center;
+            color: #ffffff;
+            padding: 0px 0px;
+            animation: texto-para-arriba 1s linear;
+            animation-timeline: view(0px);
+            animation-range: entry 0% cover 20%;
+            }
+
+            .textos2{
+            text-align: center;
+            color: #ffffff;
+            padding: 0px;
+            animation: texto-para-arriba 2s linear;
+            animation-timeline: view(0px);
+            animation-range: entry 0% cover 50%;
+
+                h2{
+                color: #20A3D1;
+                font-family: "Avenir-Black";
+                font-size: 25px;
+                padding-top: 20px;
+                padding-bottom: 0;
+                text-align: center;
+                }
+                ul{
+                    li{
+                    list-style: none;
+                    padding: 5px;
+                    padding-right: 50px;
+                    animation: texto-para-arriba 2s linear;
+                    animation-timeline: view(0px);
+                    animation-range: entry 0% cover 30%;
+                    }
+                } 
+            }
+
+            .imagen-mapa{
+            height: 320px;
+            width: auto;
+            background-image: url(/imagenes/imgenes-seeking/mapa-seeking.jpg);
+            border-radius: 15px;
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            animation: texto-para-arriba 2s linear;
+            animation-timeline: view(0px);
+            animation-range: entry 0% cover 50%;
+            }
+
+          }/* FINAL RECORRIDO SEEKING FOR THE QUEEN CONCH */
+
+/* conector zona 1 */
+        .conector-zona1{
+        background-color: #07262D;
+        background-image: url(/imagenes/imgenes-seeking/conector-zona1.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 78px;
+        width: 100%;
+        }
+
+/* ZONA 1 CAYO RONCADOR */
+        .zona1-cayo-roncador{
+        background-color: #ffffff;
+        height: 1360px;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-column-gap: 10px;
+        grid-row-gap: 5px;
+        padding: 20px 25px 35px 25px;
+            
+            .icono-expediciones{
+                img{
+                height: 150px;
+                margin: 10px 0px;
+                animation: texto-para-arriba 2s linear;
+                animation-timeline: view(0px);
+                animation-range: entry 0% cover 40%;
+                }
+            }
+
+            .parrafo1{    
+            h2{
+            color: #20A3D1;
+            padding-top: 10px;
+            font-size: 25px;
+            text-align: center;
+            font-family: "Avenir-Black";
+            animation: texto-para-arriba 2s linear;
+            animation-timeline: view(0px);
+            animation-range: entry 0% cover 40%;
+            }
+            p{
+            text-align: center;
+            color: #07262D;
+            padding: 0px;
+            animation: texto-para-arriba 2s linear;
+            animation-timeline: view(0px);
+            animation-range: entry 0% cover 40%;
+            }
+            }
+  
+            .video-roncador{
+            margin-bottom: 10px;
+                video{
+                width: 100%;
+                height: 175px;
+                border-radius: 15px;
+                }
+            }/* final video */
+            .parrafo2{
+            text-align: center;
+            color: #07262D;
+            padding: 0px;
+            animation: texto-para-arriba 1s linear;
+            animation-timeline: view(0px);
+            animation-range: entry 0% cover 10%;
+            }
+
+            #carouselExampleIndicators{
+            width: auto;
+            height: 170px;
+            border-radius: 15px;
+            margin-bottom: 10px;
+            overflow: hidden;   
+            }
+
+            .parrafo3{
+            text-align: center;
+            color: #07262D;
+            padding: 0px;
+            animation: texto-para-arriba 2s linear;
+            animation-timeline: view(0px);
+            animation-range: entry 0% cover 40%;
+            }
+
+        }/* ZONA 1 FINAL CAYO RONCADOR */
+        
+/* ZONA 1 CAYO QUITASUEÑO */
+.zona1-cayo-quitasueño{
+        background-color: #07262D;
+        height: 1100px;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-column-gap: 10px;
+        grid-row-gap: 5px;
+        padding: 20px 25px 35px 25px;
+        
+            .icono-expediciones{
+                img{
+                height: 150px;
+                margin: 10px 0px;
+                animation: texto-para-arriba 2s linear;
+                animation-timeline: view(0px);
+                animation-range: entry 0% cover 40%;
+                }
+            }
+
+            .parrafo1{    
+                h2{
+                color: #20A3D1;
+                padding-top: 10px;
+                font-size: 25px;
+                text-align: center;
+                font-family: "Avenir-Black";
+                animation: texto-para-arriba 2s linear;
+                animation-timeline: view(0px);
+                animation-range: entry 0% cover 40%;
+                }
+                p{
+                text-align: center;
+                color: #ffffff;
+                padding: 0px;
+                animation: texto-para-arriba 2s linear;
+                animation-timeline: view(0px);
+                animation-range: entry 0% cover 40%;
+                }
+                }
+
+                .video-roncador{
+                margin-bottom: 10px;
+                    video{
+                    width: 100%;
+                    height: 175px;
+                    border-radius: 15px;
+                    }
+                }/* final video */
+                .parrafo2{
+                text-align: center;
+                color: #ffffff;
+                padding: 0px;
+                animation: texto-para-arriba 1s linear;
+                animation-timeline: view(0px);
+                animation-range: entry 0% cover 10%;
+                }
+
+                #carouselExampleIndicatorsqui{
+                width: auto;
+                height: 170px;
+                border-radius: 15px;
+                margin-bottom: 10px;
+                overflow: hidden;   
+                }
+
+                .parrafo3{
+                text-align: center;
+                color: #ffffff;
+                padding: 0px;
+                padding-bottom: 50px;
+                animation: texto-para-arriba 2s linear;
+                animation-timeline: view(0px);
+                animation-range: entry 0% cover 40%;
+                }
+
+    }/* ZONA 1 FINAL CAYO QUITASUEÑO */ 
+    
+/* ZONA 1 CAYO SERRANA */
+.zona1-cayo-serrana{
+        background-color: #ffffff;
+        height: 1320px;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-column-gap: 10px;
+        grid-row-gap: 5px;
+        padding: 20px 25px 35px 25px;
+        
+            .icono-expediciones{
+                img{
+                height: 150px;
+                margin: 10px 0px;
+                animation: texto-para-arriba 2s linear;
+                animation-timeline: view(0px);
+                animation-range: entry 0% cover 40%;
+                }
+            }
+
+            .parrafo1{    
+                h2{
+                color: #20A3D1;
+                padding-top: 10px;
+                font-size: 25px;
+                text-align: center;
+                font-family: "Avenir-Black";
+                animation: texto-para-arriba 2s linear;
+                animation-timeline: view(0px);
+                animation-range: entry 0% cover 40%;
+                }
+                p{
+                text-align: center;
+                color: #07262D;
+                padding: 0px;
+                animation: texto-para-arriba 2s linear;
+                animation-timeline: view(0px);
+                animation-range: entry 0% cover 40%;
+                }
+            }
+
+            .video-roncador{
+            margin-bottom: 10px;
+                video{
+                width: 100%;
+                height: 175px;
+                border-radius: 15px;
+                }
+            }/* final video */
+            .parrafo2{
+            text-align: center;
+            color: #07262D;
+            padding: 0px;
+            animation: texto-para-arriba 1s linear;
+            animation-timeline: view(0px);
+            animation-range: entry 0% cover 10%;
+            }
+
+            #carouselExampleIndicatorsserrana{
+            width: auto;
+            height: 170px;
+            border-radius: 15px;
+            margin-bottom: 10px;
+            overflow: hidden;   
+            }
+
+            .parrafo3{
+            text-align: center;
+            color: #07262D;
+            padding: 0px;
+            animation: texto-para-arriba 2s linear;
+            animation-timeline: view(0px);
+            animation-range: entry 0% cover 40%;
+            }
+
+    }/* ZONA 1 FINAL CAYO SERRANA */
+
+/* IMAGEN AMENIZADORA 1 */
+.imagen-seeking1{
+    background-color: #07262D;
+    background-image: url(/imagenes/imgenes-seeking/seeking-imagen1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 560px;
+
+        .logo-sepia{
+            display: flex;
+        justify-content: center;
+        padding: 50px 20px 0px 20px;
+            .logo-sepia-inicial{
+            height: 55px; 
+            justify-content: center;
+            }
+        }
+        p{
+        text-align: center;
+        font-size: 18px;
+        color: #ffffff;
+        padding:30px 20px 50px 20px;
+        animation: texto-para-arriba 4s linear;
+        animation-timeline: view(0px);
+        animation-range: entry 0% cover 60%;   
+        }
+}/* FINAL IMAGEN AMENIZADORA 1 */
+
+/* conector zona 2 */
+.conector-zona2{
+    background-color: #07262D;
+    background-image: url(/imagenes/imgenes-seeking/conector-zona2-version2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 78px;
+    width: 100%;
+    }
+
+/* ZONA 1 CAYO SERRANILLA */
+.zona2-cayo-serranilla{
+    background-color: #07262D;
+    height: 1140px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 5px;
+    padding: 20px 25px 35px 25px;
+        
+        .icono-expediciones{
+            img{
+            height: 150px;
+            margin: 10px 0px;
+            animation: texto-para-arriba 2s linear;
+            animation-timeline: view(0px);
+            animation-range: entry 0% cover 40%;
+            }
+        }
+
+        .parrafo1{    
+        h2{
+        color: #20A3D1;
+        padding-top: 10px;
+        font-size: 25px;
+        text-align: center;
+        font-family: "Avenir-Black";
+        animation: texto-para-arriba 2s linear;
+        animation-timeline: view(0px);
+        animation-range: entry 0% cover 40%;
+        }
+        p{
+        text-align: center;
+        color: #ffffff;
+        padding: 0px;
+        animation: texto-para-arriba 2s linear;
+        animation-timeline: view(0px);
+        animation-range: entry 0% cover 40%;
+        }
+        }
+
+        .video-roncador{
+        margin-bottom: 10px;
+            video{
+            width: 100%;
+            height: 175px;
+            border-radius: 15px;
+            }
+        }/* final video */
+        .parrafo2{
+        text-align: center;
+        color: #ffffff;
+        padding: 0px;
+        animation: texto-para-arriba 1s linear;
+        animation-timeline: view(0px);
+        animation-range: entry 0% cover 10%;
+        }
+
+        #carouselExampleIndicatorsserranilla{
+        width: auto;
+        height: 170px;
+        border-radius: 15px;
+        margin-bottom: 10px;
+        overflow: hidden;   
+        }
+
+        .parrafo3{
+        text-align: center;
+        color: #ffffff;
+        padding: 0px;
+        animation: texto-para-arriba 2s linear;
+        animation-timeline: view(0px);
+        animation-range: entry 0% cover 40%;
+        }
+
+    }/* ZONA 2 FINAL CAYO SERRANILLA */
+
+/* ZONA 2 BAJO ALICIA */
+.zona2-bajo-alicia{
+    background-color: #ffffff;
+    height: 1280px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 5px;
+    padding: 20px 25px 35px 25px;
+        
+        .icono-expediciones{
+            img{
+            height: 150px;
+            margin: 10px 0px;
+            animation: texto-para-arriba 2s linear;
+            animation-timeline: view(0px);
+            animation-range: entry 0% cover 40%;
+            }
+        }
+
+        .parrafo1{    
+        h2{
+        color: #20A3D1;
+        padding-top: 10px;
+        font-size: 25px;
+        text-align: center;
+        font-family: "Avenir-Black";
+        animation: texto-para-arriba 2s linear;
+        animation-timeline: view(0px);
+        animation-range: entry 0% cover 40%;
+        }
+        p{
+        text-align: center;
+        color: #07262D;
+        padding: 0px;
+        animation: texto-para-arriba 2s linear;
+        animation-timeline: view(0px);
+        animation-range: entry 0% cover 40%;
+        }
+        }
+
+        .video-roncador{
+        margin-bottom: 10px;
+            video{
+            width: 100%;
+            height: 175px;
+            border-radius: 15px;
+            }
+        }/* final video */
+        .parrafo2{
+        text-align: center;
+        color: #07262D;
+        padding: 0px;
+        animation: texto-para-arriba 1s linear;
+        animation-timeline: view(0px);
+        animation-range: entry 0% cover 10%;
+        }
+
+        #carouselExampleIndicatorsalicia{
+        width: auto;
+        height: 170px;
+        border-radius: 15px;
+        margin-bottom: 10px;
+        overflow: hidden;   
+        }
+
+        .parrafo3{
+        text-align: center;
+        color: #07262D;
+        padding: 0px;
+        animation: texto-para-arriba 2s linear;
+        animation-timeline: view(0px);
+        animation-range: entry 0% cover 40%;
+        }
+
+    }/* ZONA 2 FINAL BAJO ALICIA */ 
+    
+/* ZONA 1 BAJO NUEVO */
+.zona2-bajo-nuevo{
+    background-color: #07262D;
+    height: 1250px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 5px;
+    padding: 20px 25px 35px 25px;
+        
+        .icono-expediciones{
+            img{
+            height: 150px;
+            margin: 10px 0px;
+            animation: texto-para-arriba 2s linear;
+            animation-timeline: view(0px);
+            animation-range: entry 0% cover 40%;
+            }
+        }
+
+        .parrafo1{    
+        h2{
+        color: #20A3D1;
+        padding-top: 10px;
+        font-size: 25px;
+        text-align: center;
+        font-family: "Avenir-Black";
+        animation: texto-para-arriba 2s linear;
+        animation-timeline: view(0px);
+        animation-range: entry 0% cover 40%;
+        }
+        p{
+        text-align: center;
+        color: #ffffff;
+        padding: 0px;
+        animation: texto-para-arriba 2s linear;
+        animation-timeline: view(0px);
+        animation-range: entry 0% cover 40%;
+        }
+        }
+
+        .video-roncador{
+        margin-bottom: 10px;
+            video{
+            width: 100%;
+            height: 175px;
+            border-radius: 15px;
+            }
+        }/* final video */
+        .parrafo2{
+        text-align: center;
+        color: #ffffff;
+        padding: 0px;
+        animation: texto-para-arriba 1s linear;
+        animation-timeline: view(0px);
+        animation-range: entry 0% cover 10%;
+        }
+
+        #carouselExampleIndicatorsnuevo{
+        width: auto;
+        height: 170px;
+        border-radius: 15px;
+        margin-bottom: 10px;
+        overflow: hidden;   
+        }
+
+        .parrafo3{
+        text-align: center;
+        color: #ffffff;
+        padding: 0px;
+        padding-bottom: 40px;
+        animation: texto-para-arriba 2s linear;
+        animation-timeline: view(0px);
+        animation-range: entry 0% cover 40%;
+        }
+
+    }/* ZONA 2 FINAL BAJO NUEVO */    
+
+/* IMAGEN AMENIZADORA 2 */
+.imagen-seeking2{
+    background-color: #07262D;
+    background-image: url(/imagenes/imgenes-seeking/seeking-imagen2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 560px;
+
+        .logo-sepia{
+            display: flex;
+        justify-content: center;
+        padding: 50px 20px 0px 20px;
+            .logo-sepia-inicial{
+            height: 55px; 
+            justify-content: center;
+            }
+        }
+}/* FINAL IMAGEN AMENIZADORA 2 */
+
+/* conector zona 3 */
+.conector-zona3{
+    background-color: #07262D;
+    background-image: url(/imagenes/imgenes-seeking/conector-zona3-version2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 78px;
+    width: 100%;
+    }
+
+/* ZONA 3 CAYO BOLIVAAR */
+.zona3-cayo-bolivar{
+    background-color: #ffffff;
+    height: 1260px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 5px;
+    padding: 20px 25px 35px 25px;
+        
+        .icono-expediciones{
+            img{
+            height: 150px;
+            margin: 10px 0px;
+            animation: texto-para-arriba 2s linear;
+            animation-timeline: view(0px);
+            animation-range: entry 0% cover 40%;
+            }
+        }
+
+        .parrafo1{    
+        h2{
+        color: #20A3D1;
+        padding-top: 10px;
+        font-size: 25px;
+        text-align: center;
+        font-family: "Avenir-Black";
+        animation: texto-para-arriba 2s linear;
+        animation-timeline: view(0px);
+        animation-range: entry 0% cover 40%;
+        }
+        p{
+        text-align: center;
+        color: #07262D;
+        padding: 0px;
+        animation: texto-para-arriba 2s linear;
+        animation-timeline: view(0px);
+        animation-range: entry 0% cover 40%;
+        }
+        }
+
+        .video-roncador{
+        margin-bottom: 10px;
+            video{
+            width: 100%;
+            height: 175px;
+            border-radius: 15px;
+            }
+        }/* final video */
+        .parrafo2{
+        text-align: center;
+        color: #07262D;
+        padding: 0px;
+        animation: texto-para-arriba 1s linear;
+        animation-timeline: view(0px);
+        animation-range: entry 0% cover 10%;
+        }
+
+        #carouselExampleIndicatorsbolivar{
+        width: auto;
+        height: 170px;
+        border-radius: 15px;
+        margin-bottom: 10px;
+        overflow: hidden;   
+        }
+
+        .parrafo3{
+        text-align: center;
+        color: #07262D;
+        padding: 0px;
+        padding-bottom: 40px;
+        animation: texto-para-arriba 2s linear;
+        animation-timeline: view(0px);
+        animation-range: entry 0% cover 40%;
+        }
+
+    }/* ZONA 3 FINAL CAYO BOLIVAR */ 
+    
+/* ZONA 3 CAYO ALBUQUERQUE */
+.zona3-cayo-albuquerque{
+    background-color: #07262D;
+    height: 1240px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 5px;
+    padding: 20px 25px 35px 25px;
+        
+        .icono-expediciones{
+            img{
+            height: 150px;
+            margin: 10px 0px;
+            animation: texto-para-arriba 2s linear;
+            animation-timeline: view(0px);
+            animation-range: entry 0% cover 40%;
+            }
+        }
+
+        .parrafo1{    
+        h2{
+        color: #20A3D1;
+        padding-top: 10px;
+        font-size: 25px;
+        text-align: center;
+        font-family: "Avenir-Black";
+        animation: texto-para-arriba 2s linear;
+        animation-timeline: view(0px);
+        animation-range: entry 0% cover 40%;
+        }
+        p{
+        text-align: center;
+        color: #ffffff;
+        padding: 0px;
+        animation: texto-para-arriba 2s linear;
+        animation-timeline: view(0px);
+        animation-range: entry 0% cover 40%;
+        }
+        }
+
+        .video-roncador{
+        margin-bottom: 10px;
+            video{
+            width: 100%;
+            height: 175px;
+            border-radius: 15px;
+            }
+        }/* final video */
+        .parrafo2{
+        text-align: center;
+        color: #ffffff;
+        padding: 0px;
+        animation: texto-para-arriba 1s linear;
+        animation-timeline: view(0px);
+        animation-range: entry 0% cover 10%;
+        }
+
+        #carouselExampleIndicatorsalbuquerque{
+        width: auto;
+        height: 170px;
+        border-radius: 15px;
+        margin-bottom: 10px;
+        overflow: hidden;   
+        }
+
+        .parrafo3{
+        text-align: center;
+        color: #ffffff;
+        padding: 0px;
+        padding-bottom: 40px;
+        animation: texto-para-arriba 2s linear;
+        animation-timeline: view(0px);
+        animation-range: entry 0% cover 40%;
+        }
+
+    }/* ZONA 3 FINAL CAYO ALBUQUERQUE */ 
+
+/* IMAGEN AMENIZADORA 3 */
+.imagen-seeking3{
+    background-color: #07262D;
+    background-image: url(/imagenes/imgenes-seeking/seeking-imagen3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 560px;
+
+        .logo-sepia{
+            display: flex;
+        justify-content: center;
+        padding: 50px 20px 0px 20px;
+            .logo-sepia-inicial{
+            height: 55px; 
+            justify-content: center;
+            }
+        }
+}/* FINAL IMAGEN AMENIZADORA 3 */
+    
+/* conector zona 4 */
+.conector-zona4{
+    background-color: #07262D;
+    background-image: url(/imagenes/imgenes-seeking/conector-zona4-version2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 78px;
+    width: 100%;
+    }  
+    
+/* ZONA 4 ISLA PROVIDENCIA E ISLA SANTA CATALINA */
+.zona4-isla-providencia-isla-santa-catalina{
+    background-color: #ffffff;
+    height: 1280px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 5px;
+    padding: 20px 25px 35px 25px;
+        
+        .icono-expediciones{
+            img{
+            height: 150px;
+            margin: 10px 0px;
+            animation: texto-para-arriba 2s linear;
+            animation-timeline: view(0px);
+            animation-range: entry 0% cover 40%;
+            }
+        }
+
+        .parrafo1{    
+        h2{
+        color: #20A3D1;
+        padding-top: 10px;
+        font-size: 25px;
+        text-align: center;
+        font-family: "Avenir-Black";
+        animation: texto-para-arriba 2s linear;
+        animation-timeline: view(0px);
+        animation-range: entry 0% cover 40%;
+        }
+        p{
+        text-align: center;
+        color: #07262D;
+        padding: 0px;
+        animation: texto-para-arriba 2s linear;
+        animation-timeline: view(0px);
+        animation-range: entry 0% cover 40%;
+        }
+        }
+
+        .video-roncador{
+        margin-bottom: 10px;
+            video{
+            width: 100%;
+            height: 175px;
+            border-radius: 15px;
+            }
+        }/* final video */
+        .parrafo2{
+        text-align: center;
+        color: #07262D;
+        padding: 0px;
+        animation: texto-para-arriba 1s linear;
+        animation-timeline: view(0px);
+        animation-range: entry 0% cover 10%;
+        }
+
+        #carouselExampleIndicatorsprovidencia-isla-santa-catalina{
+        width: auto;
+        height: 170px;
+        border-radius: 15px;
+        margin-bottom: 10px;
+        overflow: hidden;   
+        }
+
+        .parrafo3{
+        text-align: center;
+        color: #07262D;
+        padding: 0px;
+        padding-bottom: 40px;
+        animation: texto-para-arriba 2s linear;
+        animation-timeline: view(0px);
+        animation-range: entry 0% cover 40%;
+        }
+
+    }/* ZONA 4 FINAL ISLA PROVIDENCIA E ISLA SANTA CATALINA */
+
+/* IMAGEN AMENIZADORA 4 */
+.imagen-seeking4{
+    background-color: #07262D;
+    background-image: url(/imagenes/imgenes-seeking/seeking-imagen4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 560px;
+
+        .logo-sepia{
+            display: flex;
+        justify-content: center;
+        padding: 50px 20px 0px 20px;
+            .logo-sepia-inicial{
+            height: 55px; 
+            justify-content: center;
+            }
+        }
+}/* FINAL IMAGEN AMENIZADORA 4 */
+
+/* conector zona 5 */
+.conector-zona5{
+    background-color: #07262D;
+    background-image: url(/imagenes/imgenes-seeking/conector-zona5-version2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 78px;
+    width: 100%;
+    } 
+
+/* ZONA 5 ISLA SAN ANDRES */
+.zona5-isla-san-andres{
+    background-color: #07262D;
+    height: 1200px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 5px;
+    padding: 20px 25px 35px 25px;
+        
+        .icono-expediciones{
+            img{
+            height: 150px;
+            margin: 10px 0px;
+            animation: texto-para-arriba 2s linear;
+            animation-timeline: view(0px);
+            animation-range: entry 0% cover 40%;
+            }
+        }
+
+        .parrafo1{    
+        h2{
+        color: #20A3D1;
+        padding-top: 10px;
+        font-size: 25px;
+        text-align: center;
+        font-family: "Avenir-Black";
+        animation: texto-para-arriba 2s linear;
+        animation-timeline: view(0px);
+        animation-range: entry 0% cover 40%;
+        }
+        p{
+        text-align: center;
+        color: #ffffff;
+        padding: 0px;
+        animation: texto-para-arriba 2s linear;
+        animation-timeline: view(0px);
+        animation-range: entry 0% cover 40%;
+        }
+        }
+
+        .video-roncador{
+        margin-bottom: 10px;
+            video{
+            width: 100%;
+            height: 175px;
+            border-radius: 15px;
+            }
+        }/* final video */
+        .parrafo2{
+        text-align: center;
+        color: #ffffff;
+        padding: 0px;
+        animation: texto-para-arriba 1s linear;
+        animation-timeline: view(0px);
+        animation-range: entry 0% cover 10%;
+        }
+
+        #carouselExampleIndicators{
+        width: auto;
+        height: 170px;
+        border-radius: 15px;
+        margin-bottom: 10px;
+        overflow: hidden;   
+        }
+
+        .parrafo3{
+        text-align: center;
+        color: #ffffff;
+        padding: 0px;
+        padding-top: 5px;
+        padding-bottom: 40px;
+        animation: texto-para-arriba 2s linear;
+        animation-timeline: view(0px);
+        animation-range: entry 0% cover 40%;
+        }
+
+    }/* ZONA 5 FINAL ISLA SAN ANDRES */
+
+/* footer */
+.pie-de-pagina{
+    background-image: url(/imagenes/imagenes-expediciones/fondo-footer-expediciones.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 100%;
+    color: #ffffff;
+    display: grid;
+    grid-row-gap:20px;
+    justify-content: center;
+    text-align: center;
+    padding-top: 50px;
+
+        .logo-sepia-tercero{
+        margin: 25px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+
+            img{
+            height: 50px;
+            width: auto;   
+            }
+        }
+
+        .datos-sepia{
+        height: 40%;
+        width: 100%;
+            
+            ul{
+                li{
+                list-style: none;
+                padding: 5px;
+                padding-right: 50px;
+                }
+            } 
+        }
+
+        .redes-sociales{
+            a{
+            height: 33%;
+            width: 100%;
+            color: #20A3D1;
+            padding: 0px 5px 0px 5px;
+            font-size: 30px;
+            &:hover{
+                color: #ffffff;
+                }
+            }
+        }
+        
+        h6{
+        margin-top: 40px;
+        color: #ffffff;
+        }
+    }/*final pie-de-pagina*/
+
+    }/*final main*/
+}/*final selector universal*/
+
+                                                                /* AQUI INICIAN LAS MEDIA QUERIES */
+
+@media only screen and (min-width: 1366px){
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+    main{
+    font-size: 18px;
+     
+        header{
+        height: 100vh;
+            .contenedor-elementos-header{
+            padding: 20px;
+     
+                .menu-de-navegacion{
+     
+                    .logo-sepia{
+                        .logo-sepia-inicial{
+                        height: 35px;
+                        }
+                    } 
+                }/*menu-de-navegacion*/
+            }/*final contenedor-elementos-header*/
+                
+            .contenedor-introduccion-expedicion-seeking{
+            margin-bottom: 170px;
+     
+                .icono-seeking{
+                height: 200px;
+                margin-bottom: 30px;
+                }
+                h1{
+                font-size: 300%;
+                padding: 0px 300px;
+                }
+     
+                p{
+                padding: 0px 340px;
+                } 
+     
+                    
+            }/* final contenedor-introduccion-expedicion-seeking*/
+        }/*final header*/
+
+/* RECORRIDO SEEKING FOR THE QUEEN CONCH */
+        .recorrido-seeking{
+        height: 1300px;
+        justify-content: center;
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 0.8fr 0.3fr 0.8fr;
+        grid-column-gap: 10px;
+        padding: 40px 250px;
+        grid-template-areas: 
+                            "video1 video1"
+                            "textos1 textos1"
+                            "textos2 imagen-mapa";
+
+            .video-recorrido-seeking{
+            grid-area: video1;
+                video{       
+                width: 100%;
+                height: auto;
+                border-radius: 15px;
+                }
+            }/* final video */
+            
+            
+            .textos1{
+            grid-area: textos1;
+            }
+
+            .textos2{
+            grid-area: textos2;
+            text-align: left;
+                
+                h2{
+                font-size: 35px;
+                text-align: left;
+                }
+                ul{
+                text-align: left;
+                    
+                } 
+            }
+
+            .imagen-mapa{
+            grid-area: imagen-mapa;
+            height: 450px;
+            }
+
+        }/* FINAL RECORRIDO SEEKING FOR THE QUEEN CONCH */
+        
+/* conector drones */
+.conector-zona1{
+    height: 130px;
+    }
+
+/* ZONA 1 CAYO RONCADOR */
+        .zona1-cayo-roncador{
+        background-color: #ffffff;
+        height: 1380px;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 0.3fr 0.2fr 0.7fr 0.6fr 0.4fr;
+        grid-column-gap: 30px;
+        grid-row-gap: 5px;
+        padding: 40px 250px;
+        grid-template-areas: 
+                            "icono-expediciones icono-expediciones"
+                            "parrafo1 parrafo1"
+                            "video-roncador video-roncador"
+                            "parrafo2 parrafo2"
+                            "carrusel parrafo3";
+        
+            .icono-expediciones{
+            grid-area: icono-expediciones;
+            img{
+                height: 150px;
+                }
+            }
+
+            .parrafo1{
+            grid-area: parrafo1;    
+                h2{
+                color: #20A3D1;
+                padding-top: 10px;
+                font-size: 35px;
+                text-align: center;
+                font-family: "Avenir-Black";
+                }
+                p{
+                text-align: center;
+                color: #07262D;
+                padding: 0px;
+                }
+            }
+
+            .video-roncador{
+            grid-area: video-roncador;
+                video{
+                width: 100%;
+                height: auto;
+                border-radius: 15px;
+                }
+            }/* final video */
+            
+            .parrafo2{
+            grid-area: parrafo2;    
+            text-align: center;
+            color: #07262D;
+            padding: 0px;
+            }
+
+            #carouselExampleIndicators{
+            grid-area: carrusel;
+            width: 440px;
+            height: 240px;
+            border-radius: 15px;
+            margin-bottom: 0px;
+            overflow: hidden;   
+            }
+            .parrafo3{
+                grid-area: parrafo3;    
+                text-align: right;
+                color: #07262D;
+                padding: 0px;
+                }
+
+        }/* ZONA 1 FINAL CAYO RONCADOR */ 
+        
+/* ZONA 1 CAYO QUITASUEÑO */
+.zona1-cayo-quitasueño{
+        background-color: #07262D;
+        height: 1320px;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 0.3fr 0.2fr 0.7fr 0.6fr 0.4fr;
+        grid-column-gap: 30px;
+        grid-row-gap: 5px;
+        padding: 40px 250px;
+        grid-template-areas: 
+                        "icono-expediciones icono-expediciones"
+                        "parrafo1 parrafo1"
+                        "video-roncador video-roncador"
+                        "parrafo2 parrafo2"
+                        "carrusel parrafo3";
+    
+            .icono-expediciones{
+            grid-area: icono-expediciones;
+                img{
+                height: 150px;
+                }
+            }
+
+            .parrafo1{
+            grid-area: parrafo1;    
+                h2{
+                color: #20A3D1;
+                padding-top: 10px;
+                font-size: 35px;
+                text-align: center;
+                font-family: "Avenir-Black";
+                }
+                p{
+                text-align: center;
+                color: #ffffff;
+                padding: 0px;
+                }
+            }
+
+            .video-roncador{
+            grid-area: video-roncador;
+                video{
+                width: 100%;
+                height: auto;
+                border-radius: 15px;
+                }
+            }/* final video */
+        
+            .parrafo2{
+            grid-area: parrafo2;    
+            text-align: center;
+            color: #ffffff;
+            padding: 0px;
+            }
+
+            #carouselExampleIndicatorsqui{
+            grid-area: carrusel;
+            width: 440px;
+            height: 250px;
+            border-radius: 15px;
+            margin-bottom: 0px;
+            overflow: hidden;   
+            }
+            .parrafo3{
+            grid-area: parrafo3;    
+            text-align: right;
+            color: #ffffff;
+            padding: 0px;
+            }
+
+}/* ZONA 1 FINAL CAYO QUITASUEÑO */         
+   
+/* ZONA 1 CAYO SERRANA */
+.zona1-cayo-serrana{
+        background-color: #ffffff;
+        height: 1350px;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 0.3fr 0.2fr 0.7fr 0.6fr 0.4fr;
+        grid-column-gap: 30px;
+        grid-row-gap: 5px;
+        padding: 40px 250px;
+        grid-template-areas: 
+                    "icono-expediciones icono-expediciones"
+                    "parrafo1 parrafo1"
+                    "video-roncador video-roncador"
+                    "parrafo2 parrafo2"
+                    "carrusel parrafo3";
+
+            .icono-expediciones{
+            grid-area: icono-expediciones;
+                img{
+                height: 150px;
+                }
+            }
+
+            .parrafo1{
+            grid-area: parrafo1;    
+                h2{
+                color: #20A3D1;
+                padding-top: 10px;
+                font-size: 35px;
+                text-align: center;
+                font-family: "Avenir-Black";
+                }
+                p{
+                text-align: center;
+                color: #07262D;
+                padding: 0px;
+                }
+            }
+
+            .video-roncador{
+            grid-area: video-roncador;
+                video{
+                width: 100%;
+                height: auto;
+                border-radius: 15px;
+                }
+            }/* final video */
+    
+            .parrafo2{
+            grid-area: parrafo2;    
+            text-align: center;
+            color: #07262D;
+            padding: 0px;
+            }
+
+            #carouselExampleIndicatorsserrana{
+            grid-area: carrusel;
+            width: 440px;
+            height: 250px;
+            border-radius: 15px;
+            margin-bottom: 0px;
+            overflow: hidden;   
+            }
+            .parrafo3{
+            grid-area: parrafo3;    
+            text-align: right;
+            color: #07262D;
+            padding: 0px;
+            }
+
+}/* ZONA 1 FINAL CAYO SERRANA */
+
+/* IMAGEN AMENIZADORA 1 */
+.imagen-seeking1{
+    background-color: #07262D;
+    background-image: url(/imagenes/imgenes-seeking/seeking-imagen1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 560px;
+        
+        .logo-sepia{
+        display: flex;
+        justify-content: center;
+        padding: 60px 20px 0px 20px;
+        .logo-sepia-inicial{
+        height: 75px; 
+        justify-content: center;
+        }
+        }
+        p{
+        text-align: center;
+        font-size: 25px;
+        color: #ffffff;
+        padding: 20px 0px 50px 0px;
+        animation: texto-para-arriba 4s linear;
+        animation-timeline: view(0px);
+        animation-range: entry 0% cover 60%;   
+        }
+}/* FINAL IMAGEN AMENIZADORA 1 */
+
+/* conector zona 2 */
+.conector-zona2{
+    height: 130px;
+    }
+
+/* ZONA 1 CAYO SERRANILLA */
+.zona2-cayo-serranilla{
+    background-color: #07262D;
+    height: 1350px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.3fr 0.2fr 0.7fr 0.6fr 0.4fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 5px;
+    padding: 40px 250px;
+    grid-template-areas: 
+                "icono-expediciones icono-expediciones"
+                "parrafo1 parrafo1"
+                "video-roncador video-roncador"
+                "parrafo2 parrafo2"
+                "carrusel parrafo3";
+
+        .icono-expediciones{
+        grid-area: icono-expediciones;
+            img{
+            height: 150px;
+            }
+        }
+
+        .parrafo1{
+        grid-area: parrafo1;    
+            h2{
+            color: #20A3D1;
+            padding-top: 10px;
+            font-size: 35px;
+            text-align: center;
+            font-family: "Avenir-Black";
+            }
+            p{
+            text-align: center;
+            color: #ffffff;
+            padding: 0px;
+            }
+        }
+
+        .video-roncador{
+        grid-area: video-roncador;
+            video{
+            width: 100%;
+            height: auto;
+            border-radius: 15px;
+            }
+        }/* final video */
+
+        .parrafo2{
+        grid-area: parrafo2;    
+        text-align: center;
+        color: #ffffff;
+        padding: 0px;
+        }
+
+        #carouselExampleIndicatorsserranilla{
+        grid-area: carrusel;
+        width: 440px;
+        height: 250px;
+        border-radius: 15px;
+        margin-bottom: 0px;
+        overflow: hidden;   
+        }
+        .parrafo3{
+        grid-area: parrafo3;    
+        text-align: right;
+        color: #ffffff;
+        padding: 0px;
+        }
+
+}/* ZONA 2 FINAL CAYO SERRANILLA */
+
+/* ZONA 2 BAJO ALICIA */
+.zona2-bajo-alicia{
+        background-color: #ffffff;
+        height: 1350px;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 0.3fr 0.2fr 0.7fr 0.6fr 0.4fr;
+        grid-column-gap: 30px;
+        grid-row-gap: 5px;
+        padding: 40px 250px;
+        grid-template-areas: 
+                    "icono-expediciones icono-expediciones"
+                    "parrafo1 parrafo1"
+                    "video-roncador video-roncador"
+                    "parrafo2 parrafo2"
+                    "carrusel parrafo3";
+
+            .icono-expediciones{
+            grid-area: icono-expediciones;
+                img{
+                height: 150px;
+                }
+            }
+
+            .parrafo1{
+            grid-area: parrafo1;    
+                h2{
+                color: #20A3D1;
+                padding-top: 10px;
+                font-size: 35px;
+                text-align: center;
+                font-family: "Avenir-Black";
+                }
+                p{
+                text-align: center;
+                color: #07262D;
+                padding: 0px;
+                }
+            }
+
+            .video-roncador{
+            grid-area: video-roncador;
+                video{
+                width: 100%;
+                height: auto;
+                border-radius: 15px;
+                }
+            }/* final video */
+
+            .parrafo2{
+            grid-area: parrafo2;    
+            text-align: center;
+            color: #07262D;
+            padding: 0px;
+            }
+
+            #carouselExampleIndicatorsalicia{
+            grid-area: carrusel;
+            width: 440px;
+            height: 250px;
+            border-radius: 15px;
+            margin-bottom: 0px;
+            overflow: hidden;   
+            }
+            .parrafo3{
+            grid-area: parrafo3;    
+            text-align: right;
+            color: #07262D;
+            padding: 0px;
+            }
+
+}/* ZONA 2 FINAL BAJO ALICIA */
+
+/* ZONA 2 BAJO NUEVO */
+.zona2-bajo-nuevo{
+        background-color: #07262D;
+        height: 1340px;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 0.3fr 0.2fr 0.7fr 0.6fr 0.4fr;
+        grid-column-gap: 30px;
+        grid-row-gap: 5px;
+        padding: 40px 250px;
+        grid-template-areas: 
+                    "icono-expediciones icono-expediciones"
+                    "parrafo1 parrafo1"
+                    "video-roncador video-roncador"
+                    "parrafo2 parrafo2"
+                    "carrusel parrafo3";
+
+            .icono-expediciones{
+            grid-area: icono-expediciones;
+                img{
+                height: 150px;
+                }
+            }
+
+            .parrafo1{
+            grid-area: parrafo1;    
+                h2{
+                color: #20A3D1;
+                padding-top: 10px;
+                font-size: 35px;
+                text-align: center;
+                font-family: "Avenir-Black";
+                }
+                p{
+                text-align: center;
+                color: #ffffff;
+                padding: 0px;
+                }
+            }
+
+            .video-roncador{
+            grid-area: video-roncador;
+                video{
+                width: 100%;
+                height: auto;
+                border-radius: 15px;
+                }
+            }/* final video */
+
+            .parrafo2{
+            grid-area: parrafo2;    
+            text-align: center;
+            color: #ffffff;
+            padding: 0px;
+            }
+
+            #carouselExampleIndicatorsnuevo{
+            grid-area: carrusel;
+            width: 440px;
+            height: 250px;
+            border-radius: 15px;
+            margin-bottom: 0px;
+            overflow: hidden;   
+            }
+            .parrafo3{
+            grid-area: parrafo3;    
+            text-align: right;
+            color: #ffffff;
+            padding: 0px;
+            }
+
+}/* ZONA 2 FINAL BAJO NUEVO */
+
+/* conector zona 3 */
+.conector-zona3{
+    height: 130px;
+    }
+
+/* ZONA 3 CAYO BOLIVAR */
+.zona3-cayo-bolivar{
+        background-color: #ffffff;
+        height: 1350px;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 0.3fr 0.2fr 0.7fr 0.6fr 0.4fr;
+        grid-column-gap: 30px;
+        grid-row-gap: 5px;
+        padding: 40px 250px;
+        grid-template-areas: 
+                    "icono-expediciones icono-expediciones"
+                    "parrafo1 parrafo1"
+                    "video-roncador video-roncador"
+                    "parrafo2 parrafo2"
+                    "carrusel parrafo3";
+
+            .icono-expediciones{
+            grid-area: icono-expediciones;
+                img{
+                height: 150px;
+                }
+            }
+
+            .parrafo1{
+            grid-area: parrafo1;    
+                h2{
+                color: #20A3D1;
+                padding-top: 10px;
+                font-size: 35px;
+                text-align: center;
+                font-family: "Avenir-Black";
+                }
+                p{
+                text-align: center;
+                color: #07262D;
+                padding: 0px;
+                }
+            }
+
+            .video-roncador{
+            grid-area: video-roncador;
+                video{
+                width: 100%;
+                height: auto;
+                border-radius: 15px;
+                }
+            }/* final video */
+
+            .parrafo2{
+            grid-area: parrafo2;    
+            text-align: center;
+            color: #07262D;
+            padding: 0px;
+            }
+
+            #carouselExampleIndicatorsbolivar{
+            grid-area: carrusel;
+            width: 440px;
+            height: 250px;
+            border-radius: 15px;
+            margin-bottom: 0px;
+            overflow: hidden;   
+            }
+            .parrafo3{
+            grid-area: parrafo3;    
+            text-align: right;
+            color: #07262D;
+            padding: 0px;
+            }
+
+}/* ZONA 3 FINAL CAYO BOLIVAR */
+
+/* ZONA 3 CAYO ALBUQUERQUE */
+.zona3-cayo-albuquerque{
+        background-color: #07262D;
+        height: 1350px;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 0.3fr 0.2fr 0.7fr 0.6fr 0.4fr;
+        grid-column-gap: 30px;
+        grid-row-gap: 5px;
+        padding: 40px 250px;
+        grid-template-areas: 
+                        "icono-expediciones icono-expediciones"
+                        "parrafo1 parrafo1"
+                        "video-roncador video-roncador"
+                        "parrafo2 parrafo2"
+                        "carrusel parrafo3";
+
+            .icono-expediciones{
+            grid-area: icono-expediciones;
+                img{
+                height: 150px;
+                }
+            }
+
+            .parrafo1{
+            grid-area: parrafo1;    
+                h2{
+                color: #20A3D1;
+                padding-top: 10px;
+                font-size: 35px;
+                text-align: center;
+                font-family: "Avenir-Black";
+                }
+                p{
+                text-align: center;
+                color: #ffffff;
+                padding: 0px;
+                }
+            }
+
+            .video-roncador{
+            grid-area: video-roncador;
+                video{
+                width: 100%;
+                height: auto;
+                border-radius: 15px;
+                }
+            }/* final video */
+
+            .parrafo2{
+            grid-area: parrafo2;    
+            text-align: center;
+            color: #ffffff;
+            padding: 0px;
+            }
+
+            #carouselExampleIndicatorsalbuquerque{
+            grid-area: carrusel;
+            width: 440px;
+            height: 250px;
+            border-radius: 15px;
+            margin-bottom: 0px;
+            overflow: hidden;   
+            }
+            .parrafo3{
+            grid-area: parrafo3;    
+            text-align: right;
+            color: #ffffff;
+            padding: 0px;
+            }
+
+}/* ZONA 3 CAYO ALBUQUERUQUE */
+
+/* conector zona 4 */
+.conector-zona4{
+    height: 130px;
+    }
+
+/* ZONA 4 ISLA PROVIDENCIA E ISLA SANTA CATALINA */
+.zona4-isla-providencia-isla-santa-catalina{
+        background-color: #ffffff;
+        height: 1350px;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 0.3fr 0.2fr 0.7fr 0.6fr 0.4fr;
+        grid-column-gap: 30px;
+        grid-row-gap: 5px;
+        padding: 40px 250px;
+        grid-template-areas: 
+                        "icono-expediciones icono-expediciones"
+                        "parrafo1 parrafo1"
+                        "video-roncador video-roncador"
+                        "parrafo2 parrafo2"
+                        "carrusel parrafo3";
+
+            .icono-expediciones{
+            grid-area: icono-expediciones;
+                img{
+                height: 150px;
+                }
+            }
+
+            .parrafo1{
+            grid-area: parrafo1;    
+                h2{
+                color: #20A3D1;
+                padding-top: 10px;
+                font-size: 35px;
+                text-align: center;
+                font-family: "Avenir-Black";
+                }
+                p{
+                text-align: center;
+                color: #07262D;
+                padding: 0px;
+                }
+            }
+
+            .video-roncador{
+            grid-area: video-roncador;
+                video{
+                width: 100%;
+                height: auto;
+                border-radius: 15px;
+                }
+            }/* final video */
+
+            .parrafo2{
+            grid-area: parrafo2;    
+            text-align: center;
+            color: #07262D;
+            padding: 0px;
+            }
+
+            #carouselExampleIndicatorsprovidencia-isla-santa-catalina{
+            grid-area: carrusel;
+            width: 440px;
+            height: 250px;
+            border-radius: 15px;
+            margin-bottom: 0px;
+            overflow: hidden;   
+            }
+            .parrafo3{
+            grid-area: parrafo3;    
+            text-align: right;
+            color: #07262D;
+            padding: 0px;
+            }
+
+}/* ZONA 4 FINAL ISAL PROVIDENCIA E ISLA SANTA CATALINA */  
+
+/* conector zona 5 */
+.conector-zona5{
+    height: 130px;
+    }
+
+/* ZONA 5 ISLA DE SAN ANDRES */
+.zona5-isla-san-andres{
+    background-color: #07262D;
+    height: 1400px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.3fr 0.2fr 0.7fr 0.6fr 0.4fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 5px;
+    padding: 40px 250px;
+    grid-template-areas: 
+                    "icono-expediciones icono-expediciones"
+                    "parrafo1 parrafo1"
+                    "video-roncador video-roncador"
+                    "parrafo2 parrafo2"
+                    "carrusel parrafo3";
+
+        .icono-expediciones{
+        grid-area: icono-expediciones;
+            img{
+            height: 150px;
+            }
+        }
+
+        .parrafo1{
+        grid-area: parrafo1;    
+            h2{
+            color: #20A3D1;
+            padding-top: 10px;
+            font-size: 35px;
+            text-align: center;
+            font-family: "Avenir-Black";
+            }
+            p{
+            text-align: center;
+            color: #ffffff;
+            padding: 0px;
+            }
+        }
+
+        .video-roncador{
+        grid-area: video-roncador;
+            video{
+            width: 100%;
+            height: auto;
+            border-radius: 15px;
+            }
+        }/* final video */
+
+        .parrafo2{
+        grid-area: parrafo2;    
+        text-align: center;
+        color: #ffffff;
+        padding: 0px;
+        }
+
+        #carouselExampleIndicators{
+        grid-area: carrusel;
+        width: 440px;
+        height: 250px;
+        border-radius: 15px;
+        margin-bottom: 0px;
+        overflow: hidden;   
+        }
+        .parrafo3{
+        grid-area: parrafo3;    
+        text-align: right;
+        color: #ffffff;
+        padding: 0px;
+        }
+
+}/* ZONA 5 FINAL ISLA DE SAN ANDRES */
+
+/* footer */
+.pie-de-pagina{
+    height: 650px;
+    display: grid;
+    grid-row-gap:10px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+
+        .logo-sepia-tercero{
+        margin: 25px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+
+            img{
+            height: 80px;   
+            }
+        }
+
+        .datos-sepia{
+        height: 40%;
+            
+            ul{
+            display: flex;
+                li{
+                padding: 30px 15px 0px 15px;
+                }
+            } 
+        }
+
+        .redes-sociales{
+            a{
+            padding: 0px 10px ;
+            font-size: 40px;
+            }
+        }
+        
+        h6{
+        margin-top: 180px;
+        }
+    }/*final pie-de-pagina*/
+
+    }/*final main*/
+}/*final selector universal*/
+}/* final @media only screen and (min-width: 1366px)*/  
+
+                                                                /* formato 1440px - 900px */
+
+@media only screen and (min-width: 1440px){
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+    main{
+    font-size: 18px;
+     
+        header{
+                
+            .contenedor-introduccion-expedicion-seeking{
+     
+                p{
+                padding: 0px 370px;
+                } 
+                    
+            }/* final contenedor-introduccion-expedicion-seeking*/
+        }/*final header*/
+
+/* RECORRIDO SEEKING FOR THE QUEEN CONCH */
+        .recorrido-seeking{
+        height: 1300px;
+        }/* FINAL RECORRIDO SEEKING FOR THE QUEEN CONCH */
+        
+
+
+/* ZONA 1 CAYO RONCADOR */
+        .zona1-cayo-roncador{
+        height: 1400px;
+
+        }/* ZONA 1 FINAL CAYO RONCADOR */ 
+        
+/* ZONA 1 CAYO QUITASUEÑO */
+.zona1-cayo-quitasueño{
+        height: 1360px;
+        
+
+}/* ZONA 1 FINAL CAYO QUITASUEÑO */         
+   
+/* ZONA 1 CAYO SERRANA */
+.zona1-cayo-serrana{
+        height: 1360px;
+
+}/* ZONA 1 FINAL CAYO SERRANA */
+
+/* IMAGEN AMENIZADORA 1 */
+
+/* conector zona 2 */
+.conector-zona2{
+    height: 130px;
+    }
+
+/* ZONA 1 CAYO SERRANILLA */
+.zona2-cayo-serranilla{
+    height: 1380px;
+
+}/* ZONA 2 FINAL CAYO SERRANILLA */
+
+/* ZONA 2 BAJO ALICIA */
+.zona2-bajo-alicia{
+        height: 1370px;
+
+}/* ZONA 2 FINAL BAJO ALICIA */
+
+/* ZONA 2 BAJO NUEVO */
+.zona2-bajo-nuevo{
+        height: 1380px;
+
+}/* ZONA 2 FINAL BAJO NUEVO */
+
+/* IMAGEN AMENIZADORA 3 */
+
+/* conector zona 3 */
+.imagen-seeking3{
+    height: 610px;
+    }
+
+/* ZONA 3 CAYO BOLIVAR */
+.zona3-cayo-bolivar{
+        height: 1380px;
+}/* ZONA 3 FINAL CAYO BOLIVAR */
+
+/* ZONA 3 CAYO ALBUQUERQUE */
+.zona3-cayo-albuquerque{
+        height: 1380px;
+}/* ZONA 3 CAYO ALBUQUERUQUE */
+
+/* conector zona 4 */
+.imagen-seeking4{
+    height: 590px;
+    }
+
+/* ZONA 4 ISLA PROVIDENCIA E ISLA SANTA CATALINA */
+.zona4-isla-providencia-isla-santa-catalina{
+        height: 1380px;
+}/* ZONA 4 FINAL ISAL PROVIDENCIA E ISLA SANTA CATALINA */  
+
+
+/* ZONA 5 ISLA DE SAN ANDRES */
+.zona5-isla-san-andres{
+    height: 1400px;
+}/* ZONA 5 FINAL ISLA DE SAN ANDRES */
+
+/* footer */
+.pie-de-pagina{
+        
+        h6{
+        margin-top: 180px;
+        font-size: 18px;
+        }
+    }/*final pie-de-pagina*/
+
+    }/*final main*/
+}/*final selector universal*/
+}/* final formato 1440px - 900px */
+
+                                                                /* formato 1674px - 807px */
+
+@media only screen and (min-width: 1674px){
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+    main{
+    font-size: 16px;
+     
+        header{
+                
+            .contenedor-introduccion-expedicion-seeking{
+                h1{
+                padding: 0px 390px;
+                }
+     
+                p{
+                padding: 0px 480px;
+                } 
+     
+                    
+            }/* final contenedor-introduccion-expedicion-seeking*/
+        }/*final header*/
+
+/* RECORRIDO SEEKING FOR THE QUEEN CONCH */
+        .recorrido-seeking{
+        height: 1300px;
+        padding: 40px 340px;
+        }/* FINAL RECORRIDO SEEKING FOR THE QUEEN CONCH */
+        
+/* conector drones */
+.conector-zona1{
+    height: 160px;
+    }
+
+/* ZONA 1 CAYO RONCADOR */
+        .zona1-cayo-roncador{
+        height: 1380px;
+        padding: 40px 340px;
+        grid-column-gap: 70px;
+
+            #carouselExampleIndicators{
+            width: 100%;
+            height: 260px;   
+            }
+        }/* ZONA 1 FINAL CAYO RONCADOR */ 
+        
+/* ZONA 1 CAYO QUITASUEÑO */
+.zona1-cayo-quitasueño{
+        height: 1320px;
+        padding: 40px 340px;
+        grid-column-gap: 70px;
+            #carouselExampleIndicatorsqui{
+            width: 100%;
+            height: 260px;   
+            }
+}/* ZONA 1 FINAL CAYO QUITASUEÑO */         
+   
+/* ZONA 1 CAYO SERRANA */
+.zona1-cayo-serrana{
+        height: 1350px;
+        padding: 40px 340px;
+        grid-column-gap: 70px;
+
+            #carouselExampleIndicatorsserrana{
+            width: 100%;
+            height: 260px;   
+            }
+}/* ZONA 1 FINAL CAYO SERRANA */
+
+/* IMAGEN AMENIZADORA 1 */
+.imagen-seeking1{
+    height: 660px;    
+}/* FINAL IMAGEN AMENIZADORA 1 */
+
+/* conector zona 2 */
+.conector-zona2{
+    height: 160px;
+    }
+
+/* ZONA 1 CAYO SERRANILLA */
+.zona2-cayo-serranilla{
+        height: 1350px;
+        padding: 40px 340px;
+        grid-column-gap: 70px;
+
+            #carouselExampleIndicatorsserranilla{
+            width: 100%;
+            height: 260px;   
+            }
+}/* ZONA 2 FINAL CAYO SERRANILLA */
+
+/* ZONA 2 BAJO ALICIA */
+.zona2-bajo-alicia{
+        height: 1350px;
+        padding: 40px 340px;
+        grid-column-gap: 70px;
+            #carouselExampleIndicatorsalicia{
+            width: 100%;
+            height: 260px;   
+            }
+}/* ZONA 2 FINAL BAJO ALICIA */
+
+/* ZONA 2 BAJO NUEVO */
+.zona2-bajo-nuevo{
+        height: 1380px;
+        padding: 40px 340px;
+        grid-column-gap: 70px;
+            #carouselExampleIndicatorsnuevo{
+            width: 100%;
+            height: 260px;   
+            }
+}/* ZONA 2 FINAL BAJO NUEVO */
+
+/* IMAGEN AMENIZADORA 2 */
+.imagen-seeking2{
+    height: 760px;    
+}/* FINAL IMAGEN AMENIZADORA 2 */
+
+/* conector zona 3 */
+.conector-zona3{
+    height: 160px;
+    }
+
+/* ZONA 3 CAYO BOLIVAR */
+.zona3-cayo-bolivar{
+        height: 1350px;
+        padding: 40px 340px;
+        grid-column-gap: 70px;
+            #carouselExampleIndicatorsbolivar{
+            width: 100%;
+            height: 260px;   
+            }
+}/* ZONA 3 FINAL CAYO BOLIVAR */
+
+/* ZONA 3 CAYO ALBUQUERQUE */
+.zona3-cayo-albuquerque{
+        height: 1390px;
+        padding: 40px 340px;
+        grid-column-gap: 70px;
+            #carouselExampleIndicatorsalbuquerque{
+            width: 100%;
+            height: 260px;   
+            }
+}/* ZONA 3 CAYO ALBUQUERUQUE */
+
+/* IMAGEN AMENIZADORA 3 */
+.imagen-seeking3{
+    height: 700px;    
+}/* FINAL IMAGEN AMENIZADORA 3 */
+
+/* conector zona 4 */
+.conector-zona4{
+    height: 160px;
+    }
+
+/* ZONA 4 ISLA PROVIDENCIA E ISLA SANTA CATALINA */
+.zona4-isla-providencia-isla-santa-catalina{
+        height: 1350px;
+        padding: 40px 340px;
+        grid-column-gap: 70px;
+            #carouselExampleIndicatorsprovidencia-isla-santa-catalina{
+            width: 100%;
+            height: 260px;   
+            }
+}/* ZONA 4 FINAL ISAL PROVIDENCIA E ISLA SANTA CATALINA */  
+
+/* IMAGEN AMENIZADORA 4 */
+.imagen-seeking4{
+    height: 700px;    
+}/* FINAL IMAGEN AMENIZADORA 4 */
+
+/* conector zona 5 */
+.conector-zona5{
+    height: 160px;
+    }
+
+/* ZONA 5 ISLA DE SAN ANDRES */
+.zona5-isla-san-andres{
+        height: 1390px;
+        padding: 40px 340px;
+        grid-column-gap: 70px;
+            #carouselExampleIndicators{
+            width: 100%;
+            height: 260px;   
+            }
+}/* ZONA 5 FINAL ISLA DE SAN ANDRES */
+
+/* footer */
+.pie-de-pagina{
+        
+        h6{
+        margin-top: 180px;
+        }
+    }/*final pie-de-pagina*/
+
+    }/*final main*/
+}/*final selector universal*/
+}/* final formato 1674px - 807px */
+
+                                                                /* formato 1920px - 1080px */
+
+@media only screen and (min-width: 1920px){
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+    main{
+    font-size: 22px;
+     
+        header{
+                
+            .contenedor-introduccion-expedicion-seeking{
+     
+                .icono-seeking{
+                height: 250px;
+                }
+                h1{
+                padding: 0px 450px;
+                }
+                p{
+                padding: 0px 540px;
+                } 
+             
+            }/* final contenedor-introduccion-expedicion-seeking*/
+        }/*final header*/
+
+/* RECORRIDO SEEKING FOR THE QUEEN CONCH */
+        .recorrido-seeking{
+        height: 1500px;
+        padding: 40px 340px;
+
+        }/* FINAL RECORRIDO SEEKING FOR THE QUEEN CONCH */
+        
+/* conector drones */
+.conector-zona1{
+    height: 170px;
+    }
+
+/* ZONA 1 CAYO RONCADOR */
+        .zona1-cayo-roncador{
+        height: 1760px;
+        padding: 40px 340px;
+        grid-column-gap: 50px;
+
+            .icono-expediciones{
+                img{
+                height: 220px;
+                }
+            }
+
+            .parrafo1{    
+                h2{
+                font-size: 45px;
+                }
+            }
+            #carouselExampleIndicators{
+            width: 100%;
+            height: 330px;   
+            }
+        }/* ZONA 1 FINAL CAYO RONCADOR */ 
+        
+/* ZONA 1 CAYO QUITASUEÑO */
+.zona1-cayo-quitasueño{
+        height: 1720px;
+        grid-column-gap: 30px;
+        padding: 40px 340px;
+    
+            .icono-expediciones{
+                img{
+                height: 220px;
+                }
+            }
+
+            .parrafo1{    
+                h2{
+                font-size: 45px;
+                }
+            }
+
+            #carouselExampleIndicatorsqui{
+            width: 100%;
+            height: 330px;   
+            }
+
+}/* ZONA 1 FINAL CAYO QUITASUEÑO */         
+   
+/* ZONA 1 CAYO SERRANA */
+.zona1-cayo-serrana{
+        height: 1720px;
+        grid-column-gap: 30px;
+        padding: 40px 340px;
+
+            .icono-expediciones{
+                img{
+                height: 220px;
+                }
+            }
+
+            .parrafo1{    
+                h2{
+                font-size: 45px;
+                }
+            }
+
+            #carouselExampleIndicatorsserrana{
+            width: 100%;
+            height: 330px;   
+            }
+
+}/* ZONA 1 FINAL CAYO SERRANA */
+
+/* IMAGEN AMENIZADORA 1 */
+.imagen-seeking1{
+    height: 760px;
+        
+        .logo-sepia{
+        .logo-sepia-inicial{
+        height: 95px;
+        }
+        }
+}/* FINAL IMAGEN AMENIZADORA 1 */
+
+/* conector zona 2 */
+.conector-zona2{
+    height: 170px;
+    }
+
+/* ZONA 1 CAYO SERRANILLA */
+.zona2-cayo-serranilla{
+    height: 1800px;
+    grid-column-gap: 40px;
+    padding: 40px 340px;
+
+        .icono-expediciones{
+            img{
+            height: 220px;
+            }
+        }
+
+        .parrafo1{    
+            h2{
+            font-size: 45px;
+            }
+        }
+
+        #carouselExampleIndicatorsserranilla{
+        width: 100%;
+        height: 320px;   
+        }
+}/* ZONA 2 FINAL CAYO SERRANILLA */
+
+/* ZONA 2 BAJO ALICIA */
+.zona2-bajo-alicia{
+        height: 1720px;
+        grid-column-gap: 30px;
+        padding: 40px 340px;
+
+            .icono-expediciones{
+                img{
+                height: 220px;
+                }
+            }
+
+            .parrafo1{    
+                h2{
+                font-size: 45px;
+                }
+            }
+
+            #carouselExampleIndicatorsalicia{
+            width: 100%;
+            height: 330px;   
+            }
+}/* ZONA 2 FINAL BAJO ALICIA */
+
+/* ZONA 2 BAJO NUEVO */
+.zona2-bajo-nuevo{
+        height: 1740px;
+        grid-column-gap: 30px;
+        padding: 40px 340px;
+
+            .icono-expediciones{
+                img{
+                height: 220px;
+                }
+            }
+
+            .parrafo1{    
+                h2{
+                font-size: 45px;
+                }
+            }
+
+            #carouselExampleIndicatorsnuevo{
+            width: 100%;
+            height: 330px;   
+            }
+}/* ZONA 2 FINAL BAJO NUEVO */
+
+/* IMAGEN AMENIZADORA 2 */
+.imagen-seeking2{
+    height: 860px;
+
+        .logo-sepia{padding-top: 70px;
+            .logo-sepia-inicial{
+            height: 75px; 
+            }
+        }
+}/* FINAL IMAGEN AMENIZADORA 2 */
+
+/* conector zona 3 */
+.conector-zona3{
+    height: 180px;
+    }
+
+/* ZONA 3 CAYO BOLIVAR */
+.zona3-cayo-bolivar{
+        height: 1750px;
+        grid-column-gap: 30px;
+        padding: 40px 340px;
+
+            .icono-expediciones{
+                img{
+                height: 220px;
+                }
+            }
+
+            .parrafo1{    
+                h2{
+                font-size: 45px;
+                }
+            }
+
+            #carouselExampleIndicatorsbolivar{
+            width: 100%;
+            height: 330px;   
+            }
+
+}/* ZONA 3 FINAL CAYO BOLIVAR */
+
+/* ZONA 3 CAYO ALBUQUERQUE */
+.zona3-cayo-albuquerque{
+        height: 1780px;
+        grid-column-gap: 30px;
+        padding: 40px 340px;
+
+            .icono-expediciones{
+                img{
+                height: 220px;
+                }
+            }
+
+            .parrafo1{    
+                h2{
+                font-size: 45px;
+                }
+            }
+
+            #carouselExampleIndicatorsalbuquerque{
+            width: 100%;
+            height: 330px;   
+            }
+}/* ZONA 3 CAYO ALBUQUERUQUE */
+
+/* IMAGEN AMENIZADORA 3 */
+.imagen-seeking3{
+    height: 860px;
+
+        .logo-sepia{
+            .logo-sepia-inicial{
+            height: 75px;
+            }
+        }
+}/* FINAL IMAGEN AMENIZADORA 3 */
+
+/* conector zona 4 */
+.conector-zona4{
+    height: 180px;
+    }
+
+/* ZONA 4 ISLA PROVIDENCIA E ISLA SANTA CATALINA */
+.zona4-isla-providencia-isla-santa-catalina{
+        height: 1750px;
+        grid-column-gap: 30px;
+        padding: 40px 340px;
+
+            .icono-expediciones{
+                img{
+                height: 220px;
+                }
+            }
+
+            .parrafo1{    
+                h2{
+                font-size: 45px;
+                }
+            }
+
+            #carouselExampleIndicatorsprovidencia-isla-santa-catalina{
+            width: 100%;
+            height: 330px;   
+            }
+}/* ZONA 4 FINAL ISAL PROVIDENCIA E ISLA SANTA CATALINA */ 
+
+/* IMAGEN AMENIZADORA 4 */
+.imagen-seeking4{
+    height: 860px;
+
+        .logo-sepia{
+            .logo-sepia-inicial{
+            height: 75px;
+            }
+        }
+}/* FINAL IMAGEN AMENIZADORA 4 */
+
+/* conector zona 5 */
+.conector-zona5{
+    height: 180px;
+    }
+
+/* ZONA 5 ISLA DE SAN ANDRES */
+.zona5-isla-san-andres{
+    height: 1750px;
+    grid-column-gap: 30px;
+    padding: 40px 340px;
+
+        .icono-expediciones{
+            img{
+            height: 220px;
+            }
+        }
+
+        .parrafo1{    
+            h2{
+            font-size: 45px;
+            }
+        }
+
+        #carouselExampleIndicators{
+        width: 100%;
+        height: 330px;  
+        }
+}/* ZONA 5 FINAL ISLA DE SAN ANDRES */
+
+/* footer */
+.pie-de-pagina{
+    height: 850px;
+    padding-top: 100px;
+
+        .redes-sociales{
+            a{
+            padding: 0px 10px ;
+            font-size: 40px;
+            }
+        }
+        
+        h6{
+        margin-top: 280px;
+        font-size: 22px;
+        }
+    }/*final pie-de-pagina*/
+
+    }/*final main*/
+}/*final selector universal*/
+}/* final formato 1920px - 1080px */                                                                 
+
+                                                                /* AQUI ESTAN LAS ANIMACIONES */
+
+@keyframes texto-para-arriba{
+    
+    0%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+    50%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+    100%{
+      transform: translateY(0); 
+      opacity: 1; 
+    }
+}

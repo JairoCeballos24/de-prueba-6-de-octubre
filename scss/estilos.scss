@@ -1,0 +1,1678 @@
+@import url('https://fonts.cdnfonts.com/css/avenir');
+/* font-family: 'Avenir', sans-serif; */
+
+@import url(https://db.onlinewebfonts.com/c/b78d933f8aa6b9284c1d3efd3db0a9b9?family=Avenir-Black);
+/* font-family: "Avenir-Black"; */
+
+@import url(https://db.onlinewebfonts.com/c/158fa6012dff0f88241ad898c46c0118?family=AvenirNextW1G-Regular);
+/* font-family: "AvenirNextW1G-Regular"; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+ /* formato 360px - 640px */   
+    main{
+    font-family: 'Avenir', sans-serif;
+    font-size: 16px;
+
+        header{
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background: linear-gradient(rgb(7, 38, 45, ), rgb(7, 38, 45, 0.0), rgb(7, 38, 45, 0.0), rgb(7, 38, 45, 0.0), rgb(7, 38, 45, 0.0));
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        position: relative;
+        overflow: hidden;
+
+        video{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: -1;
+        }
+
+            .contenedor-elementos-header{
+            height: auto;
+            width: 100%;
+            padding: 20px;
+            position: relative;
+            z-index: 10;
+
+                .menu-de-navegacion{
+                display: flex;
+                justify-content: space-between;
+
+                    .logo-sepia{
+                        .logo-sepia-inicial{
+                        height: 35px;
+                        }
+                    }
+                    .navbar{
+                    padding: 15px 10px 0px 0px;
+                    box-sizing: border-box;
+                    z-index: 100;
+                    
+                        .offcanvas-header{
+                        background-color: #07262D;
+                        }
+                        .offcanvas-body{
+                        background-color: #07262D;
+
+                            .activeazul{
+                            color: #20A3D1;
+                            &:hover{color: #ffffff;};
+                            }
+                            .btn{
+                            color: #ffffff;
+                            &:hover{color: #07262D;};
+                            background-color: #20A3D1;
+                            &:hover{background-color: #20A3D1;};
+                            }   
+                        }
+                    }/*final navbar*/
+                }/*menu-de-navegacion*/
+            }/*final contenedor-elementos-header*/
+            
+            .contenedor-cuadro-call-to-action{
+            background-position: center;
+            width: 100%;
+            height: auto;
+            display: grid;
+            justify-content: center;
+            align-content: center;
+            margin-bottom: 170px;
+            text-align: center;
+
+                .titulos-call-to-action{
+                color: #20A3D1;
+                font-family: "Avenir-Black";
+                font-size: 200%;
+                padding: 0px 20px;
+                animation: texto-para-arriba 2s ease;
+                  p{margin: 5px;}
+                }
+
+                .parrafo-call-to-action{
+                color: #ffffff;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                padding: 0px 25px;
+                animation: texto-para-arriba 2s ease;
+                } 
+
+                .contenedor-call-to-action{
+                height: 40px;
+                width: 100%;
+                display: grid;
+                flex-direction: column;
+                justify-content: center;
+                padding: 0px 10px;
+                animation: texto-para-arriba 2s ease;
+
+                    .botones-call-to-action{
+                    background-color: rgba(7, 38, 45, 0.5);
+                    border: 2px solid #ffffff;
+                    border-radius: 30px;
+                    height: 40px;
+                    width: 100%;
+                    padding: 5px 20px;
+                    margin: 8px 4px;
+                    transition: all 1s;
+                    animation: texto-para-arriba 1s ease;
+
+                    &:hover{
+                    background-color: #07262D;
+                    border: 2px solid #20A3D1;
+                    border-radius: 30px;
+                    height: 40px;
+                    width: 100%;
+                    padding: 5px 20px;
+                    margin: 8px 4px;
+                    }
+
+                        p{
+                            a{
+                            color: #ffffff;
+                            font-size: 14px;
+                            align-items: center;
+                            text-decoration: none; 
+                            
+                            &:hover{
+                            color: #20A3D1;
+                            }
+                            }
+                        }
+                    }/*final botones-call-to-action*/
+                }/*final contenedor-call-to-action*/
+            }/* final contenedor-cuadro-call-to-action*/
+
+        }/*final header*/
+
+/* sección-quienes-somos */
+        .sección-quienes-somos{
+        background-color: #07262D;
+        height: 580px;
+        width: 100%;
+        padding: 20px 25px 10px 25px;
+        justify-content: center;
+        align-content: center;  
+        
+            h1{
+            text-align: center;
+            color: #20A3D1;
+            font-size: 30px;
+            padding: 10px 0px;
+            padding-bottom: 0px;
+            font-family: "Avenir-Black";
+            animation: texto-para-arriba 4s linear;
+            animation-timeline: view(0px);
+            animation-range: entry 0% cover 40%;
+            }
+
+            p{
+            text-align: center;
+            color: #ffffff;
+            animation: texto-para-arriba 4s linear;
+            animation-timeline: view(0px);
+            animation-range: entry 0% cover 40%;
+            }
+
+            .logo-sepia-segundo{
+            margin: 25px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            animation: texto-para-arriba 3s linear;
+            animation-timeline: view(0px);
+            animation-range: entry 0% cover 40%;
+            }
+        }/*final sección-quienes-somos*/
+
+/* sección-beneficios */
+        .sección-beneficios{
+        background-image: url(/imagenes/inicio-imagen-2--pagina-web-sepia.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        height: 530px;
+        width: 100%;
+        padding: 15px 24px 15px 24px;
+            
+            h2{
+            color: #20A3D1;
+            text-align: center;
+            font-size: 25px;
+            padding-top: 15px;
+            padding-bottom: 0px;
+            font-family: "Avenir-Black";
+            animation: texto-para-arriba 3s linear;
+            animation-timeline: view(0px);
+            animation-range: entry 0% cover 40%;
+            }
+
+            p{
+            text-align: center;
+            color: #ffffff;
+            animation: texto-para-arriba 3s linear;
+            animation-timeline: view(0px);
+            animation-range: entry 0% cover 20%;
+            }
+        }/* final sección-beneficios*/
+
+/* sección-ventajas */
+        .sección-ventajas{
+        background-color: #07262D;
+        height: 630px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+        padding: 25px;
+
+            #carouselExampleIndicators{
+            width: auto;
+            height: 170px;
+            border-radius: 15px;
+            margin-bottom: 10px;
+            overflow: hidden;   
+            }
+
+            h3{
+            color: #20A3D1;
+            text-align: center;
+            font-size: 25px;
+            padding-top: 15px;
+            padding-bottom: 0px;
+            font-family: "Avenir-Black";
+            animation: texto-para-arriba 4s linear;
+            animation-timeline: view(0px);
+            animation-range: entry 0% cover 40%;
+            }
+
+            p{
+            text-align: center;
+            color: #ffffff;
+            animation: texto-para-arriba 4s linear;
+            animation-timeline: view(0px);
+            animation-range: entry 0% cover 40%;
+            }
+        }/* final sección-ventajas */
+
+/* conector nuestros servicios */
+        .conector-nuestros-servicios{
+        background-color: #07262D;
+        background-image: url(/imagenes/inicio-conector-nuestros-servicios.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 79px;
+        width: 100%;
+        }/*final conector nuestros servicios */
+
+/* seccion -nuestros-servicios */
+        .seccion-servicios{
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 240px);
+        padding: 20px 40px;
+        grid-row-gap: 20px;
+        grid-template-areas: 
+                "servicio1"
+                "servicio2"
+                "servicio3";
+
+                /* servicios uno por uno */
+
+                /* servicio 1 */
+                .servicio1{
+                grid-area: servicio1;
+                height: 240px;
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                animation: texto-para-arriba 4s linear;
+                animation-timeline: view(0px);
+                animation-range: entry 0% cover 40%;
+                
+                    .textos-seccion-servicios{
+                    height: 20%;
+                        h4{
+                        width: 100%;
+                        height: 20%;
+                        text-align: center;
+                        font-size: 19px;
+                        padding-top: 10px;
+                        padding-bottom: 5px;
+                        margin-bottom:10px;
+                        font-family: "Avenir-Black";
+                        color: #07262D;
+                        }
+                    }/*final textos-seccion-servicios*/
+                    .imagen4{
+                    background-image: url(/imagenes/inicio-imagen-4--pagina-web-sepia.jpg);
+                    background-size: cover;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    border-radius: 15px;
+                    width: 100%;
+                    height: 170px;
+                    transition: all 1s;
+                    &:hover{
+                    background-image: url(/imagenes/inicio-imagen-4-HOVER-pagina-web-sepia.jpg);
+                    background-size: cover;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    border-radius: 15px;
+                    width: 100%;
+                    height: 170px;
+                    }
+                }
+                }/* final servicio 1 */
+
+/* servicio 2 */
+                .servicio2{
+                grid-area: servicio2;
+                height: 240px;
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                animation: texto-para-arriba 4s linear;
+                animation-timeline: view(0px);
+                animation-range: entry 0% cover 42%;
+                
+                    .textos-seccion-servicios{
+                    height: 20%;
+                        h4{
+                        width: 100%;
+                        height: 20%;
+                        text-align: center;
+                        font-size: 19px;
+                        padding-top: 10px;
+                        padding-bottom: 5px;
+                        margin-bottom:10px;
+                        font-family: "Avenir-Black";
+                        color: #07262D;
+                        }
+                    }/*final textos-seccion-servicios*/
+
+                    .imagen5{
+                    background-image: url(/imagenes/inicio-imagen-5--pagina-web-sepia.jpg);
+                    background-size: cover;
+                    background-position: center;
+                    border-radius: 15px;
+                    width: 100%;
+                    height: 170px;
+                    transition: all 1s;
+                    &:hover{
+                    background-image: url(/imagenes/inicio-imagen-5-HOVER-pagina-web-sepia.jpg);
+                    background-size: cover;
+                    background-position: center;
+                    border-radius: 15px;
+                    width: 100%;
+                    height: 170px;
+                    }
+                    }
+                }/* final servicio 2 */
+
+/* servicio 3 */
+                .servicio3{
+                grid-area: servicio3;
+                height: 240px;
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                animation: texto-para-arriba 4s linear;
+                animation-timeline: view(0px);
+                animation-range: entry 0% cover 44%;
+
+                    .textos-seccion-servicios{
+                    height: 20%;
+                        h4{
+                        width: 100%;
+                        height: 20%;
+                        text-align: center;
+                        font-size: 19px;
+                        padding-top: 10px;
+                        padding-bottom: 5px;
+                        margin-bottom:10px;
+                        font-family: "Avenir-Black";
+                        color: #07262D;
+                        }
+                    }/*final textos-seccion-servicios*/
+                    .imagen6{
+                    background-image: url(/imagenes/inicio-imagen-6--pagina-web-sepia.jpg);
+                    background-size: cover;
+                    background-position: center;
+                    border-radius: 15px;
+                    width: 100%;
+                    height: 170px;
+                    transition: all 1s;
+                    &:hover{
+                    background-image: url(/imagenes/inicio-imagen-6-HOVER-pagina-web-sepia.jpg);
+                    background-size: cover;
+                    background-position: center;
+                    border-radius: 15px;
+                    width: 100%;
+                    height: 170px;
+                    }
+                    }
+                }/* final servicio 3 */
+            }/*final seccion servicios */
+
+
+/* bloque aparte servicio 4 y 5*/
+/* servicio 4*/
+            .servicios-4-y-5{
+            width: 100%;
+            height: 530px;
+            justify-content: center;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(2, 240px);
+            padding: 0px 40px 20px 40px;
+            grid-row-gap: 20px;
+            grid-template-areas: 
+                                "servicio4"
+                                "servicio5";
+            
+                .servicio4{
+                grid-area: servicio4;
+                height: 240px;
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                animation: texto-para-arriba 4s linear;
+                animation-timeline: view(0px);
+                animation-range: entry 0% cover 35%;
+                
+                    .textos-seccion-servicios{
+                    height: 20%;
+                        h4{
+                        width: 100%;
+                        height: 20%;
+                        text-align: center;
+                        font-size: 19px;
+                        padding-top: 10px;
+                        padding-bottom: 5px;
+                        margin-bottom:10px;
+                        font-family: "Avenir-Black";
+                        color: #07262D;
+                        }
+                    }/*final textos-seccion-servicios*/
+                    .imagen7{
+                    background-image: url(/imagenes/inicio-imagen-7--pagina-web-sepia.jpg);
+                    background-size: cover;
+                    background-position: center;
+                    border-radius: 15px;
+                    width: 100%;
+                    height: 170px;
+                    transition: all 1s;
+                    &:hover{
+                    background-image: url(/imagenes/inicio-imagen-7-HOVER-pagina-web-sepia.jpg);
+                    background-size: cover;
+                    background-position: center;
+                    border-radius: 15px;
+                    width: 100%;
+                    height: 170px;
+                    }
+                    }
+                }/* final servicio 4 */
+/* servicio 5 */
+                .servicio5{
+                grid-area: servicio5;
+                height: 240px;
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                animation: texto-para-arriba 4s linear;
+                animation-timeline: view(0px);
+                animation-range: entry 0% cover 38%;
+                
+                    .textos-seccion-servicios{
+                    height: 20%;
+                        h4{
+                        width: 100%;
+                        height: 20%;
+                        text-align: center;
+                        font-size: 19px;
+                        padding-top: 10px;
+                        padding-bottom: 5px;
+                        margin-bottom:10px;
+                        font-family: "Avenir-Black";
+                        color: #07262D;
+                        }
+                    }/*final textos-seccion-servicios*/
+                    .imagen8{
+                    background-image: url(/imagenes/inicio-imagen-8--pagina-web-sepia.jpg);
+                    background-size: cover;
+                    background-position: center;
+                    border-radius: 15px;
+                    width: 100%;
+                    height: 170px;
+                    transition: all 1s;
+                    &:hover{
+                    background-image: url(/imagenes/inicio-imagen-8-HOVER-pagina-web-sepia.jpg);
+                    background-size: cover;
+                    background-position: center;
+                    border-radius: 15px;
+                    width: 100%;
+                    height: 170px;
+                    }
+                    }
+                }/* final servicio 5 */
+            }/* final bloque aparte servicios 4 y 5 */
+
+/* conector drones */
+        .conector-drones{
+        background-color: #07262D;
+        background-image: url(/imagenes/inicio-conector-servicio-de-drones.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 78px;
+        width: 100%;
+        }
+
+/* servicio-drones */
+        .sección-drones{
+        background-color: #07262D;
+        height: 650px;
+        width: 100%;
+        padding: 25px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(3, 200px);
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+        grid-template-areas: 
+                "caja-dron1 caja-dron2"
+                "caja-dron3 caja-dron4"
+                "caja-dron5 caja-dron5";
+            
+            
+
+                /* servicio dron 1 */
+                .caja-dron1{
+                grid-area: caja-dron1;
+                height: 150px;
+                width: 100%;
+                background-size: contain;
+                background-position: center;
+                animation: texto-para-arriba 4s linear;
+                animation-timeline: view(0px);
+                animation-range: entry 0% cover 50%;
+                
+                    .imagen1-rov{
+                    background-image: url(/imagenes/ROV-BRAZO-MECANICO.png);
+                    background-size: contain;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    width: 100%;
+                    height: 100%;
+                    transition: all 3s;
+                    &:hover{
+                    background-image: url(/imagenes/drones/dron-hover-brazo-mecanico.png);
+                    background-size: contain;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    width: 100%;
+                    height: 100%;   
+                    }
+                    }
+                    .textos-seccion-drones{
+                        h5{
+                            width: 100%;
+                            height: auto;
+                            text-align: center;
+                            padding-top: 10px;
+                            font-family: "Avenir-Black";
+                            font-size: 16px;
+                            color: #20A3D1;
+                            
+                        }
+                    }
+                }/*final caja dron 1*/
+
+                /* servicio dron 2 */
+                .caja-dron2{
+                grid-area: caja-dron2;
+                height: 150px;
+                width: 100%;
+                background-size: contain;
+                background-position: center;
+                animation: texto-para-arriba 4s linear;
+                animation-timeline: view(0px);
+                animation-range: entry 0% cover 55%;
+
+                    .imagen2-rov{
+                    background-image: url(/imagenes/ROV-AMPLIACION-CAMPO-DE-VISION-HD.png);
+                    background-size: contain;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    width: 100%;
+                    height: 100%;
+                    transition: all 3s;
+                    &:hover{
+                    background-image: url(/imagenes/drones/dron-hover-brazo-mecanico.png);
+                    background-size: contain;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    width: 100%;
+                    height: 100%;   
+                    }
+                    }
+                    .textos-seccion-drones{
+                        h5{
+                            width: 100%;
+                            height: auto;
+                            text-align: center;
+                            padding-top: 10px;
+                            font-family: "Avenir-Black";
+                            font-size: 16px;
+                            color: #20A3D1;
+                            
+                        }
+                    }
+                }/*final caja dron 2*/
+
+                /* servicio dron 3*/
+                .caja-dron3{
+                grid-area: caja-dron3;
+                height: 150px;
+                width: 100%;
+                background-size: contain;
+                background-position: center;
+                animation: texto-para-arriba 4s linear;
+                animation-timeline: view(0px);
+                animation-range: entry 0% cover 60%;
+
+                    .imagen3-rov{
+                    background-image: url(/imagenes/ROV-GPS-MARINO.png);
+                    background-size: contain;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    width: 100%;
+                    height: 100%;
+                    transition: all 3s;
+                    &:hover{
+                    background-image: url(/imagenes/drones/dron-hover-brazo-mecanico.png);
+                    background-size: contain;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    width: 100%;
+                    height: 100%;   
+                    }
+                    }
+                    .textos-seccion-drones{
+                        h5{
+                            width: 100%;
+                            height: auto;
+                            text-align: center;
+                            padding-top: 10px;
+                            font-family: "Avenir-Black";
+                            font-size: 16px;
+                            color: #20A3D1;
+                            
+                        }
+                    }
+                }/*final caja dron 3*/
+
+                /* servicio dron 4*/
+                .caja-dron4{
+                grid-area: caja-dron4;
+                height: 150px;
+                width: 100%;
+                background-size: contain;
+                background-position: center;
+                animation: texto-para-arriba 4s linear;
+                animation-timeline: view(0px);
+                animation-range: entry 0% cover 62%;
+                    
+                    .imagen4-rov{
+                    background-image: url(/imagenes/ROV-INSPECCION.png);
+                    background-size: contain;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    width: 100%;
+                    height: 100%;
+                    transition: all 3s;
+                    &:hover{
+                    background-image: url(/imagenes/drones/dron-hover-brazo-mecanico.png);
+                    background-size: contain;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    width: 100%;
+                    height: 100%;   
+                    }
+                    }
+                    .textos-seccion-drones{
+                        h5{
+                            width: 100%;
+                            height: auto;
+                            text-align: center;
+                            padding-top: 10px;
+                            font-family: "Avenir-Black";
+                            font-size: 16px;
+                            color: #20A3D1;
+                            
+                        }
+                    }
+                }/*final caja dron 4*/
+
+                /* servicio dron 5*/
+                .caja-dron5{
+                grid-area: caja-dron5;
+                height: 150px;
+                width: 100%;
+                animation: texto-para-arriba 4s linear;
+                animation-timeline: view(0px);
+                animation-range: entry 0% cover 63%;
+                
+                    .imagen5-rov{
+                    background-image: url(/imagenes/ROV-SISTEMA-DE-ILUMINACION.png);
+                    background-size: contain;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    width: 100%;
+                    height: 100%;
+                    transition: all 3s;
+                    &:hover{
+                    background-image: url(/imagenes/drones/dron-hover-brazo-mecanico.png);
+                    background-size: contain;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    width: 100%;
+                    height: 100%;   
+                    }
+                    }
+                    .textos-seccion-drones{
+                        h5{
+                            width: 100%;
+                            height: auto;
+                            text-align: center;
+                            padding-top: 10px;
+                            font-family: "Avenir-Black";
+                            font-size: 16px;
+                            color: #20A3D1;
+                            
+                        }
+                    } 
+                }/*final caja dron 5*/
+             
+        }/*final servicio-drones */
+
+/* footer */
+        .pie-de-pagina{
+        background-image: url(/imagenes/inicio-imagen-9--pagina-web-sepia.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 650px;
+        width: 100%;
+        color: #ffffff;
+        display: grid;
+        grid-row-gap:20px;
+        justify-content: center;
+        text-align: center;
+        padding-top: 100px;
+
+            .logo-sepia-tercero{
+            margin: 25px;
+            height: 60px;
+            display: flex;
+
+                img{
+                height: 50px;
+                width: auto;   
+                }
+            }
+
+            .datos-sepia{
+            height: 40%;
+            width: 100%;
+                
+                ul{
+                    li{
+                    list-style: none;
+                    padding: 5px;
+                    padding-right: 50px;
+                    }
+                } 
+            }
+
+            .redes-sociales{
+                a{
+                height: 33%;
+                width: 100%;
+                color: #20A3D1;
+                padding: 0px 5px 0px 5px;
+                font-size: 30px;
+                &:hover{
+                    color: #ffffff;
+                    }
+                }
+            }
+            
+            h6{
+            margin-top: 40px;
+            }
+        }/*final pie-de-pagina*/
+    }/*final main*/
+}/*final etiqueta universal*/
+
+                                                        /* AQUI INICIAN LAS MEDIA QUERIES */
+
+/* Para formato 1366px 768px */
+@media only screen and (min-width:1366px){
+    main{
+        font-size: 18px;
+    
+            header{
+    
+                .contenedor-elementos-header{
+                padding: 20px;
+    
+                    .menu-de-navegacion{
+    
+                        .logo-sepia{
+                            .logo-sepia-inicial{
+                            height: 35px;
+                            }
+                        }
+                    }/*menu-de-navegacion*/
+                }/*final contenedor-elementos-header*/
+                
+                .contenedor-cuadro-call-to-action{
+                margin-bottom: 170px;
+    
+                    .titulos-call-to-action{
+                    font-size: 350%;
+                    padding: 0px 20px;
+                      p{margin: -5px;
+                        font-size: 130%;
+                        }
+                    }
+    
+                    .parrafo-call-to-action{
+                    padding: 0px 330px;
+                    } 
+    
+                    .contenedor-call-to-action{
+                    display: flex;
+                    flex-direction: row;
+                    margin-top: 40px;
+                    padding: 0px 320px;
+    
+                        .botones-call-to-action{
+                        height: 50px;
+                        padding-top: 8px;
+                        margin: 8px 20px;
+                        transition: all 1s;
+    
+                        &:hover{
+                        height: 50px;
+                        padding-top: 8px;
+                        margin: 8px 20px;
+                        }
+                            p{
+                                a{
+                                font-size: 18px;
+                                }
+                            }
+                        }/*final botones-call-to-action*/
+                    }/*final contenedor-call-to-action*/
+                }/* final contenedor-cuadro-call-to-action*/
+    
+            }/*final header*/
+    
+    /* sección-quienes-somos */
+            .sección-quienes-somos{
+            height: 600px;
+            padding: 20px 310px 10px 310px;  
+            
+                h1{
+                padding: 10px;
+                font-size: 35px;
+                }
+    
+                .logo-sepia-segundo{
+                margin-top: 50px;
+                height: 60px;
+                }
+            }/*final sección-quienes-somos*/
+    
+    /* sección-beneficios */
+            .sección-beneficios{
+            height: 100vh;
+            align-content: center;
+            padding: 150px 150px 150px 710px;
+                
+                h2{
+                text-align: right;
+                padding-top: 0px;
+                font-size: 35px;
+                }
+    
+                p{
+                text-align: right;
+                }
+            }/* final sección-beneficios*/
+    
+    /* sección-ventajas */
+            .sección-ventajas{
+            height: 500px;
+            padding: 20px 150px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr;
+            grid-column-gap: 20px;
+            grid-template-areas: 
+                                "parrafo carrusel";
+    
+                #carouselExampleIndicators{
+                grid-area: carrusel;
+                margin-top: 220px;
+                width: auto;
+                height: 250px;
+                border-radius: 15px;  
+                }
+                
+                .parrafo{
+                grid-area: parrafo;
+                padding-top: 150px;
+                    h3{
+                    text-align: left;
+                    padding-top: 15px;
+                    font-size: 35px;
+                    }
+    
+                    p{
+                    text-align: left;
+                    }
+                }
+            }/* final sección-ventajas */
+    
+    /* conector nuestros servicios */
+            .conector-nuestros-servicios{
+            height: 130px;
+            }/*final conector nuestros servicios */
+    
+    /* seccion -nuestros-servicios */
+    .seccion-servicios{
+        width: 100%;
+        height: 370px;
+        display: grid;
+        grid-template-columns: repeat(3, 350px);
+        grid-template-rows: repeat(2, 300px);
+        padding: 30px 250px;
+        grid-column-gap: 60px;
+        grid-row-gap: 20px;
+        grid-template-areas: 
+            "servicio1 servicio2 servicio3";
+                /* servicios uno por uno */
+
+/* servicio 1 */
+                .servicio1{
+                height: 310px;
+                
+                    .textos-seccion-servicios{
+                        h4{
+                        font-size: 24px;
+                        }
+                    }/*final textos-seccion-servicios*/
+                    .imagen4{
+                    height: 220px;
+                    &:hover{
+                    height: 220px;
+                    }
+                }
+                }/* final servicio 1 */
+
+/* servicio 2 */
+                .servicio2{
+                height: 310px;
+                
+                    .textos-seccion-servicios{
+                        h4{
+                        font-size: 24px;
+                        }
+                    }/*final textos-seccion-servicios*/
+
+                    .imagen5{
+                    height: 220px;
+                    &:hover{
+                    height: 220px;
+                    }
+                    }
+                }/* final servicio 2 */
+
+/* servicio 3 */
+                .servicio3{
+                height: 310px;
+                
+                    .textos-seccion-servicios{
+                        h4{
+                        font-size: 24px;
+                        }
+                    }/*final textos-seccion-servicios*/
+                    .imagen6{
+                    height: 220px;
+                    &:hover{
+                    height: 220px;
+                    }
+                    }
+                }/* final servicio 3 */
+    }/*final seccion servicios */
+
+/* bloque aparte servicio 4 y 5*/
+
+/* servicio 4*/
+            .servicios-4-y-5{
+            width: 100%;
+            height: 340px;
+            justify-content: center;
+            display: grid;
+            grid-template-columns: repeat(2, 350px);
+            grid-template-rows: 300px;
+            padding: 0px 100px 30px 100px;
+            grid-column-gap: 60px;
+            grid-template-areas: 
+                                "servicio4 servicio5";
+            
+/* servicio 4 */
+                .servicio4{
+                height: 310px;
+                    .textos-seccion-servicios{
+                        h4{
+                        font-size: 24px;
+                        }
+                    }/*final textos-seccion-servicios*/
+                    .imagen7{
+                    height: 220px;
+                    width: 360px;
+                    &:hover{
+                    height: 220px;
+                    }
+                    }
+                }/* final servicio 4 */
+/* servicio 5 */
+                .servicio5{
+                height: 310px;
+                
+                    .textos-seccion-servicios{
+                        h4{
+                        font-size: 24px;
+                        }
+                    }/*final textos-seccion-servicios*/
+                    .imagen8{
+                    height: 220px;
+                    &:hover{
+                    height: 220px;
+                    }
+                    }
+                }/* final servicio 5 */
+     }/* finalbloque aparte servicio 4 y 5*/     
+            
+/* conector drones */
+            .conector-drones{
+            height: 130px;
+            }
+
+/* servicio-drones */
+        .sección-drones{
+        background-color: #07262D;
+        height: 460px;
+        width: 100%;
+        padding: 80px 100px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: repeat(3, 210px);
+        grid-column-gap: 60px;
+        grid-template-areas: 
+                            "caja-dron1 caja-dron2 caja-dron3 caja-dron4 caja-dron5";
+            
+                /* servicio dron 1 */
+                .caja-dron1{
+                height: 200px;
+                
+                    .imagen1-rov{
+                    width: 100%;
+                    height: 100%;
+                    }
+                    .textos-seccion-drones{
+                        h5{
+                            font-size: 23px;
+                        }
+                    }
+                }/*final caja dron 1*/
+
+                /* servicio dron 2 */
+                .caja-dron2{
+                height: 200px;
+
+                    .imagen2-rov{
+                    width: 100%;
+                    height: 100%;
+                    }
+                    .textos-seccion-drones{
+                        h5{
+                            font-size: 23px;
+                        }
+                    }
+                }/*final caja dron 2*/
+
+                /* servicio dron 3*/
+                .caja-dron3{
+                height: 200px;
+
+                    .imagen3-rov{
+                    width: 100%;
+                    height: 100%;
+                    }
+                    .textos-seccion-drones{
+                        h5{
+                            font-size: 23px;
+                        }
+                    }
+                }/*final caja dron 3*/
+
+                /* servicio dron 4*/
+                .caja-dron4{
+                height: 200px;
+                    
+                    .imagen4-rov{
+                    width: 100%;
+                    height: 100%;
+                    }
+                    .textos-seccion-drones{
+                        h5{
+                            font-size: 23px;
+                        }
+                    }
+                }/*final caja dron 4*/
+
+                /* servicio dron 5*/
+                .caja-dron5{
+                height: 200px;
+                
+                    .imagen5-rov{
+                    width: 100%;
+                    height: 100%;
+                    }
+                    .textos-seccion-drones{
+                        h5{
+                            font-size: 23px;
+                        }
+                    } 
+                }/*final caja dron 5*/
+             
+        }/*final servicio-drones */   
+
+/* footer */
+            .pie-de-pagina{
+            height: 650px;
+            display: grid;
+            grid-row-gap:10px;
+            justify-content: center;
+            align-content: center;
+            text-align: center;
+    
+                .logo-sepia-tercero{
+                margin: 25px;
+                height: 60px;
+                display: flex;
+                justify-content: center;
+    
+                    img{
+                    height: 80px;   
+                    }
+                }
+    
+                .datos-sepia{
+                height: 40%;
+                    
+                    ul{
+                    display: flex;
+                        li{
+                        padding: 30px 15px 0px 15px;
+                        }
+                    } 
+                }
+    
+                .redes-sociales{
+                    a{
+                    padding: 0px 10px ;
+                    font-size: 40px;
+                    }
+                }
+                
+                h6{
+                margin-top: 160px;
+                }
+            }/*final pie-de-pagina*/
+        }/*final main*/
+}/*FINAL Para formato 1366px 768px */
+
+                                                        /*Para formato 1440px 900px */
+
+/* Para formato 1440px 900px */
+@media only screen and (min-width:1440px){
+    main{
+            header{
+                .contenedor-elementos-header{
+                    .menu-de-navegacion{
+                        .logo-sepia{
+                            .logo-sepia-inicial{
+                            padding-left: 10px;
+                            }
+                        }
+                    }/*menu-de-navegacion*/
+                }/*final contenedor-elementos-header*/
+                
+                .contenedor-cuadro-call-to-action{
+                    .titulos-call-to-action{
+                    font-size: 270%;
+                    }
+                    .parrafo-call-to-action{
+                    padding: 0px 360px;
+                    } 
+                }/* final contenedor-cuadro-call-to-action*/
+            }/*final header*/
+    
+    /* sección-quienes-somos */
+            .sección-quienes-somos{
+            padding: 20px 340px 10px 340px;
+                .logo-sepia-segundo{
+                height: 70px;
+                }
+            }/*final sección-quienes-somos*/
+    
+    /* sección-beneficios */
+            .sección-beneficios{
+            padding: 230px 200px 150px 730px;
+                h2{
+                text-align: right;
+                padding-top: 15px;
+                }
+                p{
+                text-align: right;
+                }
+            }/* final sección-beneficios*/
+    
+    /* sección-ventajas */
+            .sección-ventajas{
+            height: 690px;
+            padding: 25px 200px;
+            grid-column-gap: 60px;
+
+                #carouselExampleIndicators{
+                margin-top: 220px;
+                width: 500px;
+                height: 280px;
+                border-radius: 15px;  
+                }
+            }/* final sección-ventajas */
+    
+    /* seccion -nuestros-servicios */
+            .seccion-servicios{
+            padding: 30px 120px;
+            grid-template-columns: repeat(3, 360px);
+            }/*final seccion servicios */
+    
+    /* servicio-drones */
+            .sección-drones{   
+                .caja-drones{
+                        .textos-seccion-drones{
+                            h5{
+                            font-size: 22px;
+                            }
+                        }
+                }/*final caja-drones*/   
+            }/*final servicio-drones */
+    
+    
+        }/*final main*/
+}/*FINAL Para formato 1440px 900px */
+
+
+                                                                    /* Para formato 1674px 807px */
+
+@media only screen and (min-width:1674px){
+    main{
+        font-size: 16px;
+            header{
+                .contenedor-elementos-header{
+                    .menu-de-navegacion{
+                        .logo-sepia{
+                            .logo-sepia-inicial{
+                            padding-left: 10px;
+                            }
+                        }
+                    }/*menu-de-navegacion*/
+                }/*final contenedor-elementos-header*/
+                
+                .contenedor-cuadro-call-to-action{
+                    padding: 0px 150px;
+                    .titulos-call-to-action{
+                    font-size: 270%;
+                    }
+                     
+                    .botones-call-to-action{
+                        height: 50px;
+                        padding: 0px 0px;
+                        padding-top: 8px;
+                        margin: 8px 0px;
+                        transition: all 1s;
+    
+                        &:hover{
+                        height: 50px;
+                        padding-top: 8px;
+                        margin: 8px 20px;
+                        }
+                            p{
+                                a{
+                                font-size: 18px;
+                                }
+                            }
+                        }/*final botones-call-to-action*/
+                }/* final contenedor-cuadro-call-to-action*/
+            }/*final header*/
+    
+    /* sección-quienes-somos */
+            .sección-quienes-somos{
+            padding: 20px 480px 10px 480px;
+            }/*final sección-quienes-somos*/
+    
+    /* sección-beneficios */
+            .sección-beneficios{
+            padding: 230px 300px 150px 930px;
+            }/* final sección-beneficios*/
+    
+    /* sección-ventajas */
+            .sección-ventajas{
+            height: 690px;
+            padding: 25px 300px;
+            }/* final sección-ventajas */
+    
+    /* seccion -nuestros-servicios */
+            .seccion-servicios{
+            padding: 30px 120px;
+            grid-template-columns: repeat(3, 360px);
+            }/*final seccion servicios */
+    
+    /* servicio-drones */
+            .sección-drones{   
+                .caja-drones{
+                        .textos-seccion-drones{
+                            h5{
+                            font-size: 22px;
+                            }
+                        }
+                }/*final caja-drones*/   
+            }/*final servicio-drones */
+    
+    
+        }/*final main*/
+}/*FINAL Para formato 1674px 807px */
+
+                                                                /*Para formato 1920px 1080px */
+
+/* Para formato 1920px 1080px */
+@media only screen and (min-width:1920px){
+    main{
+        font-size: 22px;
+    
+            header{
+    
+                .contenedor-elementos-header{
+                padding: 20px;
+    
+                    .menu-de-navegacion{
+    
+                        .logo-sepia{
+                            .logo-sepia-inicial{
+                            height: 45px;
+                            }
+                        }
+                    }/*menu-de-navegacion*/
+                }/*final contenedor-elementos-header*/
+                
+                .contenedor-cuadro-call-to-action{
+                margin-bottom: 220px;
+                    .titulos-call-to-action{
+                    font-size: 300%;
+                    }
+                    .parrafo-call-to-action{
+                    padding: 0px 520px;
+                    } 
+                    .contenedor-call-to-action{
+                    margin-top: 40px;
+                    padding: 0px 500px;
+                        .botones-call-to-action{
+                        padding: 5px 10px;
+                            p{
+                                a{
+                                font-size: 20px;
+                                }
+                            }
+                        }/*final botones-call-to-action*/
+                    }/*final contenedor-call-to-action*/
+                }/* final contenedor-cuadro-call-to-action*/
+            }/*final header*/
+    
+    /* sección-quienes-somos */
+            .sección-quienes-somos{
+            height: 650px;
+            padding: 20px 540px 10px 540px;  
+            
+                h1{
+                font-size: 40px;
+                }
+                .logo-sepia-segundo{
+                margin-top: 60px;
+                height: 70px;
+                }
+            }/*final sección-quienes-somos*/
+    
+    /* sección-beneficios */
+            .sección-beneficios{
+            height: 900px;
+            padding: 80px 300px 150px 920px;   
+                h2{
+                font-size: 40px;
+                }
+            }/* final sección-beneficios*/
+    
+    /* sección-ventajas */
+            .sección-ventajas{
+            height: 880px;
+            padding: 40px 300px;
+            grid-column-gap: 80px;
+            
+                #carouselExampleIndicators{
+                margin-top: 220px;
+                width: auto;
+                height: 350px;
+                border-radius: 15px;  
+                }
+                .parrafo{
+                padding-top: 180px;
+                    h3{
+                    font-size: 40px;
+                    }
+                }
+            }/* final sección-ventajas */
+    
+    /* conector nuestros servicios */
+            .conector-nuestros-servicios{
+            height: 170px;
+            }/*final conector nuestros servicios */
+    
+    /* seccion -nuestros-servicios */
+    .seccion-servicios{
+        background-color: #ffffff;
+        width: 100%;
+        height: 500px;
+        display: grid;
+        grid-template-columns: repeat(3, 450px);
+        grid-template-rows: repeat(1, 360px);
+        padding: 60px 250px 30px 250px;
+        grid-column-gap: 60px;
+        grid-row-gap: 20px;
+        grid-template-areas: 
+            "servicio1 servicio2 servicio3";
+                /* servicios uno por uno */
+
+/* servicio 1 */
+                .servicio1{
+                height: 310px;
+                
+                    .textos-seccion-servicios{
+                        height: 90px;
+                        h4{
+                        font-size: 30px;
+                        }
+                    }/*final textos-seccion-servicios*/
+                    .imagen4{
+                    height: 280px;
+                    &:hover{
+                    height: 280px;
+                    }
+                }
+                }/* final servicio 1 */
+
+/* servicio 2 */
+                .servicio2{
+                height: 310px;
+                
+                    .textos-seccion-servicios{
+                    height: 90px;
+                        h4{
+                        font-size: 30px;
+                        }
+                    }/*final textos-seccion-servicios*/
+
+                    .imagen5{
+                    height: 280px;
+                    &:hover{
+                    height: 280px;
+                    }
+                    }
+                }/* final servicio 2 */
+
+/* servicio 3 */
+                .servicio3{
+                height: 310px;
+                
+                    .textos-seccion-servicios{
+                    height: 90px;
+                        h4{
+                        font-size: 30px;
+                        }
+                    }/*final textos-seccion-servicios*/
+                    .imagen6{
+                    height: 280px;
+                    &:hover{
+                    height: 280px;
+                    }
+                    }
+                }/* final servicio 3 */
+    }/*final seccion servicios */
+
+/* bloque aparte servicio 4 y 5*/
+
+/* servicio 4*/
+            .servicios-4-y-5{
+            width: 100%;
+            height: 450px;
+            justify-content: center;
+            display: grid;
+            grid-template-columns: repeat(2, 450px);
+            grid-template-rows: 360px;
+            padding: 0px 250px 30px 250px;
+            grid-column-gap: 60px;
+            grid-template-areas: 
+                                "servicio4 servicio5";
+            
+/* servicio 4 */
+                .servicio4{
+                height: 310px;
+                    .textos-seccion-servicios{
+                    height: 90px;
+                        h4{
+                        font-size: 30px;
+                        }
+                    }/*final textos-seccion-servicios*/
+                    .imagen7{
+                    height: 280px;
+                    width: 450px;
+                    &:hover{
+                    height: 280px;
+                    }
+                    }
+                }/* final servicio 4 */
+/* servicio 5 */
+                .servicio5{
+                height: 310px;
+                
+                    .textos-seccion-servicios{
+                    height: 90px;
+                        h4{
+                        font-size: 30px;
+                        }
+                    }/*final textos-seccion-servicios*/
+                    .imagen8{
+                    height: 280px;
+                    width: 100%;
+                    &:hover{
+                    height: 280px;
+                    }
+                    }
+                }/* final servicio 5 */
+     }/* finalbloque aparte servicio 4 y 5*/
+    
+/* conector drones */
+            .conector-drones{
+            height: 170px;
+            }
+    
+/* servicio-drones */
+            .sección-drones{
+            height: 470px;
+            padding: 80px 190px;
+                .caja-drones{
+                        .textos-seccion-drones{
+                            h5{
+                                font-size: 30px;
+                                margin-top: 12px;
+                            }
+                        }
+                }/*final caja-drones*/   
+            }/*final servicio-drones */
+    
+/* footer */
+            .pie-de-pagina{
+            height: 650px;
+                .logo-sepia-tercero{
+                    img{
+                    height: 100px;   
+                    }
+                }
+                .datos-sepia{
+                    ul{
+                    display: flex;
+                        li{
+                        padding: 50px 15px 0px 15px;
+                        }
+                    } 
+                }
+    
+                .redes-sociales{
+                    a{
+                    padding: 0px 10px ;
+                    font-size: 50px;
+                    }
+                }
+                
+                h6{
+                font-size: 20px;
+                margin-top: 100px;
+                }
+            }/*final pie-de-pagina*/
+        }/*final main*/
+}/*FINAL Para formato 1920px 1080px */
+
+                                                                        
+
+                                                                            /* AQUI ESTAN LAS ANIMACIONES */
+
+@keyframes texto-para-arriba{
+    
+    0%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+    50%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+    100%{
+      transform: translateY(0); 
+      opacity: 1; 
+    }
+}

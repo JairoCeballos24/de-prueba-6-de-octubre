@@ -1,0 +1,339 @@
+@import url('https://fonts.cdnfonts.com/css/avenir');
+/* font-family: 'Avenir', sans-serif; */
+
+@import url(https://db.onlinewebfonts.com/c/b78d933f8aa6b9284c1d3efd3db0a9b9?family=Avenir-Black);
+/* font-family: "Avenir-Black"; */
+
+@import url(https://db.onlinewebfonts.com/c/158fa6012dff0f88241ad898c46c0118?family=AvenirNextW1G-Regular);
+/* font-family: "AvenirNextW1G-Regular"; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+/* formato 360px - 640px */   
+main{
+    font-family: 'Avenir', sans-serif;
+    font-size: 16px;
+
+    header{
+    background-color: #ffffff;
+    height: 1030px;
+    width: 100%;
+    background: linear-gradient(rgb(7, 38, 45, ), rgb(7, 38, 45, 0.0), rgb(7, 38, 45, 0.0), rgb(7, 38, 45, 0.0), rgb(7, 38, 45, 0.0));
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+        .contenedor-elementos-header{
+        height: auto;
+        width: 100%;
+        padding: 20px;
+        z-index: 100;
+
+            .menu-de-navegacion{
+            display: flex;
+            justify-content: space-between;
+            
+                .logo-sepia{
+                    .logo-sepia-inicial{
+                    height: 35px;
+                    }
+                }
+                .navbar{
+                padding: 15px 10px 0px 0px;
+                box-sizing: border-box;
+                z-index: 10;
+                  
+                    .offcanvas-header{
+                    background-color: #07262D;
+                    }
+                    .offcanvas-body{
+                    background-color: #07262D;
+
+                        .activeazul{
+                        color: #20A3D1;
+                        &:hover{color: #ffffff;};
+                        }
+                        .btn{
+                        color: #ffffff;
+                        &:hover{color: #07262D;};
+                        background-color: #20A3D1;
+                        &:hover{background-color: #20A3D1;};
+                        }   
+                    }
+                }/*final navbar*/
+            }/*menu-de-navegacion*/
+        }/*final contenedor-elementos-header*/
+           
+           .contenedor-informacion-omar{
+           background-position: center;
+           width: 100%;
+           padding-top: 50px;
+           display: grid;
+           justify-content: center;
+           align-content: center;
+           margin-bottom: 170px;
+           text-align: center;
+           position: relative;
+           z-index: 20;
+           animation: texto-para-arriba 2s ease;
+
+            .imagen-omar{
+            height: 180px;
+            margin: 10px 0px;
+            }
+            h1{
+            color: #20A3D1;
+            font-family: "Avenir-Black";
+            font-size: 200%;
+            padding: 0px 20px;
+            margin: 0px;
+            }
+
+            
+            #cargo{
+                p{
+                color: #20A3D1;
+                margin: 0px 0px;
+                padding: 0px 25px;
+                font-size: 120%;
+                }
+            }
+            p{
+            color: #07262D;
+            margin: 10px 0px;
+            padding: 0px 25px;
+            }    
+           }/* final contenedor-informacion omar*/
+    }/*final header*/
+
+/* footer */
+    .pie-de-pagina{
+        background-image: url(/imagenes/inicio-imagen-9--pagina-web-sepia.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 650px;
+        width: 100%;
+        color: #ffffff;
+        display: grid;
+        grid-row-gap:20px;
+        justify-content: center;
+        text-align: center;
+        padding-top: 100px;
+
+            .logo-sepia-tercero{
+            margin: 25px;
+            height: 60px;
+            display: flex;
+
+                img{
+                height: 50px;
+                width: auto;   
+                }
+            }
+
+            .datos-sepia{
+            height: 40%;
+            width: 100%;
+                
+                ul{
+                    li{
+                    list-style: none;
+                    padding: 5px;
+                    padding-right: 50px;
+                    }
+                } 
+            }
+
+            .redes-sociales{
+                a{
+                height: 33%;
+                width: 100%;
+                color: #20A3D1;
+                padding: 0px 5px 0px 5px;
+                font-size: 30px;
+                &:hover{
+                    color: #ffffff;
+                    }
+                }
+            }
+            
+            h6{
+            margin-top: 40px;
+            }
+        }/*final pie-de-pagina*/
+}/* final main formato 360px - 640px */
+}/*final etiqueta universal*/
+
+                                                            /* AQUI EMPIEZAN LAS MEDIA QUERIES */
+
+                                                                                /* Formato 1366px -768px */
+
+@media only screen and (min-width: 1366px)
+{
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+        main{
+        font-size: 18px;
+
+            header{
+            height: 800px;
+                .contenedor-elementos-header{
+                padding: 20px;
+     
+                    .menu-de-navegacion{
+     
+                        .logo-sepia{
+                            .logo-sepia-inicial{
+                            height: 35px;
+                            }
+                        }
+                        } 
+                    }/*menu-de-navegacion*/
+                }/*final contenedor-elementos-header*/
+                
+                .contenedor-informacion-omar{
+                    padding-top: 20px;
+                    padding: 0px 310px;
+         
+                     .imagen-omar{
+                     height: 280px;
+                     }
+                     h1{
+                     font-size: 300%;   
+                    }/* final contenedor-informacion omar*/
+            }/*final header*/
+            
+/* footer */
+.pie-de-pagina{
+    height: 650px;
+    display: grid;
+    grid-row-gap:10px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding-top: 60px;
+
+        .logo-sepia-tercero{
+        margin: 60px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+
+            img{
+            height: 80px;   
+            }
+        }
+
+        .datos-sepia{
+        padding-right: 40px;
+            ul{
+            display: flex;
+                li{
+                padding: 30px 15px 0px 15px;
+                }
+            } 
+        }
+
+        .redes-sociales{
+            a{
+            padding: 0px 10px ;
+            font-size: 40px;
+            }
+        }
+        
+        h6{
+        margin-top: 130px;
+        font-size: 18PX;
+        }
+    }/*final pie-de-pagina*/
+
+        }/* final main */
+    }/* final etiqueta universal */
+}/* final Formato 1366px -768px */
+
+                                                            /* Para formato 1674px 807px */
+
+@media only screen and (min-width: 1674px){
+    *{
+
+        main{
+            font-size: 16px;
+     
+            header{
+                height: 100vh;
+                .contenedor-elementos-header{
+                padding: 20px;
+     
+                    .menu-de-navegacion{
+     
+                        .logo-sepia{
+                            .logo-sepia-inicial{
+                            height: 35px;
+                            }
+                        } 
+                    }/*menu-de-navegacion*/
+                }/*final contenedor-elementos-header*/
+                
+                .contenedor-informacion-omar{
+                    padding-top: 20px;
+                    padding: 0px 440px;
+         
+                     .imagen-omar{
+                     height: 280px;
+                     }
+                     h1{
+                        margin-top: 20px;
+                     font-size: 300%;   
+                    }
+            }/* final contenedor-informacion omar*/
+            }/*final header*/
+        }/* final main */           
+    }/*final etiqueta universal */
+}/* final formato 1674px 807px */ 
+
+                                                                /* Formato 1920px -1080px */
+
+@media only screen and (min-width: 1920px){
+    *{
+
+        main{
+        font-size: 22px;
+     
+            header{
+            height: 100vh;
+                .contenedor-elementos-header{
+                padding: 20px;
+     
+                    .menu-de-navegacion{
+     
+                        .logo-sepia{
+                            .logo-sepia-inicial{
+                            height: 35px;
+                            }
+                        } 
+                    }/*menu-de-navegacion*/
+                }/*final contenedor-elementos-header*/
+                
+                .contenedor-informacion-omar{
+                    padding-top: 20px;
+                    padding: 0px 410px;
+         
+                     .imagen-omar{
+                     height: 280px;
+                     }
+                     h1{
+                        margin-top: 20px;
+                     font-size: 300%;   
+                    }
+            }/* final contenedor-informacion omar*/
+            }/*final header*/
+            }/*Final main*/
+    }/* final etiqueta universal */  
+}/* FINAL Formato 1920px -1080px */

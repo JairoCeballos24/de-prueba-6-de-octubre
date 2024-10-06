@@ -1,0 +1,1828 @@
+@charset "UTF-8";
+@import url("https://fonts.cdnfonts.com/css/avenir");
+/* font-family: 'Avenir', sans-serif; */
+@import url(https://db.onlinewebfonts.com/c/b78d933f8aa6b9284c1d3efd3db0a9b9?family=Avenir-Black);
+/* font-family: "Avenir-Black"; */
+@import url(https://db.onlinewebfonts.com/c/158fa6012dff0f88241ad898c46c0118?family=AvenirNextW1G-Regular);
+/* font-family: "AvenirNextW1G-Regular"; */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* formato 360px - 640px */
+  /*Final main*/
+}
+* main {
+  font-family: "Avenir", sans-serif;
+  font-size: 16px;
+  /*final header*/
+  /* servico-DESARROLLO TECNOLÓGICO PARA LA CONSERVACIÓN */
+  /* final servico-DESARROLLO TECNOLÓGICO PARA LA CONSERVACIÓN */
+  /* ESTUDIO Y EVALUACIÓN DE IMPACTO AMBIENTAL */
+  /* final ESTUDIO Y EVALUACIÓN DE IMPACTO AMBIENTAL */
+  /* INSPECCIÓN DE BARCOS Y ESTRUCTURAS SUMERGIDAS */
+  /* final INSPECCIÓN DE BARCOS Y ESTRUCTURAS SUMERGIDAS */
+  /* OPERACIÓN LOGÍSTICA EN ÁREAS MARINAS REMOTAS */
+  /* final OPERACIÓN LOGÍSTICA EN ÁREAS MARINAS REMOTAS */
+  /* MONITOREO Y EVALUACIÓN DE RECURSOS PESQUEROS */
+  /* final MONITOREO Y EVALUACIÓN DE RECURSOS PESQUEROS */
+  /* CONECTOR DRONES */
+  /* INTRODUCCION NUESTROS DRONES */
+  /* final INTRODUCCION NUESTROS DRONES*/
+  /* ROV INSPECCIÓN */
+  /* FINAL ROV INSPECCION*/
+  /* ROV CAMPO DE VISION HD */
+  /* FINAL ROV CAMPO DE VISION HD*/
+  /* ROV GPS MARINO */
+  /* FINAL ROV GPS MARINO*/
+  /* ROV BRAZO MECANICO */
+  /* FINAL ROV BRAZO MECANICO*/
+  /* ROV ILUMINCACION */
+  /* FINAL ROV ILUMINACIÓN*/
+  /* footer */
+  /*final pie-de-pagina*/
+}
+* main header {
+  background-image: url(/imagenes/imagenes-servicios/);
+  background-attachment: fixed;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background: linear-gradient(rgb(7, 38, 45), rgba(7, 38, 45, 0), rgba(7, 38, 45, 0), rgba(7, 38, 45, 0), rgba(7, 38, 45, 0));
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  /* final video */
+  /*final contenedor-elementos-header*/
+  /* final contenedor-introduccion-servicios*/
+}
+* main header video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+* main header .contenedor-elementos-header {
+  height: auto;
+  width: 100%;
+  padding: 20px;
+  position: relative;
+  z-index: 100;
+  /*menu-de-navegacion*/
+}
+* main header .contenedor-elementos-header .menu-de-navegacion {
+  display: flex;
+  justify-content: space-between;
+  /*final navbar*/
+}
+* main header .contenedor-elementos-header .menu-de-navegacion .logo-sepia .logo-sepia-inicial {
+  height: 35px;
+}
+* main header .contenedor-elementos-header .menu-de-navegacion .navbar {
+  padding: 15px 10px 0px 0px;
+  box-sizing: border-box;
+  z-index: 10;
+}
+* main header .contenedor-elementos-header .menu-de-navegacion .navbar .offcanvas-header {
+  background-color: #07262D;
+}
+* main header .contenedor-elementos-header .menu-de-navegacion .navbar .offcanvas-body {
+  background-color: #07262D;
+}
+* main header .contenedor-elementos-header .menu-de-navegacion .navbar .offcanvas-body .activeazul {
+  color: #20A3D1;
+}
+* main header .contenedor-elementos-header .menu-de-navegacion .navbar .offcanvas-body .activeazul:hover {
+  color: #ffffff;
+}
+* main header .contenedor-elementos-header .menu-de-navegacion .navbar .offcanvas-body .btn {
+  color: #ffffff;
+  background-color: #20A3D1;
+}
+* main header .contenedor-elementos-header .menu-de-navegacion .navbar .offcanvas-body .btn:hover {
+  color: #07262D;
+}
+* main header .contenedor-elementos-header .menu-de-navegacion .navbar .offcanvas-body .btn:hover {
+  background-color: #20A3D1;
+}
+* main header .contenedor-introduccion-servicios {
+  background-position: center;
+  width: 100%;
+  padding-top: 50px;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 170px;
+  text-align: center;
+  position: relative;
+  z-index: 20;
+  animation: texto-para-arriba 2s ease;
+}
+* main header .contenedor-introduccion-servicios .icono-servicios {
+  height: 180px;
+  margin: 10px 0px;
+}
+* main header .contenedor-introduccion-servicios h1 {
+  color: #20A3D1;
+  font-family: "Avenir-Black";
+  font-size: 200%;
+  padding: 0px 20px;
+}
+* main header .contenedor-introduccion-servicios h1 p {
+  margin: 5px;
+}
+* main header .contenedor-introduccion-servicios p {
+  color: #ffffff;
+  margin: 10px 0px;
+  padding: 0px 20px;
+}
+* main .servicio1 {
+  background-color: #ffffff;
+  height: 800px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: 10px;
+  padding: 10px 25px;
+  animation: texto-para-arriba 4s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 10%;
+}
+* main .servicio1 .contenedor-icono-y-titulo {
+  height: min-content;
+  animation: texto-para-arriba 4s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 40%;
+}
+* main .servicio1 .contenedor-icono-y-titulo .contenedor-icono {
+  display: flex;
+  justify-content: center;
+}
+* main .servicio1 .contenedor-icono-y-titulo .contenedor-icono img {
+  height: 100px;
+  margin: 15px 0px;
+}
+* main .servicio1 .contenedor-icono-y-titulo .titulo h2 {
+  color: #07262D;
+  font-size: 21px;
+  text-align: center;
+  font-family: "Avenir-Black";
+}
+* main .servicio1 .imagen-servicio1 {
+  height: 190px;
+  width: 100%;
+  background-image: url(/imagenes/inicio-imagen-4--pagina-web-sepia.jpg);
+  border-radius: 15px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: all 2s;
+}
+* main .servicio1 .imagen-servicio1:hover {
+  height: 190px;
+  width: 100%;
+  background-image: url(/imagenes/inicio-imagen-4-HOVER-pagina-web-sepia.jpg);
+  border-radius: 15px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+* main .servicio1 p {
+  text-align: center;
+  color: #07262D;
+  padding: 10px 0px;
+  animation: texto-para-arriba 4s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 40%;
+}
+* main .servicio2 {
+  background-color: #07262D;
+  height: 650px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 0px;
+  padding: 10px 25px;
+  animation: texto-para-arriba 0.5s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 20%;
+}
+* main .servicio2 .contenedor-icono-y-titulo {
+  height: min-content;
+  animation: texto-para-arriba 4s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 40%;
+}
+* main .servicio2 .contenedor-icono-y-titulo .contenedor-icono {
+  display: flex;
+  justify-content: center;
+}
+* main .servicio2 .contenedor-icono-y-titulo .contenedor-icono img {
+  height: 100px;
+  margin: 0px 0px;
+}
+* main .servicio2 .contenedor-icono-y-titulo .titulo h2 {
+  color: #20A3D1;
+  font-size: 21px;
+  text-align: center;
+  font-family: "Avenir-Black";
+  padding: 10px 0px;
+}
+* main .servicio2 .imagen-servicio2 {
+  height: 190px;
+  width: 100%;
+  background-image: url(/imagenes/inicio-imagen-5--pagina-web-sepia.jpg);
+  border-radius: 15px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: all 2s;
+  animation: texto-para-arriba 4s linear;
+  animation-timeline: view(0%);
+  animation-range: entry 0% cover 50%;
+}
+* main .servicio2 .imagen-servicio2:hover {
+  height: 190px;
+  width: 100%;
+  background-image: url(/imagenes/inicio-imagen-5-HOVER-pagina-web-sepia.jpg);
+  border-radius: 15px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+* main .servicio2 p {
+  text-align: center;
+  color: #ffffff;
+  padding: 20px 0px;
+  animation: texto-para-arriba 4s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 40%;
+}
+* main .servicio3 {
+  background-color: #ffffff;
+  height: 730px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: 10px;
+  padding: 10px 25px;
+}
+* main .servicio3 .contenedor-icono-y-titulo {
+  height: min-content;
+}
+* main .servicio3 .contenedor-icono-y-titulo .contenedor-icono {
+  display: flex;
+  justify-content: center;
+}
+* main .servicio3 .contenedor-icono-y-titulo .contenedor-icono img {
+  height: 100px;
+  margin: 15px 0px;
+}
+* main .servicio3 .contenedor-icono-y-titulo .titulo h2 {
+  color: #07262D;
+  font-size: 21px;
+  text-align: center;
+  font-family: "Avenir-Black";
+}
+* main .servicio3 .imagen-servicio3 {
+  height: 190px;
+  width: 100%;
+  background-image: url(/imagenes/inicio-imagen-6--pagina-web-sepia.jpg);
+  border-radius: 15px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: all 2s;
+  animation: texto-para-arriba 0.1s linear;
+  animation-timeline: view(0%);
+  animation-range: entry 0% cover 40%;
+}
+* main .servicio3 .imagen-servicio3:hover {
+  height: 190px;
+  width: 100%;
+  background-image: url(/imagenes/inicio-imagen-6-HOVER-pagina-web-sepia.jpg);
+  border-radius: 15px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+* main .servicio3 p {
+  text-align: center;
+  color: #07262D;
+  padding: 10px 0px;
+  animation: texto-para-arriba 2s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 40%;
+}
+* main .servicio4 {
+  background-color: #07262D;
+  height: 630px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 0px;
+  padding: 10px 25px;
+  animation: texto-para-arriba 0.5s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 10%;
+}
+* main .servicio4 .contenedor-icono-y-titulo {
+  height: min-content;
+}
+* main .servicio4 .contenedor-icono-y-titulo .contenedor-icono {
+  display: flex;
+  justify-content: center;
+}
+* main .servicio4 .contenedor-icono-y-titulo .contenedor-icono img {
+  height: 100px;
+  margin: 0px 0px;
+}
+* main .servicio4 .contenedor-icono-y-titulo .titulo h2 {
+  color: #20A3D1;
+  font-size: 21px;
+  text-align: center;
+  font-family: "Avenir-Black";
+  padding: 10px 0px;
+}
+* main .servicio4 .imagen-servicio4 {
+  height: 190px;
+  width: 100%;
+  background-image: url(/imagenes/inicio-imagen-7--pagina-web-sepia.jpg);
+  border-radius: 15px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: all 2s;
+  animation: texto-para-arriba 4s linear;
+  animation-timeline: view(0%);
+  animation-range: entry 0% cover 50%;
+}
+* main .servicio4 .imagen-servicio4:hover {
+  height: 190px;
+  width: 100%;
+  background-image: url(/imagenes/inicio-imagen-7-HOVER-pagina-web-sepia.jpg);
+  border-radius: 15px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+* main .servicio4 p {
+  text-align: center;
+  color: #ffffff;
+  padding: 20px 0px;
+  animation: texto-para-arriba 4s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 40%;
+}
+* main .servicio5 {
+  background-color: #ffffff;
+  height: 750px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: 10px;
+  padding: 10px 25px;
+  animation: texto-para-arriba 4s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 40%;
+}
+* main .servicio5 .contenedor-icono-y-titulo {
+  height: min-content;
+}
+* main .servicio5 .contenedor-icono-y-titulo .contenedor-icono {
+  display: flex;
+  justify-content: center;
+}
+* main .servicio5 .contenedor-icono-y-titulo .contenedor-icono img {
+  height: 100px;
+  margin: 15px 0px;
+}
+* main .servicio5 .contenedor-icono-y-titulo .titulo h2 {
+  color: #07262D;
+  font-size: 21px;
+  text-align: center;
+  font-family: "Avenir-Black";
+}
+* main .servicio5 .imagen-servicio5 {
+  height: 190px;
+  width: 100%;
+  background-image: url(/imagenes/inicio-imagen-8--pagina-web-sepia.jpg);
+  border-radius: 15px;
+  background-size: cover;
+  background-position: center;
+  transition: all 2s;
+  animation: texto-para-arriba 4s linear;
+  animation-timeline: view(0%);
+  animation-range: entry 0% cover 50%;
+}
+* main .servicio5 .imagen-servicio5:hover {
+  height: 190px;
+  width: 100%;
+  background-image: url(/imagenes/inicio-imagen-8-HOVER-pagina-web-sepia.jpg);
+  border-radius: 15px;
+  background-size: cover;
+  background-position: center;
+}
+* main .servicio5 p {
+  text-align: center;
+  color: #07262D;
+  padding: 10px 0px;
+  animation: texto-para-arriba 4s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 40%;
+}
+* main .conector-drones {
+  background-image: url(/imagenes/inicio-conector-servicio-de-drones.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 78px;
+  width: 100%;
+}
+* main .contenedor-servicios-drones {
+  background-color: #07262D;
+  background-position: center;
+  height: 280px;
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+* main .contenedor-servicios-drones h1 {
+  color: #20A3D1;
+  font-family: "Avenir-Black";
+  font-size: 160%;
+  padding: 0px 20px;
+  animation: texto-para-arriba 4s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 40%;
+}
+* main .contenedor-servicios-drones h1 p {
+  margin: 5px;
+}
+* main .contenedor-servicios-drones p {
+  color: #ffffff;
+  margin: 10px 0px;
+  padding: 0px 35px;
+  animation: texto-para-arriba 4s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 40%;
+}
+* main .rov-inspeccion {
+  height: 650px;
+  width: 100%;
+  background-color: #07262D;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  padding: 40px 0px;
+}
+* main .rov-inspeccion .titulo {
+  animation: texto-para-arriba 3s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 40%;
+}
+* main .rov-inspeccion .titulo h2 {
+  color: #20A3D1;
+  font-size: 25px;
+  text-align: center;
+  font-family: "Avenir-Black";
+  padding: 10px 0px;
+}
+* main .rov-inspeccion .imagen {
+  background-image: url(/imagenes/ROV-AMPLIACION-CAMPO-DE-VISION-HD.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 200px;
+  width: 100%;
+  animation: texto-para-arriba 3s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 50%;
+  transition: all 2s;
+}
+* main .rov-inspeccion .imagen:hover {
+  background-image: url(/imagenes/drones/dron-hover-brazo-mecanico.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 200px;
+  width: 100%;
+}
+* main .rov-inspeccion .parrafo {
+  color: #ffffff;
+  margin: 20px 0px;
+  padding: 0px 25px;
+  animation: texto-para-arriba 3s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 40%;
+}
+* main .rov-campo-de-vision-hd {
+  height: 630px;
+  width: 100%;
+  background-color: #07262D;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  padding: 40px 0px;
+}
+* main .rov-campo-de-vision-hd .titulo {
+  animation: texto-para-arriba 3s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 40%;
+}
+* main .rov-campo-de-vision-hd .titulo h2 {
+  color: #20A3D1;
+  font-size: 25px;
+  text-align: center;
+  font-family: "Avenir-Black";
+  padding: 10px 40px;
+}
+* main .rov-campo-de-vision-hd .imagen {
+  background-image: url(/imagenes/ROV-AMPLIACION-CAMPO-DE-VISION-HD.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 200px;
+  width: 100%;
+  animation: texto-para-arriba 3s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 50%;
+  transition: all 2s;
+}
+* main .rov-campo-de-vision-hd .imagen:hover {
+  background-image: url(/imagenes/drones/dron-hover-brazo-mecanico.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 200px;
+  width: 100%;
+}
+* main .rov-campo-de-vision-hd .parrafo {
+  color: #ffffff;
+  margin: 20px 0px;
+  padding: 0px 25px;
+  animation: texto-para-arriba 4s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 40%;
+}
+* main .rov-gps-marino {
+  height: 630px;
+  width: 100%;
+  background-color: #07262D;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  padding-top: 40px 0px;
+}
+* main .rov-gps-marino .titulo {
+  animation: texto-para-arriba 3s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 40%;
+}
+* main .rov-gps-marino .titulo h2 {
+  color: #20A3D1;
+  font-size: 25px;
+  text-align: center;
+  font-family: "Avenir-Black";
+  padding: 10px 0px;
+}
+* main .rov-gps-marino .imagen {
+  background-image: url(/imagenes/ROV-AMPLIACION-CAMPO-DE-VISION-HD.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 200px;
+  width: 100%;
+  animation: texto-para-arriba 3s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 50%;
+  transition: all 2s;
+}
+* main .rov-gps-marino .imagen:hover {
+  background-image: url(/imagenes/drones/dron-hover-brazo-mecanico.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 200px;
+  width: 100%;
+}
+* main .rov-gps-marino .parrafo {
+  color: #ffffff;
+  margin: 20px 0px;
+  padding: 0px 25px;
+  animation: texto-para-arriba 4s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 40%;
+}
+* main .rov-brazo-mecanico {
+  height: 480px;
+  width: 100%;
+  background-color: #07262D;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  padding-top: 40px 0px;
+}
+* main .rov-brazo-mecanico .titulo {
+  animation: texto-para-arriba 3s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 40%;
+}
+* main .rov-brazo-mecanico .titulo h2 {
+  color: #20A3D1;
+  font-size: 25px;
+  text-align: center;
+  font-family: "Avenir-Black";
+  padding: 10px 20px;
+}
+* main .rov-brazo-mecanico .imagen {
+  background-image: url(/imagenes/ROV-AMPLIACION-CAMPO-DE-VISION-HD.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 200px;
+  width: 100%;
+  animation: texto-para-arriba 3s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 50%;
+  transition: all 2s;
+}
+* main .rov-brazo-mecanico .imagen:hover {
+  background-image: url(/imagenes/drones/dron-hover-brazo-mecanico.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 200px;
+  width: 100%;
+}
+* main .rov-brazo-mecanico .parrafo {
+  color: #ffffff;
+  margin: 20px 0px;
+  padding: 0px 25px;
+  animation: texto-para-arriba 4s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 40%;
+}
+* main .rov-sistema-de-iluminacion {
+  height: 500px;
+  width: 100%;
+  background-color: #07262D;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  padding-top: 40px 0px;
+}
+* main .rov-sistema-de-iluminacion .titulo {
+  animation: texto-para-arriba 3s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 40%;
+}
+* main .rov-sistema-de-iluminacion .titulo h2 {
+  color: #20A3D1;
+  font-size: 25px;
+  text-align: center;
+  font-family: "Avenir-Black";
+  padding: 10px 0px;
+}
+* main .rov-sistema-de-iluminacion .imagen {
+  background-image: url(/imagenes/ROV-AMPLIACION-CAMPO-DE-VISION-HD.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 200px;
+  width: 100%;
+  animation: texto-para-arriba 3s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 50%;
+  transition: all 2s;
+}
+* main .rov-sistema-de-iluminacion .imagen:hover {
+  background-image: url(/imagenes/drones/dron-hover-brazo-mecanico.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 200px;
+  width: 100%;
+}
+* main .rov-sistema-de-iluminacion .parrafo {
+  color: #ffffff;
+  margin: 20px 0px;
+  padding: 0px 25px;
+  animation: texto-para-arriba 4s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 40%;
+}
+* main .pie-de-pagina {
+  background-image: url(/imagenes/fondo-footer-servicios.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 600px;
+  width: 100%;
+  color: #ffffff;
+  display: grid;
+  grid-row-gap: 20px;
+  justify-content: center;
+  text-align: center;
+  padding-top: 50px;
+}
+* main .pie-de-pagina .logo-sepia-tercero {
+  margin: 25px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+}
+* main .pie-de-pagina .logo-sepia-tercero img {
+  height: 50px;
+  width: auto;
+}
+* main .pie-de-pagina .datos-sepia {
+  height: 40%;
+  width: 100%;
+}
+* main .pie-de-pagina .datos-sepia ul li {
+  list-style: none;
+  padding: 5px;
+  padding-right: 50px;
+}
+* main .pie-de-pagina .redes-sociales a {
+  height: 33%;
+  width: 100%;
+  color: #20A3D1;
+  padding: 0px 5px 0px 5px;
+  font-size: 30px;
+}
+* main .pie-de-pagina .redes-sociales a:hover {
+  color: #ffffff;
+}
+* main .pie-de-pagina h6 {
+  margin-top: 40px;
+}
+
+/* AQU EMPIEZAN LAS MEDIA QUERIES */
+/* Formato 1366px -768px */
+@media only screen and (min-width: 1366px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*Final main*/
+  }
+  * main {
+    font-size: 18px;
+    /*final header*/
+    /* servico-DESARROLLO TECNOLÓGICO PARA LA CONSERVACIÓN */
+    /* final servico-DESARROLLO TECNOLÓGICO PARA LA CONSERVACIÓN */
+    /* ESTUDIO Y EVALUACIÓN DE IMPACTO AMBIENTAL */
+    /* final ESTUDIO Y EVALUACIÓN DE IMPACTO AMBIENTAL */
+    /* INSPECCIÓN DE BARCOS Y ESTRUCTURAS SUMERGIDAS */
+    /* final INSPECCIÓN DE BARCOS Y ESTRUCTURAS SUMERGIDAS */
+    /* OPERACIÓN LOGÍSTICA EN ÁREAS MARINAS REMOTAS */
+    /* final OPERACIÓN LOGÍSTICA EN ÁREAS MARINAS REMOTAS */
+    /* MONITOREO Y EVALUACIÓN DE RECURSOS PESQUEROS */
+    /* final MONITOREO Y EVALUACIÓN DE RECURSOS PESQUEROS */
+    /* CONECTOR DRONES */
+    /* INTRODUCCION NUESTROS DRONES */
+    /* final INTRODUCCION NUESTROS DRONES*/
+    /* ROV INSPECCIÓN */
+    /* FINAL rov-inspeccion*/
+    /* ROV CAMPO DE VISIÓN HD */
+    /* FINAL ROV CAMPO DE VISION HD*/
+    /* ROV GPS MARINO */
+    /* FINAL ROV GPS MARINO*/
+    /* ROV BRAZO MECANICO */
+    /* FINAL ROV BRAZO MECANICO*/
+    /* ROV ILUMINACION */
+    /* FINAL ROV ILUMINACION*/
+    /* footer */
+    /*final pie-de-pagina*/
+  }
+  * main header {
+    height: 100vh;
+    /*final contenedor-elementos-header*/
+    /* final contenedor-introduccion-servicios*/
+  }
+  * main header .contenedor-elementos-header {
+    padding: 20px;
+    /*menu-de-navegacion*/
+  }
+  * main header .contenedor-elementos-header .menu-de-navegacion .logo-sepia .logo-sepia-inicial {
+    height: 35px;
+  }
+  * main header .contenedor-introduccion-servicios {
+    margin-bottom: 170px;
+    text-align: left;
+    padding-left: 230px;
+    padding-right: 580px;
+  }
+  * main header .contenedor-introduccion-servicios .icono-servicios {
+    height: 240px;
+    padding-left: 40px;
+  }
+  * main header .contenedor-introduccion-servicios h1 {
+    font-size: 300%;
+  }
+  * main .servicio1 {
+    height: 760px;
+    padding: 50px 250px 160px 250px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 40px;
+    grid-template-areas: "contenedor-icono-y-titulo contenedor-icono-y-titulo" " p imagen-servicio1";
+  }
+  * main .servicio1 .contenedor-icono-y-titulo {
+    grid-area: contenedor-icono-y-titulo;
+  }
+  * main .servicio1 .contenedor-icono-y-titulo .contenedor-icono img {
+    height: 180px;
+    margin-top: 0px;
+  }
+  * main .servicio1 .contenedor-icono-y-titulo .titulo h2 {
+    font-size: 35px;
+    text-align: center;
+    padding: 10px 150px 30px 150px;
+  }
+  * main .servicio1 p {
+    grid-area: p;
+    padding-top: 0px;
+    text-align: left;
+  }
+  * main .servicio1 .imagen-servicio1 {
+    grid-area: imagen-servicio1;
+    height: 270px;
+  }
+  * main .servicio1 .imagen-servicio1:hover {
+    height: 270px;
+  }
+  * main .servicio2 {
+    height: 760px;
+    padding: 50px 250px 160px 250px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 40px;
+    grid-template-areas: "contenedor-icono-y-titulo contenedor-icono-y-titulo" "imagen-servicio2 p";
+  }
+  * main .servicio2 .imagen-servicio2 {
+    grid-area: imagen-servicio2;
+    height: 270px;
+  }
+  * main .servicio2 .imagen-servicio2:hover {
+    height: 270px;
+  }
+  * main .servicio2 .contenedor-icono-y-titulo {
+    grid-area: contenedor-icono-y-titulo;
+  }
+  * main .servicio2 .contenedor-icono-y-titulo .contenedor-icono img {
+    height: 180px;
+  }
+  * main .servicio2 .contenedor-icono-y-titulo .titulo h2 {
+    font-size: 35px;
+    padding: 10px 150px 30px 150px;
+  }
+  * main .servicio2 p {
+    grid-area: p;
+    padding-top: 0px;
+    text-align: right;
+  }
+  * main .servicio3 {
+    height: 750px;
+    padding: 50px 250px 160px 250px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.1fr 1fr;
+    grid-column-gap: 40px;
+    grid-template-areas: "contenedor-icono-y-titulo contenedor-icono-y-titulo" " p imagen-servicio3";
+  }
+  * main .servicio3 .contenedor-icono-y-titulo {
+    grid-area: contenedor-icono-y-titulo;
+  }
+  * main .servicio3 .contenedor-icono-y-titulo .contenedor-icono img {
+    height: 180px;
+  }
+  * main .servicio3 .contenedor-icono-y-titulo .titulo h2 {
+    font-size: 35px;
+    padding: 10px 150px 30px 150px;
+  }
+  * main .servicio3 p {
+    grid-area: p;
+    padding-top: 0px;
+    text-align: left;
+  }
+  * main .servicio3 .imagen-servicio3 {
+    grid-area: imagen-servicio3;
+    height: 270px;
+  }
+  * main .servicio3 .imagen-servicio3:hover {
+    height: 270px;
+  }
+  * main .servicio4 {
+    height: 750px;
+    padding: 50px 250px 160px 250px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.1fr 1fr;
+    grid-column-gap: 40px;
+    grid-template-areas: "contenedor-icono-y-titulo contenedor-icono-y-titulo" "imagen-servicio4 p";
+  }
+  * main .servicio4 .imagen-servicio4 {
+    grid-area: imagen-servicio4;
+    height: 270px;
+  }
+  * main .servicio4 .imagen-servicio4:hover {
+    height: 270px;
+  }
+  * main .servicio4 .contenedor-icono-y-titulo {
+    grid-area: contenedor-icono-y-titulo;
+  }
+  * main .servicio4 .contenedor-icono-y-titulo .contenedor-icono img {
+    height: 180px;
+  }
+  * main .servicio4 .contenedor-icono-y-titulo .titulo h2 {
+    font-size: 35px;
+    padding: 10px 150px 30px 150px;
+  }
+  * main .servicio4 p {
+    grid-area: p;
+    padding-top: 0px;
+    text-align: right;
+  }
+  * main .servicio5 {
+    height: 750px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.1fr 1fr;
+    grid-column-gap: 40px;
+    padding: 50px 250px 160px 250px;
+    grid-template-areas: "contenedor-icono-y-titulo contenedor-icono-y-titulo" "p imagen-servicio5";
+  }
+  * main .servicio5 .contenedor-icono-y-titulo {
+    grid-area: contenedor-icono-y-titulo;
+  }
+  * main .servicio5 .contenedor-icono-y-titulo .contenedor-icono img {
+    height: 180px;
+  }
+  * main .servicio5 .contenedor-icono-y-titulo .titulo h2 {
+    font-size: 35px;
+    padding: 10px 150px 30px 150px;
+  }
+  * main .servicio5 p {
+    grid-area: p;
+    padding-top: 0px;
+    text-align: left;
+  }
+  * main .servicio5 .imagen-servicio5 {
+    grid-area: imagen-servicio5;
+    height: 270px;
+  }
+  * main .servicio5 .imagen-servicio5:hover {
+    height: 270px;
+  }
+  * main .conector-drones {
+    height: 130px;
+  }
+  * main .contenedor-servicios-drones {
+    height: 280px;
+    width: 100%;
+    padding: 0px 330px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+  }
+  * main .contenedor-servicios-drones h1 {
+    font-size: 160%;
+    padding: 0px 20px;
+  }
+  * main .contenedor-servicios-drones h1 p {
+    margin: 5px;
+  }
+  * main .contenedor-servicios-drones p {
+    color: #ffffff;
+    margin: 10px 0px;
+    padding: 0px 25px;
+  }
+  * main .rov-inspeccion {
+    height: 500px;
+    padding: 60px 250px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.1fr 1fr;
+    grid-column-gap: 10px;
+    grid-template-areas: "titulo imagen" "parrafo imagen";
+  }
+  * main .rov-inspeccion .titulo {
+    grid-area: titulo;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    height: 10px;
+    margin-bottom: 10px;
+  }
+  * main .rov-inspeccion .titulo h2 {
+    font-size: 35px;
+    text-align: left;
+  }
+  * main .rov-inspeccion .imagen {
+    grid-area: imagen;
+    margin-top: 40px;
+    height: 90%;
+  }
+  * main .rov-inspeccion .imagen:hover {
+    margin-top: 20px;
+    height: 100%;
+  }
+  * main .rov-inspeccion .parrafo {
+    grid-area: parrafo;
+    text-align: left;
+    padding: 0px;
+  }
+  * main .rov-campo-de-vision-hd {
+    height: 500px;
+    padding: 60px 250px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.1fr 1fr;
+    grid-column-gap: 10px;
+    grid-template-areas: "titulo imagen" "parrafo imagen";
+  }
+  * main .rov-campo-de-vision-hd .titulo {
+    grid-area: titulo;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    height: 10px;
+    margin-bottom: 10px;
+  }
+  * main .rov-campo-de-vision-hd .titulo h2 {
+    font-size: 35px;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+  }
+  * main .rov-campo-de-vision-hd .imagen {
+    grid-area: imagen;
+    margin-top: 50px;
+    align-content: center;
+    height: 80%;
+  }
+  * main .rov-campo-de-vision-hd .imagen:hover {
+    margin-top: 20px;
+    margin-left: 30px;
+    height: 100%;
+  }
+  * main .rov-campo-de-vision-hd .parrafo {
+    grid-area: parrafo;
+    text-align: left;
+    padding: 0px;
+  }
+  * main .rov-gps-marino {
+    height: 500px;
+    padding: 60px 250px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.1fr 1fr;
+    grid-column-gap: 10px;
+    grid-template-areas: "titulo imagen" "parrafo imagen";
+  }
+  * main .rov-gps-marino .titulo {
+    grid-area: titulo;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    height: 10px;
+    margin-bottom: 10px;
+  }
+  * main .rov-gps-marino .titulo h2 {
+    font-size: 35px;
+    text-align: left;
+  }
+  * main .rov-gps-marino .imagen {
+    grid-area: imagen;
+    margin-top: 30px;
+    height: 90%;
+  }
+  * main .rov-gps-marino .imagen:hover {
+    margin-top: 20px;
+    height: 100%;
+  }
+  * main .rov-gps-marino .parrafo {
+    grid-area: parrafo;
+    text-align: left;
+    padding: 0PX;
+  }
+  * main .rov-brazo-mecanico {
+    height: 500px;
+    padding: 60px 250px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.1fr 1fr;
+    grid-column-gap: 10px;
+    grid-template-areas: "titulo imagen" "parrafo imagen";
+  }
+  * main .rov-brazo-mecanico .titulo {
+    grid-area: titulo;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    height: 10px;
+    margin-bottom: 10px;
+  }
+  * main .rov-brazo-mecanico .titulo h2 {
+    font-size: 35px;
+    text-align: left;
+    padding: 0px;
+  }
+  * main .rov-brazo-mecanico .imagen {
+    grid-area: imagen;
+    margin-top: 30px;
+    height: 90%;
+  }
+  * main .rov-brazo-mecanico .imagen:hover {
+    margin-top: 20px;
+    height: 100%;
+  }
+  * main .rov-brazo-mecanico .parrafo {
+    grid-area: parrafo;
+    text-align: left;
+    padding: 0PX;
+  }
+  * main .rov-sistema-de-iluminacion {
+    height: 500px;
+    padding: 60px 250px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.1fr 1fr;
+    grid-column-gap: 10px;
+    grid-template-areas: "titulo imagen" "parrafo imagen";
+  }
+  * main .rov-sistema-de-iluminacion .titulo {
+    grid-area: titulo;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    height: 10px;
+    margin-bottom: 10px;
+  }
+  * main .rov-sistema-de-iluminacion .titulo h2 {
+    font-size: 35px;
+    text-align: left;
+  }
+  * main .rov-sistema-de-iluminacion .imagen {
+    grid-area: imagen;
+    margin-top: 30px;
+    height: 90%;
+  }
+  * main .rov-sistema-de-iluminacion .imagen:hover {
+    margin-top: 20px;
+    height: 100%;
+  }
+  * main .rov-sistema-de-iluminacion .parrafo {
+    grid-area: parrafo;
+    text-align: left;
+    padding: 0PX;
+  }
+  * main .pie-de-pagina {
+    height: 650px;
+    display: grid;
+    grid-row-gap: 10px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding-top: 60px;
+  }
+  * main .pie-de-pagina .logo-sepia-tercero {
+    margin: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+  }
+  * main .pie-de-pagina .logo-sepia-tercero img {
+    height: 80px;
+  }
+  * main .pie-de-pagina .datos-sepia {
+    padding-right: 40px;
+  }
+  * main .pie-de-pagina .datos-sepia ul {
+    display: flex;
+  }
+  * main .pie-de-pagina .datos-sepia ul li {
+    padding: 30px 15px 0px 15px;
+  }
+  * main .pie-de-pagina .redes-sociales a {
+    padding: 0px 10px;
+    font-size: 40px;
+  }
+  * main .pie-de-pagina h6 {
+    margin-top: 130px;
+    font-size: 18PX;
+  }
+} /* FINAL Formato 1366px -768px */
+/* Formato 1674px -807px */
+@media only screen and (min-width: 1674px) {
+  * {
+    /*Final main*/
+  }
+  * main {
+    font-size: 16px;
+    /*final header*/
+    /* servico-DESARROLLO TECNOLÓGICO PARA LA CONSERVACIÓN */
+    /* final servico-DESARROLLO TECNOLÓGICO PARA LA CONSERVACIÓN */
+    /* ESTUDIO Y EVALUACIÓN DE IMPACTO AMBIENTAL */
+    /* final ESTUDIO Y EVALUACIÓN DE IMPACTO AMBIENTAL */
+    /* INSPECCIÓN DE BARCOS Y ESTRUCTURAS SUMERGIDAS */
+    /* final INSPECCIÓN DE BARCOS Y ESTRUCTURAS SUMERGIDAS */
+    /* OPERACIÓN LOGÍSTICA EN ÁREAS MARINAS REMOTAS */
+    /* final OPERACIÓN LOGÍSTICA EN ÁREAS MARINAS REMOTAS */
+    /* MONITOREO Y EVALUACIÓN DE RECURSOS PESQUEROS */
+    /* final MONITOREO Y EVALUACIÓN DE RECURSOS PESQUEROS */
+    /* CONECTOR DRONES */
+    /* INTRODUCCION NUESTROS DRONES */
+    /* final INTRODUCCION NUESTROS DRONES*/
+    /* ROV INSPECCIÓN */
+    /* FINAL rov-inspeccion*/
+    /* ROV CAMPO DE VISIÓN HD */
+    /* FINAL ROV CAMPO DE VISION HD*/
+    /* ROV GPS MARINO */
+    /* FINAL ROV GPS MARINO*/
+    /* ROV BRAZO MECANICO */
+    /* FINAL ROV BRAZO MECANICO*/
+    /* ROV ILUMINACION */
+    /* FINAL ROV ILUMINACION*/
+    /* footer */
+    /*final pie-de-pagina*/
+  }
+  * main header {
+    /*final contenedor-elementos-header*/
+    /* final contenedor-introduccion-servicios*/
+  }
+  * main header .contenedor-elementos-header {
+    padding: 20px;
+    /*menu-de-navegacion*/
+  }
+  * main header .contenedor-elementos-header .menu-de-navegacion .logo-sepia .logo-sepia-inicial {
+    height: 35px;
+  }
+  * main header .contenedor-introduccion-servicios {
+    margin-bottom: 170px;
+    text-align: left;
+    padding-left: 300px;
+    padding-right: 880px;
+  }
+  * main header .contenedor-introduccion-servicios .icono-servicios {
+    height: 240px;
+    padding-left: 20px;
+  }
+  * main header .contenedor-introduccion-servicios h1 {
+    padding-top: 10px;
+    font-size: 300%;
+  }
+  * main .servicio1 {
+    height: 760px;
+    padding: 50px 340px 160px 340px;
+    grid-column-gap: 40px;
+  }
+  * main .servicio1 .contenedor-icono-y-titulo .contenedor-icono img {
+    height: 180px;
+    margin-top: 0px;
+  }
+  * main .servicio1 .contenedor-icono-y-titulo .titulo h2 {
+    font-size: 35px;
+    padding: 10px 200px 30px 200px;
+  }
+  * main .servicio1 .imagen-servicio1 {
+    height: 300px;
+  }
+  * main .servicio1 .imagen-servicio1:hover {
+    height: 300px;
+  }
+  * main .servicio2 {
+    height: 780px;
+    padding: 50px 340px 160px 340px;
+    grid-column-gap: 40px;
+  }
+  * main .servicio2 .imagen-servicio2 {
+    height: 300px;
+  }
+  * main .servicio2 .imagen-servicio2:hover {
+    height: 300px;
+  }
+  * main .servicio2 .contenedor-icono-y-titulo .contenedor-icono img {
+    height: 180px;
+  }
+  * main .servicio2 .contenedor-icono-y-titulo .titulo h2 {
+    font-size: 35px;
+    padding: 10px 220px 30px 220px;
+  }
+  * main .servicio3 {
+    height: 760px;
+    padding: 50px 340px 160px 340px;
+  }
+  * main .servicio3 .contenedor-icono-y-titulo .contenedor-icono img {
+    height: 180px;
+  }
+  * main .servicio3 .contenedor-icono-y-titulo .titulo h2 {
+    font-size: 35px;
+    padding: 10px 180px 30px 180px;
+  }
+  * main .servicio3 .imagen-servicio3 {
+    height: 300px;
+  }
+  * main .servicio3 .imagen-servicio3:hover {
+    height: 300px;
+  }
+  * main .servicio4 {
+    height: 760px;
+    padding: 50px 340px 160px 340px;
+    grid-column-gap: 70px;
+  }
+  * main .servicio4 .imagen-servicio4 {
+    height: 300px;
+  }
+  * main .servicio4 .imagen-servicio4:hover {
+    height: 300px;
+  }
+  * main .servicio4 .contenedor-icono-y-titulo .contenedor-icono img {
+    height: 180px;
+  }
+  * main .servicio4 .contenedor-icono-y-titulo .titulo h2 {
+    font-size: 35px;
+    padding: 10px 180px 30px 180px;
+  }
+  * main .servicio5 {
+    height: 760px;
+    grid-column-gap: 40px;
+    padding: 50px 340px 160px 340px;
+  }
+  * main .servicio5 .contenedor-icono-y-titulo .contenedor-icono img {
+    height: 180px;
+  }
+  * main .servicio5 .contenedor-icono-y-titulo .titulo h2 {
+    font-size: 35px;
+    padding: 10px 180px 30px 180px;
+  }
+  * main .servicio5 .imagen-servicio5 {
+    height: 300px;
+  }
+  * main .servicio5 .imagen-servicio5:hover {
+    height: 300px;
+  }
+  * main .conector-drones {
+    height: 160px;
+  }
+  * main .contenedor-servicios-drones {
+    height: 280px;
+    width: 100%;
+    padding: 0px 480px;
+  }
+  * main .contenedor-servicios-drones p {
+    color: #ffffff;
+    margin: 10px 0px;
+    padding: 0px 25px;
+  }
+  * main .rov-inspeccion {
+    height: 500px;
+    padding: 60px 320px;
+    grid-column-gap: 10px;
+  }
+  * main .rov-inspeccion .titulo {
+    padding-bottom: 40px;
+    margin-bottom: 10px;
+  }
+  * main .rov-inspeccion .titulo h2 {
+    font-size: 45px;
+  }
+  * main .rov-inspeccion .imagen {
+    margin: 0px;
+    height: 90%;
+  }
+  * main .rov-inspeccion .imagen:hover {
+    height: 100%;
+    margin-top: 0px;
+    margin-bottom: 70px;
+  }
+  * main .rov-campo-de-vision-hd {
+    height: 500px;
+    padding: 60px 350px;
+  }
+  * main .rov-campo-de-vision-hd .titulo {
+    padding-top: 40px;
+    margin-bottom: 10px;
+  }
+  * main .rov-campo-de-vision-hd .titulo h2 {
+    font-size: 45px;
+  }
+  * main .rov-campo-de-vision-hd .imagen {
+    height: 80%;
+    margin-top: 30px;
+  }
+  * main .rov-campo-de-vision-hd .imagen:hover {
+    height: 100%;
+    margin-top: 0px;
+  }
+  * main .rov-gps-marino {
+    height: 500px;
+    padding: 60px 350px;
+  }
+  * main .rov-gps-marino .titulo {
+    padding-top: 50px;
+    margin-bottom: 20px;
+  }
+  * main .rov-gps-marino .titulo h2 {
+    font-size: 45px;
+  }
+  * main .rov-gps-marino .imagen {
+    height: 90%;
+    margin-top: 0px;
+  }
+  * main .rov-gps-marino .imagen:hover {
+    height: 100%;
+    margin-top: 0px;
+  }
+  * main .rov-brazo-mecanico {
+    height: 500px;
+    padding: 60px 350px;
+  }
+  * main .rov-brazo-mecanico .titulo {
+    padding-top: 40px;
+    margin-bottom: 10px;
+  }
+  * main .rov-brazo-mecanico .titulo h2 {
+    font-size: 45px;
+  }
+  * main .rov-brazo-mecanico .imagen {
+    height: 90%;
+    margin-top: 0px;
+  }
+  * main .rov-brazo-mecanico .imagen:hover {
+    height: 100%;
+    margin-top: 0px;
+  }
+  * main .rov-brazo-mecanico .parrafo {
+    grid-area: parrafo;
+    text-align: left;
+    padding-top: 50px;
+  }
+  * main .rov-sistema-de-iluminacion {
+    height: 500px;
+    padding: 60px 350px;
+  }
+  * main .rov-sistema-de-iluminacion .titulo {
+    padding-top: 80px;
+    margin-bottom: 20px;
+  }
+  * main .rov-sistema-de-iluminacion .titulo h2 {
+    font-size: 45px;
+  }
+  * main .rov-sistema-de-iluminacion .imagen {
+    height: 90%;
+  }
+  * main .rov-sistema-de-iluminacion .imagen:hover {
+    height: 100%;
+  }
+  * main .pie-de-pagina {
+    height: 650px;
+    display: grid;
+    grid-row-gap: 10px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding-top: 60px;
+  }
+  * main .pie-de-pagina .logo-sepia-tercero {
+    margin: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+  }
+  * main .pie-de-pagina .logo-sepia-tercero img {
+    height: 80px;
+  }
+  * main .pie-de-pagina .datos-sepia {
+    padding-right: 40px;
+  }
+  * main .pie-de-pagina .datos-sepia ul {
+    display: flex;
+  }
+  * main .pie-de-pagina .datos-sepia ul li {
+    padding: 30px 15px 0px 15px;
+  }
+  * main .pie-de-pagina .redes-sociales a {
+    padding: 0px 10px;
+    font-size: 40px;
+  }
+  * main .pie-de-pagina h6 {
+    margin-top: 130px;
+    font-size: 18PX;
+  }
+} /* FINAL Formato 1674px -807px */
+/* Formato 1920px -1080px */
+@media only screen and (min-width: 1920px) {
+  * {
+    /*Final main*/
+  }
+  * main {
+    font-size: 22px;
+    /*final header*/
+    /* servico-DESARROLLO TECNOLÓGICO PARA LA CONSERVACIÓN */
+    /* final servico-DESARROLLO TECNOLÓGICO PARA LA CONSERVACIÓN */
+    /* ESTUDIO Y EVALUACIÓN DE IMPACTO AMBIENTAL */
+    /* final ESTUDIO Y EVALUACIÓN DE IMPACTO AMBIENTAL */
+    /* INSPECCIÓN DE BARCOS Y ESTRUCTURAS SUMERGIDAS */
+    /* final INSPECCIÓN DE BARCOS Y ESTRUCTURAS SUMERGIDAS */
+    /* OPERACIÓN LOGÍSTICA EN ÁREAS MARINAS REMOTAS */
+    /* final OPERACIÓN LOGÍSTICA EN ÁREAS MARINAS REMOTAS */
+    /* MONITOREO Y EVALUACIÓN DE RECURSOS PESQUEROS */
+    /* final MONITOREO Y EVALUACIÓN DE RECURSOS PESQUEROS */
+    /* CONECTOR DRONES */
+    /* INTRODUCCION NUESTROS DRONES */
+    /* final INTRODUCCION NUESTROS DRONES*/
+    /* ROV INSPECCIÓN */
+    /* FINAL rov-inspeccion*/
+    /* ROV CAMPO DE VISIÓN HD */
+    /* FINAL ROV CAMPO DE VISION HD*/
+    /* ROV GPS MARINO */
+    /* FINAL ROV GPS MARINO*/
+    /* ROV BRAZO MECANICO */
+    /* FINAL ROV BRAZO MECANICO*/
+    /* ROV ILUMINACION */
+    /* FINAL ROV ILUMINACION*/
+    /* footer */
+    /*final pie-de-pagina*/
+  }
+  * main header {
+    height: 100vh;
+    /*final contenedor-elementos-header*/
+    /* final contenedor-introduccion-servicios*/
+  }
+  * main header .contenedor-elementos-header {
+    padding: 20px;
+    /*menu-de-navegacion*/
+  }
+  * main header .contenedor-elementos-header .menu-de-navegacion .logo-sepia .logo-sepia-inicial {
+    height: 35px;
+  }
+  * main header .contenedor-introduccion-servicios {
+    margin-bottom: 170px;
+    text-align: left;
+    padding-left: 300px;
+    padding-right: 800px;
+  }
+  * main header .contenedor-introduccion-servicios .icono-servicios {
+    height: 240px;
+    padding-left: 40px;
+  }
+  * main header .contenedor-introduccion-servicios h1 {
+    font-size: 300%;
+  }
+  * main .servicio1 {
+    height: 900px;
+    padding: 50px 340px 160px 340px;
+    grid-column-gap: 40px;
+  }
+  * main .servicio1 .contenedor-icono-y-titulo {
+    grid-area: contenedor-icono-y-titulo;
+  }
+  * main .servicio1 .contenedor-icono-y-titulo .contenedor-icono img {
+    height: 220px;
+    margin-top: 0px;
+  }
+  * main .servicio1 .contenedor-icono-y-titulo .titulo h2 {
+    font-size: 45px;
+    padding: 10px 200px 30px 200px;
+  }
+  * main .servicio1 .imagen-servicio1 {
+    height: 370px;
+  }
+  * main .servicio1 .imagen-servicio1:hover {
+    height: 370px;
+  }
+  * main .servicio2 {
+    height: 900px;
+    padding: 50px 340px 160px 340px;
+    grid-column-gap: 40px;
+  }
+  * main .servicio2 .imagen-servicio2 {
+    height: 370px;
+  }
+  * main .servicio2 .imagen-servicio2:hover {
+    height: 370px;
+  }
+  * main .servicio2 .contenedor-icono-y-titulo .contenedor-icono img {
+    height: 220px;
+  }
+  * main .servicio2 .contenedor-icono-y-titulo .titulo h2 {
+    font-size: 45px;
+    padding: 10px 220px 30px 220px;
+  }
+  * main .servicio3 {
+    height: 900px;
+    padding: 50px 340px 160px 340px;
+  }
+  * main .servicio3 .contenedor-icono-y-titulo .contenedor-icono img {
+    height: 220px;
+  }
+  * main .servicio3 .contenedor-icono-y-titulo .titulo h2 {
+    font-size: 45px;
+    padding: 10px 180px 30px 180px;
+  }
+  * main .servicio3 .imagen-servicio3 {
+    height: 370px;
+  }
+  * main .servicio3 .imagen-servicio3:hover {
+    height: 370px;
+  }
+  * main .servicio4 {
+    height: 900px;
+    padding: 50px 340px 160px 340px;
+    grid-column-gap: 40px;
+  }
+  * main .servicio4 .imagen-servicio4 {
+    height: 370px;
+  }
+  * main .servicio4 .imagen-servicio4:hover {
+    height: 370px;
+  }
+  * main .servicio4 .contenedor-icono-y-titulo .contenedor-icono img {
+    height: 220px;
+  }
+  * main .servicio4 .contenedor-icono-y-titulo .titulo h2 {
+    font-size: 45px;
+    padding: 10px 180px 30px 180px;
+  }
+  * main .servicio5 {
+    height: 940px;
+    grid-column-gap: 40px;
+    padding: 50px 340px 160px 340px;
+  }
+  * main .servicio5 .contenedor-icono-y-titulo .contenedor-icono img {
+    height: 220px;
+  }
+  * main .servicio5 .contenedor-icono-y-titulo .titulo h2 {
+    font-size: 45px;
+    padding: 10px 180px 30px 180px;
+  }
+  * main .servicio5 .imagen-servicio5 {
+    height: 370px;
+  }
+  * main .servicio5 .imagen-servicio5:hover {
+    height: 370px;
+  }
+  * main .conector-drones {
+    height: 160px;
+  }
+  * main .contenedor-servicios-drones {
+    height: 280px;
+    width: 100%;
+    padding: 0px 540px;
+  }
+  * main .contenedor-servicios-drones p {
+    color: #ffffff;
+    margin: 10px 0px;
+    padding: 0px 25px;
+  }
+  * main .rov-inspeccion {
+    height: 500px;
+    padding: 60px 350px;
+    grid-column-gap: 10px;
+  }
+  * main .rov-inspeccion .titulo {
+    padding-bottom: 40px;
+    margin-bottom: 10px;
+  }
+  * main .rov-inspeccion .titulo h2 {
+    font-size: 45px;
+  }
+  * main .rov-inspeccion .imagen {
+    height: 90%;
+  }
+  * main .rov-inspeccion .imagen:hover {
+    height: 100%;
+  }
+  * main .rov-campo-de-vision-hd {
+    height: 500px;
+    padding: 60px 350px;
+  }
+  * main .rov-campo-de-vision-hd .titulo {
+    padding-top: 40px;
+    margin-bottom: 10px;
+  }
+  * main .rov-campo-de-vision-hd .titulo h2 {
+    font-size: 45px;
+  }
+  * main .rov-campo-de-vision-hd .imagen {
+    height: 75%;
+  }
+  * main .rov-campo-de-vision-hd .imagen:hover {
+    height: 100%;
+  }
+  * main .rov-gps-marino {
+    height: 500px;
+    padding: 60px 350px;
+  }
+  * main .rov-gps-marino .titulo {
+    padding-top: 40px;
+    margin-bottom: 20px;
+  }
+  * main .rov-gps-marino .titulo h2 {
+    font-size: 45px;
+  }
+  * main .rov-gps-marino .imagen {
+    height: 90%;
+  }
+  * main .rov-gps-marino .imagen:hover {
+    height: 100%;
+  }
+  * main .rov-brazo-mecanico {
+    height: 500px;
+    padding: 60px 350px;
+  }
+  * main .rov-brazo-mecanico .titulo {
+    padding-top: 40px;
+    margin-bottom: 10px;
+  }
+  * main .rov-brazo-mecanico .titulo h2 {
+    font-size: 45px;
+  }
+  * main .rov-brazo-mecanico .imagen {
+    height: 90%;
+  }
+  * main .rov-brazo-mecanico .imagen:hover {
+    height: 100%;
+  }
+  * main .rov-sistema-de-iluminacion {
+    height: 500px;
+    padding: 60px 350px;
+  }
+  * main .rov-sistema-de-iluminacion .titulo {
+    padding-top: 40px;
+    margin-bottom: 20px;
+  }
+  * main .rov-sistema-de-iluminacion .titulo h2 {
+    font-size: 45px;
+  }
+  * main .rov-sistema-de-iluminacion .imagen {
+    height: 90%;
+  }
+  * main .rov-sistema-de-iluminacion .imagen:hover {
+    height: 100%;
+  }
+  * main .pie-de-pagina {
+    height: 650px;
+    display: grid;
+    grid-row-gap: 10px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding-top: 60px;
+  }
+  * main .pie-de-pagina .logo-sepia-tercero {
+    margin: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+  }
+  * main .pie-de-pagina .logo-sepia-tercero img {
+    height: 80px;
+  }
+  * main .pie-de-pagina .datos-sepia {
+    padding-right: 40px;
+  }
+  * main .pie-de-pagina .datos-sepia ul {
+    display: flex;
+  }
+  * main .pie-de-pagina .datos-sepia ul li {
+    padding: 30px 15px 0px 15px;
+  }
+  * main .pie-de-pagina .redes-sociales a {
+    padding: 0px 10px;
+    font-size: 40px;
+  }
+  * main .pie-de-pagina h6 {
+    margin-top: 130px;
+    font-size: 18PX;
+  }
+} /* FINAL Formato 1920px -1080px */
+/* AQUI ESTAN LAS ANIMACIONES */
+@keyframes texto-para-arriba {
+  0% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/*# sourceMappingURL=servicios.css.map */

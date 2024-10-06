@@ -1,0 +1,1694 @@
+@import url("https://fonts.cdnfonts.com/css/avenir");
+/* font-family: 'Avenir', sans-serif; */
+@import url(https://db.onlinewebfonts.com/c/b78d933f8aa6b9284c1d3efd3db0a9b9?family=Avenir-Black);
+/* font-family: "Avenir-Black"; */
+@import url(https://db.onlinewebfonts.com/c/158fa6012dff0f88241ad898c46c0118?family=AvenirNextW1G-Regular);
+/* font-family: "AvenirNextW1G-Regular"; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    /* formato 360px - 640px */   
+    main{
+        font-family: 'Avenir', sans-serif;                                       
+        font-size: 16px;
+     
+        header{
+            background-image: url(/imagenes/imagenes-servicios/);
+           background-attachment: fixed;
+           background-size: contain;
+           background-repeat: no-repeat;
+           background: linear-gradient(rgb(7, 38, 45, ), rgb(7, 38, 45, 0.0), rgb(7, 38, 45, 0.0), rgb(7, 38, 45, 0.0), rgb(7, 38, 45, 0.0));
+           height: 100vh;
+           width: 100%;
+           display: flex;
+           flex-wrap: wrap;
+           justify-content: center;
+           position: relative;
+           overflow: hidden;
+    
+           video{
+           position: absolute;
+           top: 0;
+           left: 0;
+           width: 100%;
+           height: 100%;
+           object-fit: cover;
+           z-index: -1;
+           }/* final video */
+    
+               .contenedor-elementos-header{
+               height: auto;
+               width: 100%;
+               padding: 20px;
+               position: relative;
+               z-index: 100;
+    
+                   .menu-de-navegacion{
+                   display: flex;
+                   justify-content: space-between;
+    
+                       .logo-sepia{
+                           .logo-sepia-inicial{
+                           height: 35px;
+                           }
+                       }
+                       .navbar{
+                       padding: 15px 10px 0px 0px;
+                       box-sizing: border-box;
+                       z-index: 10;
+                       
+                           .offcanvas-header{
+                           background-color: #07262D;
+                           }
+                           .offcanvas-body{
+                           background-color: #07262D;
+    
+                               .activeazul{
+                               color: #20A3D1;
+                               &:hover{color: #ffffff;};
+                               }
+                               .btn{
+                               color: #ffffff;
+                               &:hover{color: #07262D;};
+                               background-color: #20A3D1;
+                               &:hover{background-color: #20A3D1;};
+                               }   
+                           }
+                       }/*final navbar*/
+                   }/*menu-de-navegacion*/
+               }/*final contenedor-elementos-header*/
+               
+               .contenedor-introduccion-certificaciones{
+               background-position: center;
+               width: 100%;
+               padding-top: 50px;
+               display: grid;
+               justify-content: center;
+               align-content: center;
+               margin-bottom: 170px;
+               text-align: center;
+               position: relative;
+               z-index: 20;
+               animation: texto-para-arriba 2s ease;
+    
+                .icono-certificaciones{
+                height: 180px;
+                margin: 10px 0px;
+                }
+                h1{
+                color: #20A3D1;
+                font-family: "Avenir-Black";
+                font-size: 200%;
+                padding: 0px 20px;
+                   p{margin: 5px;}
+                }
+    
+                p{
+                color: #ffffff;
+                margin: 10px 0px;
+                padding: 0px 20px;
+                }   
+               }/* final contenedor-introduccion-certificaciones */
+               
+           }/*final header*/
+
+/* titulo-2022 */
+        .titulo-2022{
+        background-color: #ffffff;
+        height: 50px;
+        padding: 30px 0px 30px 0px;
+            h2{
+            color: #07262D;
+            font-size: 35px;
+            text-align: center;
+            font-family: "Avenir-Black";   
+            }
+        }
+            
+/* colaboradores 2022 */
+        .sección-2022{
+        background-color: #ffffff;
+        height: 250px;
+        width: 100%;
+        padding: 0px 25px 50px 25px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(2, 100px);
+        grid-template-areas:
+                        "logo-1 logo-2"
+                        "logo-3 logo-3";
+
+
+/* logo 1 */
+            .logo-1{
+            grid-area: logo-1;
+            height: auto;
+            width: 100%;
+            background-size: contain;
+            background-position: center;
+            background-image: url(/imagenes/imagenes-certificaciones/logo-2022-1.jpg);
+            background-repeat: no-repeat;
+            animation: texto-para-arriba 4s linear;
+            animation-timeline: view(0px);
+            animation-range: entry 0% cover 50%;
+            }/*final logo 1 */
+
+/* logo 2 */
+            .logo-2{
+            grid-area: logo-2;
+            height: auto;
+            width: 100%;
+            background-size: contain;
+            background-position: center;
+            background-image: url(/imagenes/imagenes-certificaciones/logo-2022-2.jpg);
+            background-repeat: no-repeat;
+            animation: texto-para-arriba 4s linear;
+            animation-timeline: view(0px);
+            animation-range: entry 0% cover 50%;
+            }/*final logo 2 */
+
+/* logo 3 */
+            .logo-3{
+            grid-area: logo-3;
+            height: auto;
+            width: 100%;
+            background-size: contain;
+            background-position: center;
+            background-image: url(/imagenes/imagenes-certificaciones/logo-2022-3.jpg);
+            background-repeat: no-repeat;
+            animation: texto-para-arriba 4s linear;
+            animation-timeline: view(0px);
+            animation-range: entry 0% cover 50%;
+            }/*final logo 3 */
+
+        }/*final seccion 2022 */
+
+/* titulo-2021 */
+.titulo-2021{
+    background-color: #ffffff;
+    height: 50px;
+    padding: 10px 0px;
+        h2{
+        color: #07262D;
+        font-size: 35px;
+        text-align: center;
+        font-family: "Avenir-Black";   
+        }
+    }
+        
+/* colaboradores 2021 */
+    .sección-2021{
+    background-color: #ffffff;
+    height: 180px;
+    width: 100%;
+    padding: 0px 25px 50px 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(1, 100px);
+    grid-template-areas:
+                    "logo-1 logo-2";
+
+
+/* logo 1 */
+        .logo-1{
+        grid-area: logo-1;
+        height: auto;
+        width: 100%;
+        background-size: contain;
+        background-position: center;
+        background-image: url(/imagenes/imagenes-certificaciones/logo-2021-1.jpg);
+        background-repeat: no-repeat;
+        animation: texto-para-arriba 4s linear;
+        animation-timeline: view(0px);
+        animation-range: entry 0% cover 50%;
+        }/*final logo 1 */
+
+/* logo 2 */
+        .logo-2{
+        grid-area: logo-2;
+        height: auto;
+        width: 100%;
+        background-size: contain;
+        background-position: center;
+        background-image: url(/imagenes/imagenes-certificaciones/logo-2021-2.jpg);
+        background-repeat: no-repeat;
+        animation: texto-para-arriba 4s linear;
+        animation-timeline: view(0px);
+        animation-range: entry 0% cover 50%;
+        }/*final logo 2 */
+
+    }/*final seccion 2021 */
+
+/* titulo-2020 */
+.titulo-2020{
+    background-color: #ffffff;
+    height: 50px;
+    padding: 10px 0px;
+        h2{
+        color: #07262D;
+        font-size: 35px;
+        text-align: center;
+        font-family: "Avenir-Black";   
+        }
+    }
+        
+/* colaboradores 2020 */
+    .sección-2020{
+    background-color: #ffffff;
+    height: 180px;
+    width: 100%;
+    padding: 0px 25px 50px 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(1, 100px);
+    grid-template-areas:
+                    "logo-1 logo-1";
+
+
+/* logo 1 */
+        .logo-1{
+        grid-area: logo-1;
+        height: auto;
+        width: 100%;
+        background-size: contain;
+        background-position: center;
+        background-image: url(/imagenes/imagenes-certificaciones/logo-2021-1.jpg);
+        background-repeat: no-repeat;
+        animation: texto-para-arriba 4s linear;
+        animation-timeline: view(0px);
+        animation-range: entry 0% cover 50%;
+        }/*final logo 1 */
+
+    }/*final seccion 2020 */
+
+/* titulo-2019 */
+.titulo-2019{
+    background-color: #ffffff;
+    height: 50px;
+    padding: 10px 0px;
+        h2{
+        color: #07262D;
+        font-size: 35px;
+        text-align: center;
+        font-family: "Avenir-Black";   
+        }
+    }
+/* colaboradores 2019 */
+.sección-2019{
+    background-color: #ffffff;
+    height: 350px;
+    width: 100%;
+    padding: 0px 25px 50px 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 100px);
+    grid-column-gap: 10px;
+    grid-row-gap: -10px;
+    grid-template-areas:
+                    "logo-1 logo-2"
+                    "logo-3 logo-4"
+                    "logo-5 logo-6"
+                    "logo-7 logo-7";
+
+/* logo 1 */
+        .logo-1{
+        grid-area: logo-1;
+        height: auto;
+        width: 100%;
+        background-size: contain;
+        background-position: center;
+        background-image: url(/imagenes/imagenes-certificaciones/logo-2019-1.jpg);
+        background-repeat: no-repeat;
+        animation: texto-para-arriba 4s linear;
+        animation-timeline: view(0px);
+        animation-range: entry 0% cover 50%;
+        }/*final logo 1 */
+
+/* logo 2 */
+        .logo-2{
+        grid-area: logo-2;
+        height: auto;
+        width: 100%;
+        background-size: contain;
+        background-position: center;
+        background-image: url(/imagenes/imagenes-certificaciones/logo-2019-2.jpg);
+        background-repeat: no-repeat;
+        animation: texto-para-arriba 4s linear;
+        animation-timeline: view(0px);
+        animation-range: entry 0% cover 50%;
+        }/*final logo 2 */
+
+/* logo 3 */
+        .logo-3{
+        grid-area: logo-3;
+        height: auto;
+        width: 100%;
+        background-size: contain;
+        background-position: center;
+        background-image: url(/imagenes/imagenes-certificaciones/logo-2019-3.jpg);
+        background-repeat: no-repeat;
+        animation: texto-para-arriba 4s linear;
+        animation-timeline: view(0px);
+        animation-range: entry 0% cover 50%;
+        }/*final logo 3 */
+
+/* logo 4 */
+        .logo-4{
+        grid-area: logo-4;
+        height: auto;
+        width: 100%;
+        background-size: contain;
+        background-position: center;
+        background-image: url(/imagenes/imagenes-certificaciones/logo-2019-4.jpg);
+        background-repeat: no-repeat;
+        animation: texto-para-arriba 4s linear;
+        animation-timeline: view(0px);
+        animation-range: entry 0% cover 50%;
+        }/*final logo 4 */           
+
+/* logo 5 */
+        .logo-5{
+        grid-area: logo-5;
+        height: auto;
+        width: 100%;
+        padding: 0px 50px;
+        background-size: contain;
+        background-position: center;
+        background-image: url(/imagenes/imagenes-certificaciones/logo-2019-5.jpg);
+        background-repeat: no-repeat;
+        animation: texto-para-arriba 4s linear;
+        animation-timeline: view(0px);
+        animation-range: entry 0% cover 50%;
+        }/*final logo 5 */
+
+/* logo 6 */
+        .logo-6{
+        grid-area: logo-6;
+        height: auto;
+        width: 100%;
+        padding: 0px 50px;
+        background-size: contain;
+        background-position: center;
+        background-image: url(/imagenes/imagenes-certificaciones/logo-2019-6.jpg);
+        background-repeat: no-repeat;
+        animation: texto-para-arriba 4s linear;
+        animation-timeline: view(0px);
+        animation-range: entry 0% cover 50%;
+        }/*final logo 6 */
+
+/* logo 7 */
+        .logo-7{
+        grid-area: logo-7;
+        height: auto;
+        width: 100%;
+        padding: 0px 50px;
+        background-size: contain;
+        background-position: center;
+        background-image: url(/imagenes/imagenes-certificaciones/logo-2019-7.jpg);
+        background-repeat: no-repeat;
+        animation: texto-para-arriba 4s linear;
+        animation-timeline: view(0px);
+        animation-range: entry 0% cover 50%;
+        }/*final logo 7 */
+
+    }/*final seccion 2019 */
+
+/* titulo-2018 */
+.titulo-2018{
+    background-color: #ffffff;
+    height: 50px;
+    padding: 10px 0px;
+        h2{
+        color: #07262D;
+        font-size: 35px;
+        text-align: center;
+        font-family: "Avenir-Black";  
+        }
+    }
+/* colaboradores 2018 */
+.sección-2018{
+    background-color: #ffffff;
+    height: 350px;
+    width: 100%;
+    padding: 0px 25px 50px 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 100px);
+    grid-column-gap: 10px;
+    grid-row-gap: -10px;
+    grid-template-areas:
+                    "logo-1 logo-2"
+                    "logo-3 logo-4"
+                    "logo-5 logo-6";
+
+/* logo 1 */
+        .logo-1{
+        grid-area: logo-1;
+        height: auto;
+        width: 100%;
+        background-size: contain;
+        background-position: center;
+        background-image: url(/imagenes/imagenes-certificaciones/logo-2018-1.jpg);
+        background-repeat: no-repeat;
+        animation: texto-para-arriba 4s linear;
+        animation-timeline: view(0px);
+        animation-range: entry 0% cover 50%;
+        }/*final logo 1 */
+
+/* logo 2 */
+        .logo-2{
+        grid-area: logo-2;
+        height: auto;
+        width: 100%;
+        background-size: contain;
+        background-position: center;
+        background-image: url(/imagenes/imagenes-certificaciones/logo-2018-2.jpg);
+        background-repeat: no-repeat;
+        animation: texto-para-arriba 4s linear;
+        animation-timeline: view(0px);
+        animation-range: entry 0% cover 50%;
+        }/*final logo 2 */
+
+/* logo 3 */
+        .logo-3{
+        grid-area: logo-3;
+        height: auto;
+        width: 100%;
+        background-size: contain;
+        background-position: center;
+        background-image: url(/imagenes/imagenes-certificaciones/logo-2018-3.jpg);
+        background-repeat: no-repeat;
+        animation: texto-para-arriba 4s linear;
+        animation-timeline: view(0px);
+        animation-range: entry 0% cover 50%;
+        }/*final logo 3 */
+
+/* logo 4 */
+        .logo-4{
+        grid-area: logo-4;
+        height: auto;
+        width: 100%;
+        background-size: contain;
+        background-position: center;
+        background-image: url(/imagenes/imagenes-certificaciones/logo-2018-4.jpg);
+        background-repeat: no-repeat;
+        animation: texto-para-arriba 4s linear;
+        animation-timeline: view(0px);
+        animation-range: entry 0% cover 50%;
+        }/*final logo 4 */           
+
+/* logo 5 */
+        .logo-5{
+        grid-area: logo-5;
+        height: auto;
+        width: 100%;
+        padding: 0px 50px;
+        background-size: contain;
+        background-position: center;
+        background-image: url(/imagenes/imagenes-certificaciones/logo-2018-5.jpg);
+        background-repeat: no-repeat;
+        animation: texto-para-arriba 4s linear;
+        animation-timeline: view(0px);
+        animation-range: entry 0% cover 50%;
+        }/*final logo 5 */
+
+/* logo 6 */
+        .logo-6{
+        grid-area: logo-6;
+        height: auto;
+        width: 100%;
+        padding: 0px 50px;
+        background-size: contain;
+        background-position: center;
+        background-image: url(/imagenes/imagenes-certificaciones/logo-2018-6.jpg);
+        background-repeat: no-repeat;
+        animation: texto-para-arriba 4s linear;
+        animation-timeline: view(0px);
+        animation-range: entry 0% cover 50%;
+        }/*final logo 6 */
+
+    }/*final seccion 2018 */
+
+/* titulo-2017 */
+.titulo-2017{
+    background-color: #ffffff;
+    height: 50px;
+    padding: 10px 0px;
+        h2{
+        color: #07262D;
+        font-size: 35px;
+        text-align: center;
+        font-family: "Avenir-Black";   
+        }
+    }
+/* colaboradores 2017 */
+.sección-2017{
+    background-color: #ffffff;
+    height: 450px;
+    width: 100%;
+    padding: 0px 25px 50px 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, 100px);
+    grid-column-gap: 10px;
+    grid-row-gap: -10px;
+    grid-template-areas:
+                    "logo-1 logo-2"
+                    "logo-3 logo-4"
+                    "logo-5 logo-6"
+                    "logo-7 logo-8";
+
+/* logo 1 */
+        .logo-1{
+        grid-area: logo-1;
+        height: auto;
+        width: 100%;
+        background-size: contain;
+        background-position: center;
+        background-image: url(/imagenes/imagenes-certificaciones/logo-2017-1.jpg);
+        background-repeat: no-repeat;
+        animation: texto-para-arriba 4s linear;
+        animation-timeline: view(0px);
+        animation-range: entry 0% cover 50%;
+        }/*final logo 1 */
+
+/* logo 2 */
+        .logo-2{
+        grid-area: logo-2;
+        height: auto;
+        width: 100%;
+        background-size: contain;
+        background-position: center;
+        background-image: url(/imagenes/imagenes-certificaciones/logo-2017-2.jpg);
+        background-repeat: no-repeat;
+        animation: texto-para-arriba 4s linear;
+        animation-timeline: view(0px);
+        animation-range: entry 0% cover 50%;
+        }/*final logo 2 */
+
+/* logo 3 */
+        .logo-3{
+        grid-area: logo-3;
+        height: auto;
+        width: 100%;
+        background-size: contain;
+        background-position: center;
+        background-image: url(/imagenes/imagenes-certificaciones/logo-2017-3.jpg);
+        background-repeat: no-repeat;
+        animation: texto-para-arriba 4s linear;
+        animation-timeline: view(0px);
+        animation-range: entry 0% cover 50%;
+        }/*final logo 3 */
+
+/* logo 4 */
+        .logo-4{
+        grid-area: logo-4;
+        height: auto;
+        width: 100%;
+        background-size: contain;
+        background-position: center;
+        background-image: url(/imagenes/imagenes-certificaciones/logo-2017-4.jpg);
+        background-repeat: no-repeat;
+        animation: texto-para-arriba 4s linear;
+        animation-timeline: view(0px);
+        animation-range: entry 0% cover 50%;
+        }/*final logo 4 */           
+
+/* logo 5 */
+        .logo-5{
+        grid-area: logo-5;
+        height: auto;
+        width: 100%;
+        padding: 0px 50px;
+        background-size: contain;
+        background-position: center;
+        background-image: url(/imagenes/imagenes-certificaciones/logo-2017-5.jpg);
+        background-repeat: no-repeat;
+        animation: texto-para-arriba 4s linear;
+        animation-timeline: view(0px);
+        animation-range: entry 0% cover 50%;
+        }/*final logo 5 */
+
+/* logo 6 */
+        .logo-6{
+        grid-area: logo-6;
+        height: auto;
+        width: 100%;
+        padding: 0px 50px;
+        background-size: contain;
+        background-position: center;
+        background-image: url(/imagenes/imagenes-certificaciones/logo-2017-6.jpg);
+        background-repeat: no-repeat;
+        animation: texto-para-arriba 4s linear;
+        animation-timeline: view(0px);
+        animation-range: entry 0% cover 50%;
+        }/*final logo 6 */
+
+/* logo 7 */
+        .logo-7{
+        grid-area: logo-7;
+        height: auto;
+        width: 100%;
+        padding: 0px 50px;
+        background-size: contain;
+        background-position: center;
+        background-image: url(/imagenes/imagenes-certificaciones/logo-2017-7.jpg);
+        background-repeat: no-repeat;
+        animation: texto-para-arriba 4s linear;
+        animation-timeline: view(0px);
+        animation-range: entry 0% cover 50%;
+        }/*final logo 7 */
+
+/* logo 8 */
+        .logo-8{
+        grid-area: logo-8;
+        height: auto;
+        width: 100%;
+        padding: 0px 50px;
+        background-size: contain;
+        background-position: center;
+        background-image: url(/imagenes/imagenes-certificaciones/logo-2017-8.jpg);
+        background-repeat: no-repeat;
+        animation: texto-para-arriba 4s linear;
+        animation-timeline: view(0px);
+        animation-range: entry 0% cover 50%;
+        }/*final logo 8 */
+
+    }/*final seccion 2017 */
+
+    
+
+/* titulo-2016 */
+.titulo-2016{
+    background-color: #ffffff;
+    height: 50px;
+    padding: 10px 0px;
+        h2{
+        color: #07262D;
+        font-size: 35px;
+        text-align: center;
+        font-family: "Avenir-Black";  
+        }
+    }
+/* colaboradores 2016 */
+.sección-2016{
+    background-color: #ffffff;
+    height: 350px;
+    width: 100%;
+    padding: 0px 25px 50px 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 100px);
+    grid-column-gap: 10px;
+    grid-row-gap: -10px;
+    grid-template-areas:
+                    "logo-1 logo-2"
+                    "logo-3 logo-4"
+                    "logo-5 logo-5";
+
+/* logo 1 */
+        .logo-1{
+        grid-area: logo-1;
+        height: auto;
+        width: 100%;
+        background-size: contain;
+        background-position: center;
+        background-image: url(/imagenes/imagenes-certificaciones/logo-2016-1.jpg);
+        background-repeat: no-repeat;
+        animation: texto-para-arriba 4s linear;
+        animation-timeline: view(0px);
+        animation-range: entry 0% cover 50%;
+        }/*final logo 1 */
+
+/* logo 2 */
+        .logo-2{
+        grid-area: logo-2;
+        height: auto;
+        width: 100%;
+        background-size: contain;
+        background-position: center;
+        background-image: url(/imagenes/imagenes-certificaciones/logo-2016-2.jpg);
+        background-repeat: no-repeat;
+        animation: texto-para-arriba 4s linear;
+        animation-timeline: view(0px);
+        animation-range: entry 0% cover 50%;
+        }/*final logo 2 */
+
+/* logo 3 */
+        .logo-3{
+        grid-area: logo-3;
+        height: auto;
+        width: 100%;
+        background-size: contain;
+        background-position: center;
+        background-image: url(/imagenes/imagenes-certificaciones/logo-2016-3.jpg);
+        background-repeat: no-repeat;
+        animation: texto-para-arriba 4s linear;
+        animation-timeline: view(0px);
+        animation-range: entry 0% cover 50%;
+        }/*final logo 3 */
+
+/* logo 4 */
+        .logo-4{
+        grid-area: logo-4;
+        height: auto;
+        width: 100%;
+        background-size: contain;
+        background-position: center;
+        background-image: url(/imagenes/imagenes-certificaciones/logo-2016-4.jpg);
+        background-repeat: no-repeat;
+        animation: texto-para-arriba 4s linear;
+        animation-timeline: view(0px);
+        animation-range: entry 0% cover 50%;
+        }/*final logo 4 */           
+
+/* logo 5 */
+        .logo-5{
+        grid-area: logo-5;
+        height: auto;
+        width: 100%;
+        padding: 0px 50px;
+        background-size: contain;
+        background-position: center;
+        background-image: url(/imagenes/imagenes-certificaciones/logo-2016-5.jpg);
+        background-repeat: no-repeat;
+        animation: texto-para-arriba 4s linear;
+        animation-timeline: view(0px);
+        animation-range: entry 0% cover 50%;
+        }/*final logo 5 */
+
+    }/*final seccion 2016 */
+
+/* footer */
+.pie-de-pagina{
+    background-image: url(/imagenes/imagenes-certificaciones/footer-certificaciones.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 650px;
+    width: 100%;
+    color: #ffffff;
+    display: grid;
+    grid-row-gap:20px;
+    justify-content: center;
+    text-align: center;
+    padding-top: 100px;
+
+        .logo-sepia-tercero{
+        margin: 25px;
+        height: 60px;
+        display: flex;
+
+            img{
+            height: 50px;
+            width: auto;   
+            }
+        }
+
+        .datos-sepia{
+        height: 40%;
+        width: 100%;
+            
+            ul{
+                li{
+                list-style: none;
+                padding: 5px;
+                padding-right: 50px;
+                }
+            } 
+        }
+
+        .redes-sociales{
+            a{
+            height: 33%;
+            width: 100%;
+            color: #20A3D1;
+            padding: 0px 5px 0px 5px;
+            font-size: 30px;
+            &:hover{
+                color: #ffffff;
+                }
+            }
+        }
+        
+        h6{
+        margin-top: 40px;
+        }
+    }/*final pie-de-pagina*/
+
+    }/* final main */
+}/* final etiqueta universal */
+
+                                                            /* AQUI INICIAN LAS MEDIA QUERIES */
+
+                                                            /* Formato 1366px -768px */
+
+@media only screen and (min-width: 1366px)
+{
+
+        main{
+        font-size: 18px;
+
+        header{
+            height: 100vh;
+                .contenedor-elementos-header{
+                padding: 20px;
+     
+                    .menu-de-navegacion{
+     
+                        .logo-sepia{
+                            .logo-sepia-inicial{
+                            height: 35px;
+                            }
+                        } 
+                    }/*menu-de-navegacion*/
+                }/*final contenedor-elementos-header*/
+                
+                .contenedor-introduccion-certificaciones{
+                margin-bottom: 170px;
+                text-align: left;
+                padding-left: 230px;
+                padding-right: 600px;
+     
+                 .icono-certificaciones{
+                 height: 240px;
+                 padding-left: 40px;
+                 }
+                 h1{
+                 font-size: 300%;
+                 } 
+     
+                    
+                }/* final contenedor-introduccion-certificaciones */
+            }/*final header*/
+
+/* titulo-2022 */
+.titulo-2022{
+    height: 100px;
+    padding: 80px 0px 10px 0px;
+        h2{
+        font-size: 45px;   
+        }
+    }
+        
+/* colaboradores 2022 */
+    .sección-2022{
+    height: 450px;
+    padding: 40px 340px 80px 340px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2, 180px);
+    grid-template-areas:
+                    "logo-1 logo-2"
+                    "logo-3 logo-3";
+
+
+/* logo 1 */
+        .logo-1{
+        height: auto;
+        width: 100%;
+        }/*final logo 1 */
+
+/* logo 2 */
+        .logo-2{
+        height: auto;
+        width: 100%;
+        }/*final logo 2 */
+
+/* logo 3 */
+        .logo-3{
+        height: auto;
+        width: 100%;
+        }/*final logo 3 */
+
+    }/*final seccion 2022 */
+
+/* titulo-2021 */
+.titulo-2021{
+    height: 100px;
+    padding: 80px 0px 10px 0px;
+        h2{
+        font-size: 45px;  
+        }
+    }
+        
+/* colaboradores 2021 */
+    .sección-2021{
+    height: 300px;
+    padding: 40px 340px 80px 340px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(1, 180px);
+    grid-template-areas:
+                    "logo-1 logo-2";
+
+
+/* logo 1 */
+        .logo-1{
+        height: auto;
+        width: 100%;
+        }/*final logo 1 */
+
+/* logo 2 */
+        .logo-2{
+        height: auto;
+        width: 100%;
+        }/*final logo 2 */
+
+    }/*final seccion 2021 */
+
+/* titulo-2020 */
+.titulo-2020{
+    height: 100px;
+    padding: 80px 0px 10px 0px;
+        h2{
+        font-size: 45px;   
+        }
+    }
+        
+/* colaboradores 2020 */
+    .sección-2020{
+    height: 300px;
+    padding: 40px 340px 80px 340px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(1, 180px);
+    grid-template-areas:
+                    "logo-1 logo-1";
+
+
+/* logo 1 */
+        .logo-1{
+        height: auto;
+        }/*final logo 1 */
+
+    }/*final seccion 2020 */
+
+/* titulo-2019 */
+.titulo-2019{
+    height: 100px;
+    padding: 80px 0px 10px 0px;
+        h2{
+        font-size: 45px;   
+        }
+    }
+/* colaboradores 2019 */
+.sección-2019{
+    height: 800px;
+    padding: 40px 340px 80px 340px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, 180px);
+    grid-column-gap: 10px;
+    grid-row-gap: -10px;
+    grid-template-areas:
+                    "logo-1 logo-2"
+                    "logo-3 logo-4"
+                    "logo-5 logo-6"
+                    "logo-7 logo-7";
+
+/* logo 1 */
+        .logo-1{
+        height: auto;
+        width: 100%;
+        }/*final logo 1 */
+
+/* logo 2 */
+        .logo-2{
+        height: auto;
+        width: 100%;
+        }/*final logo 2 */
+
+/* logo 3 */
+        .logo-3{
+        height: auto;
+        width: 100%;
+        }/*final logo 3 */
+
+/* logo 4 */
+        .logo-4{
+        height: auto;
+        width: 100%;
+        }/*final logo 4 */           
+
+/* logo 5 */
+        .logo-5{
+        height: auto;
+        width: 100%;
+        }/*final logo 5 */
+
+/* logo 6 */
+        .logo-6{
+        height: auto;
+        width: 100%;
+        }/*final logo 6 */
+
+/* logo 7 */
+        .logo-7{
+        height: auto;
+        width: 100%;
+        }/*final logo 7 */
+
+    }/*final seccion 2019 */
+
+/* titulo-2018 */
+.titulo-2018{
+    height: 100px;
+    padding: 80px 0px 10px 0px;
+        h2{
+        font-size: 45px;   
+        }
+    }
+/* colaboradores 2018 */
+.sección-2018{
+    height: 650px;
+    width: 100%;
+    padding: 40px 340px 80px 340px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 180px);
+    grid-column-gap: 10px;
+    grid-row-gap: -10px;
+    grid-template-areas:
+                    "logo-1 logo-2"
+                    "logo-3 logo-4"
+                    "logo-5 logo-6";
+
+/* logo 1 */
+        .logo-1{
+        height: auto;
+        width: 100%;
+        }/*final logo 1 */
+
+/* logo 2 */
+        .logo-2{
+        height: auto;
+        width: 100%;
+        }/*final logo 2 */
+
+/* logo 3 */
+        .logo-3{
+        height: auto;
+        width: 100%;
+        }/*final logo 3 */
+
+/* logo 4 */
+        .logo-4{
+        height: auto;
+        width: 100%;
+        }/*final logo 4 */           
+
+/* logo 5 */
+        .logo-5{
+        height: auto;
+        width: 100%;
+        }/*final logo 5 */
+
+/* logo 6 */
+        .logo-6{
+        height: auto;
+        width: 100%;
+        }/*final logo 6 */
+
+    }/*final seccion 2018 */
+
+/* titulo-2017 */
+.titulo-2017{
+    height: 100px;
+    padding: 80px 0px 10px 0px;
+        h2{
+        font-size: 45px;   
+        }
+    }
+/* colaboradores 2017 */
+.sección-2017{
+    height: 850px;
+    padding: 40px 340px 80px 340px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, 180px);
+    grid-column-gap: 10px;
+    grid-row-gap: -10px;
+    grid-template-areas:
+                    "logo-1 logo-2"
+                    "logo-3 logo-4"
+                    "logo-5 logo-6"
+                    "logo-7 logo-8";
+
+/* logo 1 */
+        .logo-1{
+        height: auto;
+        width: 100%;
+        }/*final logo 1 */
+
+/* logo 2 */
+        .logo-2{
+        height: auto;
+        width: 100%;
+        }/*final logo 2 */
+
+/* logo 3 */
+        .logo-3{
+        height: auto;
+        width: 100%;
+        }/*final logo 3 */
+
+/* logo 4 */
+        .logo-4{
+        height: auto;
+        width: 100%;
+        }/*final logo 4 */           
+
+/* logo 5 */
+        .logo-5{
+        height: auto;
+        width: 100%;
+        }/*final logo 5 */
+
+/* logo 6 */
+        .logo-6{
+        height: auto;
+        width: 100%;
+        }/*final logo 6 */
+
+/* logo 7 */
+        .logo-7{
+        height: auto;
+        width: 100%;
+        }/*final logo 7 */
+
+/* logo 8 */
+        .logo-8{
+        height: auto;
+        width: 100%;
+        }/*final logo 8 */
+
+    }/*final seccion 2017 */
+
+    
+
+/* titulo-2016 */
+.titulo-2016{
+    height: 100px;
+    padding: 80px 0px 10px 0px;
+        h2{
+        font-size: 45px;   
+        }
+    }
+/* colaboradores 2016 */
+.sección-2016{
+    height: 650px;
+    width: 100%;
+    padding: 40px 340px 80px 340px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 180px);
+    grid-column-gap: 10px;
+    grid-row-gap: -10px;
+    grid-template-areas:
+                    "logo-1 logo-2"
+                    "logo-3 logo-4"
+                    "logo-5 logo-5";
+
+/* logo 1 */
+        .logo-1{
+        height: auto;
+        width: 100%;
+        }/*final logo 1 */
+
+/* logo 2 */
+        .logo-2{
+        height: auto;
+        width: 100%;
+        }/*final logo 2 */
+
+/* logo 3 */
+        .logo-3{
+        height: auto;
+        width: 100%;
+        }/*final logo 3 */
+
+/* logo 4 */
+        .logo-4{
+        height: auto;
+        width: 100%;
+        }/*final logo 4 */           
+
+/* logo 5 */
+        .logo-5{
+        height: auto;
+        width: 100%;
+        }/*final logo 5 */
+
+    }/*final seccion 2016 */
+
+/* footer */
+.pie-de-pagina{
+    height: 650px;
+    display: grid;
+    grid-row-gap:10px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding-top: 60px;
+
+        .logo-sepia-tercero{
+        margin: 60px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+
+            img{
+            height: 80px;   
+            }
+        }
+
+        .datos-sepia{
+        padding-right: 40px;
+            ul{
+            color:#07262D;
+            display: flex;
+                li{
+                padding: 30px 15px 0px 15px;
+                }
+            } 
+        }
+
+        .redes-sociales{
+            a{
+            color: #ffffff;
+            padding: 0px 10px ;
+            font-size: 40px;
+                &:hover{
+                color: #20A3D1;
+                }
+            }
+        }
+
+        h6{
+        margin-top: 180px;
+        padding-bottom: 50px;
+        font-size: 18PX;
+        }
+    }/*final pie-de-pagina*/
+
+        }/* final main */
+    }/* Final Formato 1366px -768px */
+
+
+                                                            /* Formato 1674px -807px */
+
+ @media only screen and (min-width: 1674px){
+
+        main{
+            font-size: 16px;
+     
+            header{
+                .contenedor-elementos-header{
+                padding: 20px;
+     
+                    .menu-de-navegacion{
+     
+                        .logo-sepia{
+                            .logo-sepia-inicial{
+                            height: 35px;
+                            }
+                        } 
+                    }/*menu-de-navegacion*/
+                }/*final contenedor-elementos-header*/
+                
+                .contenedor-introduccion-certificaciones{
+                margin-bottom: 170px;
+                text-align: left;
+                padding-left: 300px;
+                padding-right: 990px;
+     
+                 .icono-certificaciones{
+                 height: 240px;
+                 padding-left: 20px;
+                 }
+                 h1{
+                padding-top: 10px;
+                 font-size: 300%;
+                 } 
+     
+                    
+                }/* final contenedor-introduccion-certificaciones*/
+            }/*final header*/
+
+/* titulo-2022 */
+.titulo-2022{
+        h2{
+        font-size: 45px;   
+        }
+    }
+        
+/* colaboradores 2022 */
+    .sección-2022{
+    height: 520px;
+    padding: 40px 410px 80px 410px;
+    grid-template-rows: repeat(2, 200px);
+
+    }/*final seccion 2022 */
+
+/* titulo-2021 */
+.titulo-2021{
+        h2{
+        font-size: 45px;  
+        }
+    }
+        
+/* colaboradores 2021 */
+    .sección-2021{
+    height: 300px;
+    padding: 40px 410px 80px 410px;
+    grid-template-rows: repeat(1, 200px);
+
+    }/*final seccion 2021 */
+
+/* titulo-2020 */
+.titulo-2020{
+        h2{
+        font-size: 45px;   
+        }
+    }
+        
+/* colaboradores 2020 */
+    .sección-2020{
+    height: 300px;
+    padding: 40px 410px 80px 410px;
+    grid-template-rows: repeat(1, 200px);
+
+    }/*final seccion 2020 */
+
+/* titulo-2019 */
+.titulo-2019{
+        h2{
+        font-size: 45px;   
+        }
+    }
+/* colaboradores 2019 */
+.sección-2019{
+    height: 870px;
+    padding: 40px 410px 80px 410px;
+    grid-template-rows: repeat(4, 200px);
+
+    }/*final seccion 2019 */
+
+/* titulo-2018 */
+.titulo-2018{
+        h2{
+        font-size: 45px;   
+        }
+    }
+/* colaboradores 2018 */
+.sección-2018{
+    height: 720px;
+    padding: 40px 410px 80px 410px;
+    grid-template-rows: repeat(3, 200px);
+
+    }/*final seccion 2018 */
+
+/* titulo-2017 */
+.titulo-2017{
+        h2{
+        font-size: 45px;   
+        }
+    }
+/* colaboradores 2017 */
+.sección-2017{
+    height: 920px;
+    padding: 40px 410px 80px 410px;
+    grid-template-rows: repeat(4, 200px);
+
+    }/*final seccion 2017 */
+
+    
+
+/* titulo-2016 */
+.titulo-2016{
+        h2{
+        font-size: 45px;   
+        }
+    }
+/* colaboradores 2016 */
+.sección-2016{
+    height: 720px;
+    width: 100%;
+    padding: 40px 410px 80px 410px;
+    grid-template-rows: repeat(3, 200px);
+
+    }/*final seccion 2016 */            
+
+/* footer */
+.pie-de-pagina{
+    height: 650px;
+    display: grid;
+    grid-row-gap:10px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding-top: 60px;
+
+        .logo-sepia-tercero{
+        margin: 60px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+
+            img{
+            height: 80px;   
+            }
+        }
+
+        .datos-sepia{
+        padding-right: 40px;
+            ul{
+            display: flex;
+                li{
+                padding: 30px 15px 0px 15px;
+                }
+            } 
+        }
+
+        .redes-sociales{
+            a{
+            padding: 0px 10px ;
+            font-size: 40px;
+            }
+        }
+        
+        h6{
+        margin-top: 180px;
+        padding-bottom: 30px;
+        font-size: 18px;
+        }
+    }/*final pie-de-pagina*/
+        }/* final main */
+ }/* final Formato 1674px -807px */
+
+                                                                    /* Formato 1920px -1080px */
+
+@media only screen and (min-width: 1920px){
+
+        main{
+        font-size: 22px;
+     
+            header{
+            height: 100vh;
+                .contenedor-elementos-header{
+                padding: 20px;
+     
+                    .menu-de-navegacion{
+     
+                        .logo-sepia{
+                            .logo-sepia-inicial{
+                            height: 35px;
+                            }
+                        } 
+                    }/*menu-de-navegacion*/
+                }/*final contenedor-elementos-header*/
+                
+                .contenedor-introduccion-certificaciones{
+                margin-bottom: 170px;
+                text-align: left;
+                padding-left: 300px;
+                padding-right: 970px;
+     
+                 .icono-certificaciones{
+                 height: 240px;
+                 padding-left: 40px;
+                 }
+                 h1{
+                 font-size: 300%;
+                 } 
+     
+                    
+                }/* final contenedor-introduccion certificaciones*/
+            }/*final header*/
+
+/* titulo-2022 */
+.titulo-2022{
+        h2{
+        font-size: 45px;   
+        }
+    }
+        
+/* colaboradores 2022 */
+    .sección-2022{
+    height: 620px;
+    padding: 40px 480px 80px 480px;
+    grid-template-rows: repeat(2, 240px);
+
+    }/*final seccion 2022 */
+
+/* titulo-2021 */
+.titulo-2021{
+        h2{
+        font-size: 45px;  
+        }
+    }
+        
+/* colaboradores 2021 */
+    .sección-2021{
+    height: 420px;
+    padding: 40px 480px 80px 480px;
+    grid-template-rows: repeat(1, 240px);
+
+    }/*final seccion 2021 */
+
+/* titulo-2020 */
+.titulo-2020{
+        h2{
+        font-size: 45px;   
+        }
+    }
+        
+/* colaboradores 2020 */
+    .sección-2020{
+    height: 420px;
+    padding: 40px 480px 80px 480px;
+    grid-template-rows: repeat(1, 240px);
+
+    }/*final seccion 2020 */
+
+/* titulo-2019 */
+.titulo-2019{
+        h2{
+        font-size: 45px;   
+        }
+    }
+/* colaboradores 2019 */
+.sección-2019{
+    height: 1100px;
+    padding: 40px 480px 80px 480px;
+    grid-template-rows: repeat(4, 240px);
+
+    }/*final seccion 2019 */
+
+/* titulo-2018 */
+.titulo-2018{
+        h2{
+        font-size: 45px;   
+        }
+    }
+/* colaboradores 2018 */
+.sección-2018{
+    height: 820px;
+    padding: 40px 480px 80px 480px;
+    grid-template-rows: repeat(3, 240px);
+
+    }/*final seccion 2018 */
+
+/* titulo-2017 */
+.titulo-2017{
+        h2{
+        font-size: 45px;   
+        }
+    }
+/* colaboradores 2017 */
+.sección-2017{
+    height: 1000px;
+    padding: 40px 480px 80px 480px;
+    grid-template-rows: repeat(4, 240px);
+
+    }/*final seccion 2017 */
+
+    
+
+/* titulo-2016 */
+.titulo-2016{
+        h2{
+        font-size: 45px;   
+        }
+    }
+/* colaboradores 2016 */
+.sección-2016{
+    height: 850px;
+    width: 100%;
+    padding: 40px 480px 80px 480px;
+    grid-template-rows: repeat(3, 240px);
+
+    }/*final seccion 2016 */  
+
+/* footer */
+.pie-de-pagina{
+    height: 650px;
+    display: grid;
+    grid-row-gap:10px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding-top: 60px;
+
+        .logo-sepia-tercero{
+        margin: 60px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+
+            img{
+            height: 80px;   
+            }
+        }
+
+        .datos-sepia{
+        padding-right: 40px;
+            ul{
+            display: flex;
+                li{
+                padding: 30px 15px 0px 15px;
+                }
+            } 
+        }
+
+        .redes-sociales{
+            a{
+            padding: 0px 10px ;
+            font-size: 40px;
+            }
+        }
+        
+        h6{
+        margin-top: 200px;
+        padding-bottom: 60px;
+        font-size: 18px;
+        }
+    }/*final pie-de-pagina*/
+
+        }/* final main */
+}/* Final formato 1920px -1080px */
+
+                                                                /* AQUI ESTAN LAS ANIMACIONES */
+
+@keyframes texto-para-arriba{
+    
+    0%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+    50%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+    100%{
+      transform: translateY(0); 
+      opacity: 1; 
+    }
+}

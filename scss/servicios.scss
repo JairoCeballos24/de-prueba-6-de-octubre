@@ -1,0 +1,2116 @@
+@import url("https://fonts.cdnfonts.com/css/avenir");
+/* font-family: 'Avenir', sans-serif; */
+@import url(https://db.onlinewebfonts.com/c/b78d933f8aa6b9284c1d3efd3db0a9b9?family=Avenir-Black);
+/* font-family: "Avenir-Black"; */
+@import url(https://db.onlinewebfonts.com/c/158fa6012dff0f88241ad898c46c0118?family=AvenirNextW1G-Regular);
+/* font-family: "AvenirNextW1G-Regular"; */
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+
+/* formato 360px - 640px */   
+   main{
+    font-family: 'Avenir', sans-serif;
+   font-size: 16px;
+
+       header{
+        background-image: url(/imagenes/imagenes-servicios/);
+       background-attachment: fixed;
+       background-size: contain;
+       background-repeat: no-repeat;
+       background: linear-gradient(rgb(7, 38, 45, ), rgb(7, 38, 45, 0.0), rgb(7, 38, 45, 0.0), rgb(7, 38, 45, 0.0), rgb(7, 38, 45, 0.0));
+       height: 100vh;
+       width: 100%;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       position: relative;
+       overflow: hidden;
+
+       video{
+       position: absolute;
+       top: 0;
+       left: 0;
+       width: 100%;
+       height: 100%;
+       object-fit: cover;
+       z-index: -1;
+       }/* final video */
+
+           .contenedor-elementos-header{
+           height: auto;
+           width: 100%;
+           padding: 20px;
+           position: relative;
+           z-index: 100;
+
+               .menu-de-navegacion{
+               display: flex;
+               justify-content: space-between;
+
+                   .logo-sepia{
+                       .logo-sepia-inicial{
+                       height: 35px;
+                       }
+                   }
+                   .navbar{
+                   padding: 15px 10px 0px 0px;
+                   box-sizing: border-box;
+                   z-index: 10;
+                   
+                       .offcanvas-header{
+                       background-color: #07262D;
+                       }
+                       .offcanvas-body{
+                       background-color: #07262D;
+
+                           .activeazul{
+                           color: #20A3D1;
+                           &:hover{color: #ffffff;};
+                           }
+                           .btn{
+                           color: #ffffff;
+                           &:hover{color: #07262D;};
+                           background-color: #20A3D1;
+                           &:hover{background-color: #20A3D1;};
+                           }   
+                       }
+                   }/*final navbar*/
+               }/*menu-de-navegacion*/
+           }/*final contenedor-elementos-header*/
+           
+           .contenedor-introduccion-servicios{
+           background-position: center;
+           width: 100%;
+           padding-top: 50px;
+           display: grid;
+           justify-content: center;
+           align-content: center;
+           margin-bottom: 170px;
+           text-align: center;
+           position: relative;
+           z-index: 20;
+           animation: texto-para-arriba 2s ease;
+
+            .icono-servicios{
+            height: 180px;
+            margin: 10px 0px;
+            }
+            h1{
+            color: #20A3D1;
+            font-family: "Avenir-Black";
+            font-size: 200%;
+            padding: 0px 20px;
+               p{margin: 5px;}
+            }
+
+            p{
+            color: #ffffff;
+            margin: 10px 0px;
+            padding: 0px 20px;
+            }   
+           }/* final contenedor-introduccion-servicios*/
+           
+       }/*final header*/
+
+/* servico-DESARROLLO TECNOLÓGICO PARA LA CONSERVACIÓN */
+       .servicio1{
+         background-color: #ffffff;
+         height: 800px;
+         width: 100%;
+         display: grid;
+         grid-template-columns: 1fr;
+         grid-template-rows: 1fr 1fr;
+         grid-column-gap: 10px;
+         padding: 10px 25px;
+         animation: texto-para-arriba 4s linear;
+        animation-timeline: view(0px);
+        animation-range: entry 0% cover 10%;
+            
+            .contenedor-icono-y-titulo{
+            height: min-content;
+            animation: texto-para-arriba 4s linear;
+            animation-timeline: view(0px);
+            animation-range: entry 0% cover 40%;
+
+                .contenedor-icono{
+                display: flex;
+                justify-content: center;
+                    img{
+                    height: 100px;
+                    margin: 15px 0px;
+                    }
+                }
+                .titulo{
+                   h2{
+                   color: #07262D;
+                   font-size: 21px;
+                   text-align: center;
+                   font-family: "Avenir-Black";
+                   
+                   }
+                }
+            
+        }
+            .imagen-servicio1{
+            height: 190px;
+            width: 100%;
+            background-image: url(/imagenes/inicio-imagen-4--pagina-web-sepia.jpg);
+            border-radius: 15px;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            transition: all 2s;
+            &:hover{
+            height: 190px;
+            width: 100%;
+            background-image: url(/imagenes/inicio-imagen-4-HOVER-pagina-web-sepia.jpg);
+            border-radius: 15px;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            }
+            }
+             
+             p{
+             text-align: center;
+             color: #07262D;
+             padding: 10px 0px;
+             animation: texto-para-arriba 4s linear;
+            animation-timeline: view(0px);
+            animation-range: entry 0% cover 40%;
+             }
+         }/* final servico-DESARROLLO TECNOLÓGICO PARA LA CONSERVACIÓN */
+
+/* ESTUDIO Y EVALUACIÓN DE IMPACTO AMBIENTAL */
+.servicio2{
+    background-color: #07262D;
+    height: 650px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 0px;
+    padding: 10px 25px;
+    animation: texto-para-arriba 0.5s linear;
+    animation-timeline: view(0px);
+    animation-range: entry 0% cover 20%;
+       
+       .contenedor-icono-y-titulo{
+        height: min-content;
+        animation: texto-para-arriba 4s linear;
+        animation-timeline: view(0px);
+        animation-range: entry 0% cover 40%;
+           .contenedor-icono{
+            display: flex;
+            justify-content: center;
+               img{
+               height: 100px;
+               margin: 0px 0px;
+               }
+           }
+
+           .titulo{
+              h2{
+              color: #20A3D1;
+              font-size: 21px;
+              text-align: center;
+              font-family: "Avenir-Black";
+              padding: 10px 0px;
+              }
+           }
+       }
+       
+        .imagen-servicio2{
+        height: 190px;
+        width: 100%;
+        background-image: url(/imagenes/inicio-imagen-5--pagina-web-sepia.jpg);
+        border-radius: 15px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        transition: all 2s;
+        animation: texto-para-arriba 4s linear;
+        animation-timeline: view(0%);
+        animation-range: entry 0% cover 50%;
+        &:hover{
+            height: 190px;
+            width: 100%;
+            background-image: url(/imagenes/inicio-imagen-5-HOVER-pagina-web-sepia.jpg);
+            border-radius: 15px;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        }
+        p{
+        text-align: center;
+        color: #ffffff;
+        padding: 20px 0px;
+        animation: texto-para-arriba 4s linear;
+        animation-timeline: view(0px);
+        animation-range: entry 0% cover 40%;
+        }
+    }/* final ESTUDIO Y EVALUACIÓN DE IMPACTO AMBIENTAL */
+
+/* INSPECCIÓN DE BARCOS Y ESTRUCTURAS SUMERGIDAS */
+    .servicio3{
+        background-color: #ffffff;
+        height: 730px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-column-gap: 10px;
+        padding: 10px 25px;
+           
+           .contenedor-icono-y-titulo{
+           height: min-content;
+               .contenedor-icono{
+               display: flex;
+               justify-content: center;
+                   img{
+                   height: 100px;
+                   margin: 15px 0px;
+                   }
+               }
+               .titulo{
+                  h2{
+                  color: #07262D;
+                  font-size: 21px;
+                  text-align: center;
+                  font-family: "Avenir-Black";
+                  }
+               }
+           
+       }
+            .imagen-servicio3{
+            height: 190px;
+            width: 100%;
+            background-image: url(/imagenes/inicio-imagen-6--pagina-web-sepia.jpg);
+            border-radius: 15px;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            transition: all 2s;
+            animation: texto-para-arriba 0.1s linear;
+            animation-timeline: view(0%);
+            animation-range: entry 0% cover 40%;
+            &:hover{
+            height: 190px;
+            width: 100%;
+            background-image: url(/imagenes/inicio-imagen-6-HOVER-pagina-web-sepia.jpg);
+            border-radius: 15px;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            }
+           }
+            
+            p{
+            text-align: center;
+            color: #07262D;
+            padding: 10px 0px;
+            animation: texto-para-arriba 2s linear;
+            animation-timeline: view(0px);
+            animation-range: entry 0% cover 40%;
+            }
+        }/* final INSPECCIÓN DE BARCOS Y ESTRUCTURAS SUMERGIDAS */
+
+/* OPERACIÓN LOGÍSTICA EN ÁREAS MARINAS REMOTAS */
+    .servicio4{
+    background-color: #07262D;
+    height: 630px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 0px;
+    padding: 10px 25px;
+    animation: texto-para-arriba 0.5s linear;
+    animation-timeline: view(0px);
+    animation-range: entry 0% cover 10%;
+       
+       .contenedor-icono-y-titulo{height: min-content;
+           .contenedor-icono{
+            display: flex;
+            justify-content: center;
+               img{
+               height: 100px;
+               margin: 0px 0px;
+               }
+           }
+
+           .titulo{
+              h2{
+              color: #20A3D1;
+              font-size: 21px;
+              text-align: center;
+              font-family: "Avenir-Black";
+              padding: 10px 0px;
+              }
+           }
+       }
+       
+        .imagen-servicio4{
+        height: 190px;
+        width: 100%;
+        background-image: url(/imagenes/inicio-imagen-7--pagina-web-sepia.jpg);
+        border-radius: 15px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        transition: all 2s;
+        animation: texto-para-arriba 4s linear;
+        animation-timeline: view(0%);
+        animation-range: entry 0% cover 50%;
+        &:hover{
+        height: 190px;
+        width: 100%;
+        background-image: url(/imagenes/inicio-imagen-7-HOVER-pagina-web-sepia.jpg);
+        border-radius: 15px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;  
+        }
+        }
+        p{
+        text-align: center;
+        color: #ffffff;
+        padding: 20px 0px;
+        animation: texto-para-arriba 4s linear;
+        animation-timeline: view(0px);
+        animation-range: entry 0% cover 40%;
+        }
+    }/* final OPERACIÓN LOGÍSTICA EN ÁREAS MARINAS REMOTAS */
+
+/* MONITOREO Y EVALUACIÓN DE RECURSOS PESQUEROS */
+        .servicio5{
+        background-color: #ffffff;
+        height: 750px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-column-gap: 10px;
+        padding: 10px 25px;
+        animation: texto-para-arriba 4s linear;
+        animation-timeline: view(0px);
+        animation-range: entry 0% cover 40%;
+           
+           .contenedor-icono-y-titulo{
+           height: min-content;
+               .contenedor-icono{
+               display: flex;
+               justify-content: center;
+                   img{
+                   height: 100px;
+                   margin: 15px 0px;
+                   }
+               }
+               .titulo{
+                  h2{
+                  color: #07262D;
+                  font-size: 21px;
+                  text-align: center;
+                  font-family: "Avenir-Black";
+                  }
+               }
+           
+       }
+            .imagen-servicio5{
+            height: 190px;
+            width: 100%;
+            background-image: url(/imagenes/inicio-imagen-8--pagina-web-sepia.jpg);
+            border-radius: 15px;
+            background-size: cover;
+            background-position: center;
+            transition: all 2s;
+            animation: texto-para-arriba 4s linear;
+            animation-timeline: view(0%);
+            animation-range: entry 0% cover 50%;
+            &:hover{
+            height: 190px;
+            width: 100%;
+            background-image: url(/imagenes/inicio-imagen-8-HOVER-pagina-web-sepia.jpg);
+            border-radius: 15px;
+            background-size: cover;
+            background-position: center;
+            }
+           }
+            
+            p{
+            text-align: center;
+            color: #07262D;
+            padding: 10px 0px;
+            animation: texto-para-arriba 4s linear;
+            animation-timeline: view(0px);
+            animation-range: entry 0% cover 40%;
+            }
+        }/* final MONITOREO Y EVALUACIÓN DE RECURSOS PESQUEROS */
+
+/* CONECTOR DRONES */
+    .conector-drones{
+    background-image: url(/imagenes/inicio-conector-servicio-de-drones.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 78px;
+    width: 100%;
+    }
+
+/* INTRODUCCION NUESTROS DRONES */
+
+        .contenedor-servicios-drones{
+            background-color: #07262D;
+            background-position: center;
+            height: 280px;
+            width: 100%;
+            display: grid;
+            justify-content: center;
+            align-content: center;
+            text-align: center;
+ 
+             h1{
+             color: #20A3D1;
+             font-family: "Avenir-Black";
+             font-size: 160%;
+             padding: 0px 20px;
+             animation: texto-para-arriba 4s linear;
+            animation-timeline: view(0px);
+            animation-range: entry 0% cover 40%;
+                p{margin: 5px;}
+             }
+ 
+             p{
+             color: #ffffff;
+             margin: 10px 0px;
+             padding: 0px 35px;
+             animation: texto-para-arriba 4s linear;
+            animation-timeline: view(0px);
+            animation-range: entry 0% cover 40%;
+             } 
+ 
+                
+        }/* final INTRODUCCION NUESTROS DRONES*/
+
+/* ROV INSPECCIÓN */
+            .rov-inspeccion{
+            height: 650px;
+            width: 100%;
+            background-color: #07262D;
+            display: grid;
+            justify-content: center;
+            align-content: center;
+            text-align: center;
+            padding: 40px 0px;
+                
+            
+                .titulo{
+                animation: texto-para-arriba 3s linear;
+                animation-timeline: view(0px);
+                animation-range: entry 0% cover 40%;
+                    h2{
+                    color: #20A3D1;
+                    font-size: 25px;
+                    text-align: center;
+                    font-family: "Avenir-Black";
+                    padding: 10px 0px;
+                    }
+                    }
+                .imagen{
+                background-image: url(/imagenes/ROV-AMPLIACION-CAMPO-DE-VISION-HD.png);
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center;
+                height: 200px;
+                width: 100%;
+                animation: texto-para-arriba 3s linear;
+                animation-timeline: view(0px);
+                animation-range: entry 0% cover 50%;
+                transition: all 2s;
+                &:hover{
+                background-image: url(/imagenes/drones/dron-hover-brazo-mecanico.png);
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center;
+                height: 200px;
+                width: 100%;
+                }
+                }
+                .parrafo{
+                color: #ffffff;    
+                margin: 20px 0px;
+                padding: 0px 25px;
+                animation: texto-para-arriba 3s linear;
+                animation-timeline: view(0px);
+                animation-range: entry 0% cover 40%;
+                }
+            }/* FINAL ROV INSPECCION*/
+
+/* ROV CAMPO DE VISION HD */
+            .rov-campo-de-vision-hd{
+            height: 630px;
+            width: 100%;
+            background-color: #07262D;
+            display: grid;
+            justify-content: center;
+            align-content: center;
+            text-align: center;
+            padding: 40px 0px;
+                
+            
+                .titulo{
+                animation: texto-para-arriba 3s linear;
+                animation-timeline: view(0px);
+                animation-range: entry 0% cover 40%;
+                    h2{
+                    color: #20A3D1;
+                    font-size: 25px;
+                    text-align: center;
+                    font-family: "Avenir-Black";
+                    padding: 10px 40px;
+                    }
+                    }
+                    .imagen{
+                        background-image: url(/imagenes/ROV-AMPLIACION-CAMPO-DE-VISION-HD.png);
+                        background-size: contain;
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        height: 200px;
+                        width: 100%;
+                        animation: texto-para-arriba 3s linear;
+                        animation-timeline: view(0px);
+                        animation-range: entry 0% cover 50%;
+                        transition: all 2s;
+                        &:hover{
+                        background-image: url(/imagenes/drones/dron-hover-brazo-mecanico.png);
+                        background-size: contain;
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        height: 200px;
+                        width: 100%;
+                        }
+                        }
+                .parrafo{
+                color: #ffffff;    
+                margin: 20px 0px;
+                padding: 0px 25px;
+                animation: texto-para-arriba 4s linear;
+                animation-timeline: view(0px);
+                animation-range: entry 0% cover 40%;
+                }
+            }/* FINAL ROV CAMPO DE VISION HD*/
+
+/* ROV GPS MARINO */
+            .rov-gps-marino{
+            height: 630px;
+            width: 100%;
+            background-color: #07262D;
+            display: grid;
+            justify-content: center;
+            align-content: center;
+            text-align: center;
+            padding-top: 40px 0px;
+                
+            
+                .titulo{
+                animation: texto-para-arriba 3s linear;
+                animation-timeline: view(0px);
+                animation-range: entry 0% cover 40%;
+                    h2{
+                    color: #20A3D1;
+                    font-size: 25px;
+                    text-align: center;
+                    font-family: "Avenir-Black";
+                    padding: 10px 0px;
+                    }
+                    }
+                .imagen{
+                background-image: url(/imagenes/ROV-AMPLIACION-CAMPO-DE-VISION-HD.png);
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center;
+                height: 200px;
+                width: 100%;
+                animation: texto-para-arriba 3s linear;
+                animation-timeline: view(0px);
+                animation-range: entry 0% cover 50%;
+                transition: all 2s;
+                &:hover{
+                background-image: url(/imagenes/drones/dron-hover-brazo-mecanico.png);
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center;
+                height: 200px;
+                width: 100%;
+                }
+                }
+                .parrafo{
+                color: #ffffff;    
+                margin: 20px 0px;
+                padding: 0px 25px;
+                animation: texto-para-arriba 4s linear;
+                animation-timeline: view(0px);
+                animation-range: entry 0% cover 40%;
+                }
+            }/* FINAL ROV GPS MARINO*/
+
+/* ROV BRAZO MECANICO */
+            .rov-brazo-mecanico{
+            height: 480px;
+            width: 100%;
+            background-color: #07262D;
+            display: grid;
+            justify-content: center;
+            align-content: center;
+            text-align: center;
+            padding-top: 40px 0px;
+                
+            
+                .titulo{
+                animation: texto-para-arriba 3s linear;
+                animation-timeline: view(0px);
+                animation-range: entry 0% cover 40%;
+                    h2{
+                    color: #20A3D1;
+                    font-size: 25px;
+                    text-align: center;
+                    font-family: "Avenir-Black";
+                    padding: 10px 20px;
+                    }
+                    }
+                .imagen{
+                background-image: url(/imagenes/ROV-AMPLIACION-CAMPO-DE-VISION-HD.png);
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center;
+                height: 200px;
+                width: 100%;
+                animation: texto-para-arriba 3s linear;
+                animation-timeline: view(0px);
+                animation-range: entry 0% cover 50%;
+                transition: all 2s;
+                &:hover{
+                background-image: url(/imagenes/drones/dron-hover-brazo-mecanico.png);
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center;
+                height: 200px;
+                width: 100%;
+                }
+                }
+                .parrafo{
+                color: #ffffff;    
+                margin: 20px 0px;
+                padding: 0px 25px;
+                animation: texto-para-arriba 4s linear;
+                animation-timeline: view(0px);
+                animation-range: entry 0% cover 40%;
+                }
+            }/* FINAL ROV BRAZO MECANICO*/
+
+/* ROV ILUMINCACION */
+            .rov-sistema-de-iluminacion{
+            height: 500px;
+            width: 100%;
+            background-color: #07262D;
+            display: grid;
+            justify-content: center;
+            align-content: center;
+            text-align: center;
+            padding-top: 40px 0px;
+                
+            
+                .titulo{
+                animation: texto-para-arriba 3s linear;
+                animation-timeline: view(0px);
+                animation-range: entry 0% cover 40%;
+                    h2{
+                    color: #20A3D1;
+                    font-size: 25px;
+                    text-align: center;
+                    font-family: "Avenir-Black";
+                    padding: 10px 0px;
+                    }
+                    }
+                .imagen{
+                background-image: url(/imagenes/ROV-AMPLIACION-CAMPO-DE-VISION-HD.png);
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center;
+                height: 200px;
+                width: 100%;
+                animation: texto-para-arriba 3s linear;
+                animation-timeline: view(0px);
+                animation-range: entry 0% cover 50%;
+                transition: all 2s;
+                &:hover{
+                background-image: url(/imagenes/drones/dron-hover-brazo-mecanico.png);
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center;
+                height: 200px;
+                width: 100%;
+                }
+                }
+                .parrafo{
+                color: #ffffff;    
+                margin: 20px 0px;
+                padding: 0px 25px;
+                animation: texto-para-arriba 4s linear;
+                animation-timeline: view(0px);
+                animation-range: entry 0% cover 40%;
+                }
+            }/* FINAL ROV ILUMINACIÓN*/
+            
+
+/* footer */
+.pie-de-pagina{
+    background-image: url(/imagenes/fondo-footer-servicios.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 100%;
+    color: #ffffff;
+    display: grid;
+    grid-row-gap:20px;
+    justify-content: center;
+    text-align: center;
+    padding-top: 50px;
+
+        .logo-sepia-tercero{
+        margin: 25px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+
+            img{
+            height: 50px;
+            width: auto;   
+            }
+        }
+
+        .datos-sepia{
+        height: 40%;
+        width: 100%;
+            
+            ul{
+                li{
+                list-style: none;
+                padding: 5px;
+                padding-right: 50px;
+                }
+            } 
+        }
+
+        .redes-sociales{
+            a{
+            height: 33%;
+            width: 100%;
+            color: #20A3D1;
+            padding: 0px 5px 0px 5px;
+            font-size: 30px;
+            &:hover{
+                color: #ffffff;
+                }
+            }
+        }
+        
+        h6{
+        margin-top: 40px;
+        }
+    }/*final pie-de-pagina*/
+
+
+      }/*Final main*/
+   }
+
+                                                        /* AQU EMPIEZAN LAS MEDIA QUERIES */
+
+                                                        /* Formato 1366px -768px */
+
+@media only screen and (min-width: 1366px)
+{
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+        main{
+        font-size: 18px;
+     
+            header{
+            height: 100vh;
+                .contenedor-elementos-header{
+                padding: 20px;
+     
+                    .menu-de-navegacion{
+     
+                        .logo-sepia{
+                            .logo-sepia-inicial{
+                            height: 35px;
+                            }
+                        } 
+                    }/*menu-de-navegacion*/
+                }/*final contenedor-elementos-header*/
+                
+                .contenedor-introduccion-servicios{
+                margin-bottom: 170px;
+                text-align: left;
+                padding-left: 230px;
+                padding-right: 580px;
+     
+                 .icono-servicios{
+                 height: 240px;
+                 padding-left: 40px;
+                 }
+                 h1{
+                 font-size: 300%;
+                 } 
+     
+                    
+                }/* final contenedor-introduccion-servicios*/
+            }/*final header*/
+     
+/* servico-DESARROLLO TECNOLÓGICO PARA LA CONSERVACIÓN */
+            .servicio1{
+              height: 760px;
+              padding: 50px 250px 160px 250px;
+              grid-template-columns: 1fr 1fr;
+              grid-template-rows: 1fr 1fr;
+              grid-column-gap: 40px;
+              grid-template-areas: 
+                                    "contenedor-icono-y-titulo contenedor-icono-y-titulo"
+                                    " p imagen-servicio1";
+              
+                .contenedor-icono-y-titulo{
+                grid-area: contenedor-icono-y-titulo;
+                     .contenedor-icono{
+                         img{
+                         height: 180px;
+                         margin-top: 0px;
+                         }
+                     }
+                     .titulo{
+                        h2{
+                        font-size: 35px;
+                        text-align: center;
+                        padding: 10px 150px 30px 150px;
+                        }
+                     }   
+                }
+                p{
+                grid-area: p;
+                padding-top: 0px;
+                text-align: left;
+                }
+                .imagen-servicio1{
+                grid-area: imagen-servicio1;
+                height: 270px;
+                 &:hover{
+                 height: 270px;
+                 }
+                 }
+                  
+                  
+              }/* final servico-DESARROLLO TECNOLÓGICO PARA LA CONSERVACIÓN */
+     
+/* ESTUDIO Y EVALUACIÓN DE IMPACTO AMBIENTAL */
+    .servicio2{
+    height: 760px;
+    padding: 50px 250px 160px 250px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 40px;
+    grid-template-areas: 
+         "contenedor-icono-y-titulo contenedor-icono-y-titulo"
+         "imagen-servicio2 p"; 
+         
+         .imagen-servicio2{
+            grid-area: imagen-servicio2;
+            height: 270px;
+            &:hover{
+            height: 270px;
+             }
+             }
+            .contenedor-icono-y-titulo{
+            grid-area: contenedor-icono-y-titulo;
+                .contenedor-icono{
+                    img{
+                    height: 180px;
+                    }
+                }
+     
+                .titulo{
+                   h2{
+                   font-size: 35px;
+                   padding: 10px 150px 30px 150px;
+                   }
+                }
+            }
+            
+             p{
+             grid-area: p;
+             padding-top: 0px;
+             text-align: right;
+             }
+         }/* final ESTUDIO Y EVALUACIÓN DE IMPACTO AMBIENTAL */
+     
+/* INSPECCIÓN DE BARCOS Y ESTRUCTURAS SUMERGIDAS */
+        .servicio3{
+        height: 750px;
+        padding: 50px 250px 160px 250px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 0.1fr 1fr;
+        grid-column-gap: 40px;
+        grid-template-areas: 
+                            "contenedor-icono-y-titulo contenedor-icono-y-titulo"
+                            " p imagen-servicio3";
+                
+                .contenedor-icono-y-titulo{
+                grid-area: contenedor-icono-y-titulo;
+                    .contenedor-icono{
+                        img{
+                        height: 180px;
+                        }
+                    }
+                    .titulo{
+                       h2{
+                       font-size: 35px;
+                       padding: 10px 150px 30px 150px;
+                       }
+                    }
+                
+            }
+                 
+                p{
+                grid-area: p;
+                padding-top: 0px;
+                text-align: left;
+                }
+                .imagen-servicio3{
+                grid-area: imagen-servicio3;
+                height: 270px;
+                &:hover{
+                height: 270px;
+                }
+                }
+             }/* final INSPECCIÓN DE BARCOS Y ESTRUCTURAS SUMERGIDAS */
+     
+/* OPERACIÓN LOGÍSTICA EN ÁREAS MARINAS REMOTAS */
+        .servicio4{
+        height: 750px;
+        padding: 50px 250px 160px 250px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 0.1fr 1fr;
+        grid-column-gap: 40px;
+        grid-template-areas: 
+         "contenedor-icono-y-titulo contenedor-icono-y-titulo"
+         "imagen-servicio4 p";
+
+            .imagen-servicio4{
+            grid-area: imagen-servicio4;
+            height: 270px;
+            &:hover{
+            height: 270px;
+            }
+            }    
+            .contenedor-icono-y-titulo{
+            grid-area: contenedor-icono-y-titulo;
+                .contenedor-icono{
+                    img{
+                    height: 180px;
+                    }
+                }
+     
+                .titulo{
+                   h2{
+                   font-size: 35px;
+                   padding: 10px 150px 30px 150px;
+                   }
+                }
+            }
+            
+            p{
+            grid-area: p;
+            padding-top: 0px;
+            text-align: right;
+            }
+         }/* final OPERACIÓN LOGÍSTICA EN ÁREAS MARINAS REMOTAS */
+     
+/* MONITOREO Y EVALUACIÓN DE RECURSOS PESQUEROS */
+            .servicio5{
+            height: 750px;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 0.1fr 1fr;
+            grid-column-gap: 40px;
+            padding: 50px 250px 160px 250px;
+            grid-template-areas: 
+                                "contenedor-icono-y-titulo contenedor-icono-y-titulo"
+                                "p imagen-servicio5";   
+                .contenedor-icono-y-titulo{
+                    grid-area: contenedor-icono-y-titulo;
+                    .contenedor-icono{
+                        img{
+                        height: 180px;
+                        }
+                    }
+                    .titulo{
+                       h2{
+                       font-size: 35px;
+                       padding: 10px 150px 30px 150px;
+                       }
+                    }
+                
+            }
+                  
+            p{
+                grid-area: p;
+                padding-top: 0px;
+                text-align: left;
+                }
+                .imagen-servicio5{
+                    grid-area: imagen-servicio5;
+                 height: 270px;
+                 &:hover{
+                 height: 270px;
+                 }
+                }
+                
+             }/* final MONITOREO Y EVALUACIÓN DE RECURSOS PESQUEROS */
+     
+/* CONECTOR DRONES */
+         .conector-drones{
+         height: 130px;
+         }
+     
+/* INTRODUCCION NUESTROS DRONES */
+     
+            .contenedor-servicios-drones{
+            height: 280px;
+            width: 100%;
+            padding: 0px 330px;
+            display: grid;
+            justify-content: center;
+            align-content: center;
+            text-align: center;
+      
+                  h1{
+                  font-size: 160%;
+                  padding: 0px 20px;
+                     p{margin: 5px;}
+                  }
+      
+                  p{
+                  color: #ffffff;
+                  margin: 10px 0px;
+                  padding: 0px 25px;
+                  } 
+      
+                     
+                 }/* final INTRODUCCION NUESTROS DRONES*/
+
+/* ROV INSPECCIÓN */
+                .rov-inspeccion{
+                height: 500px;
+                padding: 60px 250px;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 0.1fr 1fr;
+                grid-column-gap: 10px;
+                grid-template-areas: 
+                                    "titulo imagen"
+                                    "parrafo imagen";    
+                 
+                    .titulo{
+                        grid-area: titulo;
+                        padding-top: 40px;
+                        padding-bottom: 30px;
+                        height: 10px;
+                        margin-bottom: 10px;
+                        
+                        h2{
+                        font-size: 35px;
+                        text-align: left;
+                        }
+                        }
+                    .imagen{
+                    grid-area: imagen;
+                    margin-top: 40px;
+                    height: 90%;
+                    &:hover{
+                    margin-top: 20px;
+                    height: 100%;
+                    }
+                    }
+                    .parrafo{
+                    grid-area: parrafo;
+                    text-align: left;
+                    padding: 0px;
+                    }
+                 }/* FINAL rov-inspeccion*/
+
+/* ROV CAMPO DE VISIÓN HD */
+                 .rov-campo-de-vision-hd{
+                    height: 500px;
+                    padding: 60px 250px;
+                    grid-template-columns: 1fr 1fr;
+                    grid-template-rows: 0.1fr 1fr;
+                    grid-column-gap: 10px;
+                    grid-template-areas: 
+                                        "titulo imagen"
+                                        "parrafo imagen";    
+                     
+                        .titulo{
+                            grid-area: titulo;
+                            padding-top: 40px;
+                            padding-bottom: 30px;
+                            height: 10px;
+                            margin-bottom: 10px;
+                            
+                            h2{
+                            font-size: 35px;
+                            text-align: left;
+                            margin: 0px;
+                            padding: 0px;
+                            }
+                            }
+                        .imagen{
+                        grid-area: imagen;
+                        margin-top: 50px;
+                        align-content: center;
+                        height: 80%;
+                        &:hover{
+                        margin-top: 20px;
+                        margin-left: 30px;
+                        height: 100%;
+                        }
+                        }
+                        .parrafo{
+                        grid-area: parrafo;
+                        text-align: left;
+                        padding: 0px;
+                        }
+                  }/* FINAL ROV CAMPO DE VISION HD*/
+     
+/* ROV GPS MARINO */
+                 .rov-gps-marino{
+                 height: 500px;
+                 padding: 60px 250px;
+                 grid-template-columns: 1fr 1fr;
+                 grid-template-rows: 0.1fr 1fr;
+                 grid-column-gap: 10px;
+                 grid-template-areas: 
+                                     "titulo imagen"
+                                     "parrafo imagen";    
+                  
+                     .titulo{
+                         grid-area: titulo;
+                         padding-top: 40px;
+                         padding-bottom: 30px;
+                         height: 10px;
+                         margin-bottom: 10px;
+
+                         h2{
+                         font-size: 35px;
+                         text-align: left;
+                         }
+                         }
+                     .imagen{
+                     grid-area: imagen;
+                     margin-top: 30px;
+                     height: 90%;
+                     &:hover{
+                    margin-top: 20px;
+                     height: 100%;
+                     }
+                     }
+                     .parrafo{
+                     grid-area: parrafo;
+                     text-align: left;
+                     padding: 0PX;
+                     }
+                  }/* FINAL ROV GPS MARINO*/ 
+                  
+/* ROV BRAZO MECANICO */
+                .rov-brazo-mecanico{
+                height: 500px;
+                padding: 60px 250px;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 0.1fr 1fr;
+                grid-column-gap: 10px;
+                grid-template-areas: 
+                                    "titulo imagen"
+                                    "parrafo imagen";    
+                   
+                    .titulo{
+                        grid-area: titulo;
+                        padding-top: 40px;
+                        padding-bottom: 30px;
+                        height: 10px;
+                        margin-bottom: 10px; 
+                        
+                        h2{
+                        font-size: 35px;
+                        text-align: left;
+                        padding: 0px;
+                        }
+                        }
+                    .imagen{
+                    grid-area: imagen;
+                    margin-top: 30px;
+                    height: 90%;
+                    &:hover{
+                    margin-top: 20px;
+                    height: 100%;
+                    }
+                    }
+                    .parrafo{
+                    grid-area: parrafo;
+                    text-align: left;
+                    padding: 0PX;
+                    }
+                }/* FINAL ROV BRAZO MECANICO*/  
+                
+/* ROV ILUMINACION */
+                .rov-sistema-de-iluminacion{
+                height: 500px;
+                padding: 60px 250px;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 0.1fr 1fr;
+                grid-column-gap: 10px;
+                grid-template-areas: 
+                                    "titulo imagen"
+                                    "parrafo imagen";    
+                   
+                    .titulo{
+                        grid-area: titulo;
+                        padding-top: 40px;
+                        padding-bottom: 30px;
+                        height: 10px;
+                        margin-bottom: 10px; 
+                        
+                        h2{
+                        font-size: 35px;
+                        text-align: left;
+                        }
+                        }
+                    .imagen{
+                    grid-area: imagen;
+                    margin-top: 30px;
+                    height: 90%;
+                    &:hover{
+                    margin-top: 20px;
+                    height: 100%;
+                    }
+                    }
+                    .parrafo{
+                    grid-area: parrafo;
+                    text-align: left;
+                    padding: 0PX;
+                    }
+                }/* FINAL ROV ILUMINACION*/ 
+     
+/* footer */
+                .pie-de-pagina{
+                height: 650px;
+                display: grid;
+                grid-row-gap:10px;
+                justify-content: center;
+                align-content: center;
+                text-align: center;
+                padding-top: 60px;
+        
+                    .logo-sepia-tercero{
+                    margin: 60px;
+                    height: 60px;
+                    display: flex;
+                    justify-content: center;
+        
+                        img{
+                        height: 80px;   
+                        }
+                    }
+        
+                    .datos-sepia{
+                    padding-right: 40px;
+                        ul{
+                        display: flex;
+                            li{
+                            padding: 30px 15px 0px 15px;
+                            }
+                        } 
+                    }
+        
+                    .redes-sociales{
+                        a{
+                        padding: 0px 10px ;
+                        font-size: 40px;
+                        }
+                    }
+                    
+                    h6{
+                    margin-top: 130px;
+                    font-size: 18PX;
+                    }
+                }/*final pie-de-pagina*/
+     
+        }/*Final main*/
+    }    
+}/* FINAL Formato 1366px -768px */
+
+                                                        /* Formato 1674px -807px */
+
+ @media only screen and (min-width: 1674px){
+    *{
+
+        main{
+            font-size: 16px;
+     
+            header{
+                .contenedor-elementos-header{
+                padding: 20px;
+     
+                    .menu-de-navegacion{
+     
+                        .logo-sepia{
+                            .logo-sepia-inicial{
+                            height: 35px;
+                            }
+                        } 
+                    }/*menu-de-navegacion*/
+                }/*final contenedor-elementos-header*/
+                
+                .contenedor-introduccion-servicios{
+                margin-bottom: 170px;
+                text-align: left;
+                padding-left: 300px;
+                padding-right: 880px;
+     
+                 .icono-servicios{
+                 height: 240px;
+                 padding-left: 20px;
+                 }
+                 h1{
+                padding-top: 10px;
+                 font-size: 300%;
+                 } 
+     
+                    
+                }/* final contenedor-introduccion-servicios*/
+            }/*final header*/
+     
+/* servico-DESARROLLO TECNOLÓGICO PARA LA CONSERVACIÓN */
+            .servicio1{
+            height: 760px;
+            padding: 50px 340px 160px 340px;
+            grid-column-gap: 40px;
+              
+                .contenedor-icono-y-titulo{
+                     .contenedor-icono{
+                         img{
+                         height: 180px;
+                         margin-top: 0px;
+                         }
+                     }
+                     .titulo{
+                        h2{
+                        font-size: 35px;
+                        padding: 10px 200px 30px 200px;
+                        }
+                     }   
+                }
+                
+                .imagen-servicio1{
+                height: 300px;
+                 &:hover{
+                 height: 300px;
+                 }
+                 }
+                  
+                  
+              }/* final servico-DESARROLLO TECNOLÓGICO PARA LA CONSERVACIÓN */
+     
+/* ESTUDIO Y EVALUACIÓN DE IMPACTO AMBIENTAL */
+    .servicio2{
+    height: 780px;
+    padding: 50px 340px 160px 340px;
+    grid-column-gap: 40px;
+         
+         .imagen-servicio2{
+            height: 300px;
+            &:hover{
+            height: 300px;
+             }
+             }
+            .contenedor-icono-y-titulo{
+                .contenedor-icono{
+                    img{
+                    height: 180px;
+                    }
+                }
+     
+                .titulo{
+                   h2{
+                   font-size: 35px;
+                   padding: 10px 220px 30px 220px;
+                   }
+                }
+            }
+            
+         }/* final ESTUDIO Y EVALUACIÓN DE IMPACTO AMBIENTAL */
+     
+/* INSPECCIÓN DE BARCOS Y ESTRUCTURAS SUMERGIDAS */
+        .servicio3{
+        height: 760px;
+        padding: 50px 340px 160px 340px;
+                
+                .contenedor-icono-y-titulo{
+                    .contenedor-icono{
+                        img{
+                        height: 180px;
+                        }
+                    }
+                    .titulo{
+                       h2{
+                       font-size: 35px;
+                       padding: 10px 180px 30px 180px;
+                       }
+                    }    
+            }
+             
+                .imagen-servicio3{
+                height: 300px;
+                &:hover{
+                height: 300px;
+                }
+                }
+             }/* final INSPECCIÓN DE BARCOS Y ESTRUCTURAS SUMERGIDAS */
+     
+/* OPERACIÓN LOGÍSTICA EN ÁREAS MARINAS REMOTAS */
+        .servicio4{
+        height: 760px;
+        padding: 50px 340px 160px 340px;
+        grid-column-gap: 70px;
+
+            .imagen-servicio4{
+            height: 300px;
+            &:hover{
+            height: 300px;
+            }
+            }    
+            .contenedor-icono-y-titulo{
+                .contenedor-icono{
+                    img{
+                    height: 180px;
+                    }
+                }
+     
+                .titulo{
+                   h2{
+                   font-size: 35px;
+                   padding: 10px 180px 30px 180px;
+                   }
+                }
+            }
+         }/* final OPERACIÓN LOGÍSTICA EN ÁREAS MARINAS REMOTAS */
+     
+/* MONITOREO Y EVALUACIÓN DE RECURSOS PESQUEROS */
+            .servicio5{
+            height: 760px;
+            grid-column-gap: 40px;
+            padding: 50px 340px 160px 340px;
+
+                .contenedor-icono-y-titulo{
+                    .contenedor-icono{
+                        img{
+                        height: 180px;
+                        }
+                    }
+                    .titulo{
+                       h2{
+                       font-size: 35px;
+                       padding: 10px 180px 30px 180px;
+                       }
+                    } 
+                }
+            
+                .imagen-servicio5{
+                 height: 300px;
+                 &:hover{
+                 height: 300px;
+                 }
+                }
+                
+             }/* final MONITOREO Y EVALUACIÓN DE RECURSOS PESQUEROS */
+     
+/* CONECTOR DRONES */
+         .conector-drones{
+         height: 160px;
+         }
+     
+/* INTRODUCCION NUESTROS DRONES */
+     
+            .contenedor-servicios-drones{
+            height: 280px;
+            width: 100%;
+            padding: 0px 480px;
+      
+                  p{
+                  color: #ffffff;
+                  margin: 10px 0px;
+                  padding: 0px 25px;
+                  } 
+      
+                     
+                 }/* final INTRODUCCION NUESTROS DRONES*/
+
+/* ROV INSPECCIÓN */
+                .rov-inspeccion{
+                height: 500px;
+                padding: 60px 320px;
+                grid-column-gap: 10px;   
+                 
+                    .titulo{
+                    padding-bottom: 40px;
+                    margin-bottom: 10px;    
+                        h2{
+                        font-size: 45px;
+                        }
+                        }
+                    .imagen{
+                    margin: 0px;
+                    height: 90%;
+                    &:hover{
+                    height: 100%;
+                    margin-top: 0px;
+                    margin-bottom: 70px;
+                    }
+                    }
+                    
+                 }/* FINAL rov-inspeccion*/
+
+/* ROV CAMPO DE VISIÓN HD */
+                 .rov-campo-de-vision-hd{
+                    height: 500px;
+                    padding: 60px 350px;   
+                     
+                        .titulo{
+                        padding-top: 40px;
+                        margin-bottom: 10px;    
+                            h2{
+                            font-size: 45px;
+                            }
+                            }
+                        .imagen{
+                        height: 80%;
+                        margin-top: 30px;
+                        &:hover{
+                        height: 100%;
+                        margin-top: 0px;
+                        }
+                        }
+                        
+                  }/* FINAL ROV CAMPO DE VISION HD*/
+     
+/* ROV GPS MARINO */
+                 .rov-gps-marino{
+                 height: 500px;
+                 padding: 60px 350px;   
+                  
+                    .titulo{
+                    padding-top:50px;
+                    margin-bottom: 20px;
+                         h2{
+                         font-size: 45px;
+                         }
+                         }
+                     .imagen{
+                     height: 90%;
+                     margin-top: 0px;
+                     &:hover{
+                     height: 100%;
+                     margin-top: 0px;
+                     }
+                     }
+                     
+                  }/* FINAL ROV GPS MARINO*/ 
+                  
+/* ROV BRAZO MECANICO */
+                .rov-brazo-mecanico{
+                height: 500px;
+                padding: 60px 350px;    
+                   
+                    .titulo{
+                    padding-top: 40px; 
+                    margin-bottom: 10px;    
+                        h2{
+                        font-size: 45px;
+                        }
+                        }
+                    .imagen{
+                    height: 90%;
+                    margin-top: 0px;
+                    &:hover{
+                    height: 100%;
+                    margin-top: 0px;
+                    }
+                    }
+                    .parrafo{
+                        grid-area: parrafo;
+                        text-align: left;
+                        padding-top: 50px;
+                        }
+                }/* FINAL ROV BRAZO MECANICO*/  
+                
+/* ROV ILUMINACION */
+                .rov-sistema-de-iluminacion{
+                height: 500px;
+                padding: 60px 350px;    
+                   
+                    .titulo{
+                    padding-top: 80px;
+                    margin-bottom: 20px; 
+                        
+                        h2{
+                        font-size: 45px;
+                        }
+                        }
+                    .imagen{
+                    height: 90%;
+                    &:hover{
+                    height: 100%;
+                    }
+                    }
+                }/* FINAL ROV ILUMINACION*/ 
+     
+/* footer */
+                .pie-de-pagina{
+                height: 650px;
+                display: grid;
+                grid-row-gap:10px;
+                justify-content: center;
+                align-content: center;
+                text-align: center;
+                padding-top: 60px;
+        
+                    .logo-sepia-tercero{
+                    margin: 60px;
+                    height: 60px;
+                    display: flex;
+                    justify-content: center;
+        
+                        img{
+                        height: 80px;   
+                        }
+                    }
+        
+                    .datos-sepia{
+                    padding-right: 40px;
+                        ul{
+                        display: flex;
+                            li{
+                            padding: 30px 15px 0px 15px;
+                            }
+                        } 
+                    }
+        
+                    .redes-sociales{
+                        a{
+                        padding: 0px 10px ;
+                        font-size: 40px;
+                        }
+                    }
+                    
+                    h6{
+                    margin-top: 130px;
+                    font-size: 18PX;
+                    }
+                }/*final pie-de-pagina*/
+     
+        }/*Final main*/
+    }    
+}/* FINAL Formato 1674px -807px */
+
+                                                    /* Formato 1920px -1080px */
+
+@media only screen and (min-width: 1920px){
+    *{
+
+        main{
+        font-size: 22px;
+     
+            header{
+            height: 100vh;
+                .contenedor-elementos-header{
+                padding: 20px;
+     
+                    .menu-de-navegacion{
+     
+                        .logo-sepia{
+                            .logo-sepia-inicial{
+                            height: 35px;
+                            }
+                        } 
+                    }/*menu-de-navegacion*/
+                }/*final contenedor-elementos-header*/
+                
+                .contenedor-introduccion-servicios{
+                margin-bottom: 170px;
+                text-align: left;
+                padding-left: 300px;
+                padding-right: 800px;
+     
+                 .icono-servicios{
+                 height: 240px;
+                 padding-left: 40px;
+                 }
+                 h1{
+                 font-size: 300%;
+                 } 
+     
+                    
+                }/* final contenedor-introduccion-servicios*/
+            }/*final header*/
+     
+/* servico-DESARROLLO TECNOLÓGICO PARA LA CONSERVACIÓN */
+            .servicio1{
+            height: 900px;
+            padding: 50px 340px 160px 340px;
+            grid-column-gap: 40px;
+              
+                .contenedor-icono-y-titulo{
+                grid-area: contenedor-icono-y-titulo;
+                     .contenedor-icono{
+                         img{
+                         height: 220px;
+                         margin-top: 0px;
+                         }
+                     }
+                     .titulo{
+                        h2{
+                        font-size: 45px;
+                        padding: 10px 200px 30px 200px;
+                        }
+                     }   
+                }
+                
+                .imagen-servicio1{
+                height: 370px;
+                 &:hover{
+                 height: 370px;
+                 }
+                 }
+                  
+                  
+              }/* final servico-DESARROLLO TECNOLÓGICO PARA LA CONSERVACIÓN */
+     
+/* ESTUDIO Y EVALUACIÓN DE IMPACTO AMBIENTAL */
+    .servicio2{
+    height: 900px;
+    padding: 50px 340px 160px 340px;
+    grid-column-gap: 40px;
+         
+         .imagen-servicio2{
+            height: 370px;
+            &:hover{
+            height: 370px;
+             }
+             }
+            .contenedor-icono-y-titulo{
+                .contenedor-icono{
+                    img{
+                    height: 220px;
+                    }
+                }
+     
+                .titulo{
+                   h2{
+                   font-size: 45px;
+                   padding: 10px 220px 30px 220px;
+                   }
+                }
+            }
+            
+         }/* final ESTUDIO Y EVALUACIÓN DE IMPACTO AMBIENTAL */
+     
+/* INSPECCIÓN DE BARCOS Y ESTRUCTURAS SUMERGIDAS */
+        .servicio3{
+        height: 900px;
+        padding: 50px 340px 160px 340px;
+                
+                .contenedor-icono-y-titulo{
+                    .contenedor-icono{
+                        img{
+                        height: 220px;
+                        }
+                    }
+                    .titulo{
+                       h2{
+                       font-size: 45px;
+                       padding: 10px 180px 30px 180px;
+                       }
+                    }    
+            }
+             
+                .imagen-servicio3{
+                height: 370px;
+                &:hover{
+                height: 370px;
+                }
+                }
+             }/* final INSPECCIÓN DE BARCOS Y ESTRUCTURAS SUMERGIDAS */
+     
+/* OPERACIÓN LOGÍSTICA EN ÁREAS MARINAS REMOTAS */
+        .servicio4{
+        height: 900px;
+        padding: 50px 340px 160px 340px;
+        grid-column-gap: 40px;
+
+            .imagen-servicio4{
+            height: 370px;
+            &:hover{
+            height: 370px;
+            }
+            }    
+            .contenedor-icono-y-titulo{
+                .contenedor-icono{
+                    img{
+                    height: 220px;
+                    }
+                }
+     
+                .titulo{
+                   h2{
+                   font-size: 45px;
+                   padding: 10px 180px 30px 180px;
+                   }
+                }
+            }
+         }/* final OPERACIÓN LOGÍSTICA EN ÁREAS MARINAS REMOTAS */
+     
+/* MONITOREO Y EVALUACIÓN DE RECURSOS PESQUEROS */
+            .servicio5{
+            height: 940px;
+            grid-column-gap: 40px;
+            padding: 50px 340px 160px 340px;
+
+                .contenedor-icono-y-titulo{
+                    .contenedor-icono{
+                        img{
+                        height: 220px;
+                        }
+                    }
+                    .titulo{
+                       h2{
+                       font-size: 45px;
+                       padding: 10px 180px 30px 180px;
+                       }
+                    } 
+                }
+            
+                .imagen-servicio5{
+                 height: 370px;
+                 &:hover{
+                 height: 370px;
+                 }
+                }
+                
+             }/* final MONITOREO Y EVALUACIÓN DE RECURSOS PESQUEROS */
+     
+/* CONECTOR DRONES */
+         .conector-drones{
+         height: 160px;
+         }
+     
+/* INTRODUCCION NUESTROS DRONES */
+     
+            .contenedor-servicios-drones{
+            height: 280px;
+            width: 100%;
+            padding: 0px 540px;
+      
+                  p{
+                  color: #ffffff;
+                  margin: 10px 0px;
+                  padding: 0px 25px;
+                  } 
+      
+                     
+                 }/* final INTRODUCCION NUESTROS DRONES*/
+
+/* ROV INSPECCIÓN */
+                .rov-inspeccion{
+                height: 500px;
+                padding: 60px 350px;
+                grid-column-gap: 10px;   
+                 
+                    .titulo{
+                    padding-bottom: 40px;
+                    margin-bottom: 10px;    
+                        h2{
+                        font-size: 45px;
+                        }
+                        }
+                    .imagen{
+                    height: 90%;
+                    &:hover{
+                    height: 100%;
+                    }
+                    }
+                    
+                 }/* FINAL rov-inspeccion*/
+
+/* ROV CAMPO DE VISIÓN HD */
+                 .rov-campo-de-vision-hd{
+                    height: 500px;
+                    padding: 60px 350px;   
+                     
+                        .titulo{
+                        padding-top: 40px;
+                        margin-bottom: 10px;    
+                            h2{
+                            font-size: 45px;
+                            }
+                            }
+                        .imagen{
+                        height: 75%;
+                        &:hover{
+                        height: 100%;
+                        }
+                        }
+                        
+                  }/* FINAL ROV CAMPO DE VISION HD*/
+     
+/* ROV GPS MARINO */
+                 .rov-gps-marino{
+                 height: 500px;
+                 padding: 60px 350px;   
+                  
+                    .titulo{
+                    padding-top: 40px;
+                    margin-bottom: 20px;
+                         h2{
+                         font-size: 45px;
+                         }
+                         }
+                     .imagen{
+                     height: 90%;
+                     &:hover{
+                     height: 100%;
+                     }
+                     }
+                     
+                  }/* FINAL ROV GPS MARINO*/ 
+                  
+/* ROV BRAZO MECANICO */
+                .rov-brazo-mecanico{
+                height: 500px;
+                padding: 60px 350px;    
+                   
+                    .titulo{
+                    padding-top: 40px; 
+                    margin-bottom: 10px;    
+                        h2{
+                        font-size: 45px;
+                        }
+                        }
+                    .imagen{
+                    height: 90%;
+                    &:hover{
+                    height: 100%;
+                    }
+                    }
+                }/* FINAL ROV BRAZO MECANICO*/  
+                
+/* ROV ILUMINACION */
+                .rov-sistema-de-iluminacion{
+                height: 500px;
+                padding: 60px 350px;    
+                   
+                    .titulo{
+                    padding-top: 40px;
+                    margin-bottom: 20px; 
+                        
+                        h2{
+                        font-size: 45px;
+                        }
+                        }
+                    .imagen{
+                    height: 90%;
+                    &:hover{
+                    height: 100%;
+                    }
+                    }
+                }/* FINAL ROV ILUMINACION*/ 
+     
+/* footer */
+                .pie-de-pagina{
+                height: 650px;
+                display: grid;
+                grid-row-gap:10px;
+                justify-content: center;
+                align-content: center;
+                text-align: center;
+                padding-top: 60px;
+        
+                    .logo-sepia-tercero{
+                    margin: 60px;
+                    height: 60px;
+                    display: flex;
+                    justify-content: center;
+        
+                        img{
+                        height: 80px;   
+                        }
+                    }
+        
+                    .datos-sepia{
+                    padding-right: 40px;
+                        ul{
+                        display: flex;
+                            li{
+                            padding: 30px 15px 0px 15px;
+                            }
+                        } 
+                    }
+        
+                    .redes-sociales{
+                        a{
+                        padding: 0px 10px ;
+                        font-size: 40px;
+                        }
+                    }
+                    
+                    h6{
+                    margin-top: 130px;
+                    font-size: 18PX;
+                    }
+                }/*final pie-de-pagina*/
+     
+        }/*Final main*/
+    }    
+}/* FINAL Formato 1920px -1080px */
+
+                                                                            /* AQUI ESTAN LAS ANIMACIONES */
+
+@keyframes texto-para-arriba{
+    
+    0%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+    50%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+    100%{
+      transform: translateY(0); 
+      opacity: 1; 
+    }
+}

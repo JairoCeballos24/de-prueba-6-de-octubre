@@ -1,0 +1,1043 @@
+@import url("https://fonts.cdnfonts.com/css/avenir");
+/* font-family: 'Avenir', sans-serif; */
+@import url(https://db.onlinewebfonts.com/c/b78d933f8aa6b9284c1d3efd3db0a9b9?family=Avenir-Black);
+/* font-family: "Avenir-Black"; */
+@import url(https://db.onlinewebfonts.com/c/158fa6012dff0f88241ad898c46c0118?family=AvenirNextW1G-Regular);
+/* font-family: "AvenirNextW1G-Regular"; */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* formato 360px - 640px */
+  /*final main*/
+}
+* main {
+  font-family: "Avenir", sans-serif;
+  font-size: 16px;
+  /*final header*/
+  /* IMAGEN FONDO DRON */
+  /* conector 2021 */
+  /* seccion 2021 */
+  /* final seccion 2021 */
+  /* conector 2019 */
+  /* seccion 2019 */
+  /* final seccion 2019 */
+  /* conector 2018 */
+  /* seccion 2018 */
+  /* final seccion 2018 */
+  /* conector 2017-3 */
+  /* seccion 2017-3 */
+  /* final seccion 2017-3 */
+  /* conector 2017-2 */
+  /* seccion 2017-2 */
+  /* final seccion 2017-2 */
+  /* conector 2017-1 */
+  /* seccion 2017-1 */
+  /* final seccion 2017-1 */
+  /* conector 2016 */
+  /* seccion 2016 */
+  /* final seccion 2016 */
+  /* footer */
+  /*final pie-de-pagina*/
+}
+* main header {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background: linear-gradient(rgb(7, 38, 45), rgba(7, 38, 45, 0), rgba(7, 38, 45, 0), rgba(7, 38, 45, 0), rgba(7, 38, 45, 0));
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  /* final video */
+  /*final contenedor-elementos-header*/
+  /* final contenedor-introduccion-expedicion-seeking*/
+}
+* main header video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+* main header .contenedor-elementos-header {
+  height: auto;
+  width: 100%;
+  padding: 20px;
+  position: relative;
+  z-index: 100;
+  /*menu-de-navegacion*/
+}
+* main header .contenedor-elementos-header .menu-de-navegacion {
+  display: flex;
+  justify-content: space-between;
+  /*final navbar*/
+}
+* main header .contenedor-elementos-header .menu-de-navegacion .logo-sepia .logo-sepia-inicial {
+  height: 35px;
+}
+* main header .contenedor-elementos-header .menu-de-navegacion .navbar {
+  padding: 15px 10px 0px 0px;
+  box-sizing: border-box;
+}
+* main header .contenedor-elementos-header .menu-de-navegacion .navbar .offcanvas-header {
+  background-color: #07262D;
+}
+* main header .contenedor-elementos-header .menu-de-navegacion .navbar .offcanvas-body {
+  background-color: #07262D;
+}
+* main header .contenedor-elementos-header .menu-de-navegacion .navbar .offcanvas-body .activeazul {
+  color: #20A3D1;
+}
+* main header .contenedor-elementos-header .menu-de-navegacion .navbar .offcanvas-body .activeazul:hover {
+  color: #ffffff;
+}
+* main header .contenedor-elementos-header .menu-de-navegacion .navbar .offcanvas-body .btn {
+  color: #ffffff;
+  background-color: #20A3D1;
+}
+* main header .contenedor-elementos-header .menu-de-navegacion .navbar .offcanvas-body .btn:hover {
+  color: #07262D;
+}
+* main header .contenedor-elementos-header .menu-de-navegacion .navbar .offcanvas-body .btn:hover {
+  background-color: #20A3D1;
+}
+* main header .contenedor-introduccion-expedicion-seeking {
+  background-position: center;
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 170px;
+  text-align: center;
+}
+* main header .contenedor-introduccion-expedicion-seeking .icono-tecnologia {
+  height: 180px;
+  margin-top: 0px;
+  margin: 10px 0px;
+  animation: texto-para-arriba 2s ease;
+}
+* main header .contenedor-introduccion-expedicion-seeking h1 {
+  color: #20A3D1;
+  font-family: "Avenir-Black";
+  font-size: 200%;
+  padding: 0px 20px;
+  animation: texto-para-arriba 2.5s ease;
+}
+* main header .contenedor-introduccion-expedicion-seeking h1 p {
+  margin: 5px;
+}
+* main header .contenedor-introduccion-expedicion-seeking p {
+  color: #ffffff;
+  margin: 10px 0px;
+  padding: 0px 20px;
+  animation: texto-para-arriba 3s ease;
+}
+* main .imagen-fondo-dron {
+  background-image: url(/imagenes/imagenes-tecnologia/dron-grande-1.jpg);
+  background-color: #07262D;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 200px;
+  width: auto;
+}
+* main .texto-frase-sepia {
+  text-align: center;
+  color: #07262D;
+  padding: 25px 25px 10px 25px;
+  animation: texto-para-arriba 1s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 20%;
+}
+* main .conector-2021 {
+  background-color: #07262D;
+  background-image: url(/imagenes/imagenes-tecnologia/conector-2021.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 110px;
+  width: 100%;
+}
+* main .seccion-2021 {
+  background-color: #07262D;
+  height: 460px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: 10px;
+  padding: 25px;
+}
+* main .seccion-2021 .imagen-2021 {
+  height: 220px;
+  width: 100%;
+  background-image: url(/imagenes/imagenes-tecnologia/dron-2021.gif);
+  border-radius: 15px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  animation: texto-para-arriba 3s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 40%;
+}
+* main .seccion-2021 p {
+  text-align: center;
+  color: #ffffff;
+  padding: 20px 0px 10px 0px;
+  animation: texto-para-arriba 3s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 40%;
+}
+* main .conector-2019 {
+  background-color: #07262D;
+  background-image: url(/imagenes/imagenes-tecnologia/conector-2019.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 110px;
+  width: 100%;
+}
+* main .seccion-2019 {
+  background-color: #ffffff;
+  height: 800px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: 10px;
+  padding: 25px;
+}
+* main .seccion-2019 .imagen-2019 {
+  height: 300px;
+  width: 100%;
+  background-image: url(/imagenes/imagenes-tecnologia/dron-2019.gif);
+  border-radius: 15px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  animation: texto-para-arriba 3s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 40%;
+}
+* main .seccion-2019 p {
+  text-align: center;
+  color: #07262D;
+  padding: 20px 0px 10px 0px;
+  animation: texto-para-arriba 2s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 40%;
+}
+* main .conector-2018 {
+  background-color: #07262D;
+  background-image: url(/imagenes/imagenes-tecnologia/conector-2018.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 110px;
+  width: 100%;
+}
+* main .seccion-2018 {
+  background-color: #07262D;
+  height: 650px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: 10px;
+  padding: 25px;
+}
+* main .seccion-2018 .imagen-2018 {
+  height: 200px;
+  width: 100%;
+  background-image: url(/imagenes/imagenes-tecnologia/dron-2018.gif);
+  border-radius: 15px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  animation: texto-para-arriba 3s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 40%;
+}
+* main .seccion-2018 p {
+  text-align: center;
+  color: #ffffff;
+  padding: 20px 0px 10px 0px;
+  animation: texto-para-arriba 3s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 40%;
+}
+* main .conector-2017-3 {
+  background-color: #07262D;
+  background-image: url(/imagenes/imagenes-tecnologia/conector-2017-3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 110px;
+  width: 100%;
+}
+* main .seccion-2017-3 {
+  background-color: #ffffff;
+  height: 550px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: 10px;
+  padding: 25px;
+}
+* main .seccion-2017-3 .imagen-2017-3 {
+  height: 280px;
+  width: 100%;
+  background-image: url(/imagenes/imagenes-tecnologia/dron-2017-3.gif);
+  border-radius: 15px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  animation: texto-para-arriba 3s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 40%;
+}
+* main .seccion-2017-3 p {
+  text-align: center;
+  color: #07262D;
+  padding: 20px 0px 10px 0px;
+  animation: texto-para-arriba 3s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 40%;
+}
+* main .conector-2017-2 {
+  background-color: #07262D;
+  background-image: url(/imagenes/imagenes-tecnologia/conector-2017-2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 110px;
+  width: 100%;
+}
+* main .seccion-2017-2 {
+  background-color: #07262D;
+  height: 550px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: 10px;
+  padding: 25px;
+}
+* main .seccion-2017-2 .imagen-2017-2 {
+  height: 280px;
+  width: 100%;
+  background-image: url(/imagenes/imagenes-tecnologia/dron-2017-2.gif);
+  border-radius: 15px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  animation: texto-para-arriba 3s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 40%;
+}
+* main .seccion-2017-2 p {
+  text-align: center;
+  color: #ffffff;
+  padding: 20px 0px 10px 0px;
+  animation: texto-para-arriba 3s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 40%;
+}
+* main .conector-2017-1 {
+  background-color: #07262D;
+  background-image: url(/imagenes/imagenes-tecnologia/conector-2017-1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 110px;
+  width: 100%;
+}
+* main .seccion-2017-1 {
+  background-color: #ffffff;
+  height: 450px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: 10px;
+  padding: 25px;
+}
+* main .seccion-2017-1 .imagen-2017-1 {
+  height: 220px;
+  width: 100%;
+  background-image: url(/imagenes/imagenes-tecnologia/dron-2017-1.gif);
+  border-radius: 15px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  animation: texto-para-arriba 3s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 40%;
+}
+* main .seccion-2017-1 p {
+  text-align: center;
+  color: #07262D;
+  padding: 20px 0px 10px 0px;
+  animation: texto-para-arriba 3s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 40%;
+}
+* main .conector-2016 {
+  background-color: #07262D;
+  background-image: url(/imagenes/imagenes-tecnologia/conector-2016.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 110px;
+  width: 100%;
+}
+* main .seccion-2016 {
+  background-color: #07262D;
+  height: 500px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: 10px;
+  padding: 25px;
+}
+* main .seccion-2016 .imagen-2016 {
+  height: 220px;
+  width: 100%;
+  background-image: url(/imagenes/imagenes-tecnologia/dron-2016.gif);
+  border-radius: 15px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  animation: texto-para-arriba 3s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 40%;
+}
+* main .seccion-2016 p {
+  text-align: center;
+  color: #ffffff;
+  padding: 20px 0px 10px 0px;
+  animation: texto-para-arriba 3s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 40%;
+}
+* main .pie-de-pagina {
+  background-image: url(/imagenes/imagenes-expediciones/fondo-footer-expediciones.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 600px;
+  width: 100%;
+  color: #ffffff;
+  display: grid;
+  grid-row-gap: 20px;
+  justify-content: center;
+  text-align: center;
+  padding-top: 50px;
+}
+* main .pie-de-pagina .logo-sepia-tercero {
+  margin: 25px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+}
+* main .pie-de-pagina .logo-sepia-tercero img {
+  height: 50px;
+  width: auto;
+}
+* main .pie-de-pagina .datos-sepia {
+  height: 40%;
+  width: 100%;
+}
+* main .pie-de-pagina .datos-sepia ul li {
+  list-style: none;
+  padding: 5px;
+  padding-right: 50px;
+}
+* main .pie-de-pagina .redes-sociales a {
+  height: 33%;
+  width: 100%;
+  color: #20A3D1;
+  padding: 0px 5px 0px 5px;
+  font-size: 30px;
+}
+* main .pie-de-pagina .redes-sociales a:hover {
+  color: #ffffff;
+}
+* main .pie-de-pagina h6 {
+  margin-top: 40px;
+  color: #ffffff;
+}
+
+/*final selector universal*/
+/* AQUI INICIAN LAS MEDIA QUERIES */
+@media only screen and (min-width: 1366px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*final main*/
+  }
+  * main {
+    font-size: 18px;
+    /*final header*/
+    /* IMAGEN FONDO DRON */
+    /* conector 2021 */
+    /* seccion-2021 */
+    /* final seccion-2021 */
+    /* conector 2019 */
+    /* seccion-2019 */
+    /* final seccion-2019 */
+    /* conector 2018 */
+    /* seccion-2018 */
+    /* final seccion-2018 */
+    /* conector 2017-3 */
+    /* seccion-2017-3 */
+    /* final seccion-2017-3 */
+    /* conector 2017-2 */
+    /* seccion-2017-2 */
+    /* final seccion-2017-2 */
+    /* conector 2017-1 */
+    /* seccion-2017-1 */
+    /* final seccion-2017-1 */
+    /* conector 2016 */
+    /* seccion-2016 */
+    /* final seccion-2016 */
+    /* footer */
+    /*final pie-de-pagina*/
+  }
+  * main header {
+    height: 100vh;
+    /*final contenedor-elementos-header*/
+    /* final contenedor-introduccion-expedicion-seeking*/
+  }
+  * main header .contenedor-elementos-header {
+    padding: 20px;
+    /*menu-de-navegacion*/
+  }
+  * main header .contenedor-elementos-header .menu-de-navegacion .logo-sepia .logo-sepia-inicial {
+    height: 35px;
+  }
+  * main header .contenedor-introduccion-expedicion-seeking {
+    margin-bottom: 170px;
+    text-align: right;
+    padding-left: 590px;
+    padding-right: 230px;
+  }
+  * main header .contenedor-introduccion-expedicion-seeking .icono-tecnologia {
+    height: 240px;
+    margin-bottom: 20px;
+    padding-right: 70px;
+  }
+  * main header .contenedor-introduccion-expedicion-seeking h1 {
+    font-size: 300%;
+  }
+  * main .imagen-fondo-dron {
+    height: 100vh;
+    width: auto;
+  }
+  * main .texto-frase-sepia {
+    padding: 70px 170px;
+  }
+  * main .conector-2021 {
+    height: 200px;
+  }
+  * main .seccion-2021 {
+    height: 560px;
+    padding: 90px 250px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 40px;
+    grid-template-areas: " p imagen-2021";
+  }
+  * main .seccion-2021 p {
+    grid-area: p;
+    padding-top: 0px;
+    text-align: left;
+  }
+  * main .seccion-2021 .imagen-2021 {
+    grid-area: imagen-2021;
+    height: 350px;
+  }
+  * main .conector-2019 {
+    height: 200px;
+  }
+  * main .seccion-2019 {
+    height: 600px;
+    padding: 90px 250px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 40px;
+    grid-template-areas: "imagen-2019 p";
+  }
+  * main .seccion-2019 p {
+    grid-area: p;
+    padding-top: 0px;
+    text-align: right;
+  }
+  * main .seccion-2019 .imagen-2019 {
+    grid-area: imagen-2019;
+    height: 430px;
+  }
+  * main .conector-2018 {
+    height: 200px;
+  }
+  * main .seccion-2018 {
+    height: 540px;
+    padding: 90px 250px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 40px;
+    grid-template-areas: " p imagen-2018";
+  }
+  * main .seccion-2018 p {
+    grid-area: p;
+    padding-top: 0px;
+    text-align: left;
+  }
+  * main .seccion-2018 .imagen-2018 {
+    grid-area: imagen-2018;
+    height: 400px;
+  }
+  * main .conector-2017-3 {
+    height: 200px;
+  }
+  * main .seccion-2017-3 {
+    height: 540px;
+    padding: 90px 250px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 40px;
+    grid-template-areas: "imagen-2017-3 p";
+  }
+  * main .seccion-2017-3 p {
+    grid-area: p;
+    padding-top: 0px;
+    text-align: right;
+  }
+  * main .seccion-2017-3 .imagen-2017-3 {
+    grid-area: imagen-2017-3;
+    height: 360px;
+  }
+  * main .conector-2017-2 {
+    height: 200px;
+  }
+  * main .seccion-2017-2 {
+    height: 540px;
+    padding: 90px 250px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 40px;
+    grid-template-areas: " p imagen-2017-2";
+  }
+  * main .seccion-2017-2 p {
+    grid-area: p;
+    padding-top: 0px;
+    text-align: left;
+  }
+  * main .seccion-2017-2 .imagen-2017-2 {
+    grid-area: imagen-2017-2;
+    height: 400px;
+  }
+  * main .conector-2017-1 {
+    height: 200px;
+  }
+  * main .seccion-2017-1 {
+    height: 540px;
+    padding: 90px 250px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 40px;
+    grid-template-areas: "imagen-2017-1 p";
+  }
+  * main .seccion-2017-1 p {
+    grid-area: p;
+    padding-top: 0px;
+    text-align: right;
+  }
+  * main .seccion-2017-1 .imagen-2017-1 {
+    grid-area: imagen-2017-1;
+    height: 360px;
+  }
+  * main .conector-2016 {
+    height: 200px;
+  }
+  * main .seccion-2016 {
+    height: 610px;
+    padding: 90px 250px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 40px;
+    grid-template-areas: " p imagen-2016";
+  }
+  * main .seccion-2016 p {
+    grid-area: p;
+    padding-top: 0px;
+    text-align: left;
+  }
+  * main .seccion-2016 .imagen-2016 {
+    grid-area: imagen-2016;
+    height: 400px;
+  }
+  * main .pie-de-pagina {
+    height: 650px;
+    display: grid;
+    grid-row-gap: 10px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+  }
+  * main .pie-de-pagina .logo-sepia-tercero {
+    margin: 25px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+  }
+  * main .pie-de-pagina .logo-sepia-tercero img {
+    height: 80px;
+  }
+  * main .pie-de-pagina .datos-sepia {
+    height: 40%;
+  }
+  * main .pie-de-pagina .datos-sepia ul {
+    display: flex;
+  }
+  * main .pie-de-pagina .datos-sepia ul li {
+    padding: 30px 15px 0px 15px;
+  }
+  * main .pie-de-pagina .redes-sociales a {
+    padding: 0px 10px;
+    font-size: 40px;
+  }
+  * main .pie-de-pagina h6 {
+    margin-top: 230px;
+  }
+  /*final selector universal*/
+} /* final @media only screen and (min-width: 1366px)*/
+/* formato 1440px - 900px */
+@media only screen and (min-width: 1440px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*final main*/
+  }
+  * main {
+    /*final header*/
+    /* conector 2021 */
+    /* conector 2019 */
+    /* conector 2018 */
+    /* conector 2017-3 */
+    /* conector 2017-2 */
+    /* conector 2017-1 */
+    /* conector 2016 */
+  }
+  * main header {
+    /* final contenedor-introduccion-expedicion-seeking*/
+  }
+  * main header .contenedor-introduccion-expedicion-seeking {
+    padding-left: 690px;
+    padding-right: 230px;
+  }
+  * main .conector-2021 {
+    height: 210px;
+  }
+  * main .conector-2019 {
+    height: 210px;
+  }
+  * main .conector-2018 {
+    height: 210px;
+  }
+  * main .conector-2017-3 {
+    height: 210px;
+  }
+  * main .conector-2017-2 {
+    height: 210px;
+  }
+  * main .conector-2017-1 {
+    height: 210px;
+  }
+  * main .conector-2016 {
+    height: 210px;
+  }
+  /*final selector universal*/
+} /* final formato 1440px - 900px*/
+/* formato 1674px - 807px */
+@media only screen and (min-width: 1674px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*final main*/
+  }
+  * main {
+    font-size: 18px;
+    /*final header*/
+    /* IMAGEN FONDO DRON */
+    /* conector 2021 */
+    /* seccion-2021 */
+    /* final seccion-2021 */
+    /* conector 2019 */
+    /* seccion-2019 */
+    /* final seccion-2019 */
+    /* conector 2018 */
+    /* seccion-2018 */
+    /* final seccion-2018 */
+    /* conector 2017-3 */
+    /* seccion-2017-3 */
+    /* final seccion-2017-3 */
+    /* conector 2017-2 */
+    /* seccion-2017-2 */
+    /* final seccion-2017-2 */
+    /* conector 2017-1 */
+    /* seccion-2017-1 */
+    /* final seccion-2017-1 */
+    /* conector 2016 */
+    /* seccion-2016 */
+    /* final seccion-2016 */
+    /* footer */
+    /*final pie-de-pagina*/
+  }
+  * main header {
+    /* final contenedor-introduccion-expedicion-seeking*/
+  }
+  * main header .contenedor-introduccion-expedicion-seeking {
+    padding-left: 820px;
+    padding-right: 300px;
+  }
+  * main .imagen-fondo-dron {
+    height: 100vh;
+    width: auto;
+  }
+  * main .texto-frase-sepia {
+    padding: 70px 170px;
+  }
+  * main .conector-2021 {
+    height: 240px;
+  }
+  * main .seccion-2021 {
+    height: 560px;
+    padding: 90px 300px;
+  }
+  * main .conector-2019 {
+    height: 240px;
+  }
+  * main .seccion-2019 {
+    height: 600px;
+    padding: 90px 300px;
+  }
+  * main .conector-2018 {
+    height: 240px;
+  }
+  * main .seccion-2018 {
+    height: 540px;
+    padding: 90px 300px;
+  }
+  * main .conector-2017-3 {
+    height: 240px;
+  }
+  * main .seccion-2017-3 {
+    padding: 90px 300px;
+  }
+  * main .conector-2017-2 {
+    height: 240px;
+  }
+  * main .seccion-2017-2 {
+    padding: 90px 300px;
+  }
+  * main .conector-2017-1 {
+    height: 240px;
+  }
+  * main .seccion-2017-1 {
+    padding: 90px 300px;
+  }
+  * main .conector-2016 {
+    height: 240px;
+  }
+  * main .seccion-2016 {
+    padding: 90px 300px;
+  }
+  * main .pie-de-pagina {
+    background-color: violet;
+    height: 100vh;
+  }
+  * main .pie-de-pagina .logo-sepia-tercero {
+    margin: 95px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+  }
+  * main .pie-de-pagina .logo-sepia-tercero img {
+    height: 80px;
+  }
+  * main .pie-de-pagina .datos-sepia {
+    height: 40%;
+  }
+  * main .pie-de-pagina .datos-sepia ul {
+    display: flex;
+    font-size: 18px;
+  }
+  * main .pie-de-pagina .datos-sepia ul li {
+    padding: 30px 15px 0px 15px;
+  }
+  * main .pie-de-pagina .redes-sociales a {
+    padding: 0px 10px;
+    font-size: 40px;
+  }
+  * main .pie-de-pagina h6 {
+    font-size: 18px;
+    margin-top: 230px;
+  }
+  /*final selector universal*/
+} /* final formato 1674px - 807px */
+/* formato 1920px - 1080px */
+@media only screen and (min-width: 1920px) {
+  main {
+    font-size: 22px;
+    /*final header*/
+    /* IMAGEN FONDO DRON */
+    /* conector 2021 */
+    /* seccion-2021 */
+    /* final seccion-2021 */
+    /* conector 2019 */
+    /* seccion-2019 */
+    /* final seccion-2019 */
+    /* conector 2018 */
+    /* seccion-2018 */
+    /* final seccion-2018 */
+    /* conector 2017-3 */
+    /* seccion-2017-3 */
+    /* final seccion-2017-3 */
+    /* conector 2017-2 */
+    /* seccion-2017-2 */
+    /* final seccion-2017-2 */
+    /* conector 2017-1 */
+    /* seccion-2017-1 */
+    /* final seccion-2017-1 */
+    /* conector 2016 */
+    /* seccion-2016 */
+    /* final seccion-2016 */
+    /* footer */
+    /*final pie-de-pagina*/
+  }
+  main header {
+    /* final contenedor-introduccion-expedicion-seeking*/
+  }
+  main header .contenedor-introduccion-expedicion-seeking {
+    padding-left: 1050px;
+    padding-right: 300px;
+  }
+  main .imagen-fondo-dron {
+    height: 100vh;
+    width: auto;
+  }
+  main .texto-frase-sepia {
+    padding: 70px 170px;
+  }
+  main .conector-2021 {
+    height: 260px;
+  }
+  main .seccion-2021 {
+    height: 630px;
+    padding: 90px 340px;
+    grid-column-gap: 90px;
+  }
+  main .seccion-2021 .imagen-2021 {
+    height: 450px;
+  }
+  main .conector-2019 {
+    height: 280px;
+  }
+  main .seccion-2019 {
+    height: 750px;
+    padding: 90px 340px;
+    grid-column-gap: 60px;
+  }
+  main .seccion-2019 .imagen-2019 {
+    grid-area: imagen-2019;
+    height: 530px;
+  }
+  main .conector-2018 {
+    height: 280px;
+  }
+  main .seccion-2018 {
+    height: 660px;
+    padding: 90px 340px;
+  }
+  main .seccion-2018 .imagen-2018 {
+    height: 500px;
+  }
+  main .conector-2017-3 {
+    height: 280px;
+  }
+  main .seccion-2017-3 {
+    height: 640px;
+    padding: 90px 340px;
+  }
+  main .seccion-2017-3 .imagen-2017-3 {
+    height: 460px;
+  }
+  main .conector-2017-2 {
+    height: 280px;
+  }
+  main .seccion-2017-2 {
+    height: 640px;
+    padding: 90px 340px;
+  }
+  main .seccion-2017-2 .imagen-2017-2 {
+    height: 500px;
+  }
+  main .conector-2017-1 {
+    height: 280px;
+  }
+  main .seccion-2017-1 {
+    height: 640px;
+    padding: 90px 340px;
+  }
+  main .seccion-2017-1 .imagen-2017-1 {
+    height: 460px;
+  }
+  main .conector-2016 {
+    height: 280px;
+  }
+  main .seccion-2016 {
+    height: 710px;
+    padding: 90px 340px;
+  }
+  main .seccion-2016 .imagen-2016 {
+    height: 500px;
+  }
+  main .pie-de-pagina .redes-sociales a {
+    padding: 0px 10px;
+    font-size: 40px;
+  }
+  main .pie-de-pagina h6 {
+    margin-top: 200px;
+    font-size: 22px;
+  }
+  /*final main*/
+} /* final formato 1920px - 1080px */
+/* AQUI ESTAN LAS ANIMACIONES */
+@keyframes texto-para-arriba {
+  0% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/*# sourceMappingURL=tecnologia.css.map */

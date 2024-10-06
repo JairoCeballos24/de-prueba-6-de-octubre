@@ -1,0 +1,787 @@
+@import url('https://fonts.cdnfonts.com/css/avenir');
+/* font-family: 'Avenir', sans-serif; */
+
+@import url(https://db.onlinewebfonts.com/c/b78d933f8aa6b9284c1d3efd3db0a9b9?family=Avenir-Black);
+/* font-family: "Avenir-Black"; */
+
+@import url(https://db.onlinewebfonts.com/c/158fa6012dff0f88241ad898c46c0118?family=AvenirNextW1G-Regular);
+/* font-family: "AvenirNextW1G-Regular"; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+ /* formato 360px - 640px */   
+    main{
+    font-family: 'Avenir', sans-serif;
+    font-size: 16px;
+
+        header{
+        background-color: #07262D;
+        height: 70px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+ 
+            .contenedor-elementos-header{
+            height: auto;
+            width: 100%;
+            padding: 20px;
+ 
+                .menu-de-navegacion{
+                display: flex;
+                justify-content: space-between;
+ 
+                    .logo-sepia{
+                        .logo-sepia-inicial{
+                        height: 35px;
+                        }
+                    }
+                    .navbar{
+                    padding: 15px 10px 0px 0px;
+                    box-sizing: border-box;
+                    
+                        .offcanvas-header{
+                        background-color: #07262D;
+                        }
+                        .offcanvas-body{
+                        background-color: #07262D;
+ 
+                            .activeazul{
+                            color: #20A3D1;
+                            &:hover{color: #ffffff;};
+                            }
+                            .btn{
+                            color: #ffffff;
+                            &:hover{color: #07262D;};
+                            background-color: #20A3D1;
+                            &:hover{background-color: #20A3D1;};
+                            }   
+                        }
+                    }/*final navbar*/
+                }/*menu-de-navegacion*/
+            }/*final contenedor-elementos-header*/
+
+            .contenedor-introduccion-galeria{
+                background-position: center;
+                width: 100%;
+                padding-top: 50px;
+                display: grid;
+                justify-content: center;
+                align-content: center;
+                margin-bottom: 170px;
+                text-align: center;
+                animation: texto-para-arriba 2s ease;
+     
+                 
+                 h1{
+                 color: #20A3D1;
+                 font-family: "Avenir-Black";
+                 font-size: 200%;
+                 padding: 0px 20px;
+                    p{margin: 5px;}
+                 }
+     
+                 p{
+                 color: #ffffff;
+                 margin: 10px 0px;
+                 padding: 0px 20px;
+                 } 
+     
+                    
+                }/* final contenedor-introduccion-galeria */
+        }/*final header */
+
+/* SECCION NACIMIENTO DE SEPIA */
+.seccion-nacimiento-de-sepia{
+        padding: 25px;
+        background-color: #07262D;    
+            
+        /* sección- introducción */
+        .sección-introduccion{
+            background-color: #07262D;
+            height: 300px;
+            width: 100%;
+            padding: 20px 0px 10px 0px;
+            justify-content: center;
+            align-content: center;  
+            
+                h1{
+                text-align: center;
+                color: #20A3D1;
+                font-size: 30px;
+                padding: 10px 0px;
+                padding-bottom: 0px;
+                font-family: "Avenir-Black";
+                animation: texto-para-arriba 4s linear;
+                animation-timeline: view(0px);
+                animation-range: entry 0% cover 40%;
+                }
+    
+                p{
+                text-align: center;
+                color: #ffffff;
+                animation: texto-para-arriba 4s linear;
+                animation-timeline: view(0px);
+                animation-range: entry 0% cover 40%;
+                }
+            }/*final sección introducción*/
+            .contenedor-imagenes-nacimiento-de-sepia{
+                height: 2000px;
+                width: 100%;
+                display: grid;
+                grid-template-columns: 100%;
+                grid-template-rows: repeat(6, 1fr);
+                grid-row-gap: 15px;
+                grid-template-areas: 
+                                    "imagen1"
+                                    "imagen2"
+                                    "imagen3"
+                                    "imagen4"
+                                    "imagen5"
+                                    "imagen6";
+
+                    .imagen1{
+                    grid-area: imagen1;
+                    grid-column: 1fr;
+                    grid-row: 1;
+                        img{
+                        height: auto;
+                        width: 100%;
+                        border-radius: 15px;
+                        }
+                    }
+                    .imagen2{
+                    grid-area: imagen2;
+                    grid-column: 1fr;
+                    grid-row: 2;
+                        img{
+                        height: auto;
+                        width: 100%;
+                        border-radius: 15px;
+                        }
+                        }
+                    .imagen3{
+                    grid-area: imagen3;
+                    grid-column: 1fr;
+                    grid-row: 3;
+                        img{
+                        height: auto;
+                        width: 100%;
+                        border-radius: 15px;
+                        }
+                    }
+            
+                    .imagen4{
+                    grid-area: imagen4;
+                    grid-column: 1fr;
+                    grid-row: 4;
+                        img{
+                        height: auto;
+                        width: 100%;
+                        border-radius: 15px;
+                        }
+                    }
+                    .imagen5{
+                    grid-area: imagen5;
+                    grid-column: 1fr;
+                    grid-row: 5;
+                        img{
+                        height: auto;
+                        width: 100%;
+                        border-radius: 15px;
+                        }
+                    }
+                    .imagen6{
+                    grid-area: imagen6;
+                    grid-column: 1fr;
+                    grid-row: 6;
+                        img{
+                        height: auto;
+                        width: 100%;
+                        border-radius: 15px;
+                        }
+                    }
+                        
+            }/* final contenedor-imagenes-nacimiento-de-sepia */
+        }/* final seccion-nacimiento-de-sepia */
+
+/* footer */
+.pie-de-pagina{
+    background-image: url(/imagenes/inicio-imagen-9--pagina-web-sepia.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 650px;
+    width: 100%;
+    color: #ffffff;
+    display: grid;
+    grid-row-gap:20px;
+    justify-content: center;
+    text-align: center;
+    padding-top: 100px;
+
+        .logo-sepia-tercero{
+        margin: 25px;
+        height: 60px;
+        display: flex;
+
+            img{
+            height: 50px;
+            width: auto;   
+            }
+        }
+
+        .datos-sepia{
+        height: 40%;
+        width: 100%;
+            
+            ul{
+                li{
+                list-style: none;
+                padding: 5px;
+                padding-right: 50px;
+                }
+            } 
+        }
+
+        .redes-sociales{
+            a{
+            height: 33%;
+            width: 100%;
+            color: #20A3D1;
+            padding: 0px 5px 0px 5px;
+            font-size: 30px;
+            &:hover{
+                color: #ffffff;
+                }
+            }
+        }
+        
+        h6{
+        margin-top: 40px;
+        }
+    }/*final pie-de-pagina*/
+
+    }/*final main */
+}/* final etiqueta universal */
+
+                                                        /* AQUI INICIAN LAS MEDIA QUERIES */
+                                                        /*final formato 1366px 768px */
+@media only screen and (min-width: 1366px){
+    
+        main{
+        font-size: 18px;
+         
+            header{
+            height: 70px;
+                .contenedor-elementos-header{
+                padding: 20px;
+         
+                    .menu-de-navegacion{
+         
+                        .logo-sepia{
+                            .logo-sepia-inicial{
+                            height: 35px;
+                            }
+                        } 
+                    }/*menu-de-navegacion*/
+                }/*final contenedor-elementos-header*/
+            }/*final header*/
+
+/* SECCION NACIMIENTO DE SEPIA */
+.seccion-nacimiento-de-sepia{
+    padding: 25px;    
+        
+/* sección- introducción */
+        .sección-introduccion{
+        height: 160px;
+        padding: 20px 310px 10px 310px; 
+        
+            h1{
+            text-align: center;
+            color: #20A3D1;
+            font-size: 30px;
+            padding: 10px 0px;
+            padding-bottom: 0px;
+            }
+
+            p{
+            text-align: center;
+            color: #ffffff;
+            }
+        }/*final sección introducción*/
+
+        .contenedor-imagenes-nacimiento-de-sepia{
+            height: 900px;
+            width: 100%;
+            padding: 25px 250px 50px 250px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            grid-column-gap: 15px ;
+            grid-row-gap: 15px;
+            grid-template-areas: 
+                                "imagen1 imagen2 imagen3"
+                                "imagen4 imagen5 imagen6";
+
+                .imagen1{
+                grid-column: 1fr;
+                grid-row: 1, 1;
+                    img{
+                    height: auto;
+                    width: 100%;
+                    border-radius: 15px;
+                    }
+                }
+                .imagen2{
+                grid-area: imagen2;
+                grid-column: 1fr;
+                grid-row: 2, 2;
+                    img{
+                    height: auto;
+                    width: 100%;
+                    }
+                    }
+                .imagen3{
+                grid-area: imagen3;
+                grid-column: 1fr;
+                grid-row: 3, 3;
+                    img{
+                    height: auto;
+                    width: 100%;
+                    }
+                }
+        
+                .imagen4{
+                grid-area: imagen4;
+                grid-column: 1fr;
+                grid-row: 4, 4;
+                    img{
+                    height: auto;
+                    width: 100%;
+                    }
+                }
+                .imagen5{
+                grid-area: imagen5;
+                grid-column: 1fr;
+                grid-row: 5, 5;
+                    img{
+                    height: auto;
+                    width: 100%;
+                    }
+                }
+                .imagen6{
+                grid-area: imagen6;
+                grid-column: 1fr;
+                grid-row: 6, 6;
+                    img{
+                    height: auto;
+                    width: 100%;
+                    }
+                }
+                 
+        }/* final contenedor-imagenes-nacimiento-de-sepia */
+    }/* final seccion-nacimiento-de-sepia */
+
+/* footer */
+.pie-de-pagina{
+    height: 650px;
+    display: grid;
+    grid-row-gap:10px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+
+        .logo-sepia-tercero{
+        margin: 25px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+
+            img{
+            height: 80px;   
+            }
+        }
+
+        .datos-sepia{
+        height: 40%;
+            
+            ul{
+            display: flex;
+                li{
+                padding: 30px 15px 0px 15px;
+                }
+            } 
+        }
+
+        .redes-sociales{
+            a{
+            padding: 0px 10px ;
+            font-size: 40px;
+            }
+        }
+        
+        h6{
+        margin-top: 180px;
+        }
+    }/*final pie-de-pagina*/        
+
+        }/* final main */
+}/*final formato 1366px 768px */    
+
+                                                                        /* formato 1440px 900px */
+@media only screen and (min-width: 1440px){
+    
+    main{
+    font-size: 18px;
+     
+        header{
+        height: 70px;
+            .contenedor-elementos-header{
+            padding: 20px;
+     
+                .menu-de-navegacion{
+     
+                    .logo-sepia{
+                        .logo-sepia-inicial{
+                        height: 35px;
+                        }
+                    } 
+                }/*menu-de-navegacion*/
+            }/*final contenedor-elementos-header*/
+        }/*final header*/
+
+/* SECCION NACIMIENTO DE SEPIA */
+.seccion-nacimiento-de-sepia{
+    height: 1100px;
+    padding: 25px;    
+        
+/* sección- introducción */
+        .sección-introduccion{
+        height: 180px;
+        padding: 20px 340px 10px 340px; 
+        
+            h1{
+            font-size: 35px;
+            }
+        }/*final sección introducción*/
+
+        .contenedor-imagenes-nacimiento-de-sepia{
+            height: 650px;
+            width: 100%;
+            padding: 15px 250px 50px 250px;
+
+                .imagen1{
+                    img{
+                    height: auto;
+                    width: 100%;
+                    }
+                }
+                .imagen2{
+                    img{
+                    height: auto;
+                    width: 100%;
+                    }
+                    }
+                .imagen3{
+                    img{
+                    height: auto;
+                    width: 100%;
+                    }
+                }
+        
+                .imagen4{
+                    img{
+                    height: auto;
+                    width: 100%;
+                    }
+                }
+                .imagen5{
+                    img{
+                    height: auto;
+                    width: 100%;
+                    }
+                }
+                .imagen6{
+                    img{
+                    height: auto;
+                    width: 100%;
+                    }
+                }
+                   
+        }/* final contenedor-imagenes-nacimiento-de-sepia */
+    }/* final seccion-nacimiento-de-sepia */    
+    }/* final main*/
+}/* final formato 1440px 900px */
+
+                                                                        /* formato 1674px 807px */
+
+@media only screen and (min-width: 1674px){
+    
+        main{
+        font-size: 18px;
+         
+            header{
+            height: 70px;
+                .contenedor-elementos-header{
+                padding: 20px;
+         
+                    .menu-de-navegacion{
+         
+                        .logo-sepia{
+                            .logo-sepia-inicial{
+                            height: 35px;
+                            }
+                        } 
+                    }/*menu-de-navegacion*/
+                }/*final contenedor-elementos-header*/
+            }/*final header*/
+
+/* SECCION NACIMIENTO DE SEPIA */
+.seccion-nacimiento-de-sepia{
+    height: 1200px;
+    padding: 25px;    
+        
+/* sección- introducción */
+        .sección-introduccion{
+        height: 180px;
+        padding: 20px 480px 10px 480px; 
+        
+            h1{
+            font-size: 35px;
+            }
+        }/*final sección introducción*/
+
+        .contenedor-imagenes-nacimiento-de-sepia{
+            padding: 25px 250px 50px 250px;
+            grid-column-gap: 15px ;
+            grid-row-gap: 15px;
+
+                .imagen1{
+                    img{
+                    height: auto;
+                    width: 100%;
+                    }
+                }
+                .imagen2{
+                    img{
+                    height: auto;
+                    width: 100%;
+                    }
+                    }
+                .imagen3{
+                    img{
+                    height: auto;
+                    width: 100%;
+                    }
+                }
+        
+                .imagen4{
+                    img{
+                    height: auto;
+                    width: 100%;
+                    }
+                }
+                .imagen5{
+                    img{
+                    height: auto;
+                    width: 100%;
+                    }
+                }
+                .imagen6{
+                    img{
+                    height: auto;
+                    width: 100%;
+                    }
+                }
+                  
+        }/* final contenedor-imagenes-nacimiento-de-sepia */
+    }/* final seccion-nacimiento-de-sepia */   
+
+/* footer */
+.pie-de-pagina{
+        height: 650px;
+        display: grid;
+        grid-row-gap:10px;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+
+            .logo-sepia-tercero{
+            margin: 25px;
+            height: 60px;
+            display: flex;
+            justify-content: center;
+
+                img{
+                height: 80px;   
+                }
+            }
+
+            .datos-sepia{
+            height: 40%;
+            
+                ul{
+                display: flex;
+                    li{
+                    padding: 30px 15px 0px 15px;
+                    }
+                } 
+            }
+
+            .redes-sociales{
+                a{
+                padding: 0px 10px ;
+                font-size: 40px;
+                }
+            }
+        
+            h6{
+            margin-top: 180px;
+            font-size: 18px;
+            }
+        }/*final pie-de-pagina*/ 
+    }/* final main */
+}/*final formato 1674px 807px */                                                                
+
+                                                                        /* formato 1920px 1080px */
+
+@media only screen and (min-width: 1920px){
+
+    main{
+    font-size: 22px;
+     
+        header{
+                
+            .contenedor-introduccion-galeria{
+            padding-left: 940px;
+            padding-right: 300px;      
+            }/* final contenedor-introduccion-expedicion-seeking*/
+        }/*final header*/
+        
+/* SECCION NACIMIENTO DE SEPIA */
+.seccion-nacimiento-de-sepia{
+    height: 1400px;
+    padding: 25px;    
+        
+/* sección- introducción */
+        .sección-introduccion{
+        height: 200px;
+        padding: 20px 540px 10px 540px; 
+    
+            h1{
+            font-size: 40px;
+            }
+        }/*final sección introducción*/
+
+        .contenedor-imagenes-nacimiento-de-sepia{
+            height: 900px;
+            padding: 25px 340px 50px 340px;
+
+                .imagen1{
+                    img{
+                    height: auto;
+                    width: 100%;
+                    }
+                }
+                .imagen2{
+                    img{
+                    height: auto;
+                    width: 100%;
+                    }
+                    }
+                .imagen3{
+                    img{
+                    height: auto;
+                    width: 100%;
+                    }
+                }
+        
+                .imagen4{
+                    img{
+                    height: auto;
+                    width: 100%;
+                    }
+                }
+                .imagen5{
+                    img{
+                    height: auto;
+                    width: 100%;
+                    }
+                }
+                .imagen6{
+                    img{
+                    height: auto;
+                    width: 100%;
+                    }
+                }
+                   
+        }/* final contenedor-imagenes-nacimiento-de-sepia */
+    }/* final seccion-nacimiento-de-sepia */   
+
+/* footer */
+.pie-de-pagina{
+    height: 650px;
+    display: grid;
+    grid-row-gap:10px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+
+        .logo-sepia-tercero{
+        margin: 25px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+
+            img{
+            height: 80px;   
+            }
+        }
+
+        .datos-sepia{
+        height: 40%;
+        
+            ul{
+            display: flex;
+                li{
+                padding: 30px 15px 0px 15px;
+                }
+            } 
+        }
+
+        .redes-sociales{
+            a{
+            padding: 0px 10px ;
+            font-size: 40px;
+            }
+        }
+    
+        h6{
+        margin-top: 160px;
+        font-size: 22px;
+        }
+    }/*final pie-de-pagina*/
+    }/* final main */
+}/* final formato 1920px 1080px */    
+        
+                                                            /* AQUI ESTAN LAS ANIMACIONES */
+
+@keyframes texto-para-arriba{
+    
+    0%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+    50%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+    100%{
+      transform: translateY(0); 
+      opacity: 1; 
+    }
+}

@@ -1,0 +1,647 @@
+@charset "UTF-8";
+@import url("https://fonts.cdnfonts.com/css/avenir");
+/* font-family: 'Avenir', sans-serif; */
+@import url(https://db.onlinewebfonts.com/c/b78d933f8aa6b9284c1d3efd3db0a9b9?family=Avenir-Black);
+/* font-family: "Avenir-Black"; */
+@import url(https://db.onlinewebfonts.com/c/158fa6012dff0f88241ad898c46c0118?family=AvenirNextW1G-Regular);
+/* font-family: "AvenirNextW1G-Regular"; */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* formato 360px - 640px */
+  /*final main */
+}
+* main {
+  font-family: "Avenir", sans-serif;
+  font-size: 16px;
+  /*final header */
+  /* SECCION NACIMIENTO DE SEPIA */
+  /* final seccion-nacimiento-de-sepia */
+  /* footer */
+  /*final pie-de-pagina*/
+}
+* main header {
+  background-color: #07262D;
+  height: 70px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /*final contenedor-elementos-header*/
+  /* final contenedor-introduccion-galeria */
+}
+* main header .contenedor-elementos-header {
+  height: auto;
+  width: 100%;
+  padding: 20px;
+  /*menu-de-navegacion*/
+}
+* main header .contenedor-elementos-header .menu-de-navegacion {
+  display: flex;
+  justify-content: space-between;
+  /*final navbar*/
+}
+* main header .contenedor-elementos-header .menu-de-navegacion .logo-sepia .logo-sepia-inicial {
+  height: 35px;
+}
+* main header .contenedor-elementos-header .menu-de-navegacion .navbar {
+  padding: 15px 10px 0px 0px;
+  box-sizing: border-box;
+}
+* main header .contenedor-elementos-header .menu-de-navegacion .navbar .offcanvas-header {
+  background-color: #07262D;
+}
+* main header .contenedor-elementos-header .menu-de-navegacion .navbar .offcanvas-body {
+  background-color: #07262D;
+}
+* main header .contenedor-elementos-header .menu-de-navegacion .navbar .offcanvas-body .activeazul {
+  color: #20A3D1;
+}
+* main header .contenedor-elementos-header .menu-de-navegacion .navbar .offcanvas-body .activeazul:hover {
+  color: #ffffff;
+}
+* main header .contenedor-elementos-header .menu-de-navegacion .navbar .offcanvas-body .btn {
+  color: #ffffff;
+  background-color: #20A3D1;
+}
+* main header .contenedor-elementos-header .menu-de-navegacion .navbar .offcanvas-body .btn:hover {
+  color: #07262D;
+}
+* main header .contenedor-elementos-header .menu-de-navegacion .navbar .offcanvas-body .btn:hover {
+  background-color: #20A3D1;
+}
+* main header .contenedor-introduccion-galeria {
+  background-position: center;
+  width: 100%;
+  padding-top: 50px;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 170px;
+  text-align: center;
+  animation: texto-para-arriba 2s ease;
+}
+* main header .contenedor-introduccion-galeria h1 {
+  color: #20A3D1;
+  font-family: "Avenir-Black";
+  font-size: 200%;
+  padding: 0px 20px;
+}
+* main header .contenedor-introduccion-galeria h1 p {
+  margin: 5px;
+}
+* main header .contenedor-introduccion-galeria p {
+  color: #ffffff;
+  margin: 10px 0px;
+  padding: 0px 20px;
+}
+* main .seccion-nacimiento-de-sepia {
+  padding: 25px;
+  background-color: #07262D;
+  /* sección- introducción */
+  /*final sección introducción*/
+  /* final contenedor-imagenes-nacimiento-de-sepia */
+}
+* main .seccion-nacimiento-de-sepia .sección-introduccion {
+  background-color: #07262D;
+  height: 300px;
+  width: 100%;
+  padding: 20px 0px 10px 0px;
+  justify-content: center;
+  align-content: center;
+}
+* main .seccion-nacimiento-de-sepia .sección-introduccion h1 {
+  text-align: center;
+  color: #20A3D1;
+  font-size: 30px;
+  padding: 10px 0px;
+  padding-bottom: 0px;
+  font-family: "Avenir-Black";
+  animation: texto-para-arriba 4s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 40%;
+}
+* main .seccion-nacimiento-de-sepia .sección-introduccion p {
+  text-align: center;
+  color: #ffffff;
+  animation: texto-para-arriba 4s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 40%;
+}
+* main .seccion-nacimiento-de-sepia .contenedor-imagenes-nacimiento-de-sepia {
+  height: 1200px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: repeat(5, 1fr);
+  grid-row-gap: 15px;
+  grid-template-areas: "imagen1" "imagen2" "imagen3" "imagen4" "imagen5";
+}
+* main .seccion-nacimiento-de-sepia .contenedor-imagenes-nacimiento-de-sepia .imagen1 {
+  grid-area: imagen1;
+  grid-column: 1fr;
+  grid-row: 1;
+}
+* main .seccion-nacimiento-de-sepia .contenedor-imagenes-nacimiento-de-sepia .imagen1 img {
+  height: auto;
+  width: 100%;
+  border-radius: 15px;
+}
+* main .seccion-nacimiento-de-sepia .contenedor-imagenes-nacimiento-de-sepia .imagen2 {
+  grid-area: imagen2;
+  grid-column: 1fr;
+  grid-row: 2;
+}
+* main .seccion-nacimiento-de-sepia .contenedor-imagenes-nacimiento-de-sepia .imagen2 img {
+  height: auto;
+  width: 100%;
+  border-radius: 15px;
+}
+* main .seccion-nacimiento-de-sepia .contenedor-imagenes-nacimiento-de-sepia .imagen3 {
+  grid-area: imagen3;
+  grid-column: 1fr;
+  grid-row: 3;
+}
+* main .seccion-nacimiento-de-sepia .contenedor-imagenes-nacimiento-de-sepia .imagen3 img {
+  height: auto;
+  width: 100%;
+  border-radius: 15px;
+}
+* main .seccion-nacimiento-de-sepia .contenedor-imagenes-nacimiento-de-sepia .imagen4 {
+  grid-area: imagen4;
+  grid-column: 1fr;
+  grid-row: 4;
+}
+* main .seccion-nacimiento-de-sepia .contenedor-imagenes-nacimiento-de-sepia .imagen4 img {
+  height: auto;
+  width: 100%;
+  border-radius: 15px;
+}
+* main .seccion-nacimiento-de-sepia .contenedor-imagenes-nacimiento-de-sepia .imagen5 {
+  grid-area: imagen5;
+  grid-column: 1fr;
+  grid-row: 5;
+}
+* main .seccion-nacimiento-de-sepia .contenedor-imagenes-nacimiento-de-sepia .imagen5 img {
+  height: auto;
+  width: 100%;
+  border-radius: 15px;
+}
+* main .pie-de-pagina {
+  background-image: url(/imagenes/inicio-imagen-9--pagina-web-sepia.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 650px;
+  width: 100%;
+  color: #ffffff;
+  display: grid;
+  grid-row-gap: 20px;
+  justify-content: center;
+  text-align: center;
+  padding-top: 100px;
+}
+* main .pie-de-pagina .logo-sepia-tercero {
+  margin: 25px;
+  height: 60px;
+  display: flex;
+}
+* main .pie-de-pagina .logo-sepia-tercero img {
+  height: 50px;
+  width: auto;
+}
+* main .pie-de-pagina .datos-sepia {
+  height: 40%;
+  width: 100%;
+}
+* main .pie-de-pagina .datos-sepia ul li {
+  list-style: none;
+  padding: 5px;
+  padding-right: 50px;
+}
+* main .pie-de-pagina .redes-sociales a {
+  height: 33%;
+  width: 100%;
+  color: #20A3D1;
+  padding: 0px 5px 0px 5px;
+  font-size: 30px;
+}
+* main .pie-de-pagina .redes-sociales a:hover {
+  color: #ffffff;
+}
+* main .pie-de-pagina h6 {
+  margin-top: 40px;
+}
+
+/* final etiqueta universal */
+/* AQUI INICIAN LAS MEDIA QUERIES */
+/*final formato 1366px 768px */
+@media only screen and (min-width: 1366px) {
+  main {
+    font-size: 18px;
+    /*final header*/
+    /* SECCION NACIMIENTO DE SEPIA */
+    /* final seccion-nacimiento-de-sepia */
+    /* footer */
+    /*final pie-de-pagina*/
+  }
+  main header {
+    height: 70px;
+    /*final contenedor-elementos-header*/
+  }
+  main header .contenedor-elementos-header {
+    padding: 20px;
+    /*menu-de-navegacion*/
+  }
+  main header .contenedor-elementos-header .menu-de-navegacion .logo-sepia .logo-sepia-inicial {
+    height: 35px;
+  }
+  main .seccion-nacimiento-de-sepia {
+    height: 750px;
+    padding: 25px;
+    /* sección- introducción */
+    /*final sección introducción*/
+    /* final contenedor-imagenes-nacimiento-de-sepia */
+  }
+  main .seccion-nacimiento-de-sepia .sección-introduccion {
+    height: 160px;
+    padding: 20px 310px 10px 310px;
+  }
+  main .seccion-nacimiento-de-sepia .sección-introduccion h1 {
+    text-align: center;
+    color: #20A3D1;
+    font-size: 30px;
+    padding: 10px 0px;
+    padding-bottom: 0px;
+  }
+  main .seccion-nacimiento-de-sepia .sección-introduccion p {
+    text-align: center;
+    color: #ffffff;
+  }
+  main .seccion-nacimiento-de-sepia .contenedor-imagenes-nacimiento-de-sepia {
+    height: 300px;
+    width: 100%;
+    padding: 25px 250px 50px 250px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    grid-template-areas: "imagen1 imagen2 imagen3" "imagen4 imagen5 imagen6";
+  }
+  main .seccion-nacimiento-de-sepia .contenedor-imagenes-nacimiento-de-sepia .imagen1 {
+    grid-column: 1fr;
+    grid-row: 1, 1;
+  }
+  main .seccion-nacimiento-de-sepia .contenedor-imagenes-nacimiento-de-sepia .imagen1 img {
+    height: auto;
+    width: 100%;
+    border-radius: 15px;
+  }
+  main .seccion-nacimiento-de-sepia .contenedor-imagenes-nacimiento-de-sepia .imagen2 {
+    grid-area: imagen2;
+    grid-column: 1fr;
+    grid-row: 2, 2;
+  }
+  main .seccion-nacimiento-de-sepia .contenedor-imagenes-nacimiento-de-sepia .imagen2 img {
+    height: auto;
+    width: 100%;
+  }
+  main .seccion-nacimiento-de-sepia .contenedor-imagenes-nacimiento-de-sepia .imagen3 {
+    grid-area: imagen3;
+    grid-column: 1fr;
+    grid-row: 3, 3;
+  }
+  main .seccion-nacimiento-de-sepia .contenedor-imagenes-nacimiento-de-sepia .imagen3 img {
+    height: auto;
+    width: 100%;
+  }
+  main .seccion-nacimiento-de-sepia .contenedor-imagenes-nacimiento-de-sepia .imagen4 {
+    grid-area: imagen4;
+    grid-column: 1fr;
+    grid-row: 4, 4;
+  }
+  main .seccion-nacimiento-de-sepia .contenedor-imagenes-nacimiento-de-sepia .imagen4 img {
+    height: auto;
+    width: 100%;
+  }
+  main .seccion-nacimiento-de-sepia .contenedor-imagenes-nacimiento-de-sepia .imagen5 {
+    grid-area: imagen5;
+    grid-column: 1fr;
+    grid-row: 5, 5;
+  }
+  main .seccion-nacimiento-de-sepia .contenedor-imagenes-nacimiento-de-sepia .imagen5 img {
+    height: auto;
+    width: 100%;
+  }
+  main .pie-de-pagina {
+    height: 650px;
+    display: grid;
+    grid-row-gap: 10px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+  }
+  main .pie-de-pagina .logo-sepia-tercero {
+    margin: 25px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+  }
+  main .pie-de-pagina .logo-sepia-tercero img {
+    height: 80px;
+  }
+  main .pie-de-pagina .datos-sepia {
+    height: 40%;
+  }
+  main .pie-de-pagina .datos-sepia ul {
+    display: flex;
+  }
+  main .pie-de-pagina .datos-sepia ul li {
+    padding: 30px 15px 0px 15px;
+  }
+  main .pie-de-pagina .redes-sociales a {
+    padding: 0px 10px;
+    font-size: 40px;
+  }
+  main .pie-de-pagina h6 {
+    margin-top: 180px;
+  }
+  /* final main */
+} /*final formato 1366px 768px */
+/* formato 1440px 900px */
+@media only screen and (min-width: 1440px) {
+  main {
+    font-size: 18px;
+    /*final header*/
+    /* SECCION NACIMIENTO DE SEPIA */
+    /* final seccion-nacimiento-de-sepia */
+  }
+  main header {
+    height: 70px;
+    /*final contenedor-elementos-header*/
+  }
+  main header .contenedor-elementos-header {
+    padding: 20px;
+    /*menu-de-navegacion*/
+  }
+  main header .contenedor-elementos-header .menu-de-navegacion .logo-sepia .logo-sepia-inicial {
+    height: 35px;
+  }
+  main .seccion-nacimiento-de-sepia {
+    padding: 25px;
+    /* sección- introducción */
+    /*final sección introducción*/
+    /* final contenedor-imagenes-nacimiento-de-sepia */
+  }
+  main .seccion-nacimiento-de-sepia .sección-introduccion {
+    height: 180px;
+    padding: 20px 340px 10px 340px;
+  }
+  main .seccion-nacimiento-de-sepia .sección-introduccion h1 {
+    font-size: 35px;
+  }
+  main .seccion-nacimiento-de-sepia .contenedor-imagenes-nacimiento-de-sepia {
+    height: 510px;
+    width: 100%;
+    padding: 15px 250px 50px 250px;
+  }
+  main .seccion-nacimiento-de-sepia .contenedor-imagenes-nacimiento-de-sepia .imagen1 img {
+    height: auto;
+    width: 100%;
+  }
+  main .seccion-nacimiento-de-sepia .contenedor-imagenes-nacimiento-de-sepia .imagen2 img {
+    height: auto;
+    width: 100%;
+  }
+  main .seccion-nacimiento-de-sepia .contenedor-imagenes-nacimiento-de-sepia .imagen3 img {
+    height: auto;
+    width: 100%;
+  }
+  main .seccion-nacimiento-de-sepia .contenedor-imagenes-nacimiento-de-sepia .imagen4 img {
+    height: auto;
+    width: 100%;
+  }
+  main .seccion-nacimiento-de-sepia .contenedor-imagenes-nacimiento-de-sepia .imagen5 img {
+    height: auto;
+    width: 100%;
+  }
+  main .seccion-nacimiento-de-sepia .contenedor-imagenes-nacimiento-de-sepia .imagen6 img {
+    height: auto;
+    width: 100%;
+  }
+  /* final main*/
+} /* final formato 1440px 900px */
+/* formato 1674px 807px */
+@media only screen and (min-width: 1674px) {
+  main {
+    font-size: 18px;
+    /*final header*/
+    /* SECCION NACIMIENTO DE SEPIA */
+    /* final seccion-nacimiento-de-sepia */
+    /* footer */
+    /*final pie-de-pagina*/
+  }
+  main header {
+    height: 70px;
+    /*final contenedor-elementos-header*/
+  }
+  main header .contenedor-elementos-header {
+    padding: 20px;
+    /*menu-de-navegacion*/
+  }
+  main header .contenedor-elementos-header .menu-de-navegacion .logo-sepia .logo-sepia-inicial {
+    height: 35px;
+  }
+  main .seccion-nacimiento-de-sepia {
+    height: 850px;
+    padding: 25px;
+    /* sección- introducción */
+    /*final sección introducción*/
+    /* final contenedor-imagenes-nacimiento-de-sepia */
+  }
+  main .seccion-nacimiento-de-sepia .sección-introduccion {
+    height: 180px;
+    padding: 20px 480px 10px 480px;
+  }
+  main .seccion-nacimiento-de-sepia .sección-introduccion h1 {
+    font-size: 35px;
+  }
+  main .seccion-nacimiento-de-sepia .contenedor-imagenes-nacimiento-de-sepia {
+    padding: 25px 250px 50px 250px;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+  }
+  main .seccion-nacimiento-de-sepia .contenedor-imagenes-nacimiento-de-sepia .imagen1 img {
+    height: auto;
+    width: 100%;
+  }
+  main .seccion-nacimiento-de-sepia .contenedor-imagenes-nacimiento-de-sepia .imagen2 img {
+    height: auto;
+    width: 100%;
+  }
+  main .seccion-nacimiento-de-sepia .contenedor-imagenes-nacimiento-de-sepia .imagen3 img {
+    height: auto;
+    width: 100%;
+  }
+  main .seccion-nacimiento-de-sepia .contenedor-imagenes-nacimiento-de-sepia .imagen4 img {
+    height: auto;
+    width: 100%;
+  }
+  main .seccion-nacimiento-de-sepia .contenedor-imagenes-nacimiento-de-sepia .imagen5 img {
+    height: auto;
+    width: 100%;
+  }
+  main .seccion-nacimiento-de-sepia .contenedor-imagenes-nacimiento-de-sepia .imagen6 img {
+    height: auto;
+    width: 100%;
+  }
+  main .pie-de-pagina {
+    height: 650px;
+    display: grid;
+    grid-row-gap: 10px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+  }
+  main .pie-de-pagina .logo-sepia-tercero {
+    margin: 25px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+  }
+  main .pie-de-pagina .logo-sepia-tercero img {
+    height: 80px;
+  }
+  main .pie-de-pagina .datos-sepia {
+    height: 40%;
+  }
+  main .pie-de-pagina .datos-sepia ul {
+    display: flex;
+  }
+  main .pie-de-pagina .datos-sepia ul li {
+    padding: 30px 15px 0px 15px;
+  }
+  main .pie-de-pagina .redes-sociales a {
+    padding: 0px 10px;
+    font-size: 40px;
+  }
+  main .pie-de-pagina h6 {
+    margin-top: 180px;
+    font-size: 18px;
+  }
+  /* final main */
+} /*final formato 1674px 807px */
+/* formato 1920px 1080px */
+@media only screen and (min-width: 1920px) {
+  main {
+    font-size: 22px;
+    /*final header*/
+    /* SECCION NACIMIENTO DE SEPIA */
+    /* final seccion-nacimiento-de-sepia */
+    /* footer */
+    /*final pie-de-pagina*/
+  }
+  main header {
+    /* final contenedor-introduccion-expedicion-seeking*/
+  }
+  main header .contenedor-introduccion-galeria {
+    padding-left: 940px;
+    padding-right: 300px;
+  }
+  main .seccion-nacimiento-de-sepia {
+    height: 1000px;
+    padding: 25px;
+    /* sección- introducción */
+    /*final sección introducción*/
+    /* final contenedor-imagenes-nacimiento-de-sepia */
+  }
+  main .seccion-nacimiento-de-sepia .sección-introduccion {
+    height: 200px;
+    padding: 20px 540px 10px 540px;
+  }
+  main .seccion-nacimiento-de-sepia .sección-introduccion h1 {
+    font-size: 40px;
+  }
+  main .seccion-nacimiento-de-sepia .contenedor-imagenes-nacimiento-de-sepia {
+    height: 600px;
+    padding: 25px 340px 50px 340px;
+  }
+  main .seccion-nacimiento-de-sepia .contenedor-imagenes-nacimiento-de-sepia .imagen1 img {
+    height: auto;
+    width: 100%;
+  }
+  main .seccion-nacimiento-de-sepia .contenedor-imagenes-nacimiento-de-sepia .imagen2 img {
+    height: auto;
+    width: 100%;
+  }
+  main .seccion-nacimiento-de-sepia .contenedor-imagenes-nacimiento-de-sepia .imagen3 img {
+    height: auto;
+    width: 100%;
+  }
+  main .seccion-nacimiento-de-sepia .contenedor-imagenes-nacimiento-de-sepia .imagen4 img {
+    height: auto;
+    width: 100%;
+  }
+  main .seccion-nacimiento-de-sepia .contenedor-imagenes-nacimiento-de-sepia .imagen5 img {
+    height: auto;
+    width: 100%;
+  }
+  main .seccion-nacimiento-de-sepia .contenedor-imagenes-nacimiento-de-sepia .imagen6 img {
+    height: auto;
+    width: 100%;
+  }
+  main .pie-de-pagina {
+    height: 650px;
+    display: grid;
+    grid-row-gap: 10px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+  }
+  main .pie-de-pagina .logo-sepia-tercero {
+    margin: 25px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+  }
+  main .pie-de-pagina .logo-sepia-tercero img {
+    height: 80px;
+  }
+  main .pie-de-pagina .datos-sepia {
+    height: 40%;
+  }
+  main .pie-de-pagina .datos-sepia ul {
+    display: flex;
+  }
+  main .pie-de-pagina .datos-sepia ul li {
+    padding: 30px 15px 0px 15px;
+  }
+  main .pie-de-pagina .redes-sociales a {
+    padding: 0px 10px;
+    font-size: 40px;
+  }
+  main .pie-de-pagina h6 {
+    margin-top: 160px;
+    font-size: 22px;
+  }
+  /* final main */
+} /* final formato 1920px 1080px */
+/* AQUI ESTAN LAS ANIMACIONES */
+@keyframes texto-para-arriba {
+  0% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/*# sourceMappingURL=evolucion-blue-rov.css.map */

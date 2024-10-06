@@ -1,0 +1,1638 @@
+@import url("https://fonts.cdnfonts.com/css/avenir");
+/* font-family: 'Avenir', sans-serif; */
+@import url(https://db.onlinewebfonts.com/c/b78d933f8aa6b9284c1d3efd3db0a9b9?family=Avenir-Black);
+/* font-family: "Avenir-Black"; */
+@import url(https://db.onlinewebfonts.com/c/158fa6012dff0f88241ad898c46c0118?family=AvenirNextW1G-Regular);
+/* font-family: "AvenirNextW1G-Regular"; */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* formato 360px - 640px */
+  /*final main */
+}
+* main {
+  font-family: "Avenir", sans-serif;
+  font-size: 16px;
+  /*final header */
+  /* final contenedor-maximo-galerias */
+  /* footer */
+  /*final pie-de-pagina*/
+}
+* main header {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background: linear-gradient(rgb(7, 38, 45), rgba(7, 38, 45, 0), rgba(7, 38, 45, 0), rgba(7, 38, 45, 0), rgba(7, 38, 45, 0));
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  /* final video */
+  /*final contenedor-elementos-header*/
+  /* final contenedor-introduccion-galeria */
+}
+* main header video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+* main header .contenedor-elementos-header {
+  height: auto;
+  width: 100%;
+  padding: 20px;
+  position: relative;
+  z-index: 10;
+  /*menu-de-navegacion*/
+}
+* main header .contenedor-elementos-header .menu-de-navegacion {
+  display: flex;
+  justify-content: space-between;
+  /*final navbar*/
+}
+* main header .contenedor-elementos-header .menu-de-navegacion .logo-sepia .logo-sepia-inicial {
+  height: 35px;
+}
+* main header .contenedor-elementos-header .menu-de-navegacion .navbar {
+  padding: 15px 10px 0px 0px;
+  box-sizing: border-box;
+}
+* main header .contenedor-elementos-header .menu-de-navegacion .navbar .offcanvas-header {
+  background-color: #07262D;
+}
+* main header .contenedor-elementos-header .menu-de-navegacion .navbar .offcanvas-body {
+  background-color: #07262D;
+}
+* main header .contenedor-elementos-header .menu-de-navegacion .navbar .offcanvas-body .activeazul {
+  color: #20A3D1;
+}
+* main header .contenedor-elementos-header .menu-de-navegacion .navbar .offcanvas-body .activeazul:hover {
+  color: #ffffff;
+}
+* main header .contenedor-elementos-header .menu-de-navegacion .navbar .offcanvas-body .btn {
+  color: #ffffff;
+  background-color: #20A3D1;
+}
+* main header .contenedor-elementos-header .menu-de-navegacion .navbar .offcanvas-body .btn:hover {
+  color: #07262D;
+}
+* main header .contenedor-elementos-header .menu-de-navegacion .navbar .offcanvas-body .btn:hover {
+  background-color: #20A3D1;
+}
+* main header .contenedor-introduccion-galeria {
+  background-position: center;
+  width: 100%;
+  padding-top: 50px;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 170px;
+  text-align: center;
+  animation: texto-para-arriba 2s ease;
+}
+* main header .contenedor-introduccion-galeria h1 {
+  color: #20A3D1;
+  font-family: "Avenir-Black";
+  font-size: 200%;
+  padding: 0px 20px;
+}
+* main header .contenedor-introduccion-galeria h1 p {
+  margin: 5px;
+}
+* main header .contenedor-introduccion-galeria p {
+  color: #ffffff;
+  margin: 10px 0px;
+  padding: 0px 20px;
+}
+* main .contenedor-maximo-galerias {
+  background-color: #07262D;
+  height: 100%;
+  width: 100%;
+  padding: 50px 25px 25px 25px;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: repeat(9, 1fr);
+  grid-row-gap: 20px;
+  grid-template-areas: "nacimiento-de-sepia" "primera-expedicion" "hablamos-con-el-presidente" "entrevista-caracol-tv" "gcfi-noa" "sepia-en-londres" "sepia-en-2016" "despues-del-huracan" "evolucion-blue-rov";
+  /* NACIMIENTO DE SEPIA*/
+  /* FINAL NACIMIENTO DE SEPIA */
+  /* primera-expedicion */
+  /* FINAL primera-expedicion */
+  /* hablamos-con-el-presidente */
+  /* FINAL hablamos-con-el-presidente */
+  /* entrevista-caracol-tv */
+  /* FINAL entrevista-caracol-tv */
+  /* gcfi-noa */
+  /* FINAL gcfi-noa */
+  /* sepia-en-londres */
+  /* FINAL sepia-en-londres */
+  /* sepia-en-2016 */
+  /* FINAL sepia-en-2016 */
+  /* despues-del-huracan */
+  /* FINAL despues-del-huracan */
+  /* evolucion-blue-rov */
+  /* FINAL evolucion-blue-rov */
+}
+* main .contenedor-maximo-galerias .nacimiento-de-sepia {
+  grid-area: nacimiento-de-sepia;
+  height: 100%;
+}
+* main .contenedor-maximo-galerias .nacimiento-de-sepia .contenedor-elementos {
+  height: 200px;
+  width: 310px;
+  background-image: url(/imagenes/imagenes-galeria/nacimiento-de-sepia-miniatura1.jpg);
+  border-radius: 15px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  list-style: none;
+  animation: texto-para-arriba 3s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 35%;
+  transition: all 2s;
+}
+* main .contenedor-maximo-galerias .nacimiento-de-sepia .contenedor-elementos a {
+  text-decoration: none;
+}
+* main .contenedor-maximo-galerias .nacimiento-de-sepia .contenedor-elementos a p {
+  color: rgba(255, 255, 255, 0);
+  font-family: "Avenir-Black";
+  text-align: center;
+  font-size: 180%;
+  padding: 130px 40px 10px 40px;
+  line-height: 30px;
+  text-decoration: none;
+  transition: all 2s;
+}
+* main .contenedor-maximo-galerias .nacimiento-de-sepia .contenedor-elementos:hover {
+  height: 200px;
+  width: 310px;
+  background-image: url(/imagenes//imagenes-galeria/nacimiento-de-sepia-miniatura2.jpg);
+  border-radius: 15px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  animation: texto-para-arriba 3s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 50%;
+}
+* main .contenedor-maximo-galerias .nacimiento-de-sepia .contenedor-elementos:hover p {
+  color: #ffffff;
+  font-family: "Avenir-Black";
+  text-align: center;
+  font-size: 180%;
+  padding: 130px 40px 10px 40px;
+  line-height: 30px;
+}
+* main .contenedor-maximo-galerias .primera-expedicion {
+  grid-area: primera-expedicion;
+}
+* main .contenedor-maximo-galerias .primera-expedicion .contenedor-elementos {
+  height: 200px;
+  width: 310px;
+  background-image: url(/imagenes/imagenes-galeria/primera-expedicion-miniatura1.jpg);
+  border-radius: 15px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  list-style: none;
+  animation: texto-para-arriba 3s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 35%;
+  transition: all 2s;
+}
+* main .contenedor-maximo-galerias .primera-expedicion .contenedor-elementos a {
+  text-decoration: none;
+}
+* main .contenedor-maximo-galerias .primera-expedicion .contenedor-elementos a p {
+  color: rgba(255, 255, 255, 0);
+  font-family: "Avenir-Black";
+  text-align: center;
+  font-size: 180%;
+  padding: 130px 40px 10px 40px;
+  line-height: 30px;
+  text-decoration: none;
+  transition: all 2s;
+}
+* main .contenedor-maximo-galerias .primera-expedicion .contenedor-elementos:hover {
+  height: 200px;
+  width: 310px;
+  background-image: url(/imagenes/imagenes-galeria/primera-expedicion-miniatura2.jpg);
+  border-radius: 15px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  animation: texto-para-arriba 3s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 50%;
+}
+* main .contenedor-maximo-galerias .primera-expedicion .contenedor-elementos:hover p {
+  color: #ffffff;
+  font-family: "Avenir-Black";
+  text-align: center;
+  font-size: 180%;
+  padding: 130px 40px 10px 40px;
+  line-height: 30px;
+}
+* main .contenedor-maximo-galerias .hablamos-con-el-presidente {
+  grid-area: hablamos-con-el-presidente;
+}
+* main .contenedor-maximo-galerias .hablamos-con-el-presidente .contenedor-elementos {
+  height: 200px;
+  width: 310px;
+  background-image: url(/imagenes/imagenes-galeria/hablamos-con-el-presidente-miniatura1.jpg);
+  border-radius: 15px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  list-style: none;
+  animation: texto-para-arriba 3s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 35%;
+  transition: all 2s;
+}
+* main .contenedor-maximo-galerias .hablamos-con-el-presidente .contenedor-elementos a {
+  text-decoration: none;
+}
+* main .contenedor-maximo-galerias .hablamos-con-el-presidente .contenedor-elementos a p {
+  color: rgba(255, 255, 255, 0);
+  font-family: "Avenir-Black";
+  text-align: center;
+  font-size: 180%;
+  padding: 130px 20px 10px 20px;
+  line-height: 30px;
+  text-decoration: none;
+  transition: all 2s;
+}
+* main .contenedor-maximo-galerias .hablamos-con-el-presidente .contenedor-elementos:hover {
+  height: 200px;
+  width: 310px;
+  background-image: url(/imagenes/imagenes-galeria/hablamos-con-el-presidente-miniatura2.jpg);
+  border-radius: 15px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  animation: texto-para-arriba 3s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 50%;
+}
+* main .contenedor-maximo-galerias .hablamos-con-el-presidente .contenedor-elementos:hover p {
+  color: #ffffff;
+  font-family: "Avenir-Black";
+  text-align: center;
+  font-size: 180%;
+  padding: 130px 20px 10px 20px;
+  line-height: 30px;
+}
+* main .contenedor-maximo-galerias .entrevista-caracol-tv {
+  grid-area: entrevista-caracol-tv;
+}
+* main .contenedor-maximo-galerias .entrevista-caracol-tv .contenedor-elementos {
+  height: 200px;
+  width: 310px;
+  background-image: url(/imagenes/imagenes-galeria/entrevista-caracol-tv-miniatura1.jpg);
+  border-radius: 15px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  list-style: none;
+  animation: texto-para-arriba 3s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 35%;
+  transition: all 2s;
+}
+* main .contenedor-maximo-galerias .entrevista-caracol-tv .contenedor-elementos a {
+  text-decoration: none;
+}
+* main .contenedor-maximo-galerias .entrevista-caracol-tv .contenedor-elementos a p {
+  color: rgba(255, 255, 255, 0);
+  font-family: "Avenir-Black";
+  text-align: center;
+  font-size: 180%;
+  padding: 160px 20px 10px 20px;
+  line-height: 30px;
+  text-decoration: none;
+  transition: all 2s;
+}
+* main .contenedor-maximo-galerias .entrevista-caracol-tv .contenedor-elementos:hover {
+  height: 200px;
+  width: 310px;
+  background-image: url(/imagenes/imagenes-galeria/entrevista-caracol-tv-miniatura2.jpg);
+  border-radius: 15px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  animation: texto-para-arriba 3s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 50%;
+}
+* main .contenedor-maximo-galerias .entrevista-caracol-tv .contenedor-elementos:hover p {
+  color: #ffffff;
+  font-family: "Avenir-Black";
+  text-align: center;
+  font-size: 180%;
+  padding: 160px 20px 10px 20px;
+  line-height: 30px;
+}
+* main .contenedor-maximo-galerias .gcfi-noa {
+  grid-area: gcfi-noa;
+}
+* main .contenedor-maximo-galerias .gcfi-noa .contenedor-elementos {
+  height: 200px;
+  width: 310px;
+  background-image: url(/imagenes/imagenes-galeria/gcfi-noa-miniatura1.jpg);
+  border-radius: 15px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  list-style: none;
+  animation: texto-para-arriba 3s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 35%;
+  transition: all 2s;
+}
+* main .contenedor-maximo-galerias .gcfi-noa .contenedor-elementos a {
+  text-decoration: none;
+}
+* main .contenedor-maximo-galerias .gcfi-noa .contenedor-elementos a p {
+  color: rgba(255, 255, 255, 0);
+  font-family: "Avenir-Black";
+  text-align: center;
+  font-size: 180%;
+  padding: 160px 20px 10px 20px;
+  line-height: 30px;
+  text-decoration: none;
+  transition: all 2s;
+}
+* main .contenedor-maximo-galerias .gcfi-noa .contenedor-elementos:hover {
+  height: 200px;
+  width: 310px;
+  background-image: url(/imagenes/imagenes-galeria/gcfi-noa-miniatura2.jpg);
+  border-radius: 15px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  animation: texto-para-arriba 3s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 50%;
+}
+* main .contenedor-maximo-galerias .gcfi-noa .contenedor-elementos:hover p {
+  color: #ffffff;
+  font-family: "Avenir-Black";
+  text-align: center;
+  font-size: 180%;
+  padding: 160px 20px 10px 20px;
+  line-height: 30px;
+}
+* main .contenedor-maximo-galerias .sepia-en-londres {
+  grid-area: sepia-en-londres;
+}
+* main .contenedor-maximo-galerias .sepia-en-londres .contenedor-elementos {
+  height: 200px;
+  width: 310px;
+  background-image: url(/imagenes/imagenes-galeria/sepia-en-londres-miniatura1.jpg);
+  border-radius: 15px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  list-style: none;
+  animation: texto-para-arriba 3s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 35%;
+  transition: all 2s;
+}
+* main .contenedor-maximo-galerias .sepia-en-londres .contenedor-elementos a {
+  text-decoration: none;
+}
+* main .contenedor-maximo-galerias .sepia-en-londres .contenedor-elementos a p {
+  color: rgba(255, 255, 255, 0);
+  font-family: "Avenir-Black";
+  text-align: center;
+  font-size: 180%;
+  padding: 130px 10px 10px 10px;
+  line-height: 30px;
+  text-decoration: none;
+  transition: all 2s;
+}
+* main .contenedor-maximo-galerias .sepia-en-londres .contenedor-elementos:hover {
+  height: 200px;
+  width: 310px;
+  background-image: url(/imagenes//imagenes-galeria/sepia-en-londres-miniatura2.jpg);
+  border-radius: 15px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  animation: texto-para-arriba 3s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 50%;
+}
+* main .contenedor-maximo-galerias .sepia-en-londres .contenedor-elementos:hover p {
+  color: #ffffff;
+  font-family: "Avenir-Black";
+  text-align: center;
+  font-size: 180%;
+  padding: 130px 10px 10px 10px;
+  line-height: 30px;
+}
+* main .contenedor-maximo-galerias .sepia-en-2016 {
+  grid-area: sepia-en-2016;
+}
+* main .contenedor-maximo-galerias .sepia-en-2016 .contenedor-elementos {
+  height: 200px;
+  width: 310px;
+  background-image: url(/imagenes/imagenes-galeria/sepia-en-2016-miniatura1.jpg);
+  border-radius: 15px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  list-style: none;
+  animation: texto-para-arriba 3s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 35%;
+  transition: all 2s;
+}
+* main .contenedor-maximo-galerias .sepia-en-2016 .contenedor-elementos a {
+  text-decoration: none;
+}
+* main .contenedor-maximo-galerias .sepia-en-2016 .contenedor-elementos a p {
+  color: rgba(255, 255, 255, 0);
+  font-family: "Avenir-Black";
+  text-align: center;
+  font-size: 180%;
+  padding: 160px 10px 10px 10px;
+  line-height: 30px;
+  text-decoration: none;
+  transition: all 2s;
+}
+* main .contenedor-maximo-galerias .sepia-en-2016 .contenedor-elementos:hover {
+  height: 200px;
+  width: 310px;
+  background-image: url(/imagenes/imagenes-galeria/sepia-en-2016-miniatura2.jpg);
+  border-radius: 15px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  animation: texto-para-arriba 3s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 50%;
+}
+* main .contenedor-maximo-galerias .sepia-en-2016 .contenedor-elementos:hover p {
+  color: #ffffff;
+  font-family: "Avenir-Black";
+  text-align: center;
+  font-size: 180%;
+  padding: 160px 10px 10px 10px;
+  line-height: 30px;
+}
+* main .contenedor-maximo-galerias .despues-del-huracan {
+  grid-area: despues-del-huracan;
+}
+* main .contenedor-maximo-galerias .despues-del-huracan .contenedor-elementos {
+  height: 200px;
+  width: 310px;
+  background-image: url(/imagenes/imagenes-galeria/despues-del-huracan-miniatura1.jpg);
+  border-radius: 15px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  list-style: none;
+  animation: texto-para-arriba 3s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 35%;
+  transition: all 2s;
+}
+* main .contenedor-maximo-galerias .despues-del-huracan .contenedor-elementos a {
+  text-decoration: none;
+}
+* main .contenedor-maximo-galerias .despues-del-huracan .contenedor-elementos a p {
+  color: rgba(255, 255, 255, 0);
+  font-family: "Avenir-Black";
+  text-align: center;
+  font-size: 180%;
+  padding: 130px 20px 10px 20px;
+  line-height: 30px;
+  text-decoration: none;
+  transition: all 2s;
+}
+* main .contenedor-maximo-galerias .despues-del-huracan .contenedor-elementos:hover {
+  height: 200px;
+  width: 310px;
+  background-image: url(/imagenes/imagenes-galeria/despues-del-huracan-miniatura2.jpg);
+  border-radius: 15px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  animation: texto-para-arriba 3s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 50%;
+}
+* main .contenedor-maximo-galerias .despues-del-huracan .contenedor-elementos:hover p {
+  color: #ffffff;
+  font-family: "Avenir-Black";
+  text-align: center;
+  font-size: 180%;
+  padding: 130px 20px 10px 20px;
+  line-height: 30px;
+}
+* main .contenedor-maximo-galerias .evolucion-blue-rov {
+  grid-area: evolucion-blue-rov;
+}
+* main .contenedor-maximo-galerias .evolucion-blue-rov .contenedor-elementos {
+  height: 200px;
+  width: 310px;
+  background-image: url(/imagenes/imagenes-galeria/evolucion-rov-miniatura1.jpg);
+  border-radius: 15px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  list-style: none;
+  animation: texto-para-arriba 3s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 35%;
+  transition: all 2s;
+}
+* main .contenedor-maximo-galerias .evolucion-blue-rov .contenedor-elementos a {
+  text-decoration: none;
+}
+* main .contenedor-maximo-galerias .evolucion-blue-rov .contenedor-elementos a p {
+  color: rgba(255, 255, 255, 0);
+  font-family: "Avenir-Black";
+  text-align: center;
+  font-size: 180%;
+  padding: 130px 20px 10px 20px;
+  line-height: 30px;
+  text-decoration: none;
+  transition: all 2s;
+}
+* main .contenedor-maximo-galerias .evolucion-blue-rov .contenedor-elementos:hover {
+  height: 200px;
+  width: 310px;
+  background-image: url(/imagenes/imagenes-galeria/evolucion-rov-miniatura2.jpg);
+  border-radius: 15px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  animation: texto-para-arriba 3s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 50%;
+}
+* main .contenedor-maximo-galerias .evolucion-blue-rov .contenedor-elementos:hover p {
+  color: #ffffff;
+  font-family: "Avenir-Black";
+  text-align: center;
+  font-size: 180%;
+  padding: 130px 20px 10px 20px;
+  line-height: 30px;
+}
+* main .pie-de-pagina {
+  background-image: url(/imagenes/inicio-imagen-9--pagina-web-sepia.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 650px;
+  width: 100%;
+  color: #ffffff;
+  display: grid;
+  grid-row-gap: 20px;
+  justify-content: center;
+  text-align: center;
+  padding-top: 100px;
+}
+* main .pie-de-pagina .logo-sepia-tercero {
+  margin: 25px;
+  height: 60px;
+  display: flex;
+}
+* main .pie-de-pagina .logo-sepia-tercero img {
+  height: 50px;
+  width: auto;
+}
+* main .pie-de-pagina .datos-sepia {
+  height: 40%;
+  width: 100%;
+}
+* main .pie-de-pagina .datos-sepia ul li {
+  list-style: none;
+  padding: 5px;
+  padding-right: 50px;
+}
+* main .pie-de-pagina .redes-sociales a {
+  height: 33%;
+  width: 100%;
+  color: #20A3D1;
+  padding: 0px 5px 0px 5px;
+  font-size: 30px;
+}
+* main .pie-de-pagina .redes-sociales a:hover {
+  color: #ffffff;
+}
+* main .pie-de-pagina h6 {
+  margin-top: 40px;
+}
+
+/* final etiqueta universal */
+/* AQUI INICIAN LAS MEDIA QUERIES */
+/*final formato 1366px 768px */
+@media only screen and (min-width: 1366px) {
+  main {
+    font-size: 18px;
+    /*final header*/
+    /* final contenedor-maximo-galerias */
+    /* footer */
+    /*final pie-de-pagina*/
+  }
+  main header {
+    height: 100vh;
+    /*final contenedor-elementos-header*/
+    /* final contenedor-introduccion-galeria */
+  }
+  main header .contenedor-elementos-header {
+    padding: 20px;
+    /*menu-de-navegacion*/
+  }
+  main header .contenedor-elementos-header .menu-de-navegacion .logo-sepia .logo-sepia-inicial {
+    height: 35px;
+  }
+  main header .contenedor-introduccion-galeria {
+    padding-top: 50px;
+    padding-left: 580px;
+    padding-right: 230px;
+    margin-bottom: 170px;
+    text-align: right;
+  }
+  main header .contenedor-introduccion-galeria h1 {
+    font-size: 300%;
+  }
+  main .contenedor-maximo-galerias {
+    height: 850px;
+    width: 100%;
+    padding: 100px 250px 120px 250px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    grid-template-areas: "nacimiento-de-sepia primera-expedicion hablamos-con-el-presidente" "entrevista-caracol-tv gcfi-noa sepia-en-londres" "sepia-en-2016 despues-del-huracan evolucion-blue-rov";
+    /* NACIMIENTO DE SEPIA*/
+    /* FINAL NACIMIENTO DE SEPIA */
+    /* primera-expedicion */
+    /* FINAL primera-expedicion */
+    /* hablamos-con-el-presidente */
+    /* FINAL hablamos-con-el-presidente */
+    /* entrevista-caracol-tv */
+    /* FINAL entrevista-caracol-tv */
+    /* gcfi-noa */
+    /* FINAL gcfi-noa */
+    /* sepia-en-londres */
+    /* FINAL sepia-en-londres */
+    /* sepia-en-2016 */
+    /* FINAL sepia-en-2016 */
+    /* despues-del-huracan */
+    /* FINAL despues-del-huracan */
+    /* evolucion-blue-rov */
+    /* FINAL evolucion-blue-rov */
+  }
+  main .contenedor-maximo-galerias .nacimiento-de-sepia .contenedor-elementos {
+    height: 200px;
+    width: 284px;
+  }
+  main .contenedor-maximo-galerias .nacimiento-de-sepia .contenedor-elementos a p {
+    font-size: 180%;
+    padding: 120px 40px 10px 40px;
+    line-height: 35px;
+  }
+  main .contenedor-maximo-galerias .nacimiento-de-sepia .contenedor-elementos:hover {
+    height: 200px;
+    width: 284px;
+  }
+  main .contenedor-maximo-galerias .nacimiento-de-sepia .contenedor-elementos:hover p {
+    font-size: 180%;
+    padding: 120px 40px 10px 40px;
+  }
+  main .contenedor-maximo-galerias .primera-expedicion .contenedor-elementos {
+    height: 200px;
+    width: 284px;
+  }
+  main .contenedor-maximo-galerias .primera-expedicion .contenedor-elementos a p {
+    font-size: 180%;
+    padding: 120px 40px 10px 40px;
+    line-height: 35px;
+  }
+  main .contenedor-maximo-galerias .primera-expedicion .contenedor-elementos:hover {
+    height: 200px;
+    width: 284px;
+  }
+  main .contenedor-maximo-galerias .primera-expedicion .contenedor-elementos:hover p {
+    font-size: 180%;
+    padding: 120px 40px 10px 40px;
+    line-height: 35px;
+  }
+  main .contenedor-maximo-galerias .hablamos-con-el-presidente .contenedor-elementos {
+    height: 200px;
+    width: 284px;
+  }
+  main .contenedor-maximo-galerias .hablamos-con-el-presidente .contenedor-elementos a p {
+    font-size: 180%;
+    padding: 120px 0px 10px 0px;
+    line-height: 35px;
+  }
+  main .contenedor-maximo-galerias .hablamos-con-el-presidente .contenedor-elementos:hover {
+    height: 200px;
+    width: 284px;
+  }
+  main .contenedor-maximo-galerias .hablamos-con-el-presidente .contenedor-elementos:hover p {
+    font-size: 180%;
+    padding: 120px 0px 10px 0px;
+    line-height: 35px;
+  }
+  main .contenedor-maximo-galerias .entrevista-caracol-tv .contenedor-elementos {
+    height: 200px;
+    width: 284px;
+  }
+  main .contenedor-maximo-galerias .entrevista-caracol-tv .contenedor-elementos a p {
+    font-size: 180%;
+    padding: 160px 0px 10px 0px;
+    line-height: 35px;
+  }
+  main .contenedor-maximo-galerias .entrevista-caracol-tv .contenedor-elementos:hover {
+    height: 200px;
+    width: 284px;
+  }
+  main .contenedor-maximo-galerias .entrevista-caracol-tv .contenedor-elementos:hover p {
+    font-size: 180%;
+    padding: 160px 0px 10px 0px;
+    line-height: 35px;
+  }
+  main .contenedor-maximo-galerias .gcfi-noa .contenedor-elementos {
+    height: 200px;
+    width: 284px;
+  }
+  main .contenedor-maximo-galerias .gcfi-noa .contenedor-elementos a p {
+    font-size: 180%;
+    padding: 150px 0px 10px 0px;
+    line-height: 35px;
+  }
+  main .contenedor-maximo-galerias .gcfi-noa .contenedor-elementos:hover {
+    height: 200px;
+    width: 284px;
+  }
+  main .contenedor-maximo-galerias .gcfi-noa .contenedor-elementos:hover p {
+    font-size: 180%;
+    padding: 150px 0px 10px 0px;
+    line-height: 35px;
+  }
+  main .contenedor-maximo-galerias .sepia-en-londres .contenedor-elementos {
+    height: 200px;
+    width: 284px;
+  }
+  main .contenedor-maximo-galerias .sepia-en-londres .contenedor-elementos a p {
+    font-size: 180%;
+    padding: 100px 0px 10px 0px;
+    line-height: 35px;
+  }
+  main .contenedor-maximo-galerias .sepia-en-londres .contenedor-elementos:hover {
+    height: 200px;
+    width: 284px;
+  }
+  main .contenedor-maximo-galerias .sepia-en-londres .contenedor-elementos:hover p {
+    font-size: 180%;
+    padding: 100px 0px 10px 0px;
+    line-height: 35px;
+  }
+  main .contenedor-maximo-galerias .sepia-en-2016 .contenedor-elementos {
+    height: 200px;
+    width: 284px;
+  }
+  main .contenedor-maximo-galerias .sepia-en-2016 .contenedor-elementos a p {
+    font-size: 180%;
+    padding: 155px 0px 10px 0px;
+    line-height: 35px;
+  }
+  main .contenedor-maximo-galerias .sepia-en-2016 .contenedor-elementos:hover {
+    height: 200px;
+    width: 284px;
+  }
+  main .contenedor-maximo-galerias .sepia-en-2016 .contenedor-elementos:hover p {
+    font-size: 180%;
+    padding: 155px 0px 10px 0px;
+    line-height: 35px;
+  }
+  main .contenedor-maximo-galerias .despues-del-huracan .contenedor-elementos {
+    height: 200px;
+    width: 284px;
+  }
+  main .contenedor-maximo-galerias .despues-del-huracan .contenedor-elementos a p {
+    font-size: 180%;
+    padding: 120px 0px 10px 0px;
+    line-height: 35px;
+  }
+  main .contenedor-maximo-galerias .despues-del-huracan .contenedor-elementos:hover {
+    height: 200px;
+    width: 284px;
+  }
+  main .contenedor-maximo-galerias .despues-del-huracan .contenedor-elementos:hover p {
+    font-size: 180%;
+    padding: 120px 0px 10px 0px;
+    line-height: 35px;
+  }
+  main .contenedor-maximo-galerias .evolucion-blue-rov .contenedor-elementos {
+    height: 200px;
+    width: 284px;
+  }
+  main .contenedor-maximo-galerias .evolucion-blue-rov .contenedor-elementos a p {
+    font-size: 180%;
+    padding: 120px 0px 10px 0px;
+    line-height: 35px;
+  }
+  main .contenedor-maximo-galerias .evolucion-blue-rov .contenedor-elementos:hover {
+    height: 200px;
+    width: 284px;
+  }
+  main .contenedor-maximo-galerias .evolucion-blue-rov .contenedor-elementos:hover p {
+    font-size: 180%;
+    padding: 120px 0px 10px 0px;
+    line-height: 35px;
+  }
+  main .pie-de-pagina {
+    height: 650px;
+    display: grid;
+    grid-row-gap: 10px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+  }
+  main .pie-de-pagina .logo-sepia-tercero {
+    margin: 25px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+  }
+  main .pie-de-pagina .logo-sepia-tercero img {
+    height: 80px;
+  }
+  main .pie-de-pagina .datos-sepia {
+    height: 40%;
+  }
+  main .pie-de-pagina .datos-sepia ul {
+    display: flex;
+  }
+  main .pie-de-pagina .datos-sepia ul li {
+    padding: 30px 15px 0px 15px;
+  }
+  main .pie-de-pagina .redes-sociales a {
+    padding: 0px 10px;
+    font-size: 40px;
+  }
+  main .pie-de-pagina h6 {
+    margin-top: 180px;
+  }
+  /* final main */
+} /*final formato 1366px 768px */
+/* formato 1440px 900px */
+@media only screen and (min-width: 1440px) {
+  main {
+    font-size: 18px;
+    /*final header*/
+    /* final contenedor-maximo-galerias */
+  }
+  main header {
+    height: 100vh;
+    /*final contenedor-elementos-header*/
+    /* final contenedor-introduccion-galeria */
+  }
+  main header .contenedor-elementos-header {
+    padding: 20px;
+    /*menu-de-navegacion*/
+  }
+  main header .contenedor-elementos-header .menu-de-navegacion .logo-sepia .logo-sepia-inicial {
+    height: 35px;
+  }
+  main header .contenedor-introduccion-galeria {
+    padding-left: 650px;
+    padding-right: 230px;
+  }
+  main .contenedor-maximo-galerias {
+    height: 860px;
+    padding: 100px 250px;
+    grid-column-gap: 25px;
+    grid-row-gap: 15px;
+    /* NACIMIENTO DE SEPIA*/
+    /* FINAL NACIMIENTO DE SEPIA */
+    /* primera-expedicion */
+    /* FINAL primera-expedicion */
+    /* hablamos-con-el-presidente */
+    /* FINAL hablamos-con-el-presidente */
+    /* entrevista-caracol-tv */
+    /* FINAL entrevista-caracol-tv */
+    /* gcfi-noa */
+    /* FINAL gcfi-noa */
+    /* sepia-en-londres */
+    /* FINAL sepia-en-londres */
+    /* sepia-en-2016 */
+    /* FINAL sepia-en-2016 */
+    /* despues-del-huracan */
+    /* FINAL despues-del-huracan */
+    /* evolucion-blue-rov */
+    /* FINAL evolucion-blue-rov */
+  }
+  main .contenedor-maximo-galerias .nacimiento-de-sepia {
+    padding: 0px;
+  }
+  main .contenedor-maximo-galerias .nacimiento-de-sepia .contenedor-elementos {
+    height: 200px;
+    width: 297px;
+  }
+  main .contenedor-maximo-galerias .nacimiento-de-sepia .contenedor-elementos a p {
+    font-size: 180%;
+    padding: 120px 40px 10px 40px;
+    line-height: 35px;
+  }
+  main .contenedor-maximo-galerias .nacimiento-de-sepia .contenedor-elementos:hover {
+    height: 200px;
+    width: 297px;
+  }
+  main .contenedor-maximo-galerias .nacimiento-de-sepia .contenedor-elementos:hover p {
+    font-size: 180%;
+    padding: 120px 40px 10px 40px;
+  }
+  main .contenedor-maximo-galerias .primera-expedicion {
+    padding: 0px;
+  }
+  main .contenedor-maximo-galerias .primera-expedicion .contenedor-elementos {
+    height: 200px;
+    width: 297px;
+  }
+  main .contenedor-maximo-galerias .primera-expedicion .contenedor-elementos a p {
+    font-size: 180%;
+    padding: 120px 40px 10px 40px;
+    line-height: 35px;
+  }
+  main .contenedor-maximo-galerias .primera-expedicion .contenedor-elementos:hover {
+    height: 200px;
+    width: 297px;
+  }
+  main .contenedor-maximo-galerias .primera-expedicion .contenedor-elementos:hover p {
+    font-size: 180%;
+    padding: 120px 40px 10px 40px;
+    line-height: 35px;
+  }
+  main .contenedor-maximo-galerias .hablamos-con-el-presidente {
+    padding: 0px;
+  }
+  main .contenedor-maximo-galerias .hablamos-con-el-presidente .contenedor-elementos {
+    height: 200px;
+    width: 297px;
+  }
+  main .contenedor-maximo-galerias .hablamos-con-el-presidente .contenedor-elementos a p {
+    font-size: 180%;
+    padding: 120px 0px 10px 0px;
+    line-height: 35px;
+  }
+  main .contenedor-maximo-galerias .hablamos-con-el-presidente .contenedor-elementos:hover {
+    height: 200px;
+    width: 297px;
+  }
+  main .contenedor-maximo-galerias .hablamos-con-el-presidente .contenedor-elementos:hover p {
+    font-size: 180%;
+    padding: 120px 0px 10px 0px;
+    line-height: 35px;
+  }
+  main .contenedor-maximo-galerias .entrevista-caracol-tv {
+    padding: 0px;
+  }
+  main .contenedor-maximo-galerias .entrevista-caracol-tv .contenedor-elementos {
+    height: 200px;
+    width: 297px;
+  }
+  main .contenedor-maximo-galerias .entrevista-caracol-tv .contenedor-elementos a p {
+    font-size: 180%;
+    padding: 160px 0px 10px 0px;
+    line-height: 35px;
+  }
+  main .contenedor-maximo-galerias .entrevista-caracol-tv .contenedor-elementos:hover {
+    height: 200px;
+    width: 297px;
+  }
+  main .contenedor-maximo-galerias .entrevista-caracol-tv .contenedor-elementos:hover p {
+    font-size: 180%;
+    padding: 160px 0px 10px 0px;
+    line-height: 35px;
+  }
+  main .contenedor-maximo-galerias .gcfi-noa {
+    padding: 0px;
+  }
+  main .contenedor-maximo-galerias .gcfi-noa .contenedor-elementos {
+    height: 200px;
+    width: 297px;
+  }
+  main .contenedor-maximo-galerias .gcfi-noa .contenedor-elementos a p {
+    font-size: 180%;
+    padding: 150px 0px 10px 0px;
+    line-height: 35px;
+  }
+  main .contenedor-maximo-galerias .gcfi-noa .contenedor-elementos:hover {
+    height: 200px;
+    width: 297px;
+  }
+  main .contenedor-maximo-galerias .gcfi-noa .contenedor-elementos:hover p {
+    font-size: 180%;
+    padding: 150px 0px 10px 0px;
+    line-height: 35px;
+  }
+  main .contenedor-maximo-galerias .sepia-en-londres {
+    padding: 0px;
+  }
+  main .contenedor-maximo-galerias .sepia-en-londres .contenedor-elementos {
+    height: 200px;
+    width: 297px;
+  }
+  main .contenedor-maximo-galerias .sepia-en-londres .contenedor-elementos a p {
+    font-size: 180%;
+    padding: 100px 10px 10px 10px;
+    line-height: 35px;
+  }
+  main .contenedor-maximo-galerias .sepia-en-londres .contenedor-elementos:hover {
+    height: 200px;
+    width: 297px;
+  }
+  main .contenedor-maximo-galerias .sepia-en-londres .contenedor-elementos:hover p {
+    font-size: 180%;
+    padding: 100px 0px 10px 0px;
+    line-height: 35px;
+  }
+  main .contenedor-maximo-galerias .sepia-en-2016 {
+    padding: 0px;
+  }
+  main .contenedor-maximo-galerias .sepia-en-2016 .contenedor-elementos {
+    height: 200px;
+    width: 297px;
+  }
+  main .contenedor-maximo-galerias .sepia-en-2016 .contenedor-elementos a p {
+    font-size: 180%;
+    padding: 150px 0px 10px 0px;
+    line-height: 35px;
+  }
+  main .contenedor-maximo-galerias .sepia-en-2016 .contenedor-elementos:hover {
+    height: 200px;
+    width: 297px;
+  }
+  main .contenedor-maximo-galerias .sepia-en-2016 .contenedor-elementos:hover p {
+    font-size: 180%;
+    padding: 150px 0px 10px 0px;
+    line-height: 35px;
+  }
+  main .contenedor-maximo-galerias .despues-del-huracan {
+    padding: 0px;
+  }
+  main .contenedor-maximo-galerias .despues-del-huracan .contenedor-elementos {
+    height: 200px;
+    width: 297px;
+  }
+  main .contenedor-maximo-galerias .despues-del-huracan .contenedor-elementos a p {
+    font-size: 180%;
+    padding: 120px 0px 10px 0px;
+    line-height: 35px;
+  }
+  main .contenedor-maximo-galerias .despues-del-huracan .contenedor-elementos:hover {
+    height: 200px;
+    width: 297px;
+  }
+  main .contenedor-maximo-galerias .despues-del-huracan .contenedor-elementos:hover p {
+    font-size: 180%;
+    padding: 120px 0px 10px 0px;
+    line-height: 35px;
+  }
+  main .contenedor-maximo-galerias .evolucion-blue-rov {
+    padding: 0px;
+  }
+  main .contenedor-maximo-galerias .evolucion-blue-rov .contenedor-elementos {
+    height: 200px;
+    width: 297px;
+  }
+  main .contenedor-maximo-galerias .evolucion-blue-rov .contenedor-elementos a p {
+    font-size: 180%;
+    padding: 120px 30px 10px 30px;
+    line-height: 35px;
+  }
+  main .contenedor-maximo-galerias .evolucion-blue-rov .contenedor-elementos:hover {
+    height: 200px;
+    width: 297px;
+  }
+  main .contenedor-maximo-galerias .evolucion-blue-rov .contenedor-elementos:hover p {
+    font-size: 180%;
+    padding: 120px 30px 10px 30px;
+    line-height: 35px;
+  }
+  /* final main*/
+} /* final formato 1440px 900px */
+/* formato 1674px 807px */
+@media only screen and (min-width: 1674px) {
+  main {
+    font-size: 18px;
+    /*final header*/
+    /* final contenedor-maximo-galerias */
+    /* footer */
+    /*final pie-de-pagina*/
+  }
+  main header {
+    height: 100vh;
+    /*final contenedor-elementos-header*/
+    /* final contenedor-introduccion-galeria */
+  }
+  main header .contenedor-elementos-header {
+    padding: 20px;
+    /*menu-de-navegacion*/
+  }
+  main header .contenedor-elementos-header .menu-de-navegacion .logo-sepia .logo-sepia-inicial {
+    height: 35px;
+  }
+  main header .contenedor-introduccion-galeria {
+    padding-left: 820px;
+    padding-right: 300px;
+  }
+  main .contenedor-maximo-galerias {
+    height: 1050px;
+    width: 100%;
+    padding: 100px 250px;
+    grid-column-gap: 35px;
+    grid-row-gap: 15px;
+    /* NACIMIENTO DE SEPIA*/
+    /* FINAL NACIMIENTO DE SEPIA */
+    /* primera-expedicion */
+    /* FINAL primera-expedicion */
+    /* hablamos-con-el-presidente */
+    /* FINAL hablamos-con-el-presidente */
+    /* entrevista-caracol-tv */
+    /* FINAL entrevista-caracol-tv */
+    /* gcfi-noa */
+    /* FINAL gcfi-noa */
+    /* sepia-en-londres */
+    /* FINAL sepia-en-londres */
+    /* sepia-en-2016 */
+    /* FINAL sepia-en-2016 */
+    /* despues-del-huracan */
+    /* FINAL despues-del-huracan */
+    /* evolucion-blue-rov */
+    /* FINAL evolucion-blue-rov */
+  }
+  main .contenedor-maximo-galerias .nacimiento-de-sepia .contenedor-elementos {
+    height: 250px;
+    width: 368px;
+  }
+  main .contenedor-maximo-galerias .nacimiento-de-sepia .contenedor-elementos a p {
+    font-size: 200%;
+    padding: 160px 60px 10px 60px;
+    line-height: 38px;
+  }
+  main .contenedor-maximo-galerias .nacimiento-de-sepia .contenedor-elementos:hover {
+    height: 250px;
+    width: 368px;
+  }
+  main .contenedor-maximo-galerias .nacimiento-de-sepia .contenedor-elementos:hover p {
+    font-size: 200%;
+    padding: 160px 60px 10px 60px;
+    line-height: 38px;
+  }
+  main .contenedor-maximo-galerias .primera-expedicion .contenedor-elementos {
+    height: 250px;
+    width: 368px;
+  }
+  main .contenedor-maximo-galerias .primera-expedicion .contenedor-elementos a p {
+    font-size: 200%;
+    padding: 160px 40px 10px 40px;
+    line-height: 38px;
+  }
+  main .contenedor-maximo-galerias .primera-expedicion .contenedor-elementos:hover {
+    height: 250px;
+    width: 368px;
+  }
+  main .contenedor-maximo-galerias .primera-expedicion .contenedor-elementos:hover p {
+    font-size: 200%;
+    padding: 160px 40px 10px 40px;
+    line-height: 38px;
+  }
+  main .contenedor-maximo-galerias .hablamos-con-el-presidente .contenedor-elementos {
+    height: 250px;
+    width: 368px;
+  }
+  main .contenedor-maximo-galerias .hablamos-con-el-presidente .contenedor-elementos a p {
+    font-size: 200%;
+    padding: 160px 30px 10px 30px;
+    line-height: 38px;
+  }
+  main .contenedor-maximo-galerias .hablamos-con-el-presidente .contenedor-elementos:hover {
+    height: 250px;
+    width: 368px;
+  }
+  main .contenedor-maximo-galerias .hablamos-con-el-presidente .contenedor-elementos:hover p {
+    font-size: 200%;
+    padding: 160px 30px 10px 30px;
+    line-height: 38px;
+  }
+  main .contenedor-maximo-galerias .entrevista-caracol-tv .contenedor-elementos {
+    height: 250px;
+    width: 368px;
+  }
+  main .contenedor-maximo-galerias .entrevista-caracol-tv .contenedor-elementos a p {
+    font-size: 200%;
+    padding: 200px 30px 10px 30px;
+    line-height: 38px;
+  }
+  main .contenedor-maximo-galerias .entrevista-caracol-tv .contenedor-elementos:hover {
+    height: 250px;
+    width: 368px;
+  }
+  main .contenedor-maximo-galerias .entrevista-caracol-tv .contenedor-elementos:hover p {
+    font-size: 200%;
+    padding: 200px 30px 10px 30px;
+    line-height: 38px;
+  }
+  main .contenedor-maximo-galerias .gcfi-noa .contenedor-elementos {
+    height: 250px;
+    width: 368px;
+  }
+  main .contenedor-maximo-galerias .gcfi-noa .contenedor-elementos a p {
+    font-size: 200%;
+    padding: 200px 30px 10px 30px;
+    line-height: 38px;
+  }
+  main .contenedor-maximo-galerias .gcfi-noa .contenedor-elementos:hover {
+    height: 250px;
+    width: 368px;
+  }
+  main .contenedor-maximo-galerias .gcfi-noa .contenedor-elementos:hover p {
+    font-size: 200%;
+    padding: 200px 30px 10px 30px;
+    line-height: 38px;
+  }
+  main .contenedor-maximo-galerias .sepia-en-londres .contenedor-elementos {
+    height: 250px;
+    width: 368px;
+  }
+  main .contenedor-maximo-galerias .sepia-en-londres .contenedor-elementos a p {
+    font-size: 200%;
+    padding: 130px 30px 10px 30px;
+    line-height: 38px;
+  }
+  main .contenedor-maximo-galerias .sepia-en-londres .contenedor-elementos:hover {
+    height: 250px;
+    width: 368px;
+  }
+  main .contenedor-maximo-galerias .sepia-en-londres .contenedor-elementos:hover p {
+    font-size: 200%;
+    padding: 130px 30px 10px 30px;
+    line-height: 38px;
+  }
+  main .contenedor-maximo-galerias .sepia-en-2016 .contenedor-elementos {
+    height: 250px;
+    width: 368px;
+  }
+  main .contenedor-maximo-galerias .sepia-en-2016 .contenedor-elementos a p {
+    font-size: 200%;
+    padding: 200px 30px 10px 30px;
+    line-height: 38px;
+  }
+  main .contenedor-maximo-galerias .sepia-en-2016 .contenedor-elementos:hover {
+    height: 250px;
+    width: 368px;
+  }
+  main .contenedor-maximo-galerias .sepia-en-2016 .contenedor-elementos:hover p {
+    font-size: 200%;
+    padding: 200px 30px 10px 30px;
+    line-height: 38px;
+  }
+  main .contenedor-maximo-galerias .despues-del-huracan .contenedor-elementos {
+    height: 250px;
+    width: 368px;
+  }
+  main .contenedor-maximo-galerias .despues-del-huracan .contenedor-elementos a p {
+    font-size: 200%;
+    padding: 160px 30px 10px 30px;
+    line-height: 38px;
+  }
+  main .contenedor-maximo-galerias .despues-del-huracan .contenedor-elementos:hover {
+    height: 250px;
+    width: 368px;
+  }
+  main .contenedor-maximo-galerias .despues-del-huracan .contenedor-elementos:hover p {
+    font-size: 200%;
+    padding: 160px 30px 10px 30px;
+    line-height: 38px;
+  }
+  main .contenedor-maximo-galerias .evolucion-blue-rov .contenedor-elementos {
+    height: 250px;
+    width: 368px;
+  }
+  main .contenedor-maximo-galerias .evolucion-blue-rov .contenedor-elementos a p {
+    font-size: 200%;
+    padding: 160px 30px 10px 30px;
+    line-height: 38px;
+  }
+  main .contenedor-maximo-galerias .evolucion-blue-rov .contenedor-elementos:hover {
+    height: 250px;
+    width: 368px;
+  }
+  main .contenedor-maximo-galerias .evolucion-blue-rov .contenedor-elementos:hover p {
+    font-size: 200%;
+    padding: 160px 30px 10px 30px;
+    line-height: 38px;
+  }
+  main .pie-de-pagina {
+    height: 650px;
+    display: grid;
+    grid-row-gap: 10px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+  }
+  main .pie-de-pagina .logo-sepia-tercero {
+    margin: 25px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+  }
+  main .pie-de-pagina .logo-sepia-tercero img {
+    height: 80px;
+  }
+  main .pie-de-pagina .datos-sepia {
+    height: 40%;
+  }
+  main .pie-de-pagina .datos-sepia ul {
+    display: flex;
+  }
+  main .pie-de-pagina .datos-sepia ul li {
+    padding: 30px 15px 0px 15px;
+  }
+  main .pie-de-pagina .redes-sociales a {
+    padding: 0px 10px;
+    font-size: 40px;
+  }
+  main .pie-de-pagina h6 {
+    margin-top: 180px;
+    font-size: 18px;
+  }
+  /* final main */
+} /*final formato 1674px 807px */
+/* formato 1920px 1080px */
+@media only screen and (min-width: 1920px) {
+  main {
+    font-size: 22px;
+    /*final header*/
+    /* final contenedor-maximo-galerias */
+    /* footer */
+    /*final pie-de-pagina*/
+  }
+  main header {
+    /* final contenedor-introduccion-expedicion-seeking*/
+  }
+  main header .contenedor-introduccion-galeria {
+    padding-left: 940px;
+    padding-right: 300px;
+  }
+  main .contenedor-maximo-galerias {
+    height: 1100px;
+    width: 100%;
+    padding: 100px 340px;
+    grid-column-gap: 45px;
+    grid-row-gap: 15px;
+    /* NACIMIENTO DE SEPIA*/
+    /* FINAL NACIMIENTO DE SEPIA */
+    /* primera-expedicion */
+    /* FINAL primera-expedicion */
+    /* hablamos-con-el-presidente */
+    /* FINAL hablamos-con-el-presidente */
+    /* entrevista-caracol-tv */
+    /* FINAL entrevista-caracol-tv */
+    /* gcfi-noa */
+    /* FINAL gcfi-noa */
+    /* sepia-en-londres */
+    /* FINAL sepia-en-londres */
+    /* sepia-en-2016 */
+    /* FINAL sepia-en-2016 */
+    /* despues-del-huracan */
+    /* FINAL despues-del-huracan */
+    /* evolucion-blue-rov */
+    /* FINAL evolucion-blue-rov */
+  }
+  main .contenedor-maximo-galerias .nacimiento-de-sepia .contenedor-elementos {
+    height: 270px;
+    width: 412px;
+  }
+  main .contenedor-maximo-galerias .nacimiento-de-sepia .contenedor-elementos a p {
+    font-size: 200%;
+    padding: 165px 60px 10px 60px;
+    line-height: 45px;
+  }
+  main .contenedor-maximo-galerias .nacimiento-de-sepia .contenedor-elementos:hover {
+    height: 270px;
+    width: 412px;
+  }
+  main .contenedor-maximo-galerias .nacimiento-de-sepia .contenedor-elementos:hover p {
+    font-size: 200%;
+    padding: 165px 60px 10px 60px;
+    line-height: 45px;
+  }
+  main .contenedor-maximo-galerias .primera-expedicion .contenedor-elementos {
+    height: 270px;
+    width: 412px;
+  }
+  main .contenedor-maximo-galerias .primera-expedicion .contenedor-elementos a p {
+    font-size: 200%;
+    padding: 165px 40px 10px 40px;
+    line-height: 45px;
+  }
+  main .contenedor-maximo-galerias .primera-expedicion .contenedor-elementos:hover {
+    height: 270px;
+    width: 412px;
+  }
+  main .contenedor-maximo-galerias .primera-expedicion .contenedor-elementos:hover p {
+    font-size: 200%;
+    padding: 165px 40px 10px 40px;
+    line-height: 45px;
+  }
+  main .contenedor-maximo-galerias .hablamos-con-el-presidente .contenedor-elementos {
+    height: 270px;
+    width: 412px;
+  }
+  main .contenedor-maximo-galerias .hablamos-con-el-presidente .contenedor-elementos a p {
+    font-size: 200%;
+    padding: 165px 30px 10px 30px;
+    line-height: 45px;
+  }
+  main .contenedor-maximo-galerias .hablamos-con-el-presidente .contenedor-elementos:hover {
+    height: 270px;
+    width: 412px;
+  }
+  main .contenedor-maximo-galerias .hablamos-con-el-presidente .contenedor-elementos:hover p {
+    font-size: 200%;
+    padding: 165px 0px 10px 0px;
+    line-height: 45px;
+  }
+  main .contenedor-maximo-galerias .entrevista-caracol-tv .contenedor-elementos {
+    height: 270px;
+    width: 412px;
+  }
+  main .contenedor-maximo-galerias .entrevista-caracol-tv .contenedor-elementos a p {
+    font-size: 200%;
+    padding: 210px 30px 10px 30px;
+    line-height: 45px;
+  }
+  main .contenedor-maximo-galerias .entrevista-caracol-tv .contenedor-elementos:hover {
+    height: 270px;
+    width: 412px;
+  }
+  main .contenedor-maximo-galerias .entrevista-caracol-tv .contenedor-elementos:hover p {
+    font-size: 200%;
+    padding: 210px 0px 10px 0px;
+    line-height: 45px;
+  }
+  main .contenedor-maximo-galerias .gcfi-noa .contenedor-elementos {
+    height: 270px;
+    width: 412px;
+  }
+  main .contenedor-maximo-galerias .gcfi-noa .contenedor-elementos a p {
+    font-size: 200%;
+    padding: 205px 30px 10px 30px;
+    line-height: 45px;
+  }
+  main .contenedor-maximo-galerias .gcfi-noa .contenedor-elementos:hover {
+    height: 270px;
+    width: 412px;
+  }
+  main .contenedor-maximo-galerias .gcfi-noa .contenedor-elementos:hover p {
+    font-size: 200%;
+    padding: 205px 0px 10px 0px;
+    line-height: 45px;
+  }
+  main .contenedor-maximo-galerias .sepia-en-londres .contenedor-elementos {
+    height: 270px;
+    width: 412px;
+  }
+  main .contenedor-maximo-galerias .sepia-en-londres .contenedor-elementos a p {
+    font-size: 200%;
+    padding: 140px 0px 10px 0px;
+    line-height: 45px;
+  }
+  main .contenedor-maximo-galerias .sepia-en-londres .contenedor-elementos:hover {
+    height: 270px;
+    width: 412px;
+  }
+  main .contenedor-maximo-galerias .sepia-en-londres .contenedor-elementos:hover p {
+    font-size: 200%;
+    padding: 140px 0px 10px 0px;
+    line-height: 45px;
+  }
+  main .contenedor-maximo-galerias .sepia-en-2016 .contenedor-elementos {
+    height: 270px;
+    width: 412px;
+  }
+  main .contenedor-maximo-galerias .sepia-en-2016 .contenedor-elementos a p {
+    font-size: 200%;
+    padding: 200px 30px 10px 30px;
+    line-height: 45px;
+  }
+  main .contenedor-maximo-galerias .sepia-en-2016 .contenedor-elementos:hover {
+    height: 270px;
+    width: 412px;
+  }
+  main .contenedor-maximo-galerias .sepia-en-2016 .contenedor-elementos:hover p {
+    font-size: 200%;
+    padding: 200px 0px 10px 0px;
+    line-height: 45px;
+  }
+  main .contenedor-maximo-galerias .despues-del-huracan .contenedor-elementos {
+    height: 270px;
+    width: 412px;
+  }
+  main .contenedor-maximo-galerias .despues-del-huracan .contenedor-elementos a p {
+    font-size: 200%;
+    padding: 165px 30px 10px 30px;
+    line-height: 45px;
+  }
+  main .contenedor-maximo-galerias .despues-del-huracan .contenedor-elementos:hover {
+    height: 270px;
+    width: 412px;
+  }
+  main .contenedor-maximo-galerias .despues-del-huracan .contenedor-elementos:hover p {
+    font-size: 200%;
+    padding: 165px 0px 10px 0px;
+    line-height: 45px;
+  }
+  main .contenedor-maximo-galerias .evolucion-blue-rov .contenedor-elementos {
+    height: 270px;
+    width: 412px;
+  }
+  main .contenedor-maximo-galerias .evolucion-blue-rov .contenedor-elementos a p {
+    font-size: 200%;
+    padding: 165px 30px 10px 30px;
+    line-height: 45px;
+  }
+  main .contenedor-maximo-galerias .evolucion-blue-rov .contenedor-elementos:hover {
+    height: 270px;
+    width: 412px;
+  }
+  main .contenedor-maximo-galerias .evolucion-blue-rov .contenedor-elementos:hover p {
+    font-size: 200%;
+    padding: 165px 30px 10px 30px;
+    line-height: 45px;
+  }
+  main .pie-de-pagina {
+    height: 650px;
+    display: grid;
+    grid-row-gap: 10px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+  }
+  main .pie-de-pagina .logo-sepia-tercero {
+    margin: 25px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+  }
+  main .pie-de-pagina .logo-sepia-tercero img {
+    height: 80px;
+  }
+  main .pie-de-pagina .datos-sepia {
+    height: 40%;
+  }
+  main .pie-de-pagina .datos-sepia ul {
+    display: flex;
+  }
+  main .pie-de-pagina .datos-sepia ul li {
+    padding: 30px 15px 0px 15px;
+  }
+  main .pie-de-pagina .redes-sociales a {
+    padding: 0px 10px;
+    font-size: 40px;
+  }
+  main .pie-de-pagina h6 {
+    margin-top: 160px;
+    font-size: 22px;
+  }
+  /* final main */
+} /* final formato 1920px 1080px */
+/* AQUI ESTAN LAS ANIMACIONES */
+@keyframes texto-para-arriba {
+  0% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/*# sourceMappingURL=galeria.css.map */

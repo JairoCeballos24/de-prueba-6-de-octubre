@@ -1,0 +1,866 @@
+@charset "UTF-8";
+@import url("https://fonts.cdnfonts.com/css/avenir");
+/* font-family: 'Avenir', sans-serif; */
+@import url(https://db.onlinewebfonts.com/c/b78d933f8aa6b9284c1d3efd3db0a9b9?family=Avenir-Black);
+/* font-family: "Avenir-Black"; */
+@import url(https://db.onlinewebfonts.com/c/158fa6012dff0f88241ad898c46c0118?family=AvenirNextW1G-Regular);
+/* font-family: "AvenirNextW1G-Regular"; */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* formato 360px - 640px */
+  /* final main formato 360px - 640px */
+}
+* main {
+  font-family: "Avenir", sans-serif;
+  font-size: 16px;
+  /*final header*/
+  /* TITULO OPERATIVO */
+  /* sección equipo operativo */
+  /* final sección-equipo operativo*/
+  /* TITULO ADMINISTRATIVO */
+  /* footer */
+  /*final pie-de-pagina*/
+}
+* main header {
+  background-image: url(/imagenes/imagenes-servicios/);
+  background-attachment: fixed;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background: linear-gradient(rgb(7, 38, 45), rgba(7, 38, 45, 0), rgba(7, 38, 45, 0), rgba(7, 38, 45, 0), rgba(7, 38, 45, 0));
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  /* final video */
+  /*final contenedor-elementos-header*/
+  /* final contenedor-introduccion-servicios*/
+}
+* main header video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+* main header .contenedor-elementos-header {
+  height: auto;
+  width: 100%;
+  padding: 20px;
+  position: relative;
+  z-index: 100;
+  /*menu-de-navegacion*/
+}
+* main header .contenedor-elementos-header .menu-de-navegacion {
+  display: flex;
+  justify-content: space-between;
+  /*final navbar*/
+}
+* main header .contenedor-elementos-header .menu-de-navegacion .logo-sepia .logo-sepia-inicial {
+  height: 35px;
+}
+* main header .contenedor-elementos-header .menu-de-navegacion .navbar {
+  padding: 15px 10px 0px 0px;
+  box-sizing: border-box;
+  z-index: 10;
+  color: #07262D;
+}
+* main header .contenedor-elementos-header .menu-de-navegacion .navbar .offcanvas-header {
+  background-color: #07262D;
+}
+* main header .contenedor-elementos-header .menu-de-navegacion .navbar .offcanvas-body {
+  background-color: #07262D;
+}
+* main header .contenedor-elementos-header .menu-de-navegacion .navbar .offcanvas-body .activeazul {
+  color: #20A3D1;
+}
+* main header .contenedor-elementos-header .menu-de-navegacion .navbar .offcanvas-body .activeazul:hover {
+  color: #ffffff;
+}
+* main header .contenedor-elementos-header .menu-de-navegacion .navbar .offcanvas-body .btn {
+  color: #ffffff;
+  background-color: #20A3D1;
+}
+* main header .contenedor-elementos-header .menu-de-navegacion .navbar .offcanvas-body .btn:hover {
+  color: #07262D;
+}
+* main header .contenedor-elementos-header .menu-de-navegacion .navbar .offcanvas-body .btn:hover {
+  background-color: #20A3D1;
+}
+* main header .contenedor-introduccion-equipo {
+  background-position: center;
+  width: 100%;
+  padding-top: 50px;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 170px;
+  text-align: center;
+  position: relative;
+  z-index: 20;
+  animation: texto-para-arriba 2s ease;
+}
+* main header .contenedor-introduccion-equipo .icono-equipo {
+  height: 180px;
+  margin: 10px 0px;
+}
+* main header .contenedor-introduccion-equipo h1 {
+  color: #20A3D1;
+  font-family: "Avenir-Black";
+  font-size: 200%;
+  padding: 0px 20px;
+}
+* main header .contenedor-introduccion-equipo h1 p {
+  margin: 5px;
+}
+* main header .contenedor-introduccion-equipo p {
+  color: #ffffff;
+  margin: 10px 0px;
+  padding: 0px 20px;
+}
+* main h1 {
+  text-align: center;
+  color: #20A3D1;
+  font-size: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  font-family: "Avenir-Black";
+  animation: texto-para-arriba 4s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 40%;
+}
+* main .sección-equipo-operativo {
+  background-color: #ffffff;
+  height: 960px;
+  width: 100%;
+  padding: 25px;
+  padding-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(4, 200px);
+  grid-column-gap: 30px;
+  grid-row-gap: 50px;
+  grid-template-areas: "caja-omar caja-ruben" "caja-diana caja-ricardo" "caja-diana2 caja-ricardo2" "caja-diana3 caja-ricardo3";
+  /* OMAR ABRIL HOWARD */
+  /*final caja omar*/
+  /* RUBEN AZCARATE */
+  /*final caja ruben*/
+  /* DIANA */
+  /*final caja diana*/
+  /* RICARDO */
+  /*final caja ricardo*/
+  /* DIANA 2*/
+  /*final caja diana2*/
+  /* RICARDO 2 */
+  /*final caja ricardo2*/
+  /* DIANA 3*/
+  /*final caja diana3*/
+  /* RICARDO 3 */
+  /*final caja ricardo3*/
+}
+* main .sección-equipo-operativo .caja-omar {
+  grid-area: caja-omar;
+  height: 150px;
+  width: 100%;
+  background-size: contain;
+  background-position: center;
+  animation: texto-para-arriba 3s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 10%;
+}
+* main .sección-equipo-operativo .caja-omar .imagen1-omar {
+  background-image: url(/imagenes/imagenes-equipo/perfil-omar.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  animation: texto-para-arriba 4s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 20%;
+}
+* main .sección-equipo-operativo .caja-omar .textos-seccion-equipo h2 {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding-top: 10px;
+  font-family: "Avenir-Black";
+  font-size: 16px;
+  color: #20A3D1;
+  animation: texto-para-arriba 4s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 10%;
+}
+* main .sección-equipo-operativo .caja-ruben {
+  grid-area: caja-ruben;
+  height: 150px;
+  width: 100%;
+  background-size: contain;
+  background-position: center;
+  animation: texto-para-arriba 4s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 15%;
+}
+* main .sección-equipo-operativo .caja-ruben .imagen2-ruben {
+  background-image: url(/imagenes/imagenes-equipo/perfil-ruben.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  animation: texto-para-arriba 4s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 20%;
+}
+* main .sección-equipo-operativo .caja-ruben .textos-seccion-equipo h2 {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding-top: 10px;
+  font-family: "Avenir-Black";
+  font-size: 16px;
+  color: #20A3D1;
+  animation: texto-para-arriba 4s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 15%;
+}
+* main .sección-equipo-operativo .caja-diana {
+  grid-area: caja-diana;
+  height: 150px;
+  width: 100%;
+  background-size: contain;
+  background-position: center;
+  animation: texto-para-arriba 3s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 10%;
+}
+* main .sección-equipo-operativo .caja-diana .imagen1-diana {
+  background-image: url(/imagenes/ROV-BRAZO-MECANICO.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  animation: texto-para-arriba 4s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 20%;
+}
+* main .sección-equipo-operativo .caja-diana .textos-seccion-equipo h2 {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding-top: 10px;
+  font-family: "Avenir-Black";
+  font-size: 16px;
+  color: #20A3D1;
+  animation: texto-para-arriba 4s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 10%;
+}
+* main .sección-equipo-operativo .caja-ricardo {
+  grid-area: caja-ricardo;
+  height: 150px;
+  width: 100%;
+  background-size: contain;
+  background-position: center;
+  animation: texto-para-arriba 4s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 15%;
+}
+* main .sección-equipo-operativo .caja-ricardo .imagen2-ricardo {
+  background-image: url(/imagenes/ROV-AMPLIACION-CAMPO-DE-VISION-HD.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  animation: texto-para-arriba 4s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 20%;
+}
+* main .sección-equipo-operativo .caja-ricardo .textos-seccion-equipo h2 {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding-top: 10px;
+  font-family: "Avenir-Black";
+  font-size: 16px;
+  color: #20A3D1;
+  animation: texto-para-arriba 4s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 15%;
+}
+* main .sección-equipo-operativo .caja-diana2 {
+  grid-area: caja-diana2;
+  height: 150px;
+  width: 100%;
+  background-size: contain;
+  background-position: center;
+  animation: texto-para-arriba 3s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 10%;
+}
+* main .sección-equipo-operativo .caja-diana2 .imagen1-diana2 {
+  background-image: url(/imagenes/ROV-BRAZO-MECANICO.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  animation: texto-para-arriba 4s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 20%;
+}
+* main .sección-equipo-operativo .caja-diana2 .textos-seccion-equipo h2 {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding-top: 10px;
+  font-family: "Avenir-Black";
+  font-size: 16px;
+  color: #20A3D1;
+  animation: texto-para-arriba 4s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 10%;
+}
+* main .sección-equipo-operativo .caja-ricardo2 {
+  grid-area: caja-ricardo2;
+  height: 150px;
+  width: 100%;
+  background-size: contain;
+  background-position: center;
+  animation: texto-para-arriba 4s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 15%;
+}
+* main .sección-equipo-operativo .caja-ricardo2 .imagen2-ricardo2 {
+  background-image: url(/imagenes/ROV-AMPLIACION-CAMPO-DE-VISION-HD.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  animation: texto-para-arriba 4s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 20%;
+}
+* main .sección-equipo-operativo .caja-ricardo2 .textos-seccion-equipo h2 {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding-top: 10px;
+  font-family: "Avenir-Black";
+  font-size: 16px;
+  color: #20A3D1;
+  animation: texto-para-arriba 4s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 15%;
+}
+* main .sección-equipo-operativo .caja-diana3 {
+  grid-area: caja-diana3;
+  height: 150px;
+  width: 100%;
+  background-size: contain;
+  background-position: center;
+  animation: texto-para-arriba 3s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 10%;
+}
+* main .sección-equipo-operativo .caja-diana3 .imagen1-diana3 {
+  background-image: url(/imagenes/ROV-BRAZO-MECANICO.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  animation: texto-para-arriba 4s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 20%;
+}
+* main .sección-equipo-operativo .caja-diana3 .textos-seccion-equipo h2 {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding-top: 10px;
+  font-family: "Avenir-Black";
+  font-size: 16px;
+  color: #20A3D1;
+  animation: texto-para-arriba 4s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 10%;
+}
+* main .sección-equipo-operativo .caja-ricardo3 {
+  grid-area: caja-ricardo3;
+  height: 150px;
+  width: 100%;
+  background-size: contain;
+  background-position: center;
+  animation: texto-para-arriba 4s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 15%;
+}
+* main .sección-equipo-operativo .caja-ricardo3 .imagen2-ricardo3 {
+  background-image: url(/imagenes/ROV-AMPLIACION-CAMPO-DE-VISION-HD.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  animation: texto-para-arriba 4s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 20%;
+}
+* main .sección-equipo-operativo .caja-ricardo3 .textos-seccion-equipo h2 {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding-top: 10px;
+  font-family: "Avenir-Black";
+  font-size: 16px;
+  color: #20A3D1;
+  animation: texto-para-arriba 4s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 15%;
+}
+* main .texto-h2 h2 {
+  text-align: center;
+  color: #20A3D1;
+  font-size: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  font-family: "Avenir-Black";
+  animation: texto-para-arriba 4s linear;
+  animation-timeline: view(0px);
+  animation-range: entry 0% cover 40%;
+}
+* main .pie-de-pagina {
+  background-image: url(/imagenes/inicio-imagen-9--pagina-web-sepia.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 650px;
+  width: 100%;
+  color: #ffffff;
+  display: grid;
+  grid-row-gap: 20px;
+  justify-content: center;
+  text-align: center;
+  padding-top: 100px;
+}
+* main .pie-de-pagina .logo-sepia-tercero {
+  margin: 25px;
+  height: 60px;
+  display: flex;
+}
+* main .pie-de-pagina .logo-sepia-tercero img {
+  height: 50px;
+  width: auto;
+}
+* main .pie-de-pagina .datos-sepia {
+  height: 40%;
+  width: 100%;
+}
+* main .pie-de-pagina .datos-sepia ul li {
+  list-style: none;
+  padding: 5px;
+  padding-right: 50px;
+}
+* main .pie-de-pagina .redes-sociales a {
+  height: 33%;
+  width: 100%;
+  color: #20A3D1;
+  padding: 0px 5px 0px 5px;
+  font-size: 30px;
+}
+* main .pie-de-pagina .redes-sociales a:hover {
+  color: #ffffff;
+}
+* main .pie-de-pagina h6 {
+  margin-top: 40px;
+}
+
+/*final etiqueta universal*/
+/* AQUI EMPIEZAN LAS MEDIA QUERIES */
+/* Formato 1366px -768px */
+@media only screen and (min-width: 1366px) {
+  * {
+    /* final main */
+  }
+  * main {
+    /*final header*/
+    /* TITULO OPERATIVO */
+    /* sección equipo operativo */
+    /* final seccion equipo operativo */
+    /* TITULO ADMINISTRATIVO */
+    /* footer */
+    /*final pie-de-pagina*/
+  }
+  * main header {
+    /*final contenedor-elementos-header*/
+    /* final contenedor-introduccion-servicios*/
+  }
+  * main header .contenedor-elementos-header {
+    padding: 20px;
+    /*menu-de-navegacion*/
+  }
+  * main header .contenedor-elementos-header .menu-de-navegacion .logo-sepia .logo-sepia-inicial {
+    height: 35px;
+  }
+  * main header .contenedor-introduccion-equipo {
+    margin-bottom: 170px;
+    text-align: left;
+    padding-left: 230px;
+    padding-right: 580px;
+  }
+  * main header .contenedor-introduccion-equipo .icono-equipo {
+    height: 240px;
+    padding-left: 0px;
+  }
+  * main header .contenedor-introduccion-equipo h1 {
+    font-size: 300%;
+    text-align: left;
+    padding-left: 0px;
+  }
+  * main header .contenedor-introduccion-equipo .textos p {
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+  }
+  * main h1 {
+    margin-top: 25px;
+    font-size: 35px;
+  }
+  * main .sección-equipo-operativo {
+    height: 1450px;
+    padding: 25px 300px;
+    padding-top: 100px;
+    padding-bottom: 0PX;
+    grid-template-rows: repeat(4, 260px);
+    grid-column-gap: 100px;
+    grid-row-gap: 70px;
+    /* OMAR ABRIL HOWARD */
+    /*final caja omar*/
+    /* RUBEN AZCARATE */
+    /*final RUBEN ZCARATE*/
+    /* DIANA GOMEZ */
+    /*final DIANA GOMEZ*/
+    /* RICARDO BENITO */
+    /*final RUICARDO BENITO*/
+    /* DIANA2 */
+    /*final DINA2*/
+    /* RICARDO2 */
+    /*final RICARDO2*/
+    /* DIANA3 */
+    /*final DIANA3*/
+    /* RICARDO3 */
+    /*final RICARDO3*/
+  }
+  * main .sección-equipo-operativo .caja-omar {
+    height: 200px;
+  }
+  * main .sección-equipo-operativo .caja-omar .textos-seccion-equipo h2 {
+    padding-top: 20px;
+    font-size: 24px;
+  }
+  * main .sección-equipo-operativo .caja-ruben {
+    height: 200px;
+  }
+  * main .sección-equipo-operativo .caja-ruben .textos-seccion-equipo h2 {
+    padding-top: 20px;
+    font-size: 24px;
+  }
+  * main .sección-equipo-operativo .caja-diana {
+    height: 200px;
+  }
+  * main .sección-equipo-operativo .caja-diana .textos-seccion-equipo h2 {
+    padding-top: 20px;
+    font-size: 24px;
+  }
+  * main .sección-equipo-operativo .caja-ricardo {
+    height: 200px;
+  }
+  * main .sección-equipo-operativo .caja-ricardo .textos-seccion-equipo h2 {
+    padding-top: 20px;
+    font-size: 24px;
+  }
+  * main .sección-equipo-operativo .caja-diana2 {
+    height: 200px;
+  }
+  * main .sección-equipo-operativo .caja-diana2 .textos-seccion-equipo h2 {
+    padding-top: 20px;
+    font-size: 24px;
+  }
+  * main .sección-equipo-operativo .caja-ricardo2 {
+    height: 200px;
+  }
+  * main .sección-equipo-operativo .caja-ricardo2 .textos-seccion-equipo h2 {
+    padding-top: 20px;
+    font-size: 24px;
+  }
+  * main .sección-equipo-operativo .caja-diana3 {
+    height: 200px;
+  }
+  * main .sección-equipo-operativo .caja-diana3 .textos-seccion-equipo h2 {
+    padding-top: 20px;
+    font-size: 24px;
+  }
+  * main .sección-equipo-operativo .caja-ricardo3 {
+    height: 200px;
+  }
+  * main .sección-equipo-operativo .caja-ricardo3 .textos-seccion-equipo h2 {
+    padding-top: 20px;
+    font-size: 24px;
+  }
+  * main .texto-h2 h2 {
+    margin-top: 25px;
+    font-size: 35px;
+  }
+  * main .pie-de-pagina {
+    height: 650px;
+    display: grid;
+    grid-row-gap: 10px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+  }
+  * main .pie-de-pagina .logo-sepia-tercero {
+    margin: 25px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+  }
+  * main .pie-de-pagina .logo-sepia-tercero img {
+    height: 80px;
+  }
+  * main .pie-de-pagina .datos-sepia {
+    height: 40%;
+  }
+  * main .pie-de-pagina .datos-sepia ul {
+    display: flex;
+  }
+  * main .pie-de-pagina .datos-sepia ul li {
+    padding: 30px 15px 0px 15px;
+  }
+  * main .pie-de-pagina .redes-sociales a {
+    padding: 0px 10px;
+    font-size: 40px;
+  }
+  * main .pie-de-pagina h6 {
+    margin-top: 160px;
+  }
+  /*final etiqueta universal*/
+} /* final  formato 1366px - 768px */
+/*Para formato 1440px 900px */
+/* Para formato 1440px 900px */
+@media only screen and (min-width: 1440px) {
+  main {
+    /*final header*/
+  }
+  main header {
+    /*final contenedor-elementos-header*/
+  }
+  main header .contenedor-elementos-header {
+    /*menu-de-navegacion*/
+  }
+  main header .contenedor-elementos-header .menu-de-navegacion .logo-sepia .logo-sepia-inicial {
+    padding-left: 10px;
+  }
+  /*final main */
+} /*final formato 1440px - 900px */
+/*Para formato 1674px 807px */
+@media only screen and (min-width: 1674px) {
+  main {
+    font-size: 16px;
+    /*final header*/
+  }
+  main header {
+    /*final contenedor-elementos-header*/
+    /* final contenedor-introduccion-servicios*/
+  }
+  main header .contenedor-elementos-header {
+    /*menu-de-navegacion*/
+  }
+  main header .contenedor-elementos-header .menu-de-navegacion .logo-sepia .logo-sepia-inicial {
+    padding-left: 10px;
+  }
+  main header .contenedor-introduccion-equipo {
+    margin-bottom: 170px;
+    text-align: left;
+    padding-left: 300px;
+    padding-right: 850px;
+  }
+  main header .contenedor-introduccion-equipo .icono-equipo {
+    height: 240px;
+    padding-left: 0px;
+  }
+  main header .contenedor-introduccion-equipo h1 {
+    font-size: 300%;
+    text-align: left;
+  }
+  main header .contenedor-introduccion-equipo .textos p {
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+  }
+  /*final main */
+} /* formato 1674px 807px */
+/* Formato 1920px -1080px */
+@media only screen and (min-width: 1920px) {
+  * {
+    /* final main */
+  }
+  * main {
+    font-size: 22px;
+    /*final header*/
+    /* TITULO OPERATIVO */
+    /* sección equipo operativo */
+    /* final seccion equipo operativo */
+    /* TITULO ADMINISTRATIVO */
+  }
+  * main header {
+    height: 100vh;
+    /*final contenedor-elementos-header*/
+    /* final contenedor-introduccion-equipo*/
+  }
+  * main header .contenedor-elementos-header {
+    padding: 20px;
+    /*menu-de-navegacion*/
+  }
+  * main header .contenedor-elementos-header .menu-de-navegacion .logo-sepia .logo-sepia-inicial {
+    height: 35px;
+  }
+  * main header .contenedor-introduccion-equipo {
+    margin-bottom: 170px;
+    text-align: left;
+    padding-left: 300px;
+    padding-right: 900px;
+  }
+  * main header .contenedor-introduccion-equipo .icono-equipo {
+    height: 280px;
+    padding-left: 0px;
+  }
+  * main header .contenedor-introduccion-equipo h1 {
+    font-size: 300%;
+    text-align: left;
+    padding: 0px;
+    margin: 30px 0px 20px 0px;
+  }
+  * main header .contenedor-introduccion-equipo .textos p {
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+  }
+  * main h1 {
+    margin-top: 80px;
+    font-size: 45px;
+  }
+  * main .sección-equipo-operativo {
+    height: 1900px;
+    padding: 25px 300px;
+    padding-top: 100px;
+    padding-bottom: 0px;
+    grid-template-rows: repeat(4, 360px);
+    grid-column-gap: 50px;
+    grid-row-gap: 90px;
+    /* OMAR ABRIL HOWARD */
+    /*final caja omar*/
+    /* RUBEN AZCARATE */
+    /*final RUBEN ZCARATE*/
+    /* DIANA GOMEZ */
+    /*final DIANA GOMEZ*/
+    /* RICARDO BENITO */
+    /*final RUICARDO BENITO*/
+    /* DIANA2 */
+    /*final DINA2*/
+    /* RICARDO2 */
+    /*final RICARDO2*/
+    /* DIANA3 */
+    /*final DIANA3*/
+    /* RICARDO3 */
+    /*final RICARDO3*/
+  }
+  * main .sección-equipo-operativo .caja-omar {
+    height: 295px;
+  }
+  * main .sección-equipo-operativo .caja-omar .textos-seccion-equipo h2 {
+    padding-top: 30px;
+    font-size: 30px;
+  }
+  * main .sección-equipo-operativo .caja-ruben {
+    height: 295px;
+  }
+  * main .sección-equipo-operativo .caja-ruben .textos-seccion-equipo h2 {
+    padding-top: 30px;
+    font-size: 30px;
+  }
+  * main .sección-equipo-operativo .caja-diana {
+    height: 295px;
+  }
+  * main .sección-equipo-operativo .caja-diana .textos-seccion-equipo h2 {
+    padding-top: 30px;
+    font-size: 30px;
+  }
+  * main .sección-equipo-operativo .caja-ricardo {
+    height: 295px;
+  }
+  * main .sección-equipo-operativo .caja-ricardo .textos-seccion-equipo h2 {
+    padding-top: 30px;
+    font-size: 30px;
+  }
+  * main .sección-equipo-operativo .caja-diana2 {
+    height: 295px;
+  }
+  * main .sección-equipo-operativo .caja-diana2 .textos-seccion-equipo h2 {
+    padding-top: 30px;
+    font-size: 30px;
+  }
+  * main .sección-equipo-operativo .caja-ricardo2 {
+    height: 295px;
+  }
+  * main .sección-equipo-operativo .caja-ricardo2 .textos-seccion-equipo h2 {
+    padding-top: 30px;
+    font-size: 30px;
+  }
+  * main .sección-equipo-operativo .caja-diana3 {
+    height: 295px;
+  }
+  * main .sección-equipo-operativo .caja-diana3 .textos-seccion-equipo h2 {
+    padding-top: 30px;
+    font-size: 30px;
+  }
+  * main .sección-equipo-operativo .caja-ricardo3 {
+    height: 295px;
+  }
+  * main .sección-equipo-operativo .caja-ricardo3 .textos-seccion-equipo h2 {
+    padding-top: 30px;
+    font-size: 30px;
+  }
+  * main .texto-h2 h2 {
+    margin-top: 80px;
+    font-size: 45px;
+  }
+  /* final etiqueta universal */
+} /* final Formato 1920px -1080px */
+/* AQUI ESTAN LAS ANIMACIONES */
+@keyframes texto-para-arriba {
+  0% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/*# sourceMappingURL=equipo.css.map */

@@ -1,0 +1,1218 @@
+@import url("https://fonts.cdnfonts.com/css/avenir");
+/* font-family: 'Avenir', sans-serif; */
+@import url(https://db.onlinewebfonts.com/c/b78d933f8aa6b9284c1d3efd3db0a9b9?family=Avenir-Black);
+/* font-family: "Avenir-Black"; */
+@import url(https://db.onlinewebfonts.com/c/158fa6012dff0f88241ad898c46c0118?family=AvenirNextW1G-Regular);
+/* font-family: "AvenirNextW1G-Regular"; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+ /* formato 360px - 640px */   
+    main{
+    font-family: 'Avenir', sans-serif;
+    font-size: 16px;
+ 
+        header{
+        background-size: cover;
+        background-repeat: no-repeat;
+        background: linear-gradient(rgb(7, 38, 45, ), rgb(7, 38, 45, 0.0), rgb(7, 38, 45, 0.0), rgb(7, 38, 45, 0.0), rgb(7, 38, 45, 0.0));
+        background-attachment: fixed;
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        position: relative;
+        overflow: hidden;
+
+        video{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+            }/* final video */
+ 
+            .contenedor-elementos-header{
+            height: auto;
+            width: 100%;
+            padding: 20px;
+            position: relative;
+            z-index: 10;
+ 
+                .menu-de-navegacion{
+                display: flex;
+                justify-content: space-between;
+ 
+                    .logo-sepia{
+                        .logo-sepia-inicial{
+                        height: 35px;
+                        }
+                    }
+                    .navbar{
+                    padding: 15px 10px 0px 0px;
+                    box-sizing: border-box;
+                    
+                        .offcanvas-header{
+                        background-color: #07262D;
+                        }
+                        .offcanvas-body{
+                        background-color: #07262D;
+ 
+                            .activeazul{
+                            color: #20A3D1;
+                            &:hover{color: #ffffff;};
+                            }
+                            .btn{
+                            color: #ffffff;
+                            &:hover{color: #07262D;};
+                            background-color: #20A3D1;
+                            &:hover{background-color: #20A3D1;};
+                            }   
+                        }
+                    }/*final navbar*/
+                }/*menu-de-navegacion*/
+            }/*final contenedor-elementos-header*/
+            
+            .contenedor-introduccion-expediciones{
+            background-position: center;
+            width: 100%;
+            display: grid;
+            justify-content: center;
+            align-content: center;
+            margin-bottom: 170px;
+            text-align: center;
+            animation: texto-para-arriba 2s ease;
+ 
+             .icono-expediciones{
+             height: 180px;
+             margin: 10px 0px;
+             animation: texto-para-arriba 2s ease;
+             }
+             h1{
+             color: #07262D;
+             font-family: "Avenir-Black";
+             font-size: 200%;
+             padding: 0px 20px;
+             animation: texto-para-arriba 2s ease;
+                p{margin: 5px;}
+             }
+ 
+             p{
+             color: #ffffff;
+             margin: 10px 0px;
+             padding: 0px 20px;
+             animation: texto-para-arriba 2s ease;
+             } 
+ 
+                
+            }/* final contenedor-introduccion-servicios*/
+        }/*final header*/
+ 
+/* SEEKING FOR THE QUEEN CONCH */
+        .seeking{
+          background-color: #07262D;
+          height: 680px;
+          width: 100%;
+          display: grid;
+          grid-template-columns: 1fr;
+          grid-template-rows: 1fr 1fr;
+          grid-column-gap: 10px;
+          padding: 35PX 25px;
+             
+            .titulo{
+                h2{
+                color: #20A3D1;
+                font-size: 21px;
+                text-align: center;
+                font-family: "Avenir-Black";
+                animation: texto-para-arriba 3s linear;
+                animation-timeline: view(0px);
+                animation-range: entry 0% cover 50%;   
+                }
+            }
+        
+            .imagen{
+            height: 180px;
+            width: 100%;
+            background-image: url(/imagenes/imagenes-expediciones/imagen-seeking.jpg);
+            border-radius: 15px;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            list-style: none;
+            animation: texto-para-arriba 3s linear;
+            animation-timeline: view(0px);
+            animation-range: entry 0% cover 50%;
+            transition: all 2s;
+               a{
+                text-decoration: none;
+                p{
+                    color: rgb(255, 255, 255, 0.0);
+                    font-family: "Avenir-Black";
+                    text-align: center;
+                    font-size: 200%;
+                    padding-top: 240px;
+                    text-decoration: none;
+                    transition: all 2s;
+                    }
+               } 
+            &:hover{
+            height: 180px;
+            width: 100%;
+            background-image: url(/imagenes/imagenes-expediciones/imagen-seeking-HOVER.jpg);
+            border-radius: 15px;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            animation: texto-para-arriba 3s linear;
+            animation-timeline: view(0px);
+            animation-range: entry 0% cover 50%;
+            
+
+                p{
+                color: #ffffff;
+                font-family: "Avenir-Black";
+                text-align: center;
+                font-size: 200%;
+                padding-top: 240px;
+                }
+            }
+            
+            }
+              
+            p{
+            text-align: center;
+            color: #ffffff;
+            padding: 10px 0px;
+            animation: texto-para-arriba 3s linear;
+            animation-timeline: view(0px);
+            animation-range: entry 0% cover 50%;
+            }
+        }/* FINAL SEEKING FOR THE QUEEN CONCH */
+ 
+/* EXPEDICION LAGUNA DE TOTA */
+.laguna-de-tota{
+    background-color: #07262D;
+    height: 520px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 10px;
+    padding: 35px 25px;
+       
+      .titulo{
+          h2{
+          color: #20A3D1;
+          font-size: 21px;
+          text-align: center;
+          font-family: "Avenir-Black";
+          animation: texto-para-arriba 3s linear;
+          animation-timeline: view(0px);
+          animation-range: entry 0% cover 50%;   
+          }
+      }
+  
+      .imagen{
+      height: 180px;
+      width: 100%;
+      background-image: url(/imagenes/imagenes-expediciones/imagen-seeking.jpg);
+      border-radius: 15px;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      list-style: none;
+      animation: texto-para-arriba 3s linear;
+      animation-timeline: view(0px);
+      animation-range: entry 0% cover 50%;
+      transition: all 2s;
+         a{
+          text-decoration: none;
+          p{
+              color: rgb(255, 255, 255, 0.0);
+              font-family: "Avenir-Black";
+              text-align: center;
+              font-size: 200%;
+              padding-top: 240px;
+              text-decoration: none;
+              transition: all 2s;
+              }
+         } 
+      &:hover{
+      height: 180px;
+      width: 100%;
+      background-image: url(/imagenes/imagenes-expediciones/imagen-seeking-HOVER.jpg);
+      border-radius: 15px;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      animation: texto-para-arriba 3s linear;
+      animation-timeline: view(0px);
+      animation-range: entry 0% cover 50%;
+      
+
+          p{
+          color: #ffffff;
+          font-family: "Avenir-Black";
+          text-align: center;
+          font-size: 200%;
+          padding-top: 240px;
+          }
+      }
+      
+      }
+        
+      p{
+      text-align: center;
+      color: #ffffff;
+      padding: 10px 0px;
+      animation: texto-para-arriba 3s linear;
+      animation-timeline: view(0px);
+      animation-range: entry 0% cover 50%;
+      }
+  }/* FINAL EXPEDICION LAGUNA DE TOTA */
+             
+/* basuras-providencia */
+.basuras-providencia{
+    background-color: #07262D;
+    height: 720px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 10px;
+    padding: 35px 25px;
+       
+      .titulo{
+          h2{
+          color: #20A3D1;
+          font-size: 21px;
+          text-align: center;
+          font-family: "Avenir-Black";
+          animation: texto-para-arriba 3s linear;
+          animation-timeline: view(0px);
+          animation-range: entry 0% cover 50%;   
+          }
+      }
+  
+      .imagen{
+      height: 180px;
+      width: 100%;
+      background-image: url(/imagenes/imagenes-expediciones/imagen-seeking.jpg);
+      border-radius: 15px;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      list-style: none;
+      animation: texto-para-arriba 3s linear;
+      animation-timeline: view(0px);
+      animation-range: entry 0% cover 50%;
+      transition: all 2s;
+         a{
+          text-decoration: none;
+          p{
+              color: rgb(255, 255, 255, 0.0);
+              font-family: "Avenir-Black";
+              text-align: center;
+              font-size: 200%;
+              padding-top: 240px;
+              text-decoration: none;
+              transition: all 2s;
+              }
+         } 
+      &:hover{
+      height: 180px;
+      width: 100%;
+      background-image: url(/imagenes/imagenes-expediciones/imagen-seeking-HOVER.jpg);
+      border-radius: 15px;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      animation: texto-para-arriba 3s linear;
+      animation-timeline: view(0px);
+      animation-range: entry 0% cover 50%;
+      
+
+          p{
+          color: #ffffff;
+          font-family: "Avenir-Black";
+          text-align: center;
+          font-size: 200%;
+          padding-top: 240px;
+          }
+      }
+      
+      }
+        
+      p{
+      text-align: center;
+      color: #ffffff;
+      padding: 10px 0px;
+      animation: texto-para-arriba 3s linear;
+      animation-timeline: view(0px);
+      animation-range: entry 0% cover 50%;
+      }
+  }/* FINAL basuras-providencia */
+  
+/* basuras-san-andres-caracol-san-andres */
+.basuras-san-andres-caracol-san-andres{
+    background-color: #07262D;
+    height: 820px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 10px;
+    padding: 35px 25px;
+       
+      .titulo{
+          h2{
+          color: #20A3D1;
+          font-size: 21px;
+          text-align: center;
+          font-family: "Avenir-Black";
+          animation: texto-para-arriba 3s linear;
+          animation-timeline: view(0px);
+          animation-range: entry 0% cover 50%;   
+          }
+      }
+  
+      .imagen{
+      height: 180px;
+      width: 100%;
+      background-image: url(/imagenes/imagenes-expediciones/imagen-seeking.jpg);
+      border-radius: 15px;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      list-style: none;
+      animation: texto-para-arriba 3s linear;
+      animation-timeline: view(0px);
+      animation-range: entry 0% cover 50%;
+      transition: all 2s;
+         a{
+          text-decoration: none;
+          p{
+              color: rgb(255, 255, 255, 0.0);
+              font-family: "Avenir-Black";
+              text-align: center;
+              font-size: 200%;
+              padding-top: 240px;
+              text-decoration: none;
+              transition: all 2s;
+              }
+         } 
+      &:hover{
+      height: 180px;
+      width: 100%;
+      background-image: url(/imagenes/imagenes-expediciones/imagen-seeking-HOVER.jpg);
+      border-radius: 15px;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      animation: texto-para-arriba 3s linear;
+      animation-timeline: view(0px);
+      animation-range: entry 0% cover 50%;
+      
+
+          p{
+          color: #ffffff;
+          font-family: "Avenir-Black";
+          text-align: center;
+          font-size: 200%;
+          padding-top: 240px;
+          }
+      }
+      
+      }
+        
+      p{
+      text-align: center;
+      color: #ffffff;
+      padding: 10px 0px;
+      animation: texto-para-arriba 3s linear;
+      animation-timeline: view(0px);
+      animation-range: entry 0% cover 50%;
+      }
+  }/* FINAL basuras-san-andres-caracol-san-andres */ 
+  
+/* pez-leon */
+.pez-leon{
+    background-color: #07262D;
+    height: 610px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 10px;
+    padding: 35px 25px;
+       
+      .titulo{
+          h2{
+          color: #20A3D1;
+          font-size: 21px;
+          text-align: center;
+          font-family: "Avenir-Black";
+          animation: texto-para-arriba 3s linear;
+          animation-timeline: view(0px);
+          animation-range: entry 0% cover 50%;   
+          }
+      }
+  
+      .imagen{
+      height: 180px;
+      width: 100%;
+      background-image: url(/imagenes/imagenes-expediciones/imagen-seeking.jpg);
+      border-radius: 15px;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      list-style: none;
+      animation: texto-para-arriba 3s linear;
+      animation-timeline: view(0px);
+      animation-range: entry 0% cover 50%;
+      transition: all 2s;
+         a{
+          text-decoration: none;
+          p{
+              color: rgb(255, 255, 255, 0.0);
+              font-family: "Avenir-Black";
+              text-align: center;
+              font-size: 200%;
+              padding-top: 240px;
+              text-decoration: none;
+              transition: all 2s;
+              }
+         } 
+      &:hover{
+      height: 180px;
+      width: 100%;
+      background-image: url(/imagenes/imagenes-expediciones/imagen-seeking-HOVER.jpg);
+      border-radius: 15px;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      animation: texto-para-arriba 3s linear;
+      animation-timeline: view(0px);
+      animation-range: entry 0% cover 50%;
+      
+
+          p{
+          color: #ffffff;
+          font-family: "Avenir-Black";
+          text-align: center;
+          font-size: 200%;
+          padding-top: 240px;
+          }
+      }
+      
+      }
+        
+      p{
+      text-align: center;
+      color: #ffffff;
+      padding: 10px 0px;
+      animation: texto-para-arriba 3s linear;
+      animation-timeline: view(0px);
+      animation-range: entry 0% cover 50%;
+      }
+  }/* FINAL pez-leon */ 
+ 
+ /* footer */
+ .pie-de-pagina{
+     background-image: url(/imagenes/imagenes-expediciones/fondo-footer-expediciones.jpg);
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     height: 600px;
+     width: 100%;
+     color: #ffffff;
+     display: grid;
+     grid-row-gap:20px;
+     justify-content: center;
+     text-align: center;
+     padding-top: 50px;
+ 
+         .logo-sepia-tercero{
+         margin: 25px;
+         height: 60px;
+         display: flex;
+         justify-content: center;
+ 
+             img{
+             height: 50px;
+             width: auto;   
+             }
+         }
+ 
+         .datos-sepia{
+         height: 40%;
+         width: 100%;
+             
+             ul{
+                 li{
+                 list-style: none;
+                 padding: 5px;
+                 padding-right: 50px;
+                 }
+             } 
+         }
+ 
+         .redes-sociales{
+             a{
+             height: 33%;
+             width: 100%;
+             color: #20A3D1;
+             padding: 0px 5px 0px 5px;
+             font-size: 30px;
+             &:hover{
+                 color: #ffffff;
+                 }
+             }
+         }
+         
+         h6{
+         margin-top: 40px;
+         color: #ffffff;
+         }
+     }/*final pie-de-pagina*/
+ 
+ 
+       }/*Final main*/
+    }
+
+                                                           /* AQUI INICIAN LAS MEDIA QUERIES */
+
+@media only screen and (min-width: 1366px){
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+        main{
+        font-size: 18px;
+     
+            header{
+            height: 100vh;
+                .contenedor-elementos-header{
+                padding: 20px;
+     
+                    .menu-de-navegacion{
+     
+                        .logo-sepia{
+                            .logo-sepia-inicial{
+                            height: 35px;
+                            }
+                        } 
+                    }/*menu-de-navegacion*/
+                }/*final contenedor-elementos-header*/
+                
+                .contenedor-introduccion-expediciones{
+                margin-bottom: 170px;
+                text-align: right;
+                padding-left: 590px;
+                padding-right: 230px;
+     
+                .icono-expediciones{
+                height: 240px;
+                margin-bottom: 20px;
+                padding-right: 50px;
+                padding: 0px;
+                }
+                h1{
+                font-size: 300%;
+                } 
+     
+                    
+                }/* final contenedor-introduccion-servicios*/
+            }/*final header*/
+     
+/* SEEKING FOR THE QUEEN CONCH */
+            .seeking{
+              height: 530px;
+              padding: 80px 250px;
+              grid-template-columns: 1fr 1fr;
+              grid-template-rows: 0.1fr 1fr;
+              grid-column-gap: 35px;
+              grid-row-gap: 20px;
+              grid-template-areas: 
+                                "titulo titulo"
+                                " p imagen";
+     
+                .titulo{
+                grid-area: titulo;
+                    h2{
+                    font-size: 35px;
+                    text-align: center;  
+                    }
+                }   
+                
+                p{
+                grid-area: p;
+                text-align: left;
+                padding: 0px;
+                }
+                .imagen{
+                grid-area: imagen;
+                height: 295px;
+                background-size: cover;
+                background-repeat: no-repeat;
+                border-radius: 25px;
+                &:hover{
+                height: 295px;
+                background-size: cover;
+                background-repeat: no-repeat;
+                border-radius: 25px;
+                 }
+                 }
+                  
+                  
+              }/* FINAL SEEKING FOR THE QUEEN CONCH*/
+     
+/* laguna-de-tota */
+.laguna-de-tota{
+    height: 530px;
+    padding: 80px 250px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.1fr 1fr;
+    grid-column-gap: 35px;
+    grid-row-gap: 20px;
+    grid-template-areas: 
+                      "titulo titulo"
+                      " p imagen";
+
+      .titulo{
+      grid-area: titulo;
+          h2{
+          font-size: 35px;
+          text-align: center;  
+          }
+      }   
+      
+      p{
+      grid-area: p;
+      text-align: left;
+      padding: 0px;
+      }
+      .imagen{
+      grid-area: imagen;
+      height: 295px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      border-radius: 25px;
+      &:hover{
+      height: 295px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      border-radius: 25px;
+       }
+       }      
+    }/* FINAL laguna-de-tota*/
+     
+/* basuras-providencia */
+.basuras-providencia{
+    height: 530px;
+    padding: 80px 250px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.1fr 1fr;
+    grid-column-gap: 35px;
+    grid-row-gap: 20px;
+    grid-template-areas: 
+                      "titulo titulo"
+                      " p imagen";
+
+      .titulo{
+      grid-area: titulo;
+          h2{
+          font-size: 35px;
+          text-align: center;  
+          }
+      }   
+      
+      p{
+      grid-area: p;
+      text-align: left;
+      padding: 0px;
+      }
+      .imagen{
+      grid-area: imagen;
+      height: 295px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      border-radius: 25px;
+      &:hover{
+      height: 295px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      border-radius: 25px;
+       }
+       }      
+    }/* FINAL basuras-providencia*/ 
+  
+/* basuras-san-andres-caracol-san-andres */
+.basuras-san-andres-caracol-san-andres{
+    height: 620px;
+    padding: 80px 250px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.1fr 1fr;
+    grid-column-gap: 35px;
+    grid-row-gap: 20px;
+    grid-template-areas: 
+                      "titulo titulo"
+                      " p imagen";
+
+      .titulo{
+      grid-area: titulo;
+          h2{
+          font-size: 35px;
+          text-align: center;  
+          }
+      }   
+      
+      p{
+      grid-area: p;
+      text-align: left;
+      padding: 0px;
+      }
+      .imagen{
+      grid-area: imagen;
+      height: 295px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      border-radius: 25px;
+      &:hover{
+      height: 295px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      border-radius: 25px;
+       }
+       }      
+    }/* FINAL basuras-san-andres-caracol-san-andres*/ 
+    
+/* pez-leon */
+.pez-leon{
+    height: 590px;
+    padding: 80px 250px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.1fr 1fr;
+    grid-column-gap: 35px;
+    grid-row-gap: 20px;
+    grid-template-areas: 
+                      "titulo titulo"
+                      " p imagen";
+
+      .titulo{
+      grid-area: titulo;
+          h2{
+          font-size: 35px;
+          text-align: center;  
+          }
+      }   
+      
+      p{
+      grid-area: p;
+      text-align: left;
+      padding: 0px;
+      }
+      .imagen{
+      grid-area: imagen;
+      height: 295px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      border-radius: 25px;
+      &:hover{
+      height: 295px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      border-radius: 25px;
+       }
+       }      
+    }/* FINAL pez-leon*/ 
+
+/* footer */
+                .pie-de-pagina{
+                height: 80vh;
+                display: grid;
+                grid-row-gap:10px;
+                justify-content: center;
+                align-content: center;
+                text-align: center;
+        
+                    .logo-sepia-tercero{
+                    margin: 25px;
+                    height: 60px;
+                    display: flex;
+                    justify-content: center;
+        
+                        img{
+                        height: 80px;   
+                        }
+                    }
+        
+                    .datos-sepia{
+                    height: 40%;
+                        
+                        ul{
+                        display: flex;
+                            li{
+                            padding: 30px 15px 0px 15px;
+                            }
+                        } 
+                    }
+        
+                    .redes-sociales{
+                        a{
+                        padding: 0px 10px ;
+                        font-size: 40px;
+                        }
+                    }
+                    
+                    h6{
+                    margin-top: 180px;
+                    font-size: 18PX;
+                    }
+                }/*final pie-de-pagina*/
+     
+        }/*Final main*/
+    }    
+}/* FINAL Formato 1366px -768px */
+
+                                                        /* formato 1440px 900px */
+@media only screen and (min-width: 1440px){
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+        main{
+        font-size: 18px;
+     
+            header{
+
+                .contenedor-introduccion-expediciones{
+                padding-left: 610px;
+                padding-right: 230px;
+     
+                .icono-expediciones{
+                height: 240px;
+                margin-bottom: 20px;
+                padding-right: 50px;
+                }
+                    
+                }/* final contenedor-introduccion-servicios*/
+            }/*final header*/
+     
+/* SEEKING FOR THE QUEEN CONCH */
+            .seeking{
+              height: 530px;
+              padding: 80px 250px;   
+              }/* FINAL SEEKING FOR THE QUEEN CONCH*/
+     
+/* footer */
+                .pie-de-pagina{
+                height: 80vh;
+                display: grid;
+                grid-row-gap:10px;
+                justify-content: center;
+                align-content: center;
+                text-align: center;
+                padding-top: 120px;
+        
+                    .logo-sepia-tercero{
+                    margin: 25px;
+                    height: 60px;
+                    display: flex;
+                    justify-content: center;
+        
+                        img{
+                        height: 80px;   
+                        }
+                    }
+        
+                    .datos-sepia{
+                    height: 40%;
+                        
+                        ul{
+                        display: flex;
+                            li{
+                            padding: 30px 15px 0px 15px;
+                            }
+                        } 
+                    }
+        
+                    .redes-sociales{
+                        a{
+                        padding: 0px 10px ;
+                        font-size: 40px;
+                        }
+                    }
+                    
+                    h6{
+                    margin-top: 200px;
+                    font-size: 18PX;
+                    }
+                }/*final pie-de-pagina*/
+     
+        }/*Final main*/
+    }    
+}/* FINAL Formato 1440px - 900px */
+
+                                                        /* formato 1674px - 807px */
+
+@media only screen and (min-width: 1674px){
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+        main{
+        font-size: 16px;
+     
+            header{
+            height: 100vh;
+                .contenedor-elementos-header{
+                padding: 20px;
+     
+                    .menu-de-navegacion{
+     
+                        .logo-sepia{
+                            .logo-sepia-inicial{
+                            height: 35px;
+                            }
+                        } 
+                    }/*menu-de-navegacion*/
+                }/*final contenedor-elementos-header*/
+                
+                .contenedor-introduccion-expediciones{
+                padding-left: 860px;
+                padding-right: 300px; 
+                }/* final contenedor-introduccion-servicios*/
+            }/*final header*/
+     
+/* SEEKING FOR THE QUEEN CONCH */
+            .seeking{
+            height: 530px;
+            padding: 80px 350px;
+            }/* FINAL SEEKING FOR THE QUEEN CONCH*/
+
+/* laguna-de-tota */
+            .laguna-de-tota{
+            height: 530px;
+            padding: 80px 350px;
+            }/* FINAL laguna-de-tota*/
+     
+/* basuras-providencia */
+            .basuras-providencia{
+            height: 530px;
+            padding: 80px 350px;
+            }/* FINAL basuras-providencia*/
+
+/* basuras-san-andres-caracol-san-andres */
+            .basuras-san-andres-caracol-san-andres{
+            height: 530px;
+            padding: 80px 350px;
+            }/* FINAL basuras-san-andres-caracol-san-andres*/ 
+            
+/* pez-leon */
+            .pez-leon{
+            height: 530px;
+            padding: 80px 350px;
+            }/* FINAL pez-leon*/ 
+
+/* footer */
+                .pie-de-pagina{
+                    
+                    h6{
+                    margin-top: 160px;
+                    }
+                }/*final pie-de-pagina*/
+     
+        }/*Final main*/
+    }    
+}/* FINAL Formato 1674px -807px */
+
+                                                        /* formato 1920px - 1080px */
+
+@media only screen and (min-width: 1920px){
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+        main{
+        font-size: 22px;
+     
+            header{
+                
+                .contenedor-introduccion-expediciones{
+                padding-left: 950px;
+                padding-right: 300px;
+
+                }/* final contenedor-introduccion-servicios*/
+            }/*final header*/
+     
+/* SEEKING FOR THE QUEEN CONCH */
+            .seeking{
+              height: 600px;
+              padding: 80px 350px;
+     
+                .titulo{
+                    h2{
+                    font-size: 45px; 
+                    }
+                }
+                
+                .imagen{
+                grid-area: imagen;
+                height: 350px;
+                background-size: cover;
+                background-repeat: no-repeat;
+                border-radius: 25px;
+                &:hover{
+                height: 350px;
+                background-size: cover;
+                background-repeat: no-repeat;
+                border-radius: 25px;
+                 }
+                 }   
+              }/* FINAL SEEKING FOR THE QUEEN CONCH*/
+
+/* laguna-de-tota */
+            .laguna-de-tota{
+            height: 600px;
+            padding: 80px 350px;
+     
+                .titulo{
+                    h2{
+                    font-size: 45px; 
+                    }
+                }
+                
+                .imagen{
+                grid-area: imagen;
+                height: 350px;
+                background-size: cover;
+                background-repeat: no-repeat;
+                border-radius: 25px;
+                &:hover{
+                height: 350px;
+                background-size: cover;
+                background-repeat: no-repeat;
+                border-radius: 25px;
+                 }
+                 }   
+              }/* FINAL laguna-de-tota */     
+
+/* basuras-providencia */
+.basuras-providencia{
+    height: 600px;
+    padding: 80px 350px;
+
+        .titulo{
+            h2{
+            font-size: 45px; 
+            }
+        }
+        
+        .imagen{
+        grid-area: imagen;
+        height: 350px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 25px;
+        &:hover{
+        height: 350px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 25px;
+         }
+         }   
+      }/* FINAL basuras-providencia */     
+ 
+/* basuras-san-andres-caracol-san-andres */
+.basuras-san-andres-caracol-san-andres{
+    height: 600px;
+    padding: 80px 350px;
+
+        .titulo{
+            h2{
+            font-size: 45px; 
+            }
+        }
+        
+        .imagen{
+        grid-area: imagen;
+        height: 350px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 25px;
+        &:hover{
+        height: 350px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 25px;
+         }
+         }   
+      }/* FINAL basuras-san-andres-caracol-san-andres */       
+     
+/* pez-leon */
+.pez-leon{
+    height: 700px;
+    padding: 80px 350px;
+
+        .titulo{
+            h2{
+            font-size: 45px; 
+            }
+        }
+        
+        .imagen{
+        grid-area: imagen;
+        height: 350px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 25px;
+        &:hover{
+        height: 350px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 25px;
+         }
+         }   
+      }/* FINAL pez-leon */ 
+
+/* footer */
+                .pie-de-pagina{
+                    
+                    h6{
+                    margin-top: 280px;
+                    font-size: 22px;
+                    }
+                }/*final pie-de-pagina*/
+     
+        }/*Final main*/
+    }    
+}/* FINAL Formato 1920px -1080px */
+                                                                    /* AQUI ESTAN LAS ANIMACIONES */
+
+@keyframes texto-para-arriba{
+    
+    0%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+    50%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+    100%{
+      transform: translateY(0); 
+      opacity: 1; 
+    }
+}

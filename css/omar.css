@@ -1,0 +1,299 @@
+@import url("https://fonts.cdnfonts.com/css/avenir");
+/* font-family: 'Avenir', sans-serif; */
+@import url(https://db.onlinewebfonts.com/c/b78d933f8aa6b9284c1d3efd3db0a9b9?family=Avenir-Black);
+/* font-family: "Avenir-Black"; */
+@import url(https://db.onlinewebfonts.com/c/158fa6012dff0f88241ad898c46c0118?family=AvenirNextW1G-Regular);
+/* font-family: "AvenirNextW1G-Regular"; */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* formato 360px - 640px */
+  /* final main formato 360px - 640px */
+}
+* main {
+  font-family: "Avenir", sans-serif;
+  font-size: 16px;
+  /*final header*/
+  /* footer */
+  /*final pie-de-pagina*/
+}
+* main header {
+  background-color: #ffffff;
+  height: 1030px;
+  width: 100%;
+  background: linear-gradient(rgb(7, 38, 45), rgba(7, 38, 45, 0), rgba(7, 38, 45, 0), rgba(7, 38, 45, 0), rgba(7, 38, 45, 0));
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /*final contenedor-elementos-header*/
+  /* final contenedor-informacion omar*/
+}
+* main header .contenedor-elementos-header {
+  height: auto;
+  width: 100%;
+  padding: 20px;
+  z-index: 100;
+  /*menu-de-navegacion*/
+}
+* main header .contenedor-elementos-header .menu-de-navegacion {
+  display: flex;
+  justify-content: space-between;
+  /*final navbar*/
+}
+* main header .contenedor-elementos-header .menu-de-navegacion .logo-sepia .logo-sepia-inicial {
+  height: 35px;
+}
+* main header .contenedor-elementos-header .menu-de-navegacion .navbar {
+  padding: 15px 10px 0px 0px;
+  box-sizing: border-box;
+  z-index: 10;
+}
+* main header .contenedor-elementos-header .menu-de-navegacion .navbar .offcanvas-header {
+  background-color: #07262D;
+}
+* main header .contenedor-elementos-header .menu-de-navegacion .navbar .offcanvas-body {
+  background-color: #07262D;
+}
+* main header .contenedor-elementos-header .menu-de-navegacion .navbar .offcanvas-body .activeazul {
+  color: #20A3D1;
+}
+* main header .contenedor-elementos-header .menu-de-navegacion .navbar .offcanvas-body .activeazul:hover {
+  color: #ffffff;
+}
+* main header .contenedor-elementos-header .menu-de-navegacion .navbar .offcanvas-body .btn {
+  color: #ffffff;
+  background-color: #20A3D1;
+}
+* main header .contenedor-elementos-header .menu-de-navegacion .navbar .offcanvas-body .btn:hover {
+  color: #07262D;
+}
+* main header .contenedor-elementos-header .menu-de-navegacion .navbar .offcanvas-body .btn:hover {
+  background-color: #20A3D1;
+}
+* main header .contenedor-informacion-omar {
+  background-position: center;
+  width: 100%;
+  padding-top: 50px;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 170px;
+  text-align: center;
+  position: relative;
+  z-index: 20;
+  animation: texto-para-arriba 2s ease;
+}
+* main header .contenedor-informacion-omar .imagen-omar {
+  height: 180px;
+  margin: 10px 0px;
+}
+* main header .contenedor-informacion-omar h1 {
+  color: #20A3D1;
+  font-family: "Avenir-Black";
+  font-size: 200%;
+  padding: 0px 20px;
+  margin: 0px;
+}
+* main header .contenedor-informacion-omar #cargo p {
+  color: #20A3D1;
+  margin: 0px 0px;
+  padding: 0px 25px;
+  font-size: 120%;
+}
+* main header .contenedor-informacion-omar p {
+  color: #07262D;
+  margin: 10px 0px;
+  padding: 0px 25px;
+}
+* main .pie-de-pagina {
+  background-image: url(/imagenes/inicio-imagen-9--pagina-web-sepia.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 650px;
+  width: 100%;
+  color: #ffffff;
+  display: grid;
+  grid-row-gap: 20px;
+  justify-content: center;
+  text-align: center;
+  padding-top: 100px;
+}
+* main .pie-de-pagina .logo-sepia-tercero {
+  margin: 25px;
+  height: 60px;
+  display: flex;
+}
+* main .pie-de-pagina .logo-sepia-tercero img {
+  height: 50px;
+  width: auto;
+}
+* main .pie-de-pagina .datos-sepia {
+  height: 40%;
+  width: 100%;
+}
+* main .pie-de-pagina .datos-sepia ul li {
+  list-style: none;
+  padding: 5px;
+  padding-right: 50px;
+}
+* main .pie-de-pagina .redes-sociales a {
+  height: 33%;
+  width: 100%;
+  color: #20A3D1;
+  padding: 0px 5px 0px 5px;
+  font-size: 30px;
+}
+* main .pie-de-pagina .redes-sociales a:hover {
+  color: #ffffff;
+}
+* main .pie-de-pagina h6 {
+  margin-top: 40px;
+}
+
+/*final etiqueta universal*/
+/* AQUI EMPIEZAN LAS MEDIA QUERIES */
+/* Formato 1366px -768px */
+@media only screen and (min-width: 1366px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* final main */
+  }
+  * main {
+    font-size: 18px;
+    /*final contenedor-elementos-header*/
+    /*final header*/
+    /* footer */
+    /*final pie-de-pagina*/
+  }
+  * main header {
+    height: 800px;
+    /*menu-de-navegacion*/
+  }
+  * main header .contenedor-elementos-header {
+    padding: 20px;
+  }
+  * main header .contenedor-elementos-header .menu-de-navegacion .logo-sepia .logo-sepia-inicial {
+    height: 35px;
+  }
+  * main .contenedor-informacion-omar {
+    padding-top: 20px;
+    padding: 0px 310px;
+    /* final contenedor-informacion omar*/
+  }
+  * main .contenedor-informacion-omar .imagen-omar {
+    height: 280px;
+  }
+  * main .contenedor-informacion-omar h1 {
+    font-size: 300%;
+  }
+  * main .pie-de-pagina {
+    height: 650px;
+    display: grid;
+    grid-row-gap: 10px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding-top: 60px;
+  }
+  * main .pie-de-pagina .logo-sepia-tercero {
+    margin: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+  }
+  * main .pie-de-pagina .logo-sepia-tercero img {
+    height: 80px;
+  }
+  * main .pie-de-pagina .datos-sepia {
+    padding-right: 40px;
+  }
+  * main .pie-de-pagina .datos-sepia ul {
+    display: flex;
+  }
+  * main .pie-de-pagina .datos-sepia ul li {
+    padding: 30px 15px 0px 15px;
+  }
+  * main .pie-de-pagina .redes-sociales a {
+    padding: 0px 10px;
+    font-size: 40px;
+  }
+  * main .pie-de-pagina h6 {
+    margin-top: 130px;
+    font-size: 18PX;
+  }
+  /* final etiqueta universal */
+} /* final Formato 1366px -768px */
+/* Para formato 1674px 807px */
+@media only screen and (min-width: 1674px) {
+  * {
+    /* final main */
+  }
+  * main {
+    font-size: 16px;
+    /*final header*/
+  }
+  * main header {
+    height: 100vh;
+    /*final contenedor-elementos-header*/
+    /* final contenedor-informacion omar*/
+  }
+  * main header .contenedor-elementos-header {
+    padding: 20px;
+    /*menu-de-navegacion*/
+  }
+  * main header .contenedor-elementos-header .menu-de-navegacion .logo-sepia .logo-sepia-inicial {
+    height: 35px;
+  }
+  * main header .contenedor-informacion-omar {
+    padding-top: 20px;
+    padding: 0px 440px;
+  }
+  * main header .contenedor-informacion-omar .imagen-omar {
+    height: 280px;
+  }
+  * main header .contenedor-informacion-omar h1 {
+    margin-top: 20px;
+    font-size: 300%;
+  }
+  /*final etiqueta universal */
+} /* final formato 1674px 807px */
+/* Formato 1920px -1080px */
+@media only screen and (min-width: 1920px) {
+  * {
+    /*Final main*/
+  }
+  * main {
+    font-size: 22px;
+    /*final header*/
+  }
+  * main header {
+    height: 100vh;
+    /*final contenedor-elementos-header*/
+    /* final contenedor-informacion omar*/
+  }
+  * main header .contenedor-elementos-header {
+    padding: 20px;
+    /*menu-de-navegacion*/
+  }
+  * main header .contenedor-elementos-header .menu-de-navegacion .logo-sepia .logo-sepia-inicial {
+    height: 35px;
+  }
+  * main header .contenedor-informacion-omar {
+    padding-top: 20px;
+    padding: 0px 410px;
+  }
+  * main header .contenedor-informacion-omar .imagen-omar {
+    height: 280px;
+  }
+  * main header .contenedor-informacion-omar h1 {
+    margin-top: 20px;
+    font-size: 300%;
+  }
+  /* final etiqueta universal */
+} /* FINAL Formato 1920px -1080px */
+
+/*# sourceMappingURL=omar.css.map */
